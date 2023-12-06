@@ -40,7 +40,7 @@ const Challenges = () => {
           {challengesData.map((challenge, index) => {
             return (
               <div
-                className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" // Set text color to white
+                className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
                 key={challenge.key}
               >
                 <div className="float-left p-5 lg:w-3/5 h-[140px] flex justify-center ">
