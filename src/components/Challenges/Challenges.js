@@ -1,10 +1,11 @@
 import React from "react";
 import { challengesData } from "./challengesData";
- 
+
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
+
 const Challenges = () => {
   return (
     <div className="">
@@ -13,12 +14,12 @@ const Challenges = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col text-white`} 
       >
         <TitleText
           title={
             <>
-              <div className="text-4xl lg:text-7xl font-bold text-white my-4 tracking-wider  lg:my-6 font-[Oswald] mb-16">
+              <div className="text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6 font-[Oswald] mb-16">
                 Challenges
               </div>
             </>
@@ -29,7 +30,7 @@ const Challenges = () => {
 
       <section
         id="challenges"
-        className="relative p-2 md:p-10 mx-auto w-100% md:w-[80%]  mt-2 overflow-hidden bg-[#221e1e] bg-opacity-50 rounded-3xl"
+        className="relative p-2 md:p-10 mx-auto w-100% md:w-[80%] mt-2 overflow-hidden bg-[#221e1e] bg-opacity-50 rounded-3xl"
         data-aos="fade"
         data-aos-delay="50"
         data-aos-duration="500"
@@ -39,13 +40,13 @@ const Challenges = () => {
           {challengesData.map((challenge, index) => {
             return (
               <div
-                className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4"
+                className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
                 key={challenge.key}
               >
                 <div className="float-left p-5 lg:w-3/5 h-[140px] flex justify-center ">
                   <picture>
                     <source srcSet={challenge.webp} type="image/webp" />
-                    <img    // a fallback
+                    <img
                       src={challenge.img}
                       className="w-full h-full object-contain"
                       alt={challenge.key + "-challenge"}
@@ -66,7 +67,7 @@ const Challenges = () => {
                           </li>
                         );
                       })}
-                    </ul>{" "}
+                    </ul>
                   </div>
 
                   {challenge.noButton ? (
@@ -78,7 +79,7 @@ const Challenges = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="lg:w-1/3  bloop text-center p-2 mx-auto lg:ml-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black w-3/4">
+                      <div className="lg:w-1/3 bloop text-center p-2 mx-auto lg:ml-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black w-3/4">
                         More Details
                       </div>
                     </a>
@@ -92,4 +93,5 @@ const Challenges = () => {
     </div>
   );
 };
+
 export default Challenges;
