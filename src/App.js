@@ -27,8 +27,10 @@ function App() {
       <div className='relative z-0'>
    <Header/>
    <div className='mt-12'>
+ 
    <div className='relative z-0'>
     <StarsCanvas/>
+ 
     <Hero/>
     </div>
     </div>
