@@ -1,4 +1,4 @@
- 
+import './style.css';
 import React, { useState } from 'react';
 import Gallery from './Gallary';
 import Tabs from './Tab';

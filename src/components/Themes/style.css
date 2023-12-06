@@ -1,0 +1,9 @@
+bing ka.bloop {
+    margin-bottom: 3%;
+  }
+  
+  @media (max-width: 768px) {
+    .bloop {
+      margin-bottom: 10%;
+    }
+  }
