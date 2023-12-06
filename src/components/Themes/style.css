@@ -1,9 +1,30 @@
-bing ka.bloop {
+.bloop {
     margin-bottom: 3%;
-  }
+ }
   
   @media (max-width: 768px) {
     .bloop {
       margin-bottom: 10%;
     }
+
+  }
+  .cursor-pointer {
+    transition: all 0.5s ease;
+  }
+  
+  .cursor-pointer:hover {
+    transform: scale(1.1);
+  }
+  
+  .cursor-pointer::after {
+    content: ''; 
+    display: block;
+    width: 0; 
+    height: 2px; 
+    background-color: white; 
+    transition: all 0.5s ease;
+  }
+  
+  .cursor-pointer:hover::after {
+    width: 100%; 
   }

@@ -12,7 +12,7 @@ const Tabs = ({ activeTab, onTabClick }) => {
   ];
 
   return (
-    <div className="flex flex-wrap mx-24 pt-9 sle ">
+    <div className="flex flex-wrap mx-24 pt-9 sle bloop2 ">
       {tabs.map((tab, index) => (
         <React.Fragment key={index}>
           <div className="w-full flex flex-basis sm:w-1/3  mb-6  bloop">

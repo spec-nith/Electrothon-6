@@ -29,6 +29,7 @@ function App() {
       bg-no-repeat bg-center">
    <Header/>
    <div className='mt-12'>
+   
     <Hero/>
     <AboutSection/>
     <Why_sponser/>
