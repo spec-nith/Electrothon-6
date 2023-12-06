@@ -1,0 +1,11 @@
+html
+{
+  cursor: none;
+  /*  change coursor */
+  cursor: url(https://static1.squarespace.com/static/56eadb72d51cd4a1f93f5e10/t/61cf76479673080e2fa33a8f/1640986183767/CursorFinal.png), auto;
+  
+}
+.bloop:hover {
+    /*  change on hover */
+    cursor: url(https://static1.squarespace.com/static/61c85989f94e5e0edb575c12/t/61d1d85c8e186f78e94df4a3/1641142364245/cursor_filled.png), auto;
+  }
