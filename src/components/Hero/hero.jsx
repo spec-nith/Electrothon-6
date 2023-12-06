@@ -1,8 +1,11 @@
 import React from 'react';
 import Timer from '../CountDown/countDown';
+import StarsCanvas from '../../canvas/Star';
 
 const Hero = () => {
   return (
+    <>
+   
     <div className="flex w-full h-1/2 z-[20] items-center justify-center min-h-screen bg-transparent relative">
       {/* Left Image */}
       <img
@@ -29,6 +32,7 @@ const Hero = () => {
         className="absolute right-0 w-1/4 h-full object-cover opacity-50"
       />
     </div>
+    </>
   );
 };
 
