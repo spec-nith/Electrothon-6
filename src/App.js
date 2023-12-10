@@ -11,6 +11,8 @@ import Challenges from './components/Challenges/Challenges';
 import SpeakersNew from './components/Speaker/speaker';
 import Prizes from './components/Prizes/Prizes';
  
+import Timeline from './components/Timeline/Timeline';
+
 import Organising_team from './components/Organising_Team/Organising_team';
 import Theme from './components/Themes/Theme';
  
@@ -35,6 +37,7 @@ function App() {
     </div>
     </div>
     <AboutSection/>
+    <Timeline/>
     <Why_sponser/>
     <Theme/>
     <Organising_team/>
