@@ -26,11 +26,13 @@ function App() {
     <div className="relative z-0 bg-primary">
       <div className="bg-black bg-cover 
       bg-no-repeat bg-center">
-      <div className='relative z-0'>
-   <Header/>
-   <div className='mt-12'>
+   
+   
+
  
    <div className='relative z-0'>
+   <Header/>
+   <div className='mt-12'>
     <StarsCanvas/>
  
     <Hero/>
@@ -50,7 +52,7 @@ function App() {
     
     </div>
     </div>
-    </div>
+    
    </>
   );
 }
