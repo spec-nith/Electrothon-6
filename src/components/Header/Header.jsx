@@ -8,7 +8,7 @@ const Header = () => {
       <div className="flex flex-row container mx-auto">
         <h1 className="text-white font-bold text-xl ml-4 sm:text-2xl sm:flex sm:ml-48 ">ELECTROTHON<br/>RELEVELED</h1>
         <img
-        className='flex ml-auto sm:mr-48'
+           className='flex ml-auto w-[10rem] sm:w-64 sm:mr-48'
         src={headerimg}
         alt="header-img"/>
       </div>
