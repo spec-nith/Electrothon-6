@@ -20,7 +20,7 @@ const Hero = () => {
       <h1 className="head">A CROSS COUNTRY HACKATHON</h1>
         <h1 className="head2">ELECTROTHON RELEVELED</h1>
         <p className="text-lg text-gray-600">
-          join elctrothon relevel organsied by team SPEC NITH
+          Join elctrothon relevel organsied by team SPEC NITH
         </p>
         <div>
             <Button/>
