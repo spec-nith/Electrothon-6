@@ -10,6 +10,7 @@ import Footer from './components/Footer/footer';
 import Challenges from './components/Challenges/Challenges';
 import SpeakersNew from './components/Speaker/speaker';
 import Prizes from './components/Prizes/Prizes';
+import Prize from './prizes/prize';
  
 import Timeline from './components/Timeline/Timeline';
 
@@ -19,6 +20,7 @@ import Theme from './components/Themes/Theme';
 import Carousel from './components/carousel/carousel';
 import Why_sponser from './components/why_sponser/Why_sponser';
 import StarsCanvas from './canvas/Star';
+import { p } from 'maath/dist/misc-19a3ec46.esm';
  
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
    
 
  
-   <div className='relative z-0'>
+   {/* <div className='relative z-0'>
    <Header/>
    <div className='mt-12'>
     <StarsCanvas/>
@@ -48,8 +50,8 @@ function App() {
     <Challenges/>
     <SpeakersNew/>
     <Faqs/>
-    <Footer/>
-    
+    <Footer/> */}
+    <Prize/>
     </div>
     </div>
     
