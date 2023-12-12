@@ -1,0 +1,11 @@
+Model Information:
+* title:	Major Mana Potion
+* source:	https://sketchfab.com/3d-models/major-mana-potion-407e0fc4e71143398655884eff18aef3
+* author:	imwolfgang (https://sketchfab.com/imwolfgang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Major Mana Potion" (https://sketchfab.com/3d-models/major-mana-potion-407e0fc4e71143398655884eff18aef3) by imwolfgang (https://sketchfab.com/imwolfgang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

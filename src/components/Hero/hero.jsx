@@ -1,18 +1,17 @@
 import React from 'react';
 import Timer from '../CountDown/countDown';
-import StarsCanvas from '../../canvas/Star';
+import SpellCanvas from '../../canvas/Spell';
+import CrookCanvas from '../../canvas/Croo_k';
 
 const Hero = () => {
   return (
     <>
    
-    <div className="flex w-full h-1/2 z-[20] items-center justify-center min-h-screen bg-transparent relative">
-      {/* Left Image */}
-      {/* <img
-        src="left-image.jpg" // Replace with your actual left image source
-        alt="Left Image"
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50"
-      /> */}
+    <div className="flex w-full h-full z-[20] items-center justify-center min-h-screen bg-transparent relative">
+ {/* left */}
+      <div className="hidden sm:block absolute left-0 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50">
+       <CrookCanvas/>
+</div>
 
       {/* Content Container */}
       <div className="absolute top-0 z-10 text-center p-8">
@@ -25,13 +24,12 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Image */}
-      {/* <img
-        src="right-image.jpg" // Replace with your actual right image source
-        alt="Right Image"
-        className="absolute right-0 w-1/4 h-full object-cover opacity-50"
-      /> */}
+  {/* right */}
+<div className='hidden sm:block absolute top-0 right-0 h-full w-1/4'>
+   <SpellCanvas/>
+</div>
     </div>
+
     </>
   );
 };
