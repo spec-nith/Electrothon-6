@@ -1,0 +1,11 @@
+Model Information:
+* title:	wizard
+* source:	https://sketchfab.com/3d-models/wizard-d7309f0f6200411ab872aed55570a13b
+* author:	salman_ali (https://sketchfab.com/salman_ali)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "wizard" (https://sketchfab.com/3d-models/wizard-d7309f0f6200411ab872aed55570a13b) by salman_ali (https://sketchfab.com/salman_ali) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Magic power generator pillars
+* source:	https://sketchfab.com/3d-models/magic-power-generator-pillars-568a9fb330ac4edc9654c506e55bce8b
+* author:	reddification (https://sketchfab.com/reddification)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Magic power generator pillars" (https://sketchfab.com/3d-models/magic-power-generator-pillars-568a9fb330ac4edc9654c506e55bce8b) by reddification (https://sketchfab.com/reddification) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
