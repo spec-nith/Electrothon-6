@@ -1,15 +1,40 @@
+import { phy_demo, phy_l_demo } from "../../assets/images";
+
 export const  tabData = [
     [{
-        name: "chloe",
-        img: "https://commons.wikimedia.org/wiki/File:Image_created_with_a_mobile_phone.png#/media/File:Image_created_with_a_mobile_phone.png",
-        webp: "organizers/webp/harshita.webp",
-        link: "https://www.linkedin.com/in/harshitajain16",
+        heading: "heading",
+        content: "para content",
+        img1: phy_l_demo,
+        img2: phy_demo,
+        prize_amt: "30,000",
       }],
-    [{
-        name: "ninikk",
-        img: "organizers/harshita.jpg",
-        webp: "organizers/webp/harshita.webp",
-        link: "https://www.linkedin.com/in/harshitajain16",
+      [{
+        heading: "2nd  heading",
+        content: "2nd para content",
+        img1: phy_l_demo,
+        img2: phy_demo,
+        prize_amt: "50,000",
+      }],
+      [{
+        heading: "heading",
+        content: "para content",
+        img1: phy_l_demo,
+        img2: phy_demo,
+        prize_amt: "30,000",
+      }],
+      [{
+        heading: "heading",
+        content: "para content",
+        img1: phy_l_demo,
+        img2: phy_demo,
+        prize_amt: "30,000",
+      }],
+      [{
+        heading: "heading",
+        content: "para content",
+        img1: phy_l_demo,
+        img2: phy_demo,
+        prize_amt: "30,000",
       }],
     // Add more sets for additional tabs as needed
   ];

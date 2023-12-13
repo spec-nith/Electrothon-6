@@ -53,7 +53,6 @@ function Timeline() {
 
                 {showButton && (<a className={`button ${isRegisterIcon ? "registerButton" : isPeopleIcon ? "peopleButton": isResultIcon ? "resultButton" : isElectrothonIcon? "electrothonButton" :"workButton"}`} href='/'>{element.buttonText}</a>)}
               </VerticalTimelineElement>
-              
             )
           })
         }
