@@ -9,7 +9,7 @@ import NumberCounter from './Number_Counter';
 
 export default function Why_sponser() {
   return (
-    <div className='text-white'>
+    <div className='text-white mt-24'>
           <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -43,7 +43,6 @@ export default function Why_sponser() {
  <img 
  src={why_sponser}
 alt="why_sponser"
-   
 />
       </div>
       </div>
