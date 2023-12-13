@@ -5,6 +5,7 @@ import Hero from '../components/Hero2/hero';
 import Carousel from '../components/carousel/carousel'
 import Headers from '../components/winners/win-head';
 import Prizes1 from '../components/company-prizes1/prizes';
+import Prizes2 from '../components/company-prizes2/prizes';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
             <Headers/>
             <Carousel/>
             <Prizes1/>  
-            <Carousel/>  
+            <Carousel/> 
+            <Prizes2/>
+            <Carousel/> 
             {/* Other content or components can be added here */}
           </div>
         </div>
