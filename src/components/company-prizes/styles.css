@@ -92,7 +92,7 @@ body {
 }
 
 .container .card .content p {
-  color: #333;
+  color: white;
 }
 
 .container .card .content a {
@@ -102,12 +102,13 @@ body {
   padding: 12px 25px;
   text-decoration: none;
   background: var(--clr);
-  color: #fff;
+  color: #36B7FF;
   font-weight: 500;
 }
 
 .container .card .content a:hover {
   opacity: 0.8;
+  color: #15a8f7;
 }
 
 @media (max-width: 480px) {
