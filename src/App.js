@@ -21,7 +21,7 @@ import Why_sponser from './components/why_sponser/Why_sponser';
 import StarsCanvas from './canvas/Star';
 import Navbar from "./components/Navbar/Navbar"
 import ScatteredCard from './components/Sponser/Scatter';
-import StarsCanvas2 from './canvas/Star2';
+ 
  
  
 function App() {
