@@ -9,7 +9,7 @@ import NumberCounter from './Number_Counter';
 
 export default function Why_sponser() {
   return (
-    <div className='text-white mt-24'>
+    <div className='text-white mt-24 min-h-screen'>
           <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -29,9 +29,9 @@ export default function Why_sponser() {
         />
       </motion.div>
 
-<div className='grid grid-cols-1 sm:grid-cols-2  sm:mx-24 justify-center items-center'>
-      <div className='w-1/2 justify-start'>
-        <div className='ml-8 sm:ml-16'>content</div>
+<div className='flex flex-col sm:flex-row justify-center items-center mt-10'>
+      <div className='w-full flex flex-col justify-center items-center'>
+        <div className='sm:ml-16 mt-8'>content</div>
         <Design_copmponent />
          <div className='flex flex-row'>
            <NumberCounter number={50}/>
@@ -39,7 +39,7 @@ export default function Why_sponser() {
            <NumberCounter number={50}/>
         </div>
       </div>
-      <div className=' flex items-center justify-center'>
+      <div className='flex flex-row mt-12 items-center w-1/2 justify-center'>
  <img 
  src={why_sponser}
 alt="why_sponser"
