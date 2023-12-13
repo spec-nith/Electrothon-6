@@ -51,7 +51,7 @@ function Timeline() {
                 
                 <p id="description">{element.description}</p>
 
-                {showButton && (<a className={`button ${isRegisterIcon ? "registerButton" : isPeopleIcon ? "peopleButton": isResultIcon ? "resultButton" : isElectrothonIcon? "electrothonButton" :"workButton"} `} href='/'>{element.buttonText}</a>)}
+                {showButton && (<a className={`button ${isRegisterIcon ? "registerButton" : isPeopleIcon ? "peopleButton": isResultIcon ? "resultButton" : isElectrothonIcon? "electrothonButton" :"workButton"}`} href='/'>{element.buttonText}</a>)}
               </VerticalTimelineElement>
               
             )

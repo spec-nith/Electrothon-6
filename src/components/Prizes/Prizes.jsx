@@ -20,7 +20,7 @@ import { PrizeIcon3 } from '../../assets/images';
 const Prize = () => {
   return (
     <div className="container mx-auto my-8">
-      <motion.div
+              <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
