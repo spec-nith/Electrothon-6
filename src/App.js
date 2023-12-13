@@ -19,6 +19,7 @@ import Why_sponser from './components/why_sponser/Why_sponser';
 import StarsCanvas from './canvas/Star';
 import Navbar from "./components/Navbar/Navbar"
  
+ 
 import Disclaimer from './components/Footer/Disclaimer';
  
  
@@ -46,7 +47,9 @@ function App() {
     <SpeakersNew/>
     <Faqs/>
     <Footer/> 
+ 
     <Disclaimer/>
+ 
     </div>
     </div>
     
