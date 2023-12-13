@@ -17,9 +17,9 @@ const Design_copmponent = () => {
   return (
     <>
       {/*tablet and larger views */}
-      <div className='hidden sm:flex flex-rows ml-8 sm:ml-16'>{elements}</div>
+      <div className='hidden sm:flex flex-rows'>{elements}</div>
       {/* mobile view */}
-      <div className='sm:hidden flex flex-rows ml-8'>
+      <div className='sm:hidden flex flex-rows'>
         {elements.slice(0, 30).map((x, index) => (
           <div
             key={index}

@@ -4,6 +4,10 @@ import {ReactComponent as RegisterIcon} from "../../assets/images/register.svg";
 import {ReactComponent as PeopleIcon} from "../../assets/images/people.svg";
 import {ReactComponent as ResultIcon} from "../../assets/images/result.svg";
 import {ReactComponent as WorkIcon} from "../../assets/images/work.svg";
+import { TitleText } from "../Tracks_new/CustomTexts";
+import { staggerContainer } from "../Tracks_new/motion";
+import styles from "../Tracks_new/style";
+import { motion } from "framer-motion";
 
 import timelineElements from './timelineElements';
 
@@ -23,7 +27,24 @@ function Timeline() {
   return (
     <div>
       <div className="flex justify-center text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald] ">
-                TIMELINE
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}
+      >
+        <TitleText
+          title={
+            <>
+              <div className="text-2xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
+              Timeline
+               </div>
+            </>
+          }
+          textStyles="text-center"
+        />
+      </motion.div>
               </div>
       {/* <h1 className='title'>Timeline</h1> */}
       <VerticalTimeline>

@@ -13,7 +13,7 @@ const NumberCounter = ({ number }) => {
   }, [number]);
 
   return (
-    <div className="flex flex-col mx-4 sm:mx-auto justify-center items-center mt-10 text-white">
+    <div className="flex flex-col sm:mx-auto justify-center items-center mt-10 text-white">
       <img src={l_demo} alt='counter' className="mb-4 mx-auto" />
 
       <div className="text-4xl font-bold mb-2 md:ml-36 text-center md:text-left">
