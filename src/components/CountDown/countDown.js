@@ -47,7 +47,7 @@ const Timer = () => {
         <div className="flex flex-col items-center w-full text-white">
           <div className="flex md:items-stretch md:p-10">
             <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
+              <span className="text-xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
                 {timerDays}
               </span>
               <div
@@ -57,9 +57,9 @@ const Timer = () => {
                 <span className="">Days</span>
               </div>
             </div>
-            <span className="text-3xl md:text-8xl px-1 md:px-2 pt-4">:</span>
+            <span className="text-xl md:text-8xl px-1 md:px-2 pt-4">:</span>
             <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
+              <span className="text-xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
                 {("0" + timerHours).slice(-2)}
               </span>
               <div
@@ -69,9 +69,9 @@ const Timer = () => {
                 <span className="">Hours</span>
               </div>
             </div>
-            <span className="text-3xl md:text-8xl px-1 md:px-2 pt-4">:</span>
+            <span className="text-xl md:text-8xl px-1 md:px-2 pt-4">:</span>
             <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
+              <span className="text-xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
                 {("0" + timerMinutes).slice(-2)}
               </span>
               <div
@@ -81,9 +81,9 @@ const Timer = () => {
                 <span className="">Minutes</span>
               </div>
             </div>
-            <span className="text-3xl md:text-8xl px-1 md:px-2 pt-4">:</span>
+            <span className="text-xl md:text-8xl px-1 md:px-2 pt-4">:</span>
             <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="text-4xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
+              <span className="text-xl md:text-6xl lg:text-7xl p-3 md:p-5 subhead-theme">
                 {("0" + timerSeconds).slice(-2)}
               </span>
               <div

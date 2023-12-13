@@ -32,8 +32,8 @@ function App() {
    <Navbar/>
   
    <div className='relative z-0'>
-    <StarsCanvas/>
     <Hero/> 
+    <StarsCanvas/>
     </div>
     <AboutSection/>
     <Timeline/>

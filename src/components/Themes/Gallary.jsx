@@ -1,7 +1,8 @@
-// src/components/Gallery.js
+ // src/components/Gallery.js
 import React from 'react';
 import { tabData } from './Tabs_Data';
 import { l_demo, man_demo, phy_demo, phy_l_demo } from '../../assets/images';
+import Design_copmponent from '../why_sponser/opacity';
 
 const Gallery = ({ activeTab }) => {
   const filteredData = tabData[activeTab] || [];
@@ -18,12 +19,15 @@ const Gallery = ({ activeTab }) => {
               className="w-1/2 h-1/2   object-contain"
               style={{ maxWidth: '33%', maxHeight: '33%' }}
             />
-            <p className="text-white">{data.name}</p>
+            <div className='flex flex-col gap-8 text-white'>
+            <h1 className='text-xl md:text-2xl lg:text-4xl font-bold '>{data.heading}</h1>
+            <p className="text-white">{data.content}</p>
+            </div>
           </div>
           {/* 2nd div - Image */}
           <div className='flex justify-center items-center'>
             <img
-              src={phy_l_demo}
+              src={data.img1}
               alt={`Image 1`}
               className=" object-contain"
               style={{ maxWidth: '100%', maxHeight: '100%' }}
@@ -32,15 +36,17 @@ const Gallery = ({ activeTab }) => {
           {/* 3rd div - Image */}
           <div className='flex justify-center items-center'>
             <img
-              src={phy_demo}
+              src={data.img2}
               alt={`Image 2`}
               className=" object-contain"
               style={{ maxWidth: '100%', maxHeight: '100%' }}
             />
           </div>
           {/* 4th div - Text */}
-          <div className="p-4 mt-4">
-            <p className="text-white">{data.name}</p>
+          <div className="py-4 mt-4 text-white">
+          <Design_copmponent/>
+          <h1 className='font-bold pb-8  '>PRIZES</h1>
+            <p className="text-white">{data.prize_amt}</p>
           </div>
         </div>
       ))}

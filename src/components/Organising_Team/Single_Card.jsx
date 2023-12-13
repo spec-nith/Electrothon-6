@@ -1,24 +1,24 @@
-import React, { useState } from 'react';
+ // FlippingCard.js
+
+import React from 'react';
 import "../Organising_Team/card.css";
-import { back_demo, bg3, headerimg, man_demo } from '../../assets/images';
-import { bg } from 'date-fns/locale';
+import { back_demo, man_demo } from '../../assets/images';
 
-const FlippingCard = ({ data }) => {
-  const [isFlipped, setFlipped] = useState(false);
-
+const FlippingCard = ({ data, isFlipped, onCardClick }) => {
   const handleClick = () => {
-    setFlipped(!isFlipped);
+    onCardClick();
   };
 
   return (
     <div className="card-container">
       <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={handleClick}>
-        <div className="front p-4  flex flex-col">
+        <div className="front p-4 flex flex-col">
           <picture className='h-3/4'>
             <img
-            className='h-3/4 w-full'
-             src={man_demo}
-            alt="organizerImg" />
+              className='h-3/4 w-full'
+              src={man_demo}
+              alt="organizerImg"
+            />
           </picture>
           <div className='absolute bottom-5 left-5 text-white'>
             <h2>{data.name}</h2>
@@ -26,13 +26,14 @@ const FlippingCard = ({ data }) => {
           </div>
         </div>
         <div className="back p-4 flex flex-col justify-between">
-        <picture className='h-3/4'>
+          <picture className='h-3/4'>
             <img
-            className='h-3/4 w-full'
-             src={back_demo}
-            alt="organizerImg" />
+              className='h-3/4 w-full'
+              src={back_demo}
+              alt="organizerImg"
+            />
           </picture>
-                  </div>
+        </div>
       </div>
     </div>
   );
