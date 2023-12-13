@@ -1,6 +1,5 @@
 import React from 'react';
 import Timer from '../CountDown/countDown';
-import SpellCanvas from '../../canvas/Spell';
 import CrookCanvas from '../../canvas/Croo_k';
 import MagicCanvas from '../../canvas/Magic_stand';
 
