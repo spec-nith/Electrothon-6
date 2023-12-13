@@ -9,7 +9,7 @@ import NumberCounter from './Number_Counter';
 
 export default function Why_sponser() {
   return (
-    <div className='text-white'>
+    <div className='text-white mt-24'>
           <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -20,7 +20,7 @@ export default function Why_sponser() {
         <TitleText
           title={
             <>
-              <div className="text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+              <div className="text-2xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
               WHY SPONSOR OUR EUREKA?
                </div>
             </>
@@ -43,7 +43,6 @@ export default function Why_sponser() {
  <img 
  src={why_sponser}
 alt="why_sponser"
-   
 />
       </div>
       </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { headerimg } from '../../assets/images';
@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black p-4 relative">
+    <nav className="bg-black p-4 relative w-full overflow-hidden">
    
       <div className="flex flex-row container mx-auto">
       <h1 className="text-white font-extrabold sm:font-bold text-md ml-4 sm:text-2xl sm:flex sm:ml-48 md:text-3xl lg:text-4xl xl:text-4xl">ELECTROTHON<br/>RELEVELED</h1>
