@@ -2,6 +2,7 @@ import React from 'react';
 import Timer from '../CountDown/countDown';
 import SpellCanvas from '../../canvas/Spell';
 import CrookCanvas from '../../canvas/Croo_k';
+import MagicCanvas from '../../canvas/Magic_stand';
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
 
   {/* right */}
 <div className='hidden sm:block absolute top-0 right-0 h-full w-1/4'>
-   <SpellCanvas/>
+    <MagicCanvas/>
 </div>
     </div>
 

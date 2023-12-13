@@ -20,6 +20,7 @@ import Carousel from './components/carousel/carousel';
 import Why_sponser from './components/why_sponser/Why_sponser';
 import StarsCanvas from './canvas/Star';
 import Navbar from "./components/Navbar/Navbar"
+import ScatteredCard from './components/Sponser/Scatter';
  
  
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <div className="bg-black bg-cover 
       bg-no-repeat bg-center">
    <Navbar/>
+  
    <div className='relative z-0'>
     <StarsCanvas/>
     <Hero/> 
