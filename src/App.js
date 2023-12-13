@@ -28,7 +28,6 @@ import Navbar from "./components/Navbar/Navbar"
 import ScatteredCard from './components/Sponser/Scatter';
  
  
-import Navbar from "./components/Navbar/Navbar"
 import Disclaimer from './components/Footer/Disclaimer';
  
  
@@ -56,6 +55,7 @@ function App() {
     <SpeakersNew/>
     <Faqs/>
     <Footer/> 
+   <Disclaimer/>
     </div>
     </div>
     
