@@ -4,18 +4,21 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../components/Loader";
 
 const Computers = ({ isMobile , isTablet}) => {
+ 
   const computer = useGLTF("./crook_3d/crook_cosmic_love.glb");
 
   return (
     <mesh>
       <hemisphereLight intensity={12} groundColor="black" />
-
+ 
       {/* Main spot light */}
       <spotLight
         position={[20, 50, 10]}
         angle={0.7}
         penumbra={1}
-        intensity={3}
+ 
+        intensity={4}
+ 
         castShadow
         shadow-mapSize={1024}
       />

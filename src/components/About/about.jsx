@@ -28,7 +28,14 @@ const AboutSection = () => {
           textStyles="text-center"
         />
         <p className="text-lg text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Let the your magical harry potter mind come in role. It's an inherently
+        unpredictable ride. As we launch the 6th in-person spell of
+        Electrothon, we strive for nothing less than the wizard. Run by the
+        student community SPEC under the moonlight of NIT Hamirpur,
+        Electrothon has impacted over 5000 students. The budding hackers
+        who joined Electrothon over its previous iterations left no stone
+        unturned to ideate and amalgamate technologies that transfigure
+        visions into reality.
         </p>
       </motion.div>
 

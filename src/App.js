@@ -9,7 +9,12 @@ import Faqs from './components/Faq/faq';
 import Footer from './components/Footer/footer';
 import Challenges from './components/Challenges/Challenges';
 import SpeakersNew from './components/Speaker/speaker';
+ 
+// import Prizes from './components/Prizes/Prizes';
+import Prize from './components/Prizes/Prizes';
+ 
 import Prizes from './components/Prizes/Prizes';
+ 
  
 import Timeline from './components/Timeline/Timeline';
 
@@ -23,6 +28,10 @@ import Navbar from "./components/Navbar/Navbar"
 import ScatteredCard from './components/Sponser/Scatter';
  
  
+import Navbar from "./components/Navbar/Navbar"
+import Disclaimer from './components/Footer/Disclaimer';
+ 
+ 
 function App() {
   return (
    <>
@@ -30,11 +39,12 @@ function App() {
       <div className="bg-black bg-cover 
       bg-no-repeat bg-center">
    <Navbar/>
-  
    <div className='relative z-0'>
-    <Hero/> 
     <StarsCanvas/>
+    <Hero/> 
     </div>
+ 
+ 
     <AboutSection/>
     <Timeline/>
     <Why_sponser/>

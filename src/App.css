@@ -120,7 +120,28 @@ html
   
     }
     .button{
-      margin: 3em;
+      margin: 20px;
       
     }
+  }
+
+  @media only screen and (max-width:470px) {
+    .button{
+      margin: 5px;
+      
+    }
+  }
+
+
+  h2{
+    padding-top: 0.25em;
+    font-weight: 900;
+    font-size: large;
+    color: #DEECE4;
+  }
+  h4{
+    padding-top: 0.25em;
+    font-weight: 600;
+    /* font-size: 16px; */
+    color: #EAEAEA;
   }

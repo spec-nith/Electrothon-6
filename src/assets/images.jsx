@@ -9,6 +9,9 @@ import phy_demo from "../assets/images/phy_demo.png"
 import phy_l_demo from "../assets/images/phy_l_demo.png"
 import l_demo from "../assets/images/demo_l.png"
 import why_sponser from "../assets/images/why_sponser.png"
+import PrizeIcon1 from "../assets/images/PrizeIcon1.png"
+import PrizeIcon2 from "../assets/images/PrizeIcon2.png"
+import PrizeIcon3 from "../assets/images/PrizeIcon3.png"
 
 export {
     bg
@@ -17,9 +20,13 @@ export {
     headerimg,
     chamkadar,
     man_demo,
-     back_demo,
-     phy_demo,
-     phy_l_demo,
-     l_demo,
-     why_sponser
+        back_demo,
+        phy_demo,
+        phy_l_demo,
+        l_demo,
+        why_sponser,
+        PrizeIcon1,
+        PrizeIcon2,
+        PrizeIcon3
+    
 };

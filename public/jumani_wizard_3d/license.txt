@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jumanji The Wizard - Game Character
+* source:	https://sketchfab.com/3d-models/jumanji-the-wizard-game-character-c8854ead382a463f96bb3b1883656c24
+* author:	zeintendy (https://sketchfab.com/zeintendy)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jumanji The Wizard - Game Character" (https://sketchfab.com/3d-models/jumanji-the-wizard-game-character-c8854ead382a463f96bb3b1883656c24) by zeintendy (https://sketchfab.com/zeintendy) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
