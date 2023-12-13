@@ -170,4 +170,13 @@ background-clip: text;
       font-size: 10px; 
       line-height: 48px; 
   }
+  
 }
+.nice {
+  height: 7rem; 
+
+  @media (min-width: 767px) {
+    height: 15rem; 
+  }
+}
+

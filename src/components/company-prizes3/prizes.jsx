@@ -4,7 +4,7 @@ import React from 'react';
 function YourComponent() {
   return (
     <>
-       <div  className=" flex items-center justify-center bg-transparent relative" style={{ height: '10rem' }}>
+       <div  className="  nice flex items-center justify-center bg-transparent relative" >
         <div className="header absolute top-0 text-left" style={{ width: '80%' }}>
           <h2 className="header1">TIER-3</h2>
           <h2 className="header2">THE TRACK PRIZES</h2>
