@@ -7,9 +7,9 @@ import MagicCanvas from '../../canvas/Magic_stand';
 const Hero = () => {
   return (
     <>  
-    <div className="flex w-full z-[20] items-center justify-center min-h-screen bg-transparent relative">
+    <div className="flex w-full z-[20] items-center justify-center min-h-[38rem] sm:min-h-screen bg-transparent relative">
  {/* left */}
-      <div className="hidden sm:block absolute left-0 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50">
+      <div className="hidden sm:block absolute left-0 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-90">
        <CrookCanvas/>
 </div>
 
