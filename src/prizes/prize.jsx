@@ -2,7 +2,9 @@ import './style.css';
 import Header from '../components/Header/Header';
 import React from 'react';
 import Hero from '../components/Hero2/hero';
-import Standings from '../components/winners/standing';
+import Carousel from '../components/carousel/carousel'
+import Headers from '../components/winners/win-head';
+import Standings from '../components/winners/standings';
 function App() {
   return (
     <>
@@ -11,7 +13,9 @@ function App() {
           <div className='relative z-0'>
             <Header />
             <Hero/>
-            <Standings/>
+            <Headers/>
+            <Carousel/>
+            {/* <Standings/> */}
             {/* Other content or components can be added here */}
           </div>
         </div>

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
    
-    <div className=" lol  flex w-full z-[20] items-center justify-center min-h-screen bg-transparent relative" style={{ height: '50rem' }}>
+    <div className=" lol  flex w-full z-[20] items-center justify-center  bg-transparent relative" style={{ height: '35rem' }}>
       {/* Left Image */}
       <img
         src="left-image.jpg" 
