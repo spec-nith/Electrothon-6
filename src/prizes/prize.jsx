@@ -4,7 +4,8 @@ import React from 'react';
 import Hero from '../components/Hero2/hero';
 import Carousel from '../components/carousel/carousel'
 import Headers from '../components/winners/win-head';
-import Standings from '../components/winners/standings';
+import Prizes1 from '../components/company-prizes/prizes';
+
 function App() {
   return (
     <>
@@ -15,7 +16,7 @@ function App() {
             <Hero/>
             <Headers/>
             <Carousel/>
-            {/* <Standings/> */}
+            <Prizes1/>    
             {/* Other content or components can be added here */}
           </div>
         </div>
