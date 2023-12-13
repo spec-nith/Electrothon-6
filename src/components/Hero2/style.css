@@ -3,6 +3,10 @@
     margin-top: 5%;
     width: 50%;
 }
+.lol
+{
+    height: 50%;
+}
 .head
 {
     color: #FFF;
@@ -10,7 +14,7 @@ font-family: Inter;
 font-size: 25px;
 font-style: normal;
 font-weight: 600;
-line-height: 35px; /* 140% */
+line-height: 35px; 
 letter-spacing: 5px;
 margin-bottom: 2%;
 }

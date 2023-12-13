@@ -1,13 +1,11 @@
 import React from 'react';
-import Timer from '../CountDown/countDown';
 import Button from '../button/button';
-import StarsCanvas from '../../canvas/Star';
 import './style.css';
 const Hero = () => {
   return (
     <>
    
-    <div className="flex w-full h-1/2 z-[20] items-center justify-center min-h-screen bg-transparent relative">
+    <div className=" lol  flex w-full z-[20] items-center justify-center min-h-screen bg-transparent relative" style={{ height: '50rem' }}>
       {/* Left Image */}
       <img
         src="left-image.jpg" 
