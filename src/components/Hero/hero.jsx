@@ -1,6 +1,6 @@
 import React from 'react';
 import Timer from '../CountDown/countDown';
-import SpellCanvas from '../../canvas/Spell';
+import MagicCanvas from '../../canvas/Magic_stand';
  import CrookCanvas from '../../canvas/Croo_k';
 
 const Hero = () => {
