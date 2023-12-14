@@ -1,6 +1,6 @@
 import './style.css';
 import React from 'react';
- 
+import Hero from '../components/Hero2/hero';
 import Carousel from '../components/carousel/carousel'
 import Headers from './winners/win-head';
 import Prizes1 from './company-prizes/prizes';
@@ -13,7 +13,7 @@ function App() {
         <div className="bg-black bg-cover bg-no-repeat bg-center">
           <div className='relative z-0'>
             <Navbar/>
-            
+            <Hero/>
             <Headers/>
             <Carousel/>
             <Prizes1/>    
