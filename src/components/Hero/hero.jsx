@@ -1,7 +1,9 @@
 import React from 'react';
 import Timer from '../CountDown/countDown';
 import MagicCanvas from '../../canvas/Magic_stand';
- import CrookCanvas from '../../canvas/Croo_k';
+ 
+import CrookCanvas from '../../canvas/Croo_k';
+ 
 
 const Hero = () => {
   return (
