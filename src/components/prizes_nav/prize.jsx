@@ -1,22 +1,24 @@
 import './style.css';
 import React from 'react';
-import Hero from '../components/Hero2/hero';
-import Carousel from '../components/carousel/carousel'
+ 
+ 
 import Headers from './winners/win-head';
 import Prizes1 from './company-prizes/prizes';
-import { Navbar } from '@material-tailwind/react';
-
-function App() {
+import Navbar from '../Navbar/Navbar';
+import Slider from '../carousel/carousel';
+import Hero2 from '../Hero2/hero';
+ 
+function Prizesnav() {
   return (
     <>
       <div className="relative z-0 bg-primary">
         <div className="bg-black bg-cover bg-no-repeat bg-center">
           <div className='relative z-0'>
             <Navbar/>
-            <Hero/>
+             <Hero2/>
             <Headers/>
-            <Carousel/>
-            <Prizes1/>    
+              <Slider/>
+             <Prizes1/>    
             {/* Other content or components can be added here */}
           </div>
         </div>
@@ -25,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default Prizesnav;

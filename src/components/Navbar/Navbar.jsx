@@ -2,6 +2,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { headerimg } from '../../assets/images';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,8 +15,9 @@ const Navbar = () => {
     <nav className="bg-black p-4 relative w-full overflow-hidden">
    
       <div className="flex flex-row container mx-auto">
+      <NavLink to ="/" >
       <h1 className="text-white font-extrabold sm:font-bold text-md ml-4 sm:text-2xl sm:flex sm:ml-48 md:text-3xl lg:text-4xl xl:text-4xl">ELECTROTHON<br/>RELEVELED</h1>
-
+</NavLink>
 <img
    className='flex ml-auto mr-8 h-[2rem] w-[6rem] sm:h-auto sm:w-64 lg:mr-48 md:w-[8rem] lg:w-64 xl:w-64'
    src={headerimg}
@@ -56,7 +58,7 @@ const Navbar = () => {
                   exit={{ opacity: 0, y: -20 }}
                   className="mb-4 lg:mb-6"
                 >
-                  PRIZES
+                PRIZES
                 </motion.li>
                 <motion.li
                   initial={{ opacity: 0, y: -20 }}
@@ -64,7 +66,7 @@ const Navbar = () => {
                   exit={{ opacity: 0, y: -20 }}
                   className="mb-4 lg:mb-6"
                 >
-                  SPONSORS
+               <NavLink to="/sponser">SPONSORS</NavLink>
                 </motion.li>
               </ul>
             </motion.div>

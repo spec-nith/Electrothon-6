@@ -1,7 +1,8 @@
 import React from 'react';
-import Button from '../button/button';
+ 
 import './style.css';
-const Hero = () => {
+ 
+const Hero2   = () => {
   return (
     <>
    
@@ -21,7 +22,7 @@ const Hero = () => {
           Join elctrothon relevel organsied by team SPEC NITH
         </p>
         <div>
-            <Button/>
+          button
         </div>
       </div>
 
@@ -36,4 +37,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero2 ;
