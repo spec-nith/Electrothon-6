@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import {ReactComponent as BorderImg} from "../../assets/images/border.svg";
+// import {ReactComponent as BorderImg} from "../../assets/images/border.svg";
 
 export default function Disclaimer() {
   return (
     <div >
         <div className="relative p-0 md:p-0 mx-auto w-100% md:w-[100%] mt-2 mb-3 overflow-hidden " >
-
-        <BorderImg/>
+ m 
+        {/* <BorderImg/> */}
         </div>
         <div className="relative p-2 md:p-8 mx-auto w-100% md:w-[90%] mt-1 overflow-hidden  text-white">
 
