@@ -10,7 +10,6 @@ import Footer from './components/Footer/footer';
 import Challenges from './components/Challenges/Challenges';
 import SpeakersNew from './components/Speaker/speaker';
 import Prizes from './components/Prizes/Prizes';
-import Prize from './components/prizes-nav/prizes-main/prize';
  
 import Timeline from './components/Timeline/Timeline';
 
@@ -32,7 +31,7 @@ function App() {
    
 
  
-   {/* <div className='relative z-0'>
+   <div className='relative z-0'>
    <Header/>
    <div className='mt-12'>
     <StarsCanvas/>
@@ -50,8 +49,8 @@ function App() {
     <Challenges/>
     <SpeakersNew/>
     <Faqs/>
-    <Footer/> */}
-    <Prize/>
+    <Footer/>
+   
     </div>
     </div>
     
