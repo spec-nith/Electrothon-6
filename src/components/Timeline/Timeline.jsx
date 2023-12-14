@@ -1,9 +1,9 @@
 
 import '../../App.css';
-import {ReactComponent as RegisterIcon} from "../../assets/images/register.svg";
-import {ReactComponent as PeopleIcon} from "../../assets/images/people.svg";
-import {ReactComponent as ResultIcon} from "../../assets/images/result.svg";
-import {ReactComponent as WorkIcon} from "../../assets/images/work.svg";
+// import {ReactComponent as RegisterIcon} from "../../assets/images/register.svg";
+// import {ReactComponent as PeopleIcon} from "../../assets/images/people.svg";
+// import {ReactComponent as ResultIcon} from "../../assets/images/result.svg";
+// import {ReactComponent as WorkIcon} from "../../assets/images/work.svg";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
@@ -66,7 +66,7 @@ function Timeline() {
 
                 iconStyle={isRegisterIcon ? RegisterIconStyles : isPeopleIcon ? PeopleIconStyles : isResultIcon ? ResultIconStyles: isElectrothonIcon? ElectrothonIconStyles: WorkIconStyles }
 
-                icon = {isRegisterIcon ? <RegisterIcon/> : isPeopleIcon ? <PeopleIcon/> : isResultIcon ? <ResultIcon/>: <WorkIcon/>}
+                // icon = {isRegisterIcon ? <RegisterIcon/> : isPeopleIcon ? <PeopleIcon/> : isResultIcon ? <ResultIcon/>: <WorkIcon/>}
               >
                 <h3 className='vertical-timeline-element-title'>{element.title}</h3>
                 

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-import { ReactComponent as PrizeIcon } from "../../assets/images/prize.svg";
+ 
 import { PrizeIcon1 } from '../../assets/images';
 import { PrizeIcon2 } from '../../assets/images';
 import { PrizeIcon3 } from '../../assets/images';
@@ -31,7 +31,7 @@ const Prize = () => {
           title={
             <>
               <div className="flex justify-center">
-                <PrizeIcon />
+              njjbjnjknjn
               </div>
               <div className="text-4xl lg:text-7xl font-bold text-[#DEECE4] my-3 lg:my-4 font-[Inter] ">
                 PRIZES
