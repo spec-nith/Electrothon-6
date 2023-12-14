@@ -1,6 +1,7 @@
-#React
+#React + Vite
 #Tailwind
 #Framer-Motion
+#Three.js
 
 #run in localhost
 1> npm i
