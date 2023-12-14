@@ -1,13 +1,13 @@
 import './style.css';
-import Header from '../components/Header/Header';
+import Header from '../../../components/Header/Header';
 import React from 'react';
-import Hero from '../components/Hero2/hero';
-import Carousel from '../components/carousel/carousel'
-import Headers from '../components/winners/win-head';
-import Prizes1 from '../components/company-prizes1/prizes';
-import Prizes2 from '../components/company-prizes2/prizes';
-import Prizes3 from '../components/company-prizes3/prizes';
-import Footer from '../components/Footer/footer';
+import Hero from '../Hero2/hero';
+import Carousel from '../../../components/carousel/carousel'
+import Headers from '../winners/win-head';
+import Prizes1 from '../company-prizes1/prizes';
+import Prizes2 from '../company-prizes2/prizes';
+import Prizes3 from '../company-prizes3/prizes';
+import Footer from '../../../components/Footer/footer';
 function App() {
   return (
     <>
@@ -25,7 +25,7 @@ function App() {
             <Prizes3/>
             <Carousel/>
             <Footer/>
-            {/* Other content or components can be added here */}
+          
           </div>
         </div>
       </div>
