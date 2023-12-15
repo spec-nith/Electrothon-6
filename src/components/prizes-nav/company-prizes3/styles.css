@@ -23,6 +23,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px 50px;
+  margin-bottom: 5%;
 }
 .container .card {
   position: relative;
@@ -88,7 +89,7 @@ body {
 .container .card .content h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--clr);
+  color: white!important;
 }
 
 .container .card .content p {
@@ -159,3 +160,27 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 } 
+@media only screen and (max-width: 768px) {
+  .header1 {
+      font-size: 24px; 
+      line-height: 48px; 
+  }
+  .container .card .content h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white!important;
+  }
+  .header2 {
+      font-size: 10px; 
+      line-height: 48px; 
+  }
+  
+}
+.nice {
+  height: 7rem; 
+
+  @media (min-width: 767px) {
+    height: 15rem; 
+  }
+}
+

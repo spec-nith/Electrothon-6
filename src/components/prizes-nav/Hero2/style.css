@@ -1,0 +1,60 @@
+.header
+{
+    margin-top: 5%;
+    width: 50%;
+}
+.lol
+{
+    height: 50%;
+}
+.head
+{
+    color: #FFF;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; 
+letter-spacing: 5px;
+margin-bottom: 2%;
+}
+.head2
+{
+    background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-family: Inter;
+font-size: 75px;
+font-style: normal;
+font-weight: 800;
+line-height: 75px; /* 100% */
+background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Inter;
+font-size: 75px;
+font-style: normal;
+font-weight: 600;
+line-height: 75px;
+}
+@media screen and (max-width: 768px)
+{
+    .header
+    {
+        width: 100%;
+    }
+    .head
+    {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .head2
+    {
+        font-size: 30px;
+        line-height: 50px; 
+    }
+    
+}

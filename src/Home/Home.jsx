@@ -48,7 +48,6 @@ function Home() {
     <SpeakersNew/>
     <Faqs/>
     <Footer/> 
- 
     <Disclaimer/>
  
     </div>
