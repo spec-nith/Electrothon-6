@@ -38,6 +38,7 @@
 .slide {
   height: 100px;
   width: 250px;
+  white-space: nowrap;
 }
 
 @keyframes scroll {

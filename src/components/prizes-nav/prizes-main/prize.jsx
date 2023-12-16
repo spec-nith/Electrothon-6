@@ -17,7 +17,7 @@ function App() {
             <Hero/>
             <Headers/>
             <Cards/>
-            {/* <Carousel/> */}
+            <Carousel/>
             <Footer/>
           
           </div>
