@@ -58,7 +58,7 @@ const Navbar = () => {
                   exit={{ opacity: 0, y: -20 }}
                   className="mb-4 lg:mb-6"
                 >
-                PRIZES
+               <NavLink to="/Pirzenav">PRIZES</NavLink>
                 </motion.li>
                 <motion.li
                   initial={{ opacity: 0, y: -20 }}
