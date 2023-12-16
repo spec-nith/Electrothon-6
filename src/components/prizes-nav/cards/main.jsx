@@ -52,7 +52,7 @@ const MainComponent = () => {
       },
   ];
   return (
-    <div className="container mx-auto p-8">
+    <div className="containers mx-auto p-8">
       {sectionsData.map((section, index) => (
         <InfoCardSection key={index} {...section} />
       ))}
