@@ -6,7 +6,7 @@ import Faqs from '../components/Faq/faq';
 import Footer from '../components/Footer/footer';
 import Challenges from '../components/Challenges/Challenges';
 import SpeakersNew from '../components/Speaker/speaker';
-import Prizes from '../components/prizes-nav/prizes-main/prize ';
+import Prizes from '../components/prizes-nav/prizes-main/prize';
 import Prize from '../components/Prizes/Prizes';
  
 import Timeline from '../components/Timeline/Timeline';
