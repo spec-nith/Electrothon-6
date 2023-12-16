@@ -8,7 +8,7 @@ import Challenges from '../components/Challenges/Challenges';
 import SpeakersNew from '../components/Speaker/speaker';
 import Prizes from '../components/prizes-nav/prizes-main/prize';
 import Prize from '../components/Prizes/Prizes';
- 
+import Sponser from '../components/sponser-nav/main/main';
 import Timeline from '../components/Timeline/Timeline';
 
 import Organising_team from '../components/Organising_Team/Organising_team';
@@ -29,7 +29,7 @@ function Home() {
     <div className="relative z-0 bg-primary">
       <div className="bg-black bg-cover 
       bg-no-repeat bg-center">
-   <Navbar/>
+   {/* <Navbar/>
    <div className='relative z-0'>
     <StarsCanvas/>
     <Hero/> 
@@ -48,8 +48,8 @@ function Home() {
     <SpeakersNew/>
     <Faqs/>
     <Footer/> 
-    <Disclaimer/>
- 
+    <Disclaimer/> */}
+    <Sponser/>
     </div>
     </div>
     
