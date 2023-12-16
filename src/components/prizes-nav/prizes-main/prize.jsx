@@ -5,9 +5,8 @@ import Hero from '../Hero2/hero';
 import Carousel from '../../../components/carousel/carousel'
 import Headers from '../winners/win-head';
 import Prizes1 from '../company-prizes1/prizes';
-import Prizes2 from '../company-prizes2/prizes';
-import Prizes3 from '../company-prizes3/prizes';
 import Footer from '../../../components/Footer/footer';
+import Cards from '../../../components/prizes-nav/cards/main';
 function App() {
   return (
     <>
@@ -17,12 +16,7 @@ function App() {
             <Header />
             <Hero/>
             <Headers/>
-            <Carousel/>
-            <Prizes1/>  
-            <Carousel/> 
-            <Prizes2/>
-            <Carousel/> 
-            <Prizes3/>
+            <Cards/>
             <Carousel/>
             <Footer/>
           
