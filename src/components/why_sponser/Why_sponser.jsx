@@ -9,8 +9,6 @@ import NumberCounter from './Number_Counter';
 
 export default function Why_sponser() {
 
- 
-
   const divStyle = {
     backgroundImage: `url(${why_sponserbg})`,
     backgroundSize: 'cover', 
