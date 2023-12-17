@@ -24,35 +24,40 @@ import Disclaimer from "../components/Footer/Disclaimer";
 
 function Home() {
   return (
-    <>
-      <div className="relative z-0 bg-primary">
-        <div
-          className="bg-black bg-cover 
-      bg-no-repeat bg-center"
-        >
-          <Navbar />
-          <div className="relative z-0">
-            <StarsCanvas />
-            <Hero />
-          </div>
-
-          <AboutSection />
-          <Prize />
-          <Timeline />
-          <Why_sponser />
-          <Theme />
-          <Organising_team />
-          <Carousel />
-
-          <Challenges />
-          <SpeakersNew />
-          <Support />
-          <Faqs />
-          <Footer />
-          <Disclaimer />
-        </div>
-      </div>
-    </>
+ 
+   <>
+    <div className="relative z-0 bg-primary">
+      <div className="bg-black bg-cover 
+      bg-no-repeat bg-center">
+   <Navbar/>
+ 
+   <div className='relative z-0'>
+    <StarsCanvas/>
+    <Hero/> 
+    </div>
+ 
+ 
+    <AboutSection/>
+    <Prize/>
+    <Carousel/>
+    <Timeline/>
+    <Why_sponser/>
+    <Theme/>
+    <Organising_team/>
+   
+ 
+    <Challenges/>
+    <SpeakersNew/>
+    <Faqs/>
+    <Footer/> 
+ 
+    <Disclaimer/>
+ 
+    </div>
+    </div>
+    
+   </>
+ 
   );
 }
 

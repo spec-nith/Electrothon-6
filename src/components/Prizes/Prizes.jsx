@@ -4,7 +4,7 @@ import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
  
-import { PrizeIcon1 } from '../../assets/images';
+import { PrizeIcon1, prizee } from '../../assets/images';
 import { PrizeIcon2 } from '../../assets/images';
 import { PrizeIcon3 } from '../../assets/images';
 
@@ -31,7 +31,7 @@ const Prize = () => {
           title={
             <>
               <div className="flex justify-center">
-              njjbjnjknjn
+               <img src ={prizee}/>
               </div>
               <div className="text-4xl lg:text-7xl font-bold text-[#DEECE4] my-3 lg:my-4 font-[Inter] ">
                 PRIZES
