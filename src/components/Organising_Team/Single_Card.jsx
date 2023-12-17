@@ -16,13 +16,13 @@ const FlippingCard = ({ data, isFlipped, onCardClick }) => {
           <picture className='h-3/4'>
             <img
               className='h-3/4 w-full'
-              src={man_demo}
+              src={data.img}
               alt="organizerImg"
             />
           </picture>
           <div className='absolute bottom-5 left-5 text-white'>
             <h2>{data.name}</h2>
-            <p>{data.name}</p>
+            <p>{data.post}</p>
           </div>
         </div>
         <div className="back p-4 flex flex-col justify-between">

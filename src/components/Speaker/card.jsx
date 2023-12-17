@@ -44,7 +44,7 @@ const Card = ({ props }) => {
         <img
           src={props.image}
           alt="speakers"
-          className="object-cover w-40 h-40 rounded-full lg:w-42 h-44"
+          className="object-cover w-40 rounded-full lg:w-42 h-44"
         />
       </div>
       <div className="flex flex-col items-center justify-center px-4 m-auto text-center text-white -mt-28 md:-mt-24 h-60">
