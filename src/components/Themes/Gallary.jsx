@@ -1,4 +1,4 @@
- // src/components/Gallery.js
+ 
 import React from 'react';
 import { tabData } from './Tabs_Data';
 import { l_demo, man_demo, phy_demo, phy_l_demo } from '../../assets/images';

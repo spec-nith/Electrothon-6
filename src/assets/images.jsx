@@ -13,6 +13,7 @@ import PrizeIcon1 from "../assets/images/PrizeIcon1.png"
 import PrizeIcon2 from "../assets/images/PrizeIcon2.png"
 import PrizeIcon3 from "../assets/images/PrizeIcon3.png"
 import prizee from "../assets/images/prize.svg"
+import whysponserbg from "../assets/images/why_sponserbg.png"
 
 export {
     bg
@@ -29,5 +30,6 @@ export {
         PrizeIcon1,
         PrizeIcon2,
         PrizeIcon3,
-    prizee
+    prizee,
+    whysponserbg
 };
