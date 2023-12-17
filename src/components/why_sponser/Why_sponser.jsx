@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-import { why_sponser, whysponserbg } from '../../assets/images';
+import { why_sponser,  why_sponserbg } from '../../assets/images';
 import Design_copmponent from './opacity';
 import NumberCounter from './Number_Counter';
 
@@ -12,7 +12,7 @@ export default function Why_sponser() {
  
 
   const divStyle = {
-    backgroundImage: `url(${whysponserbg})`,
+    backgroundImage: `url(${why_sponserbg})`,
     backgroundSize: 'cover', 
     backgroundRepeat: 'no-repeat',
   };

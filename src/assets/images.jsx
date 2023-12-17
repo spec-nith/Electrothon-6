@@ -10,6 +10,7 @@ import phy_demo from "../assets/images/phy_demo.png";
 import phy_l_demo from "../assets/images/phy_l_demo.png";
 import l_demo from "../assets/images/demo_l.png";
 import why_sponser from "../assets/images/why_sponser.png";
+import why_sponserbg from "../assets/images/why_sponserbg.png";
 import PrizeIcon1 from "../assets/images/PrizeIcon1.png";
 import PrizeIcon2 from "../assets/images/PrizeIcon2.png";
 import PrizeIcon3 from "../assets/images/PrizeIcon3.png";
@@ -61,5 +62,6 @@ export {
   support14,
   support15,
   support16,
+  why_sponserbg
 };
  
