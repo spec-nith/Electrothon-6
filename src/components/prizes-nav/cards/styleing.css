@@ -170,3 +170,7 @@ background-clip: text;
 {
   margin-bottom: 5rem;
 }
+.imges
+{
+  transform: scale(1) !important;
+}
