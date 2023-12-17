@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+.modern-button {
+    background-color: linear-gradient( #def200 99.63%);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .modern-button::before{
+    content: "";
+    position: absolute;
+    background-color: #23A3FF;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s ease;
+  }
+  
+  .modern-button:hover{
+    color: #def200;
+    scale: 0.9;
+    
+  }
+  
+.modern-button:hover::before{
+    transform: scaleX(1);
+  }
