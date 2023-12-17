@@ -5,7 +5,7 @@ export const challengesData = [
       "₹15,000 for the best hack built on Ethereum + Polygon",
       "Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners! ",
     ],
-    img: "sponsors/fullmoon/polygon.png",
+    img: "src/assets/images/why_sponserbg.png",
     webp: "sponsors/fullmoon/webp/polygon.webp",
     link: "https://replit.com/@devfolio/Polygon-Smart-Contract-Template?v=1#README.md",
     prize: ["$ 200", "$ 150"],
