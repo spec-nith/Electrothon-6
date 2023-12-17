@@ -29,7 +29,7 @@ function Home() {
     <div className="relative z-0 bg-primary">
       <div className="bg-black bg-cover 
       bg-no-repeat bg-center">
-   {/* <Navbar/>
+   <Navbar/>
    <div className='relative z-0'>
     <StarsCanvas/>
     <Hero/> 
@@ -48,8 +48,7 @@ function Home() {
     <SpeakersNew/>
     <Faqs/>
     <Footer/> 
-    <Disclaimer/> */}
-    <Sponser/>
+    <Disclaimer/>
     </div>
     </div>
     
