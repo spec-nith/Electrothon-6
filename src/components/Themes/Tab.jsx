@@ -15,7 +15,7 @@ const Tabs = ({ activeTab, onTabClick }) => {
     <div className="flex flex-wrap mx-24 pt-9 sle bloop2 ">
       {tabs.map((tab, index) => (
         <React.Fragment key={index}>
-          <div className="w-full flex flex-basis sm:w-1/3  mb-6  bloop">
+          <div className=" bloop">
             <div className="text-white"></div>
             <div
               className={`cursor-pointer py-2 px-4 border rounded-md  ${
