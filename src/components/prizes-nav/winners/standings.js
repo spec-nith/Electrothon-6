@@ -9,7 +9,7 @@ function TopPrize({ position, prizeAmount }) {
       </span>
       <div className="flex flex-col items-start w-[9rem] ml-4 text-center md:ml-16 cursor-pointer">
         <span className="text-xl font-bold md:text-2xl ">
-          &nbsp;{position === 1 ? 'First' : (position === 2 ? 'Second' : 'Third')} Prize
+          &nbsp;{position === 13? 'First' : (position === 2 ? 'Second' : 'Third')} Prize
         </span>
       </div>
       <div className="flex flex-row items-center ml-4 text-center md:ml-16 cursor-pointer">
@@ -103,6 +103,7 @@ function Prizes() {
       ) : null}
       <Winner />
       <div id="left-prize" className="flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0">
+      
         <TopPrize position={1} prizeAmount={30000} />
         <TopPrize position={2} prizeAmount={20000} />
         <TopPrize position={3} prizeAmount={15000} />
