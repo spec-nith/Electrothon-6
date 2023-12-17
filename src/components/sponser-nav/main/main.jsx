@@ -1,6 +1,7 @@
 import './style.css';
 import Header from '../../../components/Header/Header';
 import React from 'react';
+import Cards from '../../prizes-nav/cards/main';
 import Hero from '../../prizes-nav/Hero2/hero';
 import Carousel from '../../../components/carousel/carousel'
 import Heading from '../header/header';
@@ -16,9 +17,9 @@ function App() {
               <Hero/>
               <Heading/>
               <Sponser/>
-              {/* <Cards/>
-              <Carousel/>
-              <Footer/> */}
+               <Cards/>
+               <Carousel/>
+              <Footer/>  
             
             </div>
           </div>
