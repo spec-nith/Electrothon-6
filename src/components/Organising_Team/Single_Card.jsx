@@ -10,12 +10,12 @@ const FlippingCard = ({ data, isFlipped, onCardClick }) => {
   };
 
   return (
-    <div className="card-container">
+    <div className="card-container mb-16">
       <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={handleClick}>
         <div className="front p-4 flex flex-col">
           <picture className='h-3/4'>
             <img
-              className='h-3/4 w-full'
+                 className='h-3/4 w-full rounded-full'
               src={data.img}
               alt="organizerImg"
             />
