@@ -19,7 +19,7 @@ import { motion } from "framer-motion";
 
 export default function Support() {
   return (
-    <div className="container">
+    <div className="containerlol">
       <Head />
       <Main />
     </div>
@@ -39,10 +39,9 @@ function Head() {
         <TitleText
           title={
             <>
-              <div className="heading">WITH SUPPORT FROM</div>
+              <div className="headingyo">WITH SUPPORT FROM</div>
             </>
           }
-          textStyles="text-center"
         />
       </motion.div>
     </div>
@@ -53,15 +52,15 @@ function Main() {
   return (
     <div className="main">
       {data.map((img) => (
-        <Img img={img} key={img.id} />
+        <Imga imglol={img} key={img.id} />
       ))}
     </div>
   );
 }
-function Img({ img }) {
+function Imga({ imglol }) {
   return (
-    <span className="images md:w-2/3">
-      {<img src={img.url} alt={`Image is displayed}`} />}
+    <span className="imageslol">
+      {<img src={imglol.url} alt={`Image is displayed}`} />}
     </span>
   );
 }
