@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+ import React, { useEffect, useState } from 'react';
 import { l_demo, whysponser2 } from '../../assets/images';
 
 const NumberCounter = ({ number,data }) => {

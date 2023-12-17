@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
