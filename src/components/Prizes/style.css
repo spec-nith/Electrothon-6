@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+    .prizes {
+        height: 25rem;
+    }
+
+    .second {
+        margin-top: 30%;
+    }
+
+    .third {
+        margin-top: 45%;
+    }
+}
+
+
+
+  
+  @keyframes borderAnimation {
+    from {
+      border-color: #29E1FF;
+    }
+    to {
+      border-color: #FFF61D; 
+    }
+  }
+  
+
+  .block > div {
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.106);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5); /* Adjust the shadow color and intensity as needed */
+}
+
+.block > div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    pointer-events: none;
+    animation: borderAnimation 2s infinite alternate;
+}
