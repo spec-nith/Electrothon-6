@@ -2,10 +2,10 @@ import React from 'react';
 import './styles.css';
 import { company } from './data';
 
-function Prizes_1() {
+function YourComponent() {
   return (
     <>
-       <div className="flex items-center justify-center bg-transparent relative" style={{ height: '10rem' }}>
+       <div className=" nice flex items-center justify-center bg-transparent relative" >
         <div className="header absolute top-0 text-left" style={{ width: '80%' }}>
           <h2 className="header1">TIER-1</h2>
           <h2 className="header2">THE COMPANY SPONSOR PRIZES</h2>
@@ -29,4 +29,4 @@ function Prizes_1() {
   );
 }
 
-export default Prizes_1;
+export default YourComponent;

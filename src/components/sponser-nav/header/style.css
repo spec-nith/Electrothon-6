@@ -1,0 +1,52 @@
+.heads
+{
+    background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 75px; 
+    align-items: center;
+
+}
+@media screen and (max-width: 768px)
+{
+   
+    .heads
+    {
+        line-height: 20px;
+        font-size: 20px;
+    }
+    
+}
+
+  @media (max-width: 767px) {
+    
+    .lel
+    {
+      margin-bottom: -80%;
+    }
+    .lols
+    {
+      margin-bottom: 10%;
+    }
+  }
+  .lols {
+    background: #101010;
+  }
+  
+  @media (min-width: 768px) {
+    .lols {
+      margin-left: 20%;
+      margin-bottom: 2%;
+    }
+  }
+  .lel
+  {
+    margin-bottom: 8rem;
+  }
+  
