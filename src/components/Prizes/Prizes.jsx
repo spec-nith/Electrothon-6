@@ -55,7 +55,7 @@ const Prize = () => {
         sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>PUBLIC GOODS AWARD</h5>
         <img src={PrizeIcon1} alt="" />
         </div>
-        <div className="p-4 mx-5 mt-[-20px]">
+        <div className=" first p-4 mx-5 mt-[-20px]">
         <h1 className="lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
           $20K

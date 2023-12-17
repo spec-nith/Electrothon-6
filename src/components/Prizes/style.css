@@ -1,15 +1,21 @@
 @media screen and (min-width: 768px) {
     .prizes {
         margin-top: 1rem;
-        height: 25rem;
+        height: 29rem;
     }
+.first 
+{
+    height: 15rem;
 
+}
     .second {
         margin-top: 30%;
+        height: 15rem;
     }
 
     .third {
         margin-top: 45%;
+        height: 15rem;
     }
 }
 
@@ -43,4 +49,7 @@
     border: 1px solid transparent;
     box-sizing: border-box;
     pointer-events: none;
+}
+block > div:hover::before {
+    color: #29E1FF !important;
 }
