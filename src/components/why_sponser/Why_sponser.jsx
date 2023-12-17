@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
@@ -38,12 +38,14 @@ export default function Why_sponser() {
 
 <div className='flex flex-col sm:flex-row justify-center items-center mt-10'>
       <div className='w-full flex flex-col justify-center items-center'>
-        <div className='sm:ml-16 mt-8'>content</div>
+        <div className='sm:ml-16 mt-8 mb-2 font-bold text-3xl'>ELECTROTHON_ Hackathons : Where elite <br/>
+        students get to build great projects
+        </div>
         <Design_copmponent />
          <div className='flex flex-row'>
-           <NumberCounter number={50}/>
-           <NumberCounter number={50}/>
-           <NumberCounter number={50}/>
+           <NumberCounter number={500} data={"developers"}/>
+           <NumberCounter number={100} data={"Projects launched"}/>
+           <NumberCounter number={50} data={"From the sponspors"}/>
         </div>
       </div>
       <div className='flex flex-row mt-12 items-center w-1/2 justify-center'>
