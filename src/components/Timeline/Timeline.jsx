@@ -14,6 +14,8 @@ import timelineElements from './timelineElements';
 import { VerticalTimeline,VerticalTimelineElement } from 'react-vertical-timeline-component';
 
 import "react-vertical-timeline-component/style.min.css";
+import { bg3, people, register, result, work } from '../../assets/images';
+ 
 
 
 
@@ -66,7 +68,7 @@ function Timeline() {
 
                 iconStyle={isRegisterIcon ? RegisterIconStyles : isPeopleIcon ? PeopleIconStyles : isResultIcon ? ResultIconStyles: isElectrothonIcon? ElectrothonIconStyles: WorkIconStyles }
 
-                // icon = {isRegisterIcon ? <RegisterIcon/> : isPeopleIcon ? <PeopleIcon/> : isResultIcon ? <ResultIcon/>: <WorkIcon/>}
+                icon = {isRegisterIcon ? <img src={register}/> : isPeopleIcon ?  <img src={people}/> : isResultIcon ?  <img src={result}/> : <img src={work}/> }
               >
                 <h3 className='vertical-timeline-element-title'>{element.title}</h3>
                 

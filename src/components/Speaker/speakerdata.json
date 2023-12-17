@@ -1,7 +1,7 @@
 [
     {
       "name": "Gaurav Juyal",
-      "image": "src/assets/images/headerimg.png",
+      "image": "src/assets/images/gaurav.jpg.png",
       "webp": "speakers/webp/gaurav.webp",
       "desc": "TEDx speaker | Host - Walt Disney's Art Attack India",
       "insta": "https://www.instagram.com/the.millennial.guide",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Insha Ramin",
-      "image": "speakers/insha.jpg",
+      "image": "src/assets/images/insha.jpg.png",
       "webp": "speakers/webp/insha.webp",
       "desc": "Lead DevRel India @Showwcase | Fostering Developer communities",
     
@@ -26,7 +26,7 @@
     },    
     {
       "name": "Devang Sharma",
-      "image": "speakers/Devang.jpeg",
+      "image": "src/assets/images/Devang.jpeg.png",
       "webp": "speakers/webp/Devang.webp",
       "desc": "Senior Engineer @BMO Canada | SRF @NASA | Founder @TechElite",
       "linkedin": "https://www.linkedin.com/in/devang25",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Rodrigo Mendoza Smith",
-      "image": "speakers/rodrigo.jpeg",
+      "image": "src/assets/images/rodrigo.jpeg.png",
       "webp": "speakers/webp/rodrigo.webp",
       "desc": "Quine CEO",
       "linkedin": "https://www.linkedin.com/in/r0dms",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Kundan Singh",
-      "image": "speakers/kundan.jpeg",
+      "image": "src/assets/images/kundan.jpeg.png",
       "webp": "speakers/webp/kundan.webp",
       "desc": "Community Manager Jumbochain | Web3 Speaker",
       "linkedin": "https://www.linkedin.com/in/kundan-singh-064aa385/",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Aditya Thakur",
-      "image": "speakers/aditya.jpg",
+      "image": "src/assets/images/aditya.jpg.png",
       "webp": "speakers/webp/aditya.webp",
       "desc": "Developer Advocate at 100ms | Content Creator",
       "linkedin": "https://www.linkedin.com/in/adityathakurxd/",
