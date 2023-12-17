@@ -37,9 +37,18 @@ import support13 from "../assets/images/support13.png";
 import support14 from "../assets/images/support14.png";
 import support15 from "../assets/images/support15.png";
 import support16 from "../assets/images/support16.png";
-import whysponser2 from "../assets/images/whysponser2.png"
+import whysponser2 from "../assets/images/whysponser2.png";
+import register from "../assets/images/register.svg"
+import people from "../assets/images/people.svg"
+import work from "../assets/images/work.svg"
+import result from "../assets/images/result.svg"
+
 
 export {
+  people,
+work,
+result,
+  register,
   bg,
   bg2,
   bg3,
