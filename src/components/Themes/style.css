@@ -26,7 +26,7 @@
     display: block;
     width: 0; 
     height: 2px; 
-    background-color: white; 
+    background-color: black; 
     transition: all 0.5s ease;
   }
   
