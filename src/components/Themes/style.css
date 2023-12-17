@@ -1,30 +1,36 @@
 .bloop {
-    margin-bottom: 3%;
- }
-  
-  @media (max-width: 768px) {
-    .bloop {
-      margin-bottom: 10%;
-    }
+  margin-bottom: 3%;
+}
 
+@media (max-width: 768px) {
+  .bloop {
+    margin-bottom: 10%;
   }
-  .cursor-pointer {
-    transition: all 0.5s ease;
-  }
-  
-  .cursor-pointer:hover {
-    transform: scale(1.1);
-  }
-  
-  .cursor-pointer::after {
-    content: ''; 
-    display: block;
-    width: 0; 
-    height: 2px; 
-    background-color: white; 
-    transition: all 0.5s ease;
-  }
-  
-  .cursor-pointer:hover::after {
-    width: 100%; 
-  }
+}
+.cursor-pointer {
+  transition: all 0.5s ease;
+}
+
+.cursor-pointer:hover {
+  transform: scale(1.1);
+}
+
+.cursor-pointer::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
+  transition: all 0.5s ease;
+}
+
+.cursor-pointer:hover::after {
+  width: 100%;
+}
+
+.abc {
+  background: linear-gradient(180deg, #29e1ff -12.14%, #fff61d 91.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

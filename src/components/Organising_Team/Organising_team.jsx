@@ -1,12 +1,13 @@
- // OrganisingTeam.js
+// OrganisingTeam.js
 
-import React, { useState } from 'react';
-import { organizers } from './team_data';
+import React, { useState } from "react";
+import { organizers } from "./team_data";
 import { motion } from "framer-motion";
-import FlippingCard from "./Single_Card"
+import FlippingCard from "./Single_Card";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
+import "./organ.css";
 
 const OrganisingTeam = () => {
   const [flippedCardIndex, setFlippedCardIndex] = useState(null);
@@ -17,7 +18,7 @@ const OrganisingTeam = () => {
 
   return (
     <>
-      <div className='container mx-auto shadow-2xl rounded-lg overflow-hidden'>
+      <div className="container mx-auto shadow-2xl rounded-lg overflow-hidden">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -28,7 +29,7 @@ const OrganisingTeam = () => {
           <TitleText
             title={
               <>
-                <div className="text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+                <div className=" he text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
                   ORGANISING TEAM
                 </div>
               </>
@@ -36,8 +37,8 @@ const OrganisingTeam = () => {
             textStyles="text-center"
           />
         </motion.div>
-        <div className='flex justify-center mt-8 px-4 sm:px-8'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4'>
+        <div className="flex justify-center mt-8 px-4 sm:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
             {organizers.map((data, index) => (
               <FlippingCard
                 key={index}
@@ -52,6 +53,5 @@ const OrganisingTeam = () => {
     </>
   );
 };
- 
 
 export default OrganisingTeam;

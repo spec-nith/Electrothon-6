@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+.eff {
+  background: linear-gradient(180deg, #29e1ff -12.14%, #fff61d 91.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Inter;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px; /* 100% */
+}

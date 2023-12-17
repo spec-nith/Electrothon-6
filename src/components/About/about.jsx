@@ -1,5 +1,6 @@
-import React from 'react';
-import { chamkadar } from '../../assets/images';
+import React from "react";
+import "./about.css";
+import { chamkadar } from "../../assets/images";
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
@@ -8,34 +9,33 @@ import styles from "../Tracks_new/style";
 const AboutSection = () => {
   return (
     <div className="flex flex-col sm:flex-row  sm:items-start sm:mt-48 items-center min-h-[32rem] mx-4 lg:mx-24">
-
       {/* Content  */}
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col lg:mr-8`}
+        className={`${styles.innerWidth} mx-auto flex flex-col lg:mr-8 `}
       >
         <TitleText
           title={
             <>
-              <div className="flex justify-start text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+              <div className=" looked flex justify-start text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 ">
                 ABOUT US
               </div>
             </>
           }
           textStyles="text-center"
         />
-        <p className="text-lg text-white">
-        Let the your magical harry potter mind come in role. It's an inherently
-        unpredictable ride. As we launch the 6th in-person spell of
-        Electrothon, we strive for nothing less than the wizard. Run by the
-        student community SPEC under the moonlight of NIT Hamirpur,
-        Electrothon has impacted over 5000 students. The budding hackers
-        who joined Electrothon over its previous iterations left no stone
-        unturned to ideate and amalgamate technologies that transfigure
-        visions into reality.
+        <p className=" width-836px about-description text-lg text-white">
+          Let the your magical harry potter mind come in role. It's an
+          inherently unpredictable ride. As we launch the 6th in-person spell of
+          Electrothon, we strive for nothing less than the wizard. Run by the
+          student community SPEC under the moonlight of NIT Hamirpur,
+          Electrothon has impacted over 5000 students. The budding hackers who
+          joined Electrothon over its previous iterations left no stone unturned
+          to ideate and amalgamate technologies that transfigure visions into
+          reality.
         </p>
       </motion.div>
 
@@ -47,9 +47,9 @@ const AboutSection = () => {
         className="sm:hidden mt-8 w-3/4"
       >
         <img
-          src={chamkadar}  
+          src={chamkadar}
           alt="About Image"
-          className="w-full h-auto object-cover"
+          className="self-center  w-full h-auto object-cover"
         />
       </motion.div>
 

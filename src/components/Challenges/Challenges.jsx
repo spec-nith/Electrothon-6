@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-
+import "./challanges.css";
 const Challenges = () => {
   return (
-    <div className="">
+    <div className="go">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col text-white`} 
+        className={`${styles.innerWidth} mx-auto flex flex-col text-white`}
       >
         <TitleText
           title={
             <>
-              <div className="text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6 font-[Oswald] mb-16">
+              <div className="she text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6 font-[Oswald] mb-16">
                 Challenges
               </div>
             </>
@@ -36,16 +36,15 @@ const Challenges = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in-out-cubic"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 content-theme">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center content-theme">
           {challengesData.map((challenge, index) => {
             return (
               <div
-                className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
+                className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white"
                 key={challenge.key}
               >
                 <div className="float-left p-5 lg:w-3/5 h-[140px] flex justify-center ">
                   <picture>
-                    
                     <img
                       src={challenge.img}
                       className="w-full h-full object-contain"
