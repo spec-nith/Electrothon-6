@@ -42,12 +42,15 @@ function Home() {
     <Carousel/>
     <Timeline/>
     <Why_sponser/>
+    <Carousel/>
     <Theme/>
+    <Carousel/>
     <Organising_team/>
    
  
     <Challenges/>
     <SpeakersNew/>
+    <Support/>
     <Faqs/>
     <Footer/> 
   

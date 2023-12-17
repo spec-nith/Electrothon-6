@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
- 
+import './style.css';
 import { PrizeIcon1, prizee } from '../../assets/images';
 import { PrizeIcon2 } from '../../assets/images';
 import { PrizeIcon3 } from '../../assets/images';
@@ -41,8 +41,9 @@ const Prize = () => {
           textStyles="text-center"
         />
       </motion.div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <div className="p-4 mx-5">
+      <div className="prizes">
+      <div className=" block grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="second p-4 mx-5">
         <h1 className="lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
           $20K
@@ -54,7 +55,7 @@ const Prize = () => {
         sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>PUBLIC GOODS AWARD</h5>
         <img src={PrizeIcon1} alt="" />
         </div>
-        <div className="p-4 mx-5">
+        <div className=" first p-4 mx-5 mt-[-20px]">
         <h1 className="lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
           $20K
@@ -66,7 +67,7 @@ const Prize = () => {
         sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>PUBLIC GOODS AWARD</h5>
         <img src={PrizeIcon2} alt="" />
         </div>
-        <div className="p-4 mx-5">
+        <div className=" third p-4 mx-5">
         <h1 className="lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
           $20K
@@ -79,7 +80,7 @@ const Prize = () => {
         <img src={PrizeIcon3} alt="" />
         </div>
         
-
+</div>
 
       </div>
     </div>
