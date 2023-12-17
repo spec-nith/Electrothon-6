@@ -22,7 +22,7 @@
   .let:hover {
     cursor: pointer;
     transition: 2s all ease-in-out;
-    background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
+    background: linear-gradient(95deg, #29e2ffc8 -12.14%, #fff71db1 91.11%);
     color: #1F4141;
     animation: pulse 2s infinite 1ms cubic-bezier(0.25, 0, 0, 1);
     box-shadow: 0 0 0 0 white;

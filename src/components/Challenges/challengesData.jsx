@@ -18,7 +18,7 @@ export const challengesData = [
       "Replit schwags to 5 eligible submissions deployed on Replit",
       "Eligibility for internship / full time role interviews at Replit",
     ],
-    img: "sponsors/gibbous/Replit.png",
+    img: "src/assets/images/Replit.webp.png",
     webp: "sponsors/gibbous/webp/Replit.webp",
     link: "https://replit.com/@devfolio/Replit-Devfolio-Hackathons?v=1#README.md",
     prize: ["$ 50"],

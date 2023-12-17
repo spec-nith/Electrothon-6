@@ -1,4 +1,5 @@
 import React from "react";
+import './footer.css';
 import { useForm } from "@formspree/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -242,7 +243,7 @@ export default function Footer() {
             <TitleText
               title={
                 <>
-                  <span className="text-4xl lg:text-6xl font-bold text-[#8471ae] my-4 lg:my-6 font-[Oswald] ">
+                  <span className="text-4xl lg:text-6xl font-bold text-[#def200] my-4 lg:my-6 font-[Oswald] ">
                     Lets talk about everything!
                   </span>
                 </>
@@ -365,7 +366,7 @@ export default function Footer() {
               </div>
               <div className="mt-8">
                 <button
-                  className="uppercase text-sm font-bold tracking-wide  text-gray-100 p-3 rounded-full w-full focus:outline-none focus:shadow-outline hover:bg-gradient-to-r hover:from-[#7946AB] hover:to-[#2565C9]  bg-opacity-40 border-[#6A6A6A] border-2 bg-gradient-to-b from-[rgba(255,255,255,0.08)] hover:border-transparent"
+                  className=" modern-button"
                   type="submit"
                   disabled={state.submitting}
                 >
