@@ -45,7 +45,7 @@ const Challenges = () => {
               >
                 <div className="float-left p-5 lg:w-3/5 h-[140px] flex justify-center ">
                   <picture>
-                    <source srcSet={challenge.webp} type="image/webp" />
+                    
                     <img
                       src={challenge.img}
                       className="w-full h-full object-contain"
