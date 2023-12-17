@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { l_demo } from '../../assets/images';
+import { l_demo, whysponser2 } from '../../assets/images';
 
 const NumberCounter = ({ number }) => {
   const [count, setCount] = useState(0);
@@ -14,7 +14,7 @@ const NumberCounter = ({ number }) => {
 
   return (
     <div className="flex flex-col sm:mx-auto justify-center items-center mt-10 text-white">
-      <img src={l_demo} alt='counter' className="mb-4 mx-auto" />
+      <img src={whysponser2} alt='counter' className="mb-4 mx-auto" />
 
       <div className="text-4xl font-bold mb-2 md:ml-36 text-center md:text-left">
         {count}+

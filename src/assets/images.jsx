@@ -31,6 +31,7 @@ import support13 from "../assets/images/support13.png";
 import support14 from "../assets/images/support14.png";
 import support15 from "../assets/images/support15.png";
 import support16 from "../assets/images/support16.png";
+import whysponser2 from "../assets/images/whysponser2.png"
 
 export {
   bg,
@@ -62,6 +63,7 @@ export {
   support14,
   support15,
   support16,
-  why_sponserbg
+  why_sponserbg,
+  whysponser2
 };
  
