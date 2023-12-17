@@ -34,7 +34,7 @@ const Gallery = ({ activeTab }) => {
             />
           </div>
           {/* 3rd div - Image */}
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center items-center '>
             <img
               src={data.img2}
               alt={`Image 2`}
