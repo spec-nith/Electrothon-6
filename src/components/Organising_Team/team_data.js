@@ -1,7 +1,7 @@
 
 export const organizers = [
     {
-      name: "bhucheti Naga Padmini",
+      name: "Bhucheti Naga Padmini",
       img:  "src/assets/images/bhucheti naga padmini.jpg",
       post: "President", 
       link: "https://www.linkedin.com/in/harshitajain16",
@@ -13,65 +13,80 @@ export const organizers = [
       link: "https://www.linkedin.com/in/harshitajain16",
     },
     {
+      name: "Tanuj Khanna",
+      post: "Technical Lead", 
+      img: "src/assets/images/Tanuj.jpg",
+      link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
+    },
+    {
       name: "Abhishek Nautial",
-      post: "coordinator", 
+      post: "Treasurer", 
       img: "src/assets/images/abhisheknautial.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
       name: "Aman Asrani",
-      post: "coordinator", 
+      post: "Internal Affairs Secretary", 
       img: "src/assets/images/amanasrani.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
       name: "Aryan Prasher",
-      post: "coordinator", 
+      post: "UI/UX Lead", 
       img: "src/assets/images/Aryanprasher.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
-      name: "Adhishraya",
-      post: "coordinator", 
+      name: "Adhishraya Sharma",
+      post: "Web Development Lead", 
       img: "src/assets/images/adhishraya.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
       name: "Abhishek Raj",
-      post: "coordinator", 
+      post: "Web Development Lead", 
       img: "src/assets/images/abhishekraj.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
-      name: "Aditya",
-      post: "coordinator", 
-      img: "src/assets/images/aditya.jpg.png",
+      name: "Rishabh Pal",
+      post: "Treasurer", 
+      img: "src/assets/images/rishabh.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
-      name: "Chaitanya kohli",
-      post: "coordinator", 
+      name: "Chaitanya Kohli",
+      post: "Marketing Lead", 
       img: "src/assets/images/chaitanyakohli.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
-      name: "Gauri kaushal",
-      post: "coordinator", 
+      name: "Gauri Kaushal",
+      post: "Developer Relations", 
       img: "src/assets/images/gaurikaushal.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
       name: "Harshita Bhatia",
-      post: "coordinator", 
+      post: "External Affairs Secretary", 
       img: "src/assets/images/harshitabhatia.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
       name: "Mukesh Singh Rajput",
-      post: "coordinator", 
+      post: "Web Development Lead", 
       img: "src/assets/images/mukeshsinghrajput.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
+    {
+      name: "Pratyaksh Saini",
+      post: "Technical Lead", 
+      img: "src/assets/images/pratyaksh.jpg",
+      link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
+    },
+
+    
+    
    
   ];
   

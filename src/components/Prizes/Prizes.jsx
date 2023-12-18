@@ -46,37 +46,37 @@ const Prize = () => {
         <div className="second p-4 mx-5">
         <h1 className="lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
-          $20K
+          ₹15K
           <p className="text-sm m-2  text-gray-400 font-[Inter] lg:m-3">
-          USDC
+
           </p>
         </h1>
         <h5 className='lg:text-3xl
-        sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>PUBLIC GOODS AWARD</h5>
+        sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>SECOND PRIZE</h5>
         <img src={PrizeIcon1} alt="" />
         </div>
         <div className=" first p-4 mx-5 mt-[-20px]">
         <h1 className="lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
-          $20K
+          ₹20K
           <p className="text-sm m-2  text-gray-400 font-[Inter] lg:m-3">
-          USDC
+  
           </p>
         </h1>
         <h5 className='lg:text-3xl
-        sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>PUBLIC GOODS AWARD</h5>
+        sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>FIRST PRIZE</h5>
         <img src={PrizeIcon2} alt="" />
         </div>
         <div className=" third p-4 mx-5">
         <h1 className="lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
-          $20K
+           ₹10K
           <p className="text-sm m-2  text-gray-400 font-[Inter] lg:m-3">
-          USDC
+          
           </p>
         </h1>
         <h5 className='lg:text-3xl
-        sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>PUBLIC GOODS AWARD</h5>
+        sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>THIRD PRIZE</h5>
         <img src={PrizeIcon3} alt="" />
         </div>
         
