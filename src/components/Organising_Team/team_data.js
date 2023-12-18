@@ -8,26 +8,26 @@ export const organizers = [
     },
     {
       name: "Anirudh Attri",
-      img: "src/assets/images/Anirudh attri.jpg",
+      img: "src/assets/images/Anirudhattri.jpg",
       post: "Vice President", 
       link: "https://www.linkedin.com/in/harshitajain16",
     },
     {
       name: "Abhishek Nautial",
       post: "coordinator", 
-      img: "src/assets/images/abhishek nautial.jpg",
+      img: "src/assets/images/abhisheknautial.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
       name: "Aman Asrani",
       post: "coordinator", 
-      img: "src/assets/images/aman_asrani.jpg",
+      img: "src/assets/images/amanasrani.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
       name: "Aryan Prasher",
       post: "coordinator", 
-      img: "src/assets/images/Aryan_prasher.jpg",
+      img: "src/assets/images/Aryanprasher.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
@@ -39,7 +39,7 @@ export const organizers = [
     {
       name: "Abhishek Raj",
       post: "coordinator", 
-      img: "src/assets/images/abhishek_raj.jpg",
+      img: "src/assets/images/abhishekraj.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
@@ -63,7 +63,7 @@ export const organizers = [
     {
       name: "Harshita Bhatia",
       post: "coordinator", 
-      img: "src/assets/images/harshita_bhatia.jpg",
+      img: "src/assets/images/harshitabhatia.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
