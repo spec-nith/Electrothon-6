@@ -6,7 +6,7 @@ import Faqs from "../components/Faq/faq";
 import Footer from "../components/Footer/footer";
 import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
-import Prizes from "../components/prizes-nav/prizes-main/prize";
+import Prizes from "../components/prizesnav/prizesmain/prize";
 import Prize from "../components/Prizes/Prizes";
 
 import Timeline from "../components/Timeline/Timeline";
@@ -24,42 +24,37 @@ import Disclaimer from "../components/Footer/Disclaimer";
 
 function Home() {
   return (
- 
-   <>
-    <div className="relative z-0 bg-primary">
-      <div className="bg-black bg-cover 
-      bg-no-repeat bg-center">
-   <Navbar/>
- 
-   <div className='relative z-0'>
-    <StarsCanvas/>
-    <Hero/> 
-    </div>
- 
- 
-    <AboutSection/>
-    <Prize/>
-    <Carousel/>
-    <Timeline/>
-    <Why_sponser/>
-    <Carousel/>
-    <Theme/>
-    <Carousel/>
-    <Organising_team/>
-   
- 
-    <Challenges/>
-    <SpeakersNew/>
-    <Support/>
-    <Faqs/>
-    <Footer/> 
-  
- 
-    </div>
-    </div>
-    
-   </>
- 
+    <>
+      <div className="relative z-0 bg-primary">
+        <div
+          className="bg-black bg-cover 
+      bg-no-repeat bg-center"
+        >
+          <Navbar />
+
+          <div className="relative z-0">
+            <StarsCanvas />
+            <Hero />
+          </div>
+
+          <AboutSection />
+          <Prize />
+          <Carousel />
+          <Timeline />
+          <Why_sponser />
+          <Carousel />
+          <Theme />
+          <Carousel />
+          <Organising_team />
+
+          <Challenges />
+          <SpeakersNew />
+          <Support />
+          <Faqs />
+          <Footer />
+        </div>
+      </div>
+    </>
   );
 }
 
