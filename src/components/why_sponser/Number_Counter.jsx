@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+ import React, { useEffect, useState } from 'react';
 import { l_demo, whysponser2 } from '../../assets/images';
 
-const NumberCounter = ({ number }) => {
+const NumberCounter = ({ number,data }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -20,8 +20,8 @@ const NumberCounter = ({ number }) => {
         {count}+
       </div>
 
-      <div className="ml-4 text-center md:ml-36">
-        deknkkkv
+      <div className="ml-4 text-center md:ml-36 font-extrabold">
+        {data}
       </div>
     </div>
   );
