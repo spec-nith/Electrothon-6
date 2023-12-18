@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
+import { speclogo } from "../../assets/images";
 
 export default function Footer() {
   const BottomFooter = () => {
@@ -28,10 +29,9 @@ export default function Footer() {
               className="text-sm text-white md:text-lg md:font-bold hover:text-gray-300 "
             >
               <picture>
-                <source srcSet="spec_logo.webp" type="image/webp" />
-                <img
+                 <img
                   className="w-16 md:w-32"
-                  src="spec_logo.png"
+                  src= {speclogo}
                   alt="spec_logo"
                 />
               </picture>
@@ -154,7 +154,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex justify-center pb-2 text-sm text-gray-400">
-          © 2023, SPEC NITH
+          ©️ 2023, SPEC NITH
         </div>
       </React.Fragment>
     );

@@ -37,9 +37,9 @@ const Hero = () => {
             </small>
           </h1>
           <p className="text-lg text-gray-400 ">
-            Join electrothon relevel organised by spec NITH to create one of
+          Join electrothon relevel organized by SPEC NITH to create one of
             your <br />
-            coolest project and netwerk with craxy minded people
+            coolest project and network with crazy-minded people
           </p>
           <div>
             <Timer />
