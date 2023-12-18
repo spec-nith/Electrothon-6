@@ -51,7 +51,7 @@ export const organizers = [
     {
       name: "Rishabh Pal",
       post: "Treasurer", 
-      img: "src/assets/images/rishabh.jpg",
+      img: "src/assets/images/rishab.jpeg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
