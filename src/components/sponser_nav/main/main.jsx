@@ -5,8 +5,8 @@ import Cards from '../../prizes_nav/cards/main';
 import Hero from '../../prizes_nav/Hero2/hero';
 import Carousel from '../../carousel/carousel'
 import Heading from '../header/header';
-import Footer from '../../footer/footer'
 import Sponser from '../oursponser/sponser'
+import Footer from '../../Footer/footer';
 function App() {
     return (
       <>
@@ -19,7 +19,7 @@ function App() {
               <Sponser/>
                <Cards/>
                <Carousel/>
-              <Footer/>  
+           <Footer/>
             
             </div>
           </div>
