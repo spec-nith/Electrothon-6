@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+.headesign {
+  background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.head2design {
+  background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 75px;
+}
+.same {
+  font-family: Inter;
+}
