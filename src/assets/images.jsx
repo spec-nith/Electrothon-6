@@ -1,4 +1,3 @@
- 
 import aditya from "../assets/images/aditya.jpg.png"
 import devang from "../assets/images/Devang.jpeg.png"
 import gaurav from "../assets/images/gaurav.jpg.png"
@@ -42,9 +41,11 @@ import register from "../assets/images/register.svg"
 import people from "../assets/images/people.svg"
 import work from "../assets/images/work.svg"
 import result from "../assets/images/result.svg"
+import speclogo from "../assets/images/spec_logo.png"
 
 
 export {
+  speclogo,
   people,
 work,
 result,
