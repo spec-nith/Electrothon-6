@@ -1,8 +1,8 @@
 import './style.css';
 import Header from '../../Header/Header';
 import React from 'react';
-import Cards from '../../prizes-nav/cards/main';
-import Hero from '../../prizes-nav/Hero2/hero';
+import Cards from '../../prizes_nav/cards/main';
+import Hero from '../../prizes_nav/Hero2/hero';
 import Carousel from '../../carousel/carousel'
 import Heading from '../header/header';
 import Footer from '../../footer/footer'

@@ -1,12 +1,12 @@
 import './style.css';
-import Header from '../../../components/Header/Header';
+import Header from '../../Header/Header';
 import React from 'react';
 import Hero from '../Hero2/hero';
-import Carousel from '../../../components/carousel/carousel'
+import Carousel from '../../carousel/carousel'
 import Headers from '../winners/win-head';
-import Prizes1 from '../company-prizes1/prizes';
-import Footer from '../../../components/Footer/footer';
-import Cards from '../../../components/prizes-nav/cards/main';
+ 
+import Footer from '../../Footer/footer';
+import Cards from '../../../components/prizes_nav/cards/main';
 function App() {
   return (
     <>
