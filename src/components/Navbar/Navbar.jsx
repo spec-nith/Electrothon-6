@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+  import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { headerimg, speclogo } from '../../assets/images';
