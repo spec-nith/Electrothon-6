@@ -42,9 +42,11 @@ import register from "../assets/images/register.svg"
 import people from "../assets/images/people.svg"
 import work from "../assets/images/work.svg"
 import result from "../assets/images/result.svg"
+import speclogo from "../assets/images/spec_logo.png"
 
 
 export {
+  speclogo,
   people,
 work,
 result,
