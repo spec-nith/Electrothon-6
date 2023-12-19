@@ -19,7 +19,8 @@ const Hero = () => {
       <h1 className="head">A CROSS COUNTRY HACKATHON</h1>
         <h1 className="head2">ELECTROTHON RELEVELED</h1>
         <p className="text-lg text-gray-600">
-          Join elctrothon relevel organsied by team SPEC NITH
+        Join electrothon relevel organized by SPEC NITH to create one of your
+coolest project and network with crazy-minded people
         </p>
         <div>
             <Timer/>
