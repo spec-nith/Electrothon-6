@@ -53,3 +53,37 @@
 block > div:hover::before {
     color: #29E1FF !important;
 }
+.first {
+  
+  border: 1px solid #000;
+  transition: border 0.5s, transform 0.5s;
+}
+
+.first:hover,
+.first:focus{
+  border: 1px solid #FFD700;
+  transform: scale(1.07);
+  color:#FFD700 ;
+}
+.second {
+  
+  border: 2px solid #000;
+  transition: border 0.5s, transform 0.5s;
+}
+
+.second:hover,
+.second:focus {
+  border: 2px solid #C0C0C0;
+  transform: scale(1.05);
+}
+.third {
+  
+  border: 1px solid #000;
+  transition: border 0.5s, transform 0.5s;
+}
+
+.third:hover,
+.third:focus {
+  border: 2px solid #a3784c;
+  transform: scale(1.05);
+}

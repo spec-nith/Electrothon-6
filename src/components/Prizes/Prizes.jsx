@@ -44,14 +44,14 @@ const Prize = () => {
       <div className="prizes">
       <div className=" block grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div className="second p-4 mx-5">
-        <h1 className="lg:text-5xl
+        <h1 className=" fip lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
           ₹15K
           <p className="text-sm m-2  text-gray-400 font-[Inter] lg:m-3">
 
           </p>
         </h1>
-        <h5 className='lg:text-3xl
+        <h5 className='sep lg:text-3xl
         sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>SECOND PRIZE</h5>
         <img src={PrizeIcon1} alt="" />
         </div>
@@ -63,7 +63,7 @@ const Prize = () => {
   
           </p>
         </h1>
-        <h5 className='lg:text-3xl
+        <h5 className='thp lg:text-3xl
         sm:text-xl text-base font-semibold text-white my-1 font-[Inter]'>FIRST PRIZE</h5>
         <img src={PrizeIcon2} alt="" />
         </div>
