@@ -1,4 +1,3 @@
-
 import aditya from "../assets/images/aditya.jpg.png"
 import devang from "../assets/images/Devang.jpeg.png"
 import gaurav from "../assets/images/gaurav.jpg.png"
