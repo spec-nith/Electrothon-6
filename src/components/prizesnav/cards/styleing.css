@@ -49,7 +49,10 @@
 
 @keyframes hovers {
   to {
-    transform: translateX(12px);
+    transform: translateX(6px);
+  }
+  from {
+    transform: translateX(-6px);
   }
 }
 
