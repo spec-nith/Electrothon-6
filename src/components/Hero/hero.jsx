@@ -15,36 +15,16 @@ const Hero = () => {
         </div>
 
         {/* Content Container */}
-        <div className=" same absolute top-0 z-10 text-center  p-8  md:p-8 ">
-          <h1
-            className="lg:text-7xl
-        sm:text-5xl text-4xl  font-bold mb-4  text-white"
-          >
-            <h5
-              className="lg:text-3xl
-        sm:text-xl text-base font-semibold my-3 tracking-wide "
-            >
-              A CROSS COUNTRY HACKATHON
-            </h5>
-            <span className="headesign">
-              ELECTROTHON <br />{" "}
-            </span>
-            <small
-              className=" head2design lg:text-7xl
-        sm:text-5xl text-4xl font-semibold"
-            >
-              RELEVELED
-            </small>
-          </h1>
-          <p className="text-lg text-gray-400 ">
-          Join electrothon relevel organized by SPEC NITH to create one of
-            your <br />
-            coolest project and network with crazy-minded people
-          </p>
-          <div>
-            <Timer />
-          </div>
+        <div className=" header absolute top-0 z-10 text-center p-8">
+      <h1 className="head">A CROSS COUNTRY HACKATHON</h1>
+        <h1 className="head2">ELECTROTHON RELEVELED</h1>
+        <p className="text-lg text-gray-600">
+          Join elctrothon relevel organsied by team SPEC NITH
+        </p>
+        <div>
+            <Timer/>
         </div>
+      </div>
 
         {/* right */}
         <div className="hidden sm:block absolute top-0 right-0 h-full w-1/4">
