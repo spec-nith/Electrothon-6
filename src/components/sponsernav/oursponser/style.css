@@ -92,8 +92,13 @@ body
                 .list img:hover {
                     box-shadow: 0 0 5px rgba(0, 0, 0, .5), 0 0 15px rgba(0, 0, 0, .7);
                     -webkit-transform: scale(2);
+                    animation: hover 1s ease-in-out infinite alternate forwards;
                 }
-
+                @keyframes hover {
+                    to {
+                        translate: 0px 12px;
+                    }
+                }
              @media screen and (max-width: 620px) {
 
                 .gallery-image {
