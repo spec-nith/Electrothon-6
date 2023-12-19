@@ -43,7 +43,16 @@
   top: -100px;
   scale: 0.75;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+  border: 2px solid #3498db;
+  animation: hovers 1s ease-in-out infinite alternate forwards;
 }
+
+@keyframes hovers {
+  to {
+    transform: translateX(12px);
+  }
+}
+
 
 .containers .card .img-box img {
   position: absolute;
