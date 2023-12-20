@@ -50,6 +50,7 @@
     .lel
     {
       margin-bottom: -80%;
+      height: 5rem;
     }
     .lols
     {
@@ -70,6 +71,10 @@
     .lols {
       margin-left: 20%;
       margin-bottom: 2%;
+    }
+    .lel
+    {
+      height: 20rem;
     }
   }
   
