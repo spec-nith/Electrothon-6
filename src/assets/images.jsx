@@ -1,9 +1,9 @@
-import aditya from "../assets/images/aditya.jpg.png"
-import devang from "../assets/images/Devang.jpeg.png"
-import gaurav from "../assets/images/gaurav.jpg.png"
-import insha from "../assets/images/insha.jpg.png"
-import kundan from "../assets/images/kundan.jpeg.png"
-import rodrigo from "../assets/images/rodrigo.jpeg.png"
+import aditya from "../assets/images/aditya.jpg.png";
+import devang from "../assets/images/Devang.jpeg.png";
+import gaurav from "../assets/images/gaurav.jpg.png";
+import insha from "../assets/images/insha.jpg.png";
+import kundan from "../assets/images/kundan.jpeg.png";
+import rodrigo from "../assets/images/rodrigo.jpeg.png";
 import bg from "../assets/images/background.png";
 import bg2 from "../assets/images/bg2.jpg";
 import bg3 from "../assets/images/bg3.jpg";
@@ -37,18 +37,48 @@ import support14 from "../assets/images/support14.png";
 import support15 from "../assets/images/support15.png";
 import support16 from "../assets/images/support16.png";
 import whysponser2 from "../assets/images/whysponser2.png";
-import register from "../assets/images/register.svg"
-import people from "../assets/images/people.svg"
-import work from "../assets/images/work.svg"
-import result from "../assets/images/result.svg"
-import speclogo from "../assets/images/spec_logo.png"
+import register from "../assets/images/register.svg";
+import people from "../assets/images/people.svg";
+import work from "../assets/images/work.svg";
+import result from "../assets/images/result.svg";
+import speclogo from "../assets/images/spec_logo.png";
+import padmini from "../assets/images/bhucheti naga padmini.jpg";
+import anirudh from "../assets/images/Anirudhattri.jpg";
+import aman from "../assets/images/amanasrani.jpg";
+import adhishraya from "../assets/images/adhishraya.jpg";
+import abhisheknautiyal from "../assets/images/abhisheknautial.jpg";
+import abhishekraj from "../assets/images/abhisheknautial.jpg";
+import aryan from "../assets/images/Aryanprasher.jpg";
+import chaitanya from "../assets/images/chaitanyakohli.jpg";
+import gauri from "../assets/images/gaurikaushal.jpg";
+import harshita from "../assets/images/harshitabhatia.jpg";
+import mukesh from "../assets/images/mukeshsinghrajput.jpg";
+import pratyaksh from "../assets/images/pratyaksh.jpg";
+import rishab from "../assets/images/rishab.jpeg";
+import tanuj from "../assets/images/Tanuj.jpg";
 
-
+import polygon from "../assets/images/polygon.webp.png";
+import replit from "../assets/images/Replit.webp.png";
+import solana from "../assets/images/solana.webp.png";
+import filecoin from "../assets/images/filecoin.webp.png";
+import fire from "../assets/images/5ire.webp.png";
+import ai from "../assets/images/ai.jpeg.jpg";
+import ai3 from "../assets/images/ai3.jpeg";
+import crypto from "../assets/images/crypto.jpeg.jpg";
+import crypto2 from "../assets/images/crypto2.jpeg.jpg";
+import finance from "../assets/images/finance.png";
+import finance2 from "../assets/images/finance2.jpeg.jpg";
+import game from "../assets/images/game.jpg";
+import gaming from "../assets/images/gaming.jpeg.jpg";
+import mobileapp1 from "../assets/images/mobileapps .png";
+import mobileapp2 from "../assets/images/mobileapps.jpeg.jpg";
+import dao from "../assets/images/dao.jpg";
+import dao2 from "../assets/images/dao2.jpg";
 export {
   speclogo,
   people,
-work,
-result,
+  work,
+  result,
   register,
   bg,
   bg2,
@@ -87,4 +117,35 @@ result,
   rodrigo,
   devang,
   kundan,
+  padmini,
+  anirudh,
+  aman,
+  rishab,
+  pratyaksh,
+  gauri,
+  abhisheknautiyal,
+  abhishekraj,
+  chaitanya,
+  aryan,
+  harshita,
+  mukesh,
+  adhishraya,
+  tanuj,
+  polygon,
+  replit,
+  solana,
+  filecoin,
+  fire,
+  ai,
+  ai3,
+  crypto,
+  crypto2,
+  dao,
+  dao2,
+  finance,
+  finance2,
+  mobileapp1,
+  mobileapp2,
+  game,
+  gaming,
 };

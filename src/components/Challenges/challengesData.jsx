@@ -1,3 +1,9 @@
+import polygon from "../../assets/images/polygon.webp.png";
+import replit from "../../assets/images/Replit.webp.png";
+import solana from "../../assets/images/solana.webp.png";
+import filecoin from "../../assets/images/filecoin.webp.png";
+import fire from "../../assets/images/5ire.webp.png";
+
 export const challengesData = [
   {
     desc: [
@@ -7,7 +13,7 @@ export const challengesData = [
     ],
     img: "src/assets/images/polygon.webp.png",
     webp: "sponsors/fullmoon/webp/polygon.webp",
-    link: "https://replit.com/@devfolio/Polygon-Smart-Contract-Template?v=1#README.md",
+    link: polygon,
     prize: ["$ 200", "$ 150"],
     list: "list-decimal px-3",
     key: "polygon",
@@ -20,7 +26,7 @@ export const challengesData = [
     ],
     img: "src/assets/images/Replit.webp.png",
     webp: "sponsors/gibbous/webp/Replit.webp",
-    link: "https://replit.com/@devfolio/Replit-Devfolio-Hackathons?v=1#README.md",
+    link: replit,
     prize: ["$ 50"],
     list: "list-decimal px-3",
     key: "replit",
@@ -31,8 +37,8 @@ export const challengesData = [
       "Microgrants up to 5000 USD, open grants up to 50,000 USD ",
     ],
     img: "src/assets/images/filecoin.webp.png",
-    webp:  "src/assets/images/filecoin.webp.png",
-    link: "https://replit.com/@devfolio/IPFSFilecoin-Template?v=1#README.md",
+    webp: "src/assets/images/filecoin.webp.png",
+    link: filecoin,
     prize: ["$ 250"],
     list: "list-decimal px-3",
     key: "filecoin",
@@ -45,7 +51,7 @@ export const challengesData = [
     ],
     img: "src/assets/images/5ire.webp.png",
     webp: "sponsors/fullmoon/webp/5ire.webp",
-    link: "https://5ire.notion.site/5ireLabs-Build-Track-Hackathons-3b0c51d9c1e346b78722597f68dd6167",
+    link: fire,
     prize: ["$ 250"],
     list: "list-decimal px-3",
     key: "5ire",
@@ -56,7 +62,7 @@ export const challengesData = [
     ],
     img: "src/assets/images/solana.webp.png",
     webp: "sponsors/gibbous/webp/solana.webp",
-    link: "https://replit.com/@devfolio/Solana-Starter?v=1#README.md",
+    link: solana,
     prize: ["$ 500", "$ 250", "$ 100"],
     list: "list-decimal px-3",
     key: "solana",

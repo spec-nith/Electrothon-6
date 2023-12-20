@@ -7,7 +7,7 @@ import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
 import "slick-carousel/slick/slick-theme.css";
-import speakers from "./speakerdata.json";
+import speakers from "./speakerdata.js";
 
 const Card = lazy(() => import("./card.jsx"));
 const Section = styled.div`
