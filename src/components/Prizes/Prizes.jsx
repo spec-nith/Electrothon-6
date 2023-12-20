@@ -42,7 +42,7 @@ const Prize = () => {
         />
       </motion.div>
       <div className="prizes">
-      <div className="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="  block grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div className="second p-4 mx-5">
         <h1 className=" fip lg:text-5xl
         sm:text-4xl text-2xl flex font-bold mb-2 text-white font-[Inter]">
