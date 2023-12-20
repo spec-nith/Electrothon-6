@@ -1,9 +1,6 @@
-import {aditya} from "../../assets/images/aditya.jpg.png";
-import {devang} from "../../assets/images/Devang.jpeg.png";
-import gaurav from "../../assets/images/gaurav.jpg.png";
-import insha from "../../assets/images/insha.jpg.png";
-import kundan from "../../assets/images/kundan.jpeg.png";
-import rodrigo from "../../assets/images/rodrigo.jpeg.png";
+import { aditya, devang, gaurav, insha, kundan, rodrigo } from "../../assets/images";
+ 
+ 
 
 const speakers = [
   {

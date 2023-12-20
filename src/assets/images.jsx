@@ -38,7 +38,7 @@ import support15 from "../assets/images/support15.png";
 import support16 from "../assets/images/support16.png";
 import whysponser1 from "../assets/images/whysponsor1.png";
 import whysponser2 from "../assets/images/whysponser2.png";
-import whysponser3 from "../assets/images/whysponser3.png";
+import whysponser3 from "../assets/images/whysponsor3.png";
  
 import register from "../assets/images/register.svg";
 import people from "../assets/images/people.svg";
