@@ -33,7 +33,7 @@ const Prize = () => {
               <div className="flex justify-center">
                <img src ={prizee}/>
               </div>
-              <div className="text-4xl lg:text-7xl font-bold text-[#DEECE4] my-3 lg:my-4 font-[Inter] ">
+              <div className="looked bg-gradient-to-r from-blue-500 to-yellow-500 text-transparent text-4xl lg:text-7xl font-bold text-[#DEECE4] my-3 lg:my-4 font-[Inter] ">
                 PRIZES
               </div>
             </>

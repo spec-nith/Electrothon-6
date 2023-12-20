@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap);
+.looked {
+  background: linear-gradient(180deg, #29e1ff 0%, #fff61d 100%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .modern-button {
     background-color: linear-gradient( #def200 99.63%);
     width: fit-content;

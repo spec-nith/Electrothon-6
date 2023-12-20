@@ -39,7 +39,7 @@ function Timeline() {
         <TitleText
           title={
             <>
-              <div className="text-2xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
+              <div className="looked text-6xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
               Timeline
                </div>
             </>

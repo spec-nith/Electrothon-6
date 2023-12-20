@@ -39,7 +39,7 @@ function Head() {
         <TitleText
           title={
             <>
-              <div className="headingyo">WITH SUPPORT FROM</div>
+              <div className="looked headingyo">WITH SUPPORT FROM</div>
             </>
           }
         />

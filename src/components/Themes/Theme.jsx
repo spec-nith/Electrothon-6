@@ -26,7 +26,7 @@ function Theme() {
         <TitleText
           title={
             <>
-              <div className="flex justify-start mx-24 text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+              <div className="looked flex justify-start mx-24 text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
  THEMES
                </div>
             </>

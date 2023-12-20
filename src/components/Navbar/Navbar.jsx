@@ -23,15 +23,15 @@ const Navbar = () => {
                 />
               </picture>
       <NavLink to ="/" >
-      <h1 className="text-white font-extrabold sm:font-bold text-md ml-4 sm:text-2xl sm:flex sm:ml-24 md:text-3xl lg:text-4xl xl:text-4xl">ELECTROTHON<br/>RELEVELED</h1>
+      <h1 className="text-white font-extrabold sm:font-bold text-md ml-auto sm:text-2xl sm:flex sm:ml-24 md:text-3xl lg:text-4xl xl:text-4xl">ELECTROTHON<br/>RELEVELED</h1>
 </NavLink>
 <img
-   className='flex ml-auto mr-8 h-[2rem] w-[6rem] sm:h-auto sm:w-64 lg:mr-48 md:w-[8rem] lg:w-64 xl:w-64'
+   className='hidden ml-auto sm:flex sm:h-auto sm:w-64  md:w-[8rem] lg:w-64 xl:w-64'
    src={headerimg}
    alt="header-img"
 />     
    <button
-          className="text-white  cursor-pointer h-1/3"
+          className=" ml-auto sm:ml-0   text-white  cursor-pointer h-1/3"
           onClick={toggleNavbar}
         >
        <AiOutlineMenu size={30}/>

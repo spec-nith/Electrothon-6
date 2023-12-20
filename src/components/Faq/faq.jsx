@@ -35,7 +35,7 @@ export default function Faqs() {
           <TitleText
             title={
               <>
-                <div className="text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+                <div className="looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
                 FREQUENTLY ASKED QUESTION 
                 </div>
               </>

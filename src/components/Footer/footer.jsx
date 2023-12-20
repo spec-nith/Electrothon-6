@@ -1,5 +1,6 @@
 import React from "react";
 import './footer.css';
+ 
 import { useForm } from "@formspree/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -182,7 +183,7 @@ export default function Footer() {
                   <TitleText
                     title={
                       <>
-                        <h2 className="text-4xl lg:text-7xl font-bold text-[#8471ae] my-4 lg:my-6 font-[Oswald] ">
+                        <h2 className="looked text-4xl lg:text-7xl font-bold text-[#8471ae] my-4 lg:my-6 font-[Oswald] ">
                           Lets talk about everything!
                         </h2>
                       </>
@@ -243,7 +244,7 @@ export default function Footer() {
             <TitleText
               title={
                 <>
-                  <span className="text-4xl lg:text-6xl font-bold text-[#def200] my-4 lg:my-6 font-[Oswald] ">
+                  <span className="looked text-4xl lg:text-6xl font-bold text-[#def200] my-4 lg:my-6 font-[Oswald] ">
                     Lets talk about everything!
                   </span>
                 </>

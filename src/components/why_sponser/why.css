@@ -5,10 +5,4 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
-  font-family: Inter;
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px; /* 109.091% */
 }

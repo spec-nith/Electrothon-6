@@ -5,20 +5,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 75px;
 }
 .about-description {
   color: #fff;
-  font-family: Roboto;
-  font-size: 26.9px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 40.32px;
+  font-family:Arial, Helvetica, sans-serif;
+ 
 }
 .yum {
   max-width: 836px;

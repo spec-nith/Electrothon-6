@@ -32,7 +32,7 @@ const SpeakersNew = () => {
         <TitleText
           title={
             <>
-              <div className="text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+              <div className="looked text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
                 Previous Speakers
               </div>
             </>

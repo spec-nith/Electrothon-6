@@ -19,7 +19,7 @@ const Challenges = () => {
         <TitleText
           title={
             <>
-              <div className="text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6 font-[Oswald] mb-16">
+              <div className=" looked text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6 font-[Oswald] mb-16">
                 Challenges
               </div>
             </>

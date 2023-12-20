@@ -33,7 +33,7 @@ function Home() {
           <Navbar />
 
           <div className="relative z-0">
-            <StarsCanvas />
+            <div className=""><StarsCanvas /></div>
             <Hero />
           </div>
 

@@ -44,7 +44,7 @@ const Timer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center w-full text-white">
           <div className="flex md:flex-col">
-            <div className="counter-cell mb-4 md:mb-0">
+            <div className="counter-cell flex flex-col justify-between mb-4 md:mb-0">
               <span className="text-2xl md:text-6xl lg:text-7xl subhead-theme">
                 {timerDays}
               </span>
