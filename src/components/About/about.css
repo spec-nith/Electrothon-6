@@ -21,3 +21,15 @@
   display: flex;
   align-items: center;
 } */
+.cham
+{
+  animation: moveUpDow 2s ease-in-out infinite!important;
+}
+@keyframes moveUpDow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(12px);  
+  }
+}

@@ -49,7 +49,7 @@ const AboutSection = () => {
         <img
           src={chamkadar}
           alt="About Image"
-          className="self-center  w-full h-auto object-cover"
+          className=" cham self-center  w-full h-auto object-cover"
         />
       </motion.div>
 
@@ -64,7 +64,7 @@ const AboutSection = () => {
         <img
           src={chamkadar} // Replace with your actual image source
           alt="About Image"
-          className="w-full h-full object-cover"
+          className=" cham w-full h-full object-cover"
         />
       </motion.div>
     </div>
