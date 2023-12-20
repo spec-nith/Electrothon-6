@@ -60,10 +60,10 @@ line-height: 75px;
 }
 @media screen and (max-width: 1288px)
 {
-    .header
+    /* .header
     {
         margin-left: 5rem;
-    }
+    } */
     .head
     {
         line-height: 20px;
