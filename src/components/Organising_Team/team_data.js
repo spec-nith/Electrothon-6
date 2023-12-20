@@ -1,4 +1,4 @@
-import { padmini } from "../../assets/images";
+import { chaitnaya, padmini } from "../../assets/images";
 import { anirudh } from "../../assets/images";
 import { aman } from "../../assets/images";
 import { adhishraya } from "../../assets/images";
@@ -11,7 +11,7 @@ import { mukesh } from "../../assets/images";
 import { pratyaksh } from "../../assets/images";
 import { rishab } from "../../assets/images";
 import { tanuj } from "../../assets/images";
-import { Chaitanya } from "../../assets/images";
+ 
 export const organizers = [
   {
     name: "Bhucheti Naga Padmini",
@@ -70,7 +70,7 @@ export const organizers = [
   {
     name: "Chaitanya Kohli",
     post: "Marketing Lead",
-    img: Chaitanya,
+    img: chaitnaya,
     link: "linkedin.com/in/chaitanyakohli",
   },
   {
