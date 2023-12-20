@@ -52,13 +52,13 @@ import adhishraya from "../assets/images/adhishraya.jpg";
 import abhi from "../assets/images/abhisheknautial.jpg";
 import abhishekraj from "../assets/images/abhishekraj.jpg";
 import aryan from "../assets/images/Aryanprasher.jpg";
-import chaitanya from "../assets/images/chaitanyakohlinew.jpg";
 import gauri from "../assets/images/gaurikaushal.jpg";
 import harshita from "../assets/images/harshitabhatia.jpg";
 import mukesh from "../assets/images/mukeshsinghrajput.jpg";
 import pratyaksh from "../assets/images/pratyaksh.jpg";
 import rishab from "../assets/images/rishab.jpeg";
 import tanuj from "../assets/images/Tanuj.jpg";
+import chaitnaya from "../assets/images/chaitanyakohlinew.jpg"
  
 
 import polygon from "../assets/images/polygon.webp.png";
@@ -133,7 +133,7 @@ export {
   gauri,
   abhi,
   abhishekraj,
-  chaitanya,
+ chaitnaya,
   aryan,
   harshita,
   mukesh,
