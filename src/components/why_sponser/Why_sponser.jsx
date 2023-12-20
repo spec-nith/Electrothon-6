@@ -43,7 +43,7 @@ export default function Why_sponser() {
         <div className="text-xl mt-2"><Design_copmponent /></div>
         </div>
          
-        <div className="flex flex-row w-full justify-between">
+        <div className=" spo flex flex-row w-full justify-between">
   <NumberCounter number={500} data={"Developers "} img={whysponser1} />
   <NumberCounter number={100} data={"Projects"} img={whysponser2} />
   <NumberCounter number={50} data={"Sponsors"} img={whysponser3} />

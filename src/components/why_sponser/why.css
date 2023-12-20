@@ -6,3 +6,48 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media screen and (min-width: 400px) {
+  .spo > * {
+    box-shadow: 5px 3px 10px rgba(150, 149, 149, 0.5);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+}
+@media screen and (max-width: 400px) {
+  .spo > * {
+    box-shadow: 1px 2px 5px rgba(150, 149, 149, 0.5);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+}
+  
+
+
+.spo > *:hover {
+
+   animation: moveUpDown 2s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);  
+  }
+}
+.spo > *:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: brightness(2.5); 
+}
+.spo > *:nth-child(1):hover {
+  color: hsl(0, 75%, 68%); 
+}
+
+.spo > *:nth-child(2):hover {
+ 
+  color: #b4b282; 
+}
+
+.spo > *:nth-child(3):hover {
+  
+  color: #d7e544; 
+}
