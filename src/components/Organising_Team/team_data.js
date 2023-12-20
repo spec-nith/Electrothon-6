@@ -1,101 +1,101 @@
-import padmini from "../../assets/images/bhucheti naga padmini.jpg";
-import anirudh from "../../assets/images/Anirudhattri.jpg";
-import aman from "../../assets/images/amanasrani.jpg";
-import adhishraya from "../../assets/images/adhishraya.jpg";
-import abhisheknautiyal from "../../assets/images/abhisheknautial.jpg";
-import abhishekraj from "../../assets/images/abhishekraj.jpg";
-import aryan from "../../assets/images/Aryanprasher.jpg";
-import chaitanya from "../../assets/images/chaitanyakohli.jpg";
-import gauri from "../../assets/images/gaurikaushal.jpg";
-import harshita from "../../assets/images/harshitabhatia.jpg";
-import mukesh from "../../assets/images/mukeshsinghrajput.jpg";
-import pratyaksh from "../../assets/images/pratyaksh.jpg";
-import rishab from "../../assets/images/rishab.jpeg";
-import tanuj from "../../assets/images/Tanuj.jpg";
+import { padmini } from "../../assets/images";
+import { anirudh } from "../../assets/images";
+import { aman } from "../../assets/images";
+import { adhishraya } from "../../assets/images";
+import { abhi } from "../../assets/images";
+import { abhishekraj } from "../../assets/images";
+import { aryan } from "../../assets/images";
+import { chaitanya } from "../../assets/images";
+import { gauri } from "../../assets/images";
+import { harshita } from "../../assets/images";
+import { mukesh } from "../../assets/images";
+import { pratyaksh } from "../../assets/images";
+import { rishab } from "../../assets/images";
+import { tanuj } from "../../assets/images";
 
 export const organizers = [
   {
     name: "Bhucheti Naga Padmini",
-    img: "src/assets/images/bhucheti naga padmini.jpg",
+    img: padmini,
     post: "President",
-    link: padmini,
+    link: "linkedin.com/in/nagapadmini",
   },
   {
     name: "Anirudh Attri",
-    img: "src/assets/images/Anirudhattri.jpg",
+    img: anirudh,
     post: "Vice President",
-    link: anirudh,
+    link: "linkedin.com/in/anirudh-attri-0a5107205",
   },
   {
     name: "Tanuj Khanna",
     post: "Technical Lead",
-    img: "src/assets/images/Tanuj.jpg",
-    link: tanuj,
+    img: tanuj,
+    link: "linkedin.com/in/tanuj-khanna-18a587229",
   },
   {
     name: "Abhishek Nautial",
     post: "Treasurer",
-    img: "src/assets/images/abhisheknautial.jpg",
-    link: abhisheknautiyal,
+    img: abhi,
+    link: "linkedin.com/in/abhinauti",
   },
   {
     name: "Aman Asrani",
     post: "Internal Affairs Secretary",
-    img: "src/assets/images/amanasrani.jpg",
-    link: aman,
+    img: aman,
+    link: "linkedin.com/in/aman-asrani-81ab0b223",
   },
   {
     name: "Aryan Prasher",
     post: "UI/UX Lead",
-    img: "src/assets/images/Aryanprasher.jpg",
-    link: aryan,
+    img: aryan,
+    link: "linkedin.com/in/aryan-prasher",
   },
   {
     name: "Adhishraya Sharma",
     post: "Web Development Lead",
-    img: "src/assets/images/adhishraya.jpg",
-    link: adhishraya,
+    img: adhishraya,
+    link: "linkedin.com/in/adhishraya-sharma-55000b229",
   },
   {
     name: "Abhishek Raj",
     post: "Web Development Lead",
-    img: "src/assets/images/abhishekraj.jpg",
-    link: abhishekraj,
+    img: abhishekraj,
+    link: "linkedin.com/in/abhishek-raj-870050224",
   },
   {
     name: "Rishabh Pal",
     post: "Treasurer",
-    img: "src/assets/images/rishab.jpeg",
-    link: rishab,
+    img: rishab,
+    link: "linkedin.com/in/rishabh-pal25",
   },
   {
     name: "Chaitanya Kohli",
     post: "Marketing Lead",
-    img: "src/assets/images/chaitanyakohli.jpg",
-    link: chaitanya,
+    img: chaitanya,
+    link: "linkedin.com/in/chaitanyakohli",
   },
   {
     name: "Gauri Kaushal",
     post: "Developer Relations",
-    img: "src/assets/images/gaurikaushal.jpg",
-    link: gauri,
+    img: gauri,
+    link: "linkedin.com/in/gauri-kaushal-61b588229",
   },
   {
     name: "Harshita Bhatia",
     post: "External Affairs Secretary",
-    img: "src/assets/images/harshitabhatia.jpg",
-    link: harshita,
+    img: harshita,
+    link: "linkedin.com/in/harshita-bhatia-7b7782215",
   },
   {
     name: "Mukesh Singh Rajput",
     post: "Web Development Lead",
-    img: "src/assets/images/mukeshsinghrajput.jpg",
-    link: mukesh,
+    img: mukesh,
+    link: "linkedin.com/in/mukesh1150935",
   },
   {
     name: "Pratyaksh Saini",
     post: "Technical Lead",
-    img: "src/assets/images/pratyaksh.jpg",
-    link: pratyaksh,
+    img: pratyaksh,
+    link: "linkedin.com/in/pratyaksh14",
   },
 ];

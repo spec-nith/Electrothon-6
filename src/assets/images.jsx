@@ -46,8 +46,8 @@ import padmini from "../assets/images/bhucheti naga padmini.jpg";
 import anirudh from "../assets/images/Anirudhattri.jpg";
 import aman from "../assets/images/amanasrani.jpg";
 import adhishraya from "../assets/images/adhishraya.jpg";
-import abhisheknautiyal from "../assets/images/abhisheknautial.jpg";
-import abhishekraj from "../assets/images/abhisheknautial.jpg";
+import abhi from "../assets/images/abhisheknautial.jpg";
+import abhishekraj from "../assets/images/abhishekraj.jpg";
 import aryan from "../assets/images/Aryanprasher.jpg";
 import chaitanya from "../assets/images/chaitanyakohli.jpg";
 import gauri from "../assets/images/gaurikaushal.jpg";
@@ -74,6 +74,7 @@ import mobileapp1 from "../assets/images/mobileapps .png";
 import mobileapp2 from "../assets/images/mobileapps.jpeg.jpg";
 import dao from "../assets/images/dao.jpg";
 import dao2 from "../assets/images/dao2.jpg";
+
 export {
   speclogo,
   people,
@@ -123,7 +124,7 @@ export {
   rishab,
   pratyaksh,
   gauri,
-  abhisheknautiyal,
+  abhi,
   abhishekraj,
   chaitanya,
   aryan,
