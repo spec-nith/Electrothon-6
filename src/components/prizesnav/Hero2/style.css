@@ -58,12 +58,12 @@ line-height: 75px;
     }
     
 }
-@media screen and (max-width: 1288px)
+@media screen and (min-width: 768px) and (max-width: 1288px)
 {
-    /* .header
+    .header
     {
         margin-left: 5rem;
-    } */
+    }
     .head
     {
         line-height: 20px;
