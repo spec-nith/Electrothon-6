@@ -5,14 +5,13 @@ import { adhishraya } from "../../assets/images";
 import { abhi } from "../../assets/images";
 import { abhishekraj } from "../../assets/images";
 import { aryan } from "../../assets/images";
-import { chaitanya } from "../../assets/images";
 import { gauri } from "../../assets/images";
 import { harshita } from "../../assets/images";
 import { mukesh } from "../../assets/images";
 import { pratyaksh } from "../../assets/images";
 import { rishab } from "../../assets/images";
 import { tanuj } from "../../assets/images";
-
+import { Chaitanya } from "../../assets/images";
 export const organizers = [
   {
     name: "Bhucheti Naga Padmini",
@@ -33,7 +32,7 @@ export const organizers = [
     link: "linkedin.com/in/tanuj-khanna-18a587229",
   },
   {
-    name: "Abhishek Nautial",
+    name: "Abhishek Nautiyal",
     post: "Treasurer",
     img: abhi,
     link: "linkedin.com/in/abhinauti",
@@ -71,7 +70,7 @@ export const organizers = [
   {
     name: "Chaitanya Kohli",
     post: "Marketing Lead",
-    img: chaitanya,
+    img: Chaitanya,
     link: "linkedin.com/in/chaitanyakohli",
   },
   {

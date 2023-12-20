@@ -52,14 +52,13 @@ import adhishraya from "../assets/images/adhishraya.jpg";
 import abhi from "../assets/images/abhisheknautial.jpg";
 import abhishekraj from "../assets/images/abhishekraj.jpg";
 import aryan from "../assets/images/Aryanprasher.jpg";
-import chaitanya from "../assets/images/chaitanyakohli.jpg";
 import gauri from "../assets/images/gaurikaushal.jpg";
 import harshita from "../assets/images/harshitabhatia.jpg";
 import mukesh from "../assets/images/mukeshsinghrajput.jpg";
 import pratyaksh from "../assets/images/pratyaksh.jpg";
 import rishab from "../assets/images/rishab.jpeg";
 import tanuj from "../assets/images/Tanuj.jpg";
- 
+import Chaitanya from "../assets/images/Chaitanya.jpg";
 
 import polygon from "../assets/images/polygon.webp.png";
 import replit from "../assets/images/Replit.webp.png";
@@ -133,7 +132,6 @@ export {
   gauri,
   abhi,
   abhishekraj,
-  chaitanya,
   aryan,
   harshita,
   mukesh,
@@ -156,4 +154,5 @@ export {
   mobileapp2,
   game,
   gaming,
+  Chaitanya,
 };
