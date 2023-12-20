@@ -1,21 +1,3 @@
-// // import { support1 } from "../../assets/
-// import { support1 } from "../../assets/images";
-// import { support2 } from "../../assets/images";
-// import { support3 } from "../../assets/images";
-// import { support4 } from "../../assets/images";
-// import { support5 } from "../../assets/images";
-// import { support6 } from "../../assets/images";
-// import { support7 } from "../../assets/images";
-// import { support8 } from "../../assets/images";
-// import { support9 } from "../../assets/images";
-// import { support10 } from "../../assets/images";
-// import { support11 } from "../../assets/images";
-// import { support12 } from "../../assets/images";
-// import { support13 } from "../../assets/images";
-// import { support14 } from "../../assets/images";
-// import { support15 } from "../../assets/images";
-// import { support16 } from "../../assets/images";
-
 import { support1 } from "../../assets/images";
 import { support2 } from "../../assets/images";
 import { support4 } from "../../assets/images";
