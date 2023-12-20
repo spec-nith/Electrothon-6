@@ -19,7 +19,7 @@ export const organizers = [
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
     },
     {
-      name: "Abhishek Nautial",
+      name: "Abhishek Nautiyal",
       post: "Treasurer", 
       img: "src/assets/images/abhisheknautial.jpg",
       link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",
