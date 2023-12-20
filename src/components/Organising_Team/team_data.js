@@ -33,7 +33,7 @@ export const organizers = [
     link: "linkedin.com/in/tanuj-khanna-18a587229",
   },
   {
-    name: "Abhishek Nautial",
+    name: "Abhishek Nautiyal",
     post: "Treasurer",
     img: abhi,
     link: "linkedin.com/in/abhinauti",

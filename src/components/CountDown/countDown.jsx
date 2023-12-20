@@ -1,4 +1,5 @@
- import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import "./Count.css"
 
 const Timer = () => {
   const [timerDays, setTimerDays] = useState("--");
@@ -44,52 +45,49 @@ const Timer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center w-full text-white">
           <div className="flex md:flex-col">
-            <div className="counter-cell flex flex-col justify-between mb-4 md:mb-0">
-              <span className="text-2xl md:text-6xl lg:text-7xl subhead-theme">
+            <div className="counter-cell justify-between mb-4 md:mb-0">
+              <span className="md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {timerDays}
               </span>
               <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
+                className="con w-full text-center p-1.5  md:text-xl rounded-b-lg"
                 style={{ backgroundColor: "#1b141c" }}
               >
                 <span className="text-sm">Days</span>
               </div>
             </div>
-            <div className="divider md:hidden">:</div>
-            <span className="hidden md:block  md:text-8xl md:px-2 pt-4">:</span>
+            <div className="divider">:</div>
+  
             <div className="counter-cell mb-4 md:mb-0">
-              <span className="text-2xl md:text-6xl lg:text-7xl subhead-theme">
+              <span className=" md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {("0" + timerHours).slice(-2)}
               </span>
               <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
+                className="con w-full text-center p-1.5  md:text-xl rounded-b-lg"
                 style={{ backgroundColor: "#1b141c" }}
               >
                 <span className="text-sm">Hours</span>
               </div>
             </div>
-            <div className="divider md:hidden">:</div>
-            <span className="hidden md:block  md:text-8xl md:px-2 pt-4">:</span>
-            <div className="counter-cell mb-4 md:mb-0"
-            >
-              <span className="text-2xl md:text-6xl lg:text-7xl subhead-theme">
+            <div className="divider ">:</div>
+             <div className="counter-cell mb-4 md:mb-0">
+              <span className=" md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {("0" + timerMinutes).slice(-2)}
               </span>
               <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
+                className="con w-full text-center p-1.5   md:text-xl rounded-b-lg"
                 style={{ backgroundColor: "#1b141c" }}
               >
                 <span className="text-sm">Minutes</span>
               </div>
             </div>
-            <div className="divider md:hidden">:</div>
-            <span className="hidden md:block  md:text-8xl md:px-2 pt-4">:</span>
-            <div className="counter-cell">
-              <span className="text-2xl md:text-6xl lg:text-7xl subhead-theme">
+            <div className="divider ">:</div>
+             <div className="counter-cell">
+              <span className=" md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {("0" + timerSeconds).slice(-2)}
               </span>
               <div
-                className=" w-full text-center p-1.5 md:p-3 md:text-xl rounded-b-lg"
+                className="con w-full text-center p-1.5  md:text-xl rounded-b-lg"
                 style={{ backgroundColor: "#1b141c" }}
               >
                 <span className="text-sm">Seconds</span>

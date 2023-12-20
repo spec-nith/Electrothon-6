@@ -1,0 +1,122 @@
+@media screen and (max-width: 640px) {
+    #timer .counter-cell span {
+      font-size: 1.5rem;
+    }
+  
+    #timer .counter-cell .text-sm {
+      font-size: 0.75rem;
+    }
+  
+    #timer .divider {
+      display: 1rem;
+    }
+  
+    #timer .hidden.md\:block {
+      font-size: 2rem;
+    }
+ 
+  }
+  
+  @media screen and (min-width: 641px) and (max-width: 768px) {
+    #timer .counter-cell span {
+      font-size: 2rem;
+    }
+  
+    #timer .counter-cell .text-sm {
+      font-size: 1rem;
+    }
+  
+    #timer .divider {
+      display: 1rem;
+    }
+  
+    #timer .hidden.md\:block {
+      font-size: 3rem;
+    }
+  
+    #timer .con {
+      margin: 0.1rem;
+      padding: 0.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 824px) {
+    #timer .counter-cell span {
+      font-size: 1.5rem;
+    }
+  
+    #timer .counter-cell .text-sm {
+      font-size: 1rem;
+    }
+  
+    #timer .divider {
+      font-size: 1.5rem;
+    }
+  
+    #timer .con {
+      
+      padding: 0.3rem;
+    }
+  }
+  
+  @media screen and (min-width: 825px) and (max-width: 1024px) {
+    #timer .counter-cell span {
+      font-size: 2rem;
+    }
+  
+    #timer .counter-cell .text-sm {
+      font-size: 1rem;
+    }
+  
+    #timer .divider {
+      font-size: 2rem;
+    }
+  
+    #timer .hidden.md\:block {
+      font-size: 3rem;
+    }
+  
+    #timer .con {    
+      padding: 0.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    #timer .counter-cell span {
+      font-size: 3rem;
+    }
+  
+    #timer .counter-cell .text-sm {
+      font-size: 1.5rem;
+    }
+  
+    #timer .hidden.md\:block {
+      font-size: 5rem;
+    }
+  
+    #timer .divider {
+      font-size: 3.5rem;
+    }
+    #timer .con {    
+        padding: 0.8rem;
+      }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    #timer .counter-cell span {
+      font-size: 3.5rem;
+    }
+  
+    #timer .counter-cell .text-sm {
+      font-size: 1.75rem;
+    }
+  
+    #timer .divider {
+      font-size: 4rem;
+    }
+    #timer .con {    
+        margin:0.1rem;
+        padding: 1rem;
+      }
+  }
+  

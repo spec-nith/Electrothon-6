@@ -24,10 +24,10 @@ const Hero = () => {
         Join electrothon relevel organized by SPEC NITH to create one of your
 coolest project and network with crazy-minded people
         </p>
-        <div>
+         
             <Timer/>
-        </div>
-        <div className="hidden">
+       
+        <div className="sm:hidden">
         <SpellCanvas/>
         </div>
       </div>

@@ -34,7 +34,7 @@ const Gallery = ({ activeTab }) => {
             />
           </div>
           {/* 3rd div - Image */}
-          <div className='flex justify-center items-center '>
+          <div className='hidden sm:flex justify-center items-center '>
             <img
               src={data.img2}
               alt={`Image 2`}
@@ -43,9 +43,9 @@ const Gallery = ({ activeTab }) => {
             />
           </div>
           {/* 4th div - Text */}
-          <div className="py-4 mt-4 text-white">
+          <div className="py-4 mt-4 flex flex-col mx-8 sm:mx-0 justify-center text-white">
           <Design_copmponent/>
-          <h1 className='font-bold pb-8  '>PRIZES</h1>
+          <h1 className='font-bold pb-8'>PRIZES</h1>
             <p className="text-white">{data.prize_amt}</p>
           </div>
         </div>

@@ -59,6 +59,14 @@ const Navbar = () => {
               transition={{ duration: 0.5, ease: [0.6, 0.05, 0.01, 0.9] }}
             >
               <ul className="text-white font-bold text-lg lg:text-6xl ">
+              <motion.li
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  className="mb-4 lg:mb-6"
+                >
+               <NavLink to="/">HOME</NavLink>
+                </motion.li>
                 <motion.li
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
