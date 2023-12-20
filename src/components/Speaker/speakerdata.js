@@ -49,6 +49,7 @@ const speakers = [
     registerDate: "2022-02-14T12:00:00.000+05:30",
     registerLink: "https://forms.gle/54TX1tPNr3JVciUU9",
   },
+
   {
     name: "Kundan Singh",
     image: kundan,

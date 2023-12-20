@@ -1,16 +1,16 @@
 import { phy_demo, phy_l_demo } from "../../assets/images";
-import { ai } from "../../assets/images/ai.jpeg.jpg";
-import { ai3 } from "../../assets/images/ai3.jpeg";
-import { crypto } from "../../assets/images/crypto.jpeg.jpg";
-import { crypto2 } from "../../assets/images/crypto2.jpeg.jpg";
-import { finance } from "../../assets/images/finance.png";
-import { finance2 } from "../../assets/images/finance2.jpeg.jpg";
-import { game } from "../../assets/images/game.jpg";
-import { gaming } from "../../assets/images/gaming.jpeg.jpg";
-import { mobileapp1 } from "../../assets/images/mobileapps .png";
-import { mobileapp2 } from "../../assets/images/mobileapps.jpeg.jpg";
-import { dao } from "../../assets/images/dao.jpg";
-import { dao2 } from "../../assets/images/dao2.jpg";
+import { ai } from "../../assets/images";
+import { ai3 } from "../../assets/images";
+import { crypto } from "../../assets/images";
+import { crypto2 } from "../../assets/images";
+import { finance } from "../../assets/images";
+import { finance2 } from "../../assets/images";
+import { game } from "../../assets/images";
+import { gaming } from "../../assets/images";
+import { mobileapp1 } from "../../assets/images";
+import { mobileapp2 } from "../../assets/images";
+import { dao } from "../../assets/images";
+import { dao2 } from "../../assets/images";
 
 export const tabData = [
   [
