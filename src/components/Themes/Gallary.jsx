@@ -29,7 +29,7 @@ const Gallery = ({ activeTab }) => {
             <img
               src={data.img1}
               alt={`Image 1`}
-              className=" object-contain"
+              className="imgboc object-contain"
               style={{ maxWidth: '100%', maxHeight: '100%' }}
             />
           </div>
@@ -38,7 +38,7 @@ const Gallery = ({ activeTab }) => {
             <img
               src={data.img2}
               alt={`Image 2`}
-              className=" object-contain"
+              className=" imgboc object-contain"
               style={{ maxWidth: '100%', maxHeight: '100%' }}
             />
           </div>
