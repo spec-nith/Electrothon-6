@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rock+Salt&display=swap');
+.looked{
+  background: linear-gradient(180deg, #29e1ff 0%, #fff61d 100%);
+  font-family: Inter;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .bloop {
     margin-bottom: 3%;
     
@@ -37,6 +45,7 @@
   {
     box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.5); 
     transition: all 0.5s ease;
+    border-radius: 10%;
 }
 .imgboc:hover
 {
