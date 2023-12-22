@@ -2,7 +2,7 @@
 import "./hero.css";
 import Timer from "../CountDown/countDown";
 import MagicCanvas from "../../canvas/Magic_stand";
-
+import Button from "..//prizesnav/button/button";
 import CrookCanvas from "../../canvas/Croo_k";
 import SpellCanvas from "../../canvas/Spell";
 import Sidebar from "../Sidebar/Sidebar";
@@ -24,12 +24,13 @@ const Hero = () => {
 
         {/* Content Container */}
         <div className=" header absolute top-0 z-10 text-center p-8">
-      <h1 className="head">ACROSS COUNTRY HACKATHON</h1>
+      
         <h1 className="head2">ELECTROTHON RELEVELED</h1>
-        <p className="text-lg text-gray-600">
-        Join electrothon relevel organized by SPEC NITH to create one of your
-coolest project and network with crazy-minded people
+        <p className="rakhu">
+        Sorcerers of Cipher
         </p>
+        <h1 className="headk">Applications Open</h1>
+        <Button />
          
             <Timer/>
        
