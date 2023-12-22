@@ -28,7 +28,8 @@ function Timeline() {
   let WorkIconStyles = {background : "#a6aba7"}
   return (
     <div>
-      <div className="flex justify-center text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald] ">
+      <div className="flex justify-center text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald] "
+      id= "schedule">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

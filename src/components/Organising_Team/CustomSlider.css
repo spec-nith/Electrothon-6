@@ -1,0 +1,37 @@
+/* CustomSlider.css */
+.custom-slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .custom-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .custom-slide {
+    min-width: 100%;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #3490dc;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .next-button {
+    right: 0;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover {
+    background-color: #2779bd;
+  }
+  

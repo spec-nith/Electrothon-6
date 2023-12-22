@@ -5,14 +5,20 @@ import MagicCanvas from "../../canvas/Magic_stand";
 
 import CrookCanvas from "../../canvas/Croo_k";
 import SpellCanvas from "../../canvas/Spell";
-import SpiritCanvas from "../../canvas/Spirit";
+import Sidebar from "../Sidebar/Sidebar";
+import LeftSidebar from "../Left_sidebar/LeftSidebar";
+ 
+ 
+ 
 
 const Hero = () => {
   return (
     <>
       <div className="flex w-full h-full z-[20] items-center justify-center min-h-screen bg-transparent relative">
+       <LeftSidebar/>
+      <Sidebar/>
         {/* left */}
-        <div className="hidden sm:block absolute left-0 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50">
+        <div className="hidden sm:block absolute left-20 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50">
           <CrookCanvas/>
         </div>
 
@@ -27,13 +33,16 @@ coolest project and network with crazy-minded people
          
             <Timer/>
        
-        <div className="sm:hidden">
+        <div className="sm:hidden w-full flex flex-col justify-center items-center">
+        <div style={{width:"70%"}}>
         <SpellCanvas/>
         </div>
+        </div>
+        
       </div>
-
+ 
         {/* right */}
-        <div className="hidden sm:block absolute top-0 right-0 h-full w-1/4">
+        <div className="hidden sm:block absolute top-0 right-16 h-full w-1/4">
           <MagicCanvas />
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import CanvasLoader from "../components/Loader";
+import CanvasLoader from "../components/Canvas_Loader/Loader";
 
 const Computers = ({ isMobile , isTablet}) => {
   const computer = useGLTF("./webstand.glb");
@@ -40,8 +40,8 @@ const Computers = ({ isMobile , isTablet}) => {
 
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : isTablet ? 8 : 10}
-        position={isMobile ? [0, -3, -2.5] : isTablet ? [0, -6, 0] : [0, -5, 0]}
+        scale={isMobile ? 0.7 : isTablet ? 8 : 8}
+        position={isMobile ? [0, -3, -2.5] : isTablet ? [0, -6, 0] : [0, -5.35, 0]}
         rotation={[0, -1, 0]} 
       />
     </mesh>

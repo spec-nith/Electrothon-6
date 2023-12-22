@@ -11,8 +11,8 @@ import { mukesh } from "../../assets/images";
 import { pratyaksh } from "../../assets/images";
 import { rishab } from "../../assets/images";
 import { tanuj } from "../../assets/images";
- 
-export const organizers = [
+
+export const Lead_Organizers =[
   {
     name: "Bhucheti Naga Padmini",
     img: padmini,
@@ -24,7 +24,10 @@ export const organizers = [
     img: anirudh,
     post: "Vice President",
     link: "linkedin.com/in/anirudh-attri-0a5107205",
-  },
+  }
+]
+
+export const organizers = [
   {
     name: "Tanuj Khanna",
     post: "Technical Lead",

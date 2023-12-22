@@ -25,7 +25,7 @@ const FlippingCard = ({ data, isFlipped, onCardClick }) => {
             <p>{data.post}</p>
           </div>
         </div>
-        <div className="back p-4 flex flex-col justify-between">
+        <div className="z-[-5] back p-4 flex flex-col justify-between">
           <picture className='h-3/4'>
             <img
               className='h-3/4 w-full'

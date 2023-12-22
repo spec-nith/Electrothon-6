@@ -1,13 +1,17 @@
- // bgstatic.js
-import React from 'react';
-import { bg3 } from '../../assets/images';
+import React from "react";
+import { bg3 } from "../../assets/images";
 
-const BackgroundStatic = () => {
+const BgStatic = () => {
   return (
-  <picture className='z-[-5] block '>
-      <img className="object-cover w-screen h-[100vh]" src={bg3} alt="Background" />
-      </picture>
+    <picture className="block fixed z-[-5] opacity-[0.4]">
+      
+      <img
+        className="object-cover w-screen h-[105vh]"
+         src={bg3}
+        alt="hero-bg"
+      />
+    </picture>
   );
 };
 
-export default BackgroundStatic;
+export default BgStatic;
