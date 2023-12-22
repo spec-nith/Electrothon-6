@@ -1,17 +1,29 @@
-@media screen and (max-width: 840px) {
-    body {
-      font-size: 10px;
-    }
-    .let
-    {
-      width: 10rem;
-      height: 5rem;
-    }
+@media screen and (min-width: 425px) and (max-width: 840px) {
+  body {
+    font-size: 10px;
+  }
+  .let {
+    width: 10rem;
+    height: 5rem;
+  }
+  .txt {
+    font-size: 15px;
+  }
+}
+
+  @media screen and (max-width: 425px) {
     .txt
     {
-      font-size: 15px;
+      font-size: 7px;
+      .let
+    {
+      width: 2rem;
+      height: 1rem ;
+    }
     }
   }
+
+
   
   .let {
     position: relative;
