@@ -7,21 +7,19 @@ import Carousel from "../../carousel/carousel";
 import Heading from "../header/header";
 import Footer from "../../Footer/footer";
 import Sponser from "../oursponser/sponser";
-import Navbar from "../../Navbar/Navbar";
  
-function App() {
+import Sidebar from "../../Sidebar/Sidebar";
+import LeftSidebar from "../../Left_sidebar/LeftSidebar";
+ 
+function Sponsers() {
   return (
     <>
-      <div className="relative z-0 bg-primary">
+      <div className="relative bg-primary" id="sponsers_n">
         <div className="bg-black bg-cover bg-no-repeat bg-center">
-          <div className="relative z-0">
-           <Navbar/>
-            <Hero />
-            <Heading />
+          <div className="relative ">
+ <Heading/>
             <Sponser />
-            <Cards />
-            <Carousel />
-            <Footer />
+          
           </div>
         </div>
       </div>
@@ -29,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default Sponsers;

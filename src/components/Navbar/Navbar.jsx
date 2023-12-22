@@ -15,6 +15,7 @@ const Navbar = () => {
     <nav className="bg-black p-4 relative w-full overflow-hidden">
    
       <div className="flex flex-row container mx-auto">
+ 
       <picture style={{width:"20%"}}>
                  <img
                   className=" flex w-16 md:w-32 md:mr-4"
@@ -22,6 +23,7 @@ const Navbar = () => {
                   alt="spec_logo"
                 />
               </picture>
+             
       <NavLink to ="/" >
       <h1 className="text-white font-extrabold sm:font-bold text-md ml-auto sm:text-2xl sm:flex sm:ml-24 md:text-3xl lg:text-4xl xl:text-4xl">ELECTROTHON<br/>RELEVELED</h1>
 </NavLink>

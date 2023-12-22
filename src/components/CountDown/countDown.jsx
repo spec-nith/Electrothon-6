@@ -41,11 +41,12 @@ const Timer = () => {
   }, []);
 
   return (
-    <section id="timer" className="relative lg:mt-8 mt-16">
-      <div className="container mx-auto">
-        <div className="flex flex-col items-center w-full text-white">
-          <div className="flex md:flex-col">
-            <div className="counter-cell justify-between mb-4 md:mb-0">
+    <section id="timer" className="relative overflow-hidden lg:mt-8 mt-16">
+    <div className="container mx-auto">
+      <div className="flex flex-col items-center w-full text-white">
+ 
+        <div className="flex md:items-stretch md:p-10">
+          <div className="flex flex-col items-center counter-cell w-18r md:w-32">
               <span className="md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {timerDays}
               </span>

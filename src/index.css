@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family:   "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ 
+  }
+  
+  code {
+    font-family: "Courier New",
+      monospace;
+  }
+  
+  /* @media only screen and (min-width: 768px) { */
+  .hero-background {
+    clip-path: polygon(7vw 0, 100% 0, calc(100% - 7vw) 100%, 0 100%);
+  }
+  .hero-container {
+    clip-path: polygon(7vw 0, 100% 0, 100% 100%, 0 100%);
+    /* transform: translate(4.2rem, 0); */
+  }
+  .track-text-outline{
+    float: left;
+    opacity: 0;
+    /* shape-outside: polygon(0 0, 0 0, 100% 100%, 0 100%); */
+    /* shape-outside: polygon(10% 0%, 50% 80%, 00% 100%, 10.1% 100%); */
+    shape-outside: polygon(0% 20%, 30% 80%, 0% 0%, 45.1% 100%);
+    clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%);
+  }
+  @media only screen and (max-width:900px){
+    .track-text-outline{
+      shape-outside: polygon(0 0, 0 0, 0 0,0 0);
+      clip-path: polygon(0 0, 0 0, 0 0,0 0);
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+    height:10px;}
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; } 
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(53, 54, 56); 
+    border-radius:10px;}
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+    
+    .timeline-index{
+      background: linear-gradient(90deg, #7946AB 0%, #2565C9 100%)
+    }
+  
+   .heading-glow{
+    text-shadow: 0 0 10px rgb(162, 160, 160), 0 0 42px rgb(222, 220, 220);
+   }
+ 
+
+.tooltip .tooltiptext,.tooltiptext2{
+    visibility: hidden;
+    color: rgb(195, 199, 204);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltiptext{
+    left: 105%;
+  }
+  .tooltiptext2{
+    right: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip:hover .tooltiptext2 {
+    visibility: visible;
+  }
+  

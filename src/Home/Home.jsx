@@ -1,52 +1,90 @@
+ // Home.js
+import React, { useEffect, useState } from "react";
 import "./Home.css";
-import React from "react";
 import Hero from "../components/Hero/hero";
 import AboutSection from "../components/About/about";
 import Faqs from "../components/Faq/faq";
 import Footer from "../components/Footer/footer";
 import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
-import Prizes from "../components/prizesnav/prizesmain/prize";
+ 
 import Prize from "../components/Prizes/Prizes";
-
 import Timeline from "../components/Timeline/Timeline";
-
 import Organising_team from "../components/Organising_Team/Organising_team";
 import Theme from "../components/Themes/Theme";
-
 import Carousel from "../components/carousel/carousel";
 import Why_sponser from "../components/why_sponser/Why_sponser";
 import StarsCanvas from "../canvas/Star";
-import Navbar from "../components/Navbar/Navbar";
+ 
 import Support from "../components/Support/support";
-
-import Disclaimer from "../components/Footer/Disclaimer";
+ 
+import MagicalLoader from "../components/Loader_P/Loader_P";
+import Prizes_n from "../components/prizesnav/prizesmain/prize";
+import Sponsers from "../components/sponsernav/main/main";
+ 
+ 
+ 
 
 function Home() {
+
+  const [Loading, setLoading] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  useEffect(() => {
+    const onPageLoad = () => {
+      setLoading(true);
+    };
+    if (document.readyState === "complete") {
+      onPageLoad();
+    } else {
+      window.addEventListener("load", onPageLoad);
+      return () => window.removeEventListener("load", onPageLoad);
+    }
+  }, []);
+
   return (
     <>
-      <div className="relative z-0 bg-primary">
-        <div
-          className="bg-black bg-cover 
-      bg-no-repeat bg-center"
-        >
-          <Navbar />
-
-          <div className="relative z-0">
+      {!Loading ? (
+         <MagicalLoader/>
+      ) : (
+      <div>
+          
+          <div className="relative">   
+          {/* <div className="fixed top-0 right-0 ">
+          <a
+        id="mlh-trust-badge"
+        className="mlh"
+        href="https://mlh.io/apac?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
+          alt="Major League Hacking 2023 Hackathon Season"
+          // style={{width:"30%", height:"50%"}}
+          className="w-[3rem] h-[5rem] md:w-[8rem] mx-5 md:h-[10rem] md:mx-24"
+        />
+      </a> 
+      </div>      */}
             <div className=""><StarsCanvas /></div>
             <Hero />
           </div>
-
+          <div
+          className="bg-black bg-cover bg-no-repeat bg-center"
+          // style={{ backgroundImage: `url(${ })` }}
+        >
+      
           <AboutSection />
-          <Prize />
           <Carousel />
           <Timeline />
           <Why_sponser />
           <Carousel />
           <Theme />
           <Carousel />
+          <Prizes_n/>
+          <Sponsers/>
           <Organising_team />
-
           <Challenges />
           <SpeakersNew />
           <Support />
@@ -54,6 +92,7 @@ function Home() {
           <Footer />
         </div>
       </div>
+      )}
     </>
   );
 }

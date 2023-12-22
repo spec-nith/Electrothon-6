@@ -8,7 +8,7 @@ const Gallery = ({ activeTab }) => {
   const filteredData = tabData[activeTab] || [];
 
   return (
-    <div className="container w-full h-full mt-12 mb-12">
+    <div className="container w-full h-full mt-12 mb-12" id="themes">
       {filteredData.map((data, index) => (
         <div key={index} className="mb-4 sm:mb-0 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* 1st div - Content */}
