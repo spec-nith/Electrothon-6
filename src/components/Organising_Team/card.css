@@ -4,8 +4,8 @@
   }
   
   .card {
-    width: 200px;
-    height: 300px;
+    width: 13rem!important;
+    height: 17rem!important;
     transform-style: preserve-3d;
     transition: transform 0.5s;
     
