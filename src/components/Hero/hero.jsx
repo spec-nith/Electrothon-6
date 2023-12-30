@@ -1,4 +1,4 @@
- import React from "react";
+ import React, { useEffect } from "react";
 import "./hero.css";
 import Timer from "../CountDown/countDown";
 import MagicCanvas from "../../canvas/Magic_stand";
@@ -12,6 +12,18 @@ import LeftSidebar from "../Left_sidebar/LeftSidebar";
  
 
 const Hero = () => {
+
+useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
+
   return (
     <>
       <div className="flex w-full h-full z-[20] items-center justify-center min-h-screen bg-transparent relative">
@@ -30,11 +42,12 @@ const Hero = () => {
         Sorcerers of Cipher
         </p>
         <h1 className="headk">Applications Open</h1>
-        <Button />
+        <Button/>
+
          
             <Timer/>
        
-        <div className="sm:hidden w-full flex flex-col justify-center items-center">
+        <div className="sm:hidden w-full mt-10 flex flex-col justify-center items-center">
         <div style={{width:"70%"}}>
         <SpellCanvas/>
         </div>

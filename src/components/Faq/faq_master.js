@@ -6,11 +6,6 @@ const initalQues = [
       "There will be no travel reimbursements provided to the hackathon attendees. But we will take care of your food and accommodation.",
   },
   {
-    title: "Will the hackathon be conducted online on in-person?",
-    content:
-      "Well if the Gods of pandemic keep their wrath under control, we are all set for an in-person hackathon.",
-  },
-  {
     title: "Who can apply?",
     content:
       "You must be at least 18 years old and enrolled at any designated university or college.",
@@ -54,7 +49,7 @@ const moreQues = [
       "The winners will be awarded with lunar monetary prizes. The short-listed students will be given recognition and a chance to show off their skills. Winners of the finest hacks created using the pather firms' APIs and SDKs will receive special prizes.",
   },
   {
-    title: "What is the goal of the Electrothon5.0?",
+    title: "What is the goal of the Electrothon 6.0?",
     content:
       "The goal of our voyage is to foster an atmosphere where innovative concepts and technology approaches are welcomed. A gathering spot for engineers, technologists, and designers to collaborate on challenges. We know that Rome was not built in a day, but a weekend is ample time to form teams of good people and begin creating great solutions.",
   },
