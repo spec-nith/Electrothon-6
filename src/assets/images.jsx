@@ -78,7 +78,9 @@ import mobileapp1 from "../assets/images/mobileapps .png";
 import mobileapp2 from "../assets/images/mobileapps.jpeg.jpg";
 import dao from "../assets/images/dao.jpg";
 import dao2 from "../assets/images/dao2.jpg";
+import sport from "../assets/images/sport.png";
 
+// import sport from "../assets/images/sport.png"
 
 export {
   speclogo,
@@ -156,4 +158,5 @@ export {
   mobileapp2,
   game,
   gaming,
+  sport,
 };

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
+import { sport } from '../../../assets/images';
 
 function TopPrize({ position, prizeAmount }) {
   return (
@@ -17,6 +18,7 @@ function TopPrize({ position, prizeAmount }) {
           ₹ {prizeAmount} Cash Prize
         </span>
       </div>
+    
     </div>
   );
 }
@@ -73,6 +75,7 @@ function Prizes() {
       {showModal ? (
         <>
           <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
+            
             <div className="relative w-auto max-w-3xl mx-auto my-6">
               {/** Content */}
               <div className="relative flex flex-col w-full bg-[#1a1a1d] border-0 rounded-lg shadow-lg outline-none focus:outline-none text-white">
@@ -88,13 +91,16 @@ function Prizes() {
                     </span>
                   </button>
                 </div>
+                
                 {/** Body */}
                 <div className="relative flex-auto p-6">
+                  
                   <p className="my-4 text-lg leading-relaxed text-slate-500">
                     {modalData}
                   </p>
                 </div>
               </div>
+              
             </div>
           </div>
           <div className="fixed inset-0 z-40 bg-black opacity-25"></div>
@@ -105,7 +111,12 @@ function Prizes() {
         <TopPrize position={1} prizeAmount={30000} />
         <TopPrize position={2} prizeAmount={20000} />
         <TopPrize position={3} prizeAmount={15000} />
+        
+        <div id="left-prize" className=" lols flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0">
+          <img src={sport} alt="" />
+        </div>
       </div>
+    
     </>
   );
 }
