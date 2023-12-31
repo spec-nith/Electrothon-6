@@ -13,7 +13,7 @@ function Prizes_n() {
         <div className="bg-black bg-cover bg-no-repeat bg-center">
           <div className="relative z-0">
             <Headers />
-            <Cards />
+            {/* <Cards /> */}
              
           </div>
         </div>
