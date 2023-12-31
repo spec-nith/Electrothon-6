@@ -16,8 +16,7 @@ export const tabData = [
   [
     {
       heading: "FoodTech",
-      content:
-        To preserve, to distribute, to cultivate, to grow Many are the problems when it comes to food. Why don't you try your spells to solve the problem",
+      content: "To preserve, to distribute, to cultivate, to grow Many are the problems when it comes to food. Why don't you try your spells to solve the problem",
       img1: phy_l_demo,
       img2: phy_demo,
       prize_amt: "To be announced",
@@ -74,4 +73,5 @@ export const tabData = [
     },
   
   // Add more sets for additional tabs as needed
-];
+],
+]
