@@ -11,7 +11,7 @@ const Tabs = ({ activeTab, onTabClick }) => {
   ];
 
   return (
-    <div className="flex flex-wrap mx-24 pt-9 ">
+    <div className="flex flex-wrap mx-4 gap-2 sm:gap-4 sm:mx-6 md:mx-20 lg:mx-32 pt-9 ">
       {tabs.map((tab, index) => (
         <React.Fragment key={index}>
           <div className=" bloop">
