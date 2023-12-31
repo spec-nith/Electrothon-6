@@ -80,13 +80,13 @@ function Home() {
           <Timeline />
           <Why_sponser />
           <Carousel />
-          <Theme />
-          <Carousel />
-          <Prizes_n/>
           <Sponsers/>
-          <Organising_team />
+          <Carousel />
+          <Theme />
+          <Prizes_n/>
           <Challenges />
           <SpeakersNew />
+          <Organising_team />
           {/* <Support /> */}
           <Faqs />
           <Footer />
