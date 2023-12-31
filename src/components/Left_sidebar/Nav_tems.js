@@ -16,6 +16,11 @@ const navItems = [
     icon: faCalendarDay,
   },
   {
+    name: "Sponsers",
+    id: "sponsers_n",
+    icon: faHandshake,
+  },
+  {
     name: "Themes",
     id: "themes",
     icon: faWindowRestore,
@@ -25,11 +30,7 @@ const navItems = [
     id: "prizes_n",
     icon: faTrophy,
   },
-  {
-    name: "Sponsers",
-    id: "sponsers_n",
-    icon: faHandshake,
-  },
+  
   
   
   {
