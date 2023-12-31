@@ -15,9 +15,9 @@ import { dao2 } from "../../assets/images";
 export const tabData = [
   [
     {
-      heading: "Physical Infrastructure Network",
+      heading: "FoodTech",
       content:
-        "Envision a hackathon project that leverages emerging technologies to optimize and modernize physical infrastructure networks.",
+        To preserve, to distribute, to cultivate, to grow Many are the problems when it comes to food. Why don't you try your spells to solve the problem",
       img1: phy_l_demo,
       img2: phy_demo,
       prize_amt: "To be announced",
@@ -25,9 +25,9 @@ export const tabData = [
   ],
   [
     {
-      heading: "AI",
+      heading: "Climate Emergency",
       content:
-        "Craft an AI solution that addresses a real-world problem, emphasizing its potential impact on industries such as healthcare, education, or finance.        ",
+        "Alas! Techno-mage from burning fuel to even running the platform for your magic needs energy. This has created adverse effects on the climate! Use your magic and do your best.        ",
       img1: ai,
       img2: ai3,
       prize_amt: "To be announced",
@@ -35,9 +35,9 @@ export const tabData = [
   ],
   [
     {
-      heading: "Finance and Payments        ",
+      heading: "Healthcare        ",
       content:
-        "Develop a fintech project that enhances financial inclusivity, security, or efficiency aiming toeshape the future of financial transactions and empower individuals.        ",
+        "The medical mages are pivotal for the society, so to help them they seek the power of technology. Could you help them by solving a problem with the power of algorithm?        ",
       img1: finance,
       img2: finance2,
       prize_amt: "To be announced",
@@ -45,9 +45,9 @@ export const tabData = [
   ],
   [
     {
-      heading: " Gaming and Entertainment ",
+      heading: " Data Security and Blockchain ",
       content:
-        "Create an immersive gaming or entertainment experience using VR, AR, or blockchain for innovation in storytelling and interaction.        ",
+        "The defence systems of high levels of tech are in dire need of help. Blockchain is a new fruit in the world of techno-magic. Use it to help the defence systems!        ",
       img1: gaming,
       img2: game,
       prize_amt: "To be announced",
@@ -55,9 +55,9 @@ export const tabData = [
   ],
   [
     {
-      heading: "Mobile Consumer APPS        ",
+      heading: " EdTech      ",
       content:
-        "Design user-friendly mobile apps that enhance daily life, focusing on innovation in design, functionality, and user experience.        ",
+        "Education is something the ones with magic and without magic deserve. Take up this challenge to impart the best of education to the masses.       ",
       img1: mobileapp1,
       img2: mobileapp2,
       prize_amt: "To be announced",
@@ -65,23 +65,13 @@ export const tabData = [
   ],
   [
     {
-      heading: " Crypto Infrastructure        ",
+      heading: " Open Innovation       ",
       content:
-        "  Build projects advancing crypto ecosystems, exploring blockchain infrastructure, decentralized storage, and interoperability.        ",
+        " Have a spell to solve a problem? Then Open Innovation is for you.        ",
       img1: crypto,
       img2: crypto2,
       prize_amt: "To be announced",
     },
-  ],
-  [
-    {
-      heading: " DAOs and Network States:        ",
-      content:
-        "  Construct projects around DAOs and network states, exploring decentralized governance, decision-making, and community-driven initiatives        ",
-      img1: dao,
-      img2: dao2,
-      prize_amt: "To be announced",
-    },
-  ],
+  
   // Add more sets for additional tabs as needed
 ];
