@@ -37,7 +37,10 @@ const Challenges = () => {
         data-aos-easing="ease-in-out-cubic"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 content-theme">
-          {challengesData.map((challenge, index) => {
+        <div className="container text-white flex justify-center text-xl align-middle m-12">
+        Will Be Announced Soon
+      </div>
+          {/* {challengesData.map((challenge, index) => {
             return (
               <div
                 className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
@@ -87,7 +90,7 @@ const Challenges = () => {
                 </div>
               </div>
             );
-          })}
+          })} */}
         </div>
       </section>
     </div>

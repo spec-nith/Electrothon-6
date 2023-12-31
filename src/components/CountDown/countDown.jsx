@@ -10,7 +10,7 @@ const Timer = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("2024-02-16T18:00:00.000+05:30").getTime();
+    const countDownDate = new Date("2024-03-08T18:00:00.000+05:30").getTime();
     interval.current = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
@@ -42,7 +42,11 @@ const Timer = () => {
 
   return (
     <section id="timer" className="relative overflow-hidden lg:mt-8 mt-16">
+      <div className="container text-white flex justify-center text-xl ">
+      Hackathon Begins
+      </div>
     <div className="container mx-auto">
+
       <div className="flex flex-col items-center w-full text-white">
  
         <div className="flex md:items-stretch md:p-10">

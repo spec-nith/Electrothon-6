@@ -45,7 +45,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/15Kt6nRhNIgc7XbZNILL035yh8dhro_QP/view?usp=sharing"
+                  href="https://drive.google.com/file/d/10kNQPBAjUj5tK4WgSFHE_HLp4cYxCG1z/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center pb-2 font-sans text-sm text-gray-400 md:justify-start md:md:text-sm hover:text-gray-300"
@@ -55,7 +55,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://harshmello.notion.site/harshmello/Code-of-Conduct-11809eecfb9a47259aa8557d8d044ec1"
+                  href="https://same-uranium-0e7.notion.site/Code-of-Conduct-ec5f5146fcfe4bbd93ae30a415853a03"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center pb-2 font-sans text-sm text-gray-400 md:justify-start md:md:text-sm hover:text-gray-300"

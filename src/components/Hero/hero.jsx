@@ -41,7 +41,7 @@ useEffect(() => {
         <p className="rakhu">
         Sorcerers of Cipher
         </p>
-        <h1 className="headk">Applications Open</h1>
+        <h1 className="headk">Applications Opening Soon</h1>
         <Button/>
 
          

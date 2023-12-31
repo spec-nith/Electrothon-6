@@ -87,7 +87,7 @@ function Home() {
           <Organising_team />
           <Challenges />
           <SpeakersNew />
-          <Support />
+          {/* <Support /> */}
           <Faqs />
           <Footer />
         </div>

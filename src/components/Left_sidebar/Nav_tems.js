@@ -11,16 +11,6 @@ import {
 
 const navItems = [
   {
-    name: "Prizes",
-    id: "prizes_n",
-    icon: faTrophy,
-  },
-  {
-    name: "Sponsers",
-    id: "sponsers_n",
-    icon: faHandshake,
-  },
-    {
     name: "Schedule",
     id: "schedule",
     icon: faCalendarDay,
@@ -30,6 +20,18 @@ const navItems = [
     id: "themes",
     icon: faWindowRestore,
   },
+  {
+    name: "Prizes",
+    id: "prizes_n",
+    icon: faTrophy,
+  },
+  {
+    name: "Sponsers",
+    id: "sponsers_n",
+    icon: faHandshake,
+  },
+  
+  
   {
     name: "FAQ",
     id: "faq",

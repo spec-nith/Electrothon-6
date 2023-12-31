@@ -5,36 +5,38 @@ let timelineElements = [
     description:
       "Registration opens up for students to register with their respective teams and project ideas for Electrothon.",
     buttonText: "SEE MORE",
-    date: "1 DEC - 15 JAN 2024",
+    date: "3 JAN - 25 FEB 2024",
     icon: "register",
   },
   {
     id: 2,
-    title: "ELECTROTHON MAIN EVENT",
+    title: "PROPOSAL SUBMISSION",
     description:
-      "Electrothon will be a two-day event consisting of various guest lectures, workshops, and project evaluation.",
+      "Submit your idea proposal as per the guidelines.",
     buttonText: "SEE MORE",
-    date: "1 DEC - 15 JAN 2024",
+    date: "26 FEB 2024",
     icon: "people",
   },
   {
     id: 3,
-    title: "RESULT DECLARATION",
+    title: "PROPOSAL SHORTLISTING",
     description:
-      "The ultimate genius will be revealed by our Judging Panel on 29th JAN 2024 through our social media handles.",
+      "The final participant who's proposal has been shotlisted will be notified.",
     buttonText: "SEE MORE",
-    date: "1 DEC - 15 JAN 2024",
+    date: "29 FEB 2024",
     icon: "result",
   },
-  // {
-  //   id: 4,
-  //   title: "Heading 4",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-  //   buttonText: "SEE MORE",
-  //   date: "1 DEC - 15 JAN 2024",
-  //   icon: "electrothon",
-  // },
+  {
+    id: 4,
+    
+    title: "ELECTROTHON MAIN EVENT",
+    description:
+      "Electrothon will be a two-day event consisting of various guest lectures, workshops, and project evaluation.",
+    buttonText: "SEE MORE",
+    date: "8 MARCH 2024",
+    // icon: "result",
+    icon: "electrothon",
+  },
   // {
   //   id: 5,
   //   title: "Heading 5",
