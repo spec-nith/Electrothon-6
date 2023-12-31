@@ -11,10 +11,11 @@ import { mukesh } from "../../assets/images";
 import { pratyaksh } from "../../assets/images";
 import { rishab } from "../../assets/images";
 import { tanuj } from "../../assets/images";
+import { aahad,abhijay,akshansh,ananay,aniket,antriksh,arun,dikshant,hammad,jai,jayant,khushbu,kunal,lakshya,nikita,nitin,parth,pradhuman,prakriti,priya,priyanshi,priyanshu,rahul,sania,utkarsh_chauhan,utkarsh_maurya } from "../../assets/images";
 
 export const Lead_Organizers =[
   {
-    name: "Bhucheti Naga Padmini",
+    name: "Bucheti Naga Padmini",
     img: padmini,
     post: "President",
     link: "linkedin.com/in/nagapadmini",
@@ -101,3 +102,161 @@ export const organizers = [
     link: "linkedin.com/in/pratyaksh14",
   },
 ];
+export const Members =[
+  {
+    name: "Aahad",
+    img: aahad,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Abhijay",
+    img: abhijay,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Akshansh",
+    img: akshansh,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Ananay",
+    img: ananay,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Aniket",
+    img: aniket,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Antriksh",
+    img: antriksh,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Arun",
+    img: arun,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Dikshant",
+    img: dikshant,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Hammad",
+    img: hammad,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Jai Kumar Soni",
+    img: jai,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Jayant",
+    img: jayant,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Khushbu",
+    img: khushbu,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Kunal Singh",
+    img: kunal,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Lakshya",
+    img: lakshya,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Nikita",
+    img: nikita,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Nitin",
+    img: nitin,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Parth",
+    img: parth,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Pradhuman",
+    img: pradhuman,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Prakriti",
+    img: prakriti,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Priya",
+    img: priya,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Priyanshi",
+    img: priyanshi,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Priyanshu",
+    img: priyanshu,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Rahul",
+    img: rahul,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Sania",
+    img: sania,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Utkarsh Chauhan",
+    img: utkarsh_chauhan,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+  {
+    name: "Utkarsh Maurya",
+    img: utkarsh_maurya,
+    // post: "Co-Ordinator",
+    // link: "linkedin.com/in/",
+  },
+]

@@ -22,6 +22,7 @@ import MagicalLoader from "../components/Loader_P/Loader_P";
 import Prizes_n from "../components/prizesnav/prizesmain/prize";
 import Sponsers from "../components/sponsernav/main/main";
  
+import Organizers from "../components/Organizers_slider/Organizers";
  
  
 
@@ -87,6 +88,7 @@ function Home() {
           <Challenges />
           <SpeakersNew />
           <Organising_team />
+          {/* <Organizers /> */}
           {/* <Support /> */}
           <Faqs />
           <Footer />

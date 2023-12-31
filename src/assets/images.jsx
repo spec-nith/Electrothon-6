@@ -80,6 +80,34 @@ import dao from "../assets/images/dao.jpg";
 import dao2 from "../assets/images/dao2.jpg";
 import sport from "../assets/images/sport.png";
 
+// 2nd year team
+import aahad from "../assets/images/aahad.jpg";
+import abhijay from "../assets/images/Abhijay.jpg";
+import akshansh from "../assets/images/Akshansh.jpeg";
+import ananay from "../assets/images/ananay.jpg";
+import aniket from "../assets/images/aniket.jpg";
+import antriksh from "../assets/images/antriksh.jpg";
+import arun from "../assets/images/arun.jpg";
+import dikshant from "../assets/images/Dikshant.jpg";
+import hammad from "../assets/images/hammad.jpg";
+import jai from "../assets/images/jai.jpg";
+import jayant from "../assets/images/jayant.jpg";
+import khushbu from "../assets/images/khushbu.jpg";
+import kunal from "../assets/images/kunal.jpg";
+import lakshya from "../assets/images/Lakshya.jpg";
+import nikita from "../assets/images/Nikita.jpg";
+import nitin from "../assets/images/Nitin.jpg";
+import parth from "../assets/images/Parth.jpg";
+import pradhuman from "../assets/images/pradhuman.jpg";
+import prakriti from "../assets/images/Prakriti.jpg";
+import priya from "../assets/images/Priya.jpg";
+import priyanshi from "../assets/images/Priyanshi.jpg";
+import priyanshu from "../assets/images/Priyanshu.png";
+import rahul from "../assets/images/rahul.jpg";
+import sania from "../assets/images/sania.jpg";
+import utkarsh_chauhan from "../assets/images/utkarsh_chauhan.jpg";
+import utkarsh_maurya from "../assets/images/Utkarsh_Maurya.jpg";
+
 // import sport from "../assets/images/sport.png"
 
 export {
@@ -159,4 +187,30 @@ export {
   game,
   gaming,
   sport,
+  arun,
+  dikshant,
+  aahad,
+  abhijay,
+  akshansh,
+  ananay,
+  aniket,
+  antriksh,
+  hammad,
+  jai,
+  jayant,
+  khushbu,
+  kunal,
+  lakshya,
+  nikita,
+  nitin,
+  parth,
+  pradhuman,
+  prakriti,
+  priya,
+  priyanshi,
+  priyanshu,
+  rahul,
+  sania,
+  utkarsh_chauhan,
+  utkarsh_maurya,
 };
