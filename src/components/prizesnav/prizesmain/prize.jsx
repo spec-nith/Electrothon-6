@@ -2,7 +2,7 @@ import "./style.css";
  
 import React from "react";
  
-import Headers from "../winners/win-head";
+import Headers from "../winners/win_head";
  
 import Cards from "../cards/main";
  

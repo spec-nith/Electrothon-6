@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import navItems from "./Nav_tems";
 import BackTopBtn from "./BacktoTop/GoTop";
 import { speclogo } from "../../assets/images";
+import "./sidebar.css";
  
 
 
@@ -17,7 +18,7 @@ const LeftSidebar = () => {
         offset={-61}
         smooth={true}
         duration={1000}
-        className="flex flex-row items-center py-2 xl:text-md text-gray-300 border-transparent duration-300 transition-all cursor-pointer align-middle"
+        className="flex flex-row items-center py-2 xl:text-md text-gray-300 border-transparent duration-300 transition-all  curs align-middle"
       >
         <span className="flex items-center justify-center h-14 w-12 text-lg rounded-lg hover:text-blue-500 tooltip relative">
           {props.item.id === "faq" ? (
