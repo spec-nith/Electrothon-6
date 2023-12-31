@@ -20,7 +20,7 @@ export const tabData = [
         "Envision a hackathon project that leverages emerging technologies to optimize and modernize physical infrastructure networks.",
       img1: phy_l_demo,
       img2: phy_demo,
-      prize_amt: "30,000",
+      prize_amt: "To be announced",
     },
   ],
   [
@@ -30,7 +30,7 @@ export const tabData = [
         "Craft an AI solution that addresses a real-world problem, emphasizing its potential impact on industries such as healthcare, education, or finance.        ",
       img1: ai,
       img2: ai3,
-      prize_amt: "50,000",
+      prize_amt: "To be announced",
     },
   ],
   [
@@ -40,7 +40,7 @@ export const tabData = [
         "Develop a fintech project that enhances financial inclusivity, security, or efficiency aiming toeshape the future of financial transactions and empower individuals.        ",
       img1: finance,
       img2: finance2,
-      prize_amt: "30,000",
+      prize_amt: "To be announced",
     },
   ],
   [
@@ -50,7 +50,7 @@ export const tabData = [
         "Create an immersive gaming or entertainment experience using VR, AR, or blockchain for innovation in storytelling and interaction.        ",
       img1: gaming,
       img2: game,
-      prize_amt: "30,000",
+      prize_amt: "To be announced",
     },
   ],
   [
@@ -60,7 +60,7 @@ export const tabData = [
         "Design user-friendly mobile apps that enhance daily life, focusing on innovation in design, functionality, and user experience.        ",
       img1: mobileapp1,
       img2: mobileapp2,
-      prize_amt: "30,000",
+      prize_amt: "To be announced",
     },
   ],
   [
@@ -70,7 +70,7 @@ export const tabData = [
         "  Build projects advancing crypto ecosystems, exploring blockchain infrastructure, decentralized storage, and interoperability.        ",
       img1: crypto,
       img2: crypto2,
-      prize_amt: "30,000",
+      prize_amt: "To be announced",
     },
   ],
   [
@@ -80,7 +80,7 @@ export const tabData = [
         "  Construct projects around DAOs and network states, exploring decentralized governance, decision-making, and community-driven initiatives        ",
       img1: dao,
       img2: dao2,
-      prize_amt: "30,000",
+      prize_amt: "To be announced",
     },
   ],
   // Add more sets for additional tabs as needed
