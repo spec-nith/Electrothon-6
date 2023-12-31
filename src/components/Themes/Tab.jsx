@@ -2,13 +2,12 @@ import React from "react";
 import "./style.css";
 const Tabs = ({ activeTab, onTabClick }) => {
   const tabs = [
-    "Physical Infrastructure Networks",
-    "Artificial Intelligence",
-    "Finance & Payments",
-    "Gaming & Entertainment",
-    "Mobile Consumer Apps",
-    "Crypto Infrastructure",
-    "DAOs & Network States",
+    "FoodTech",
+    " Climate Emergency",
+    " Healthcare",
+    "Data Security and Blockchain",
+    "EdTech",
+    "Open Innovation",
   ];
 
   return (
