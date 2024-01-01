@@ -82,7 +82,7 @@ import sport from "../assets/images/sport.png";
 
 import blockchain1 from "../assets/images/blockchain1.jpeg";
 import blockchain2 from "../assets/images/blockchain2.jpeg";
-import Edtech1 from "../assets/images/Edtech1.jpeg";
+import Edtech1 from "../assets/images/Edtech1.jpg";
 import Edtech2 from "../assets/images/Edtech2.jpeg";
 import climate1 from "../assets/images/climate1.jpg";
 import climate2 from "../assets/images/climate2.jpg";
@@ -91,7 +91,12 @@ import health2 from "../assets/images/health2.jpg";
 import health3 from "../assets/images/health3.jpg";
 import open_innovation1 from "../assets/images/open_innovation1.jpg";
 import open_innovation2 from "../assets/images/open_innovation2.jpg";
+ 
 import padminimam from "../assets/images/padminimam.jpeg"
+ 
+import foodtech1 from "../assets/images/foodtech1.jpg";
+import foodtech2 from "../assets/images/foodtech2.jpg";
+ 
 
 // 2nd year team
 import aahad from "../assets/images/aahad.jpg";
@@ -238,4 +243,6 @@ export {
   open_innovation2,
   Edtech1,
   Edtech2,
+  foodtech1,
+  foodtech2,
 };
