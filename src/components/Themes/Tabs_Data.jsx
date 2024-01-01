@@ -11,6 +11,17 @@ import { mobileapp1 } from "../../assets/images";
 import { mobileapp2 } from "../../assets/images";
 import { dao } from "../../assets/images";
 import { dao2 } from "../../assets/images";
+import { blockchain1,
+  blockchain2,
+  climate1,
+  climate2,
+  health1,
+  health2,
+  health3,
+  Edtech1,
+  Edtech2,
+  open_innovation1,
+  open_innovation2 } from "../../assets/images";
 
 export const tabData = [
   [
@@ -27,8 +38,8 @@ export const tabData = [
       heading: "Climate Emergency",
       content:
         "Alas! Techno-mage from burning fuel to even running the platform for your magic needs energy. This has created adverse effects on the climate! Use your magic and do your best.        ",
-      img1: ai,
-      img2: ai3,
+      img1: climate2,
+      img2: climate1,
       prize_amt: "To be announced",
     },
   ],
@@ -37,8 +48,8 @@ export const tabData = [
       heading: "Healthcare        ",
       content:
         "The medical mages are pivotal for the society, so to help them they seek the power of technology. Could you help them by solving a problem with the power of algorithm?        ",
-      img1: finance,
-      img2: finance2,
+      img1: health1,
+      img2: health2,
       prize_amt: "To be announced",
     },
   ],
@@ -47,8 +58,8 @@ export const tabData = [
       heading: " Data Security and Blockchain ",
       content:
         "The defence systems of high levels of tech are in dire need of help. Blockchain is a new fruit in the world of techno-magic. Use it to help the defence systems!        ",
-      img1: gaming,
-      img2: game,
+      img1: blockchain1,
+      img2: blockchain2,
       prize_amt: "To be announced",
     },
   ],
@@ -57,8 +68,8 @@ export const tabData = [
       heading: " EdTech      ",
       content:
         "Education is something the ones with magic and without magic deserve. Take up this challenge to impart the best of education to the masses.       ",
-      img1: mobileapp1,
-      img2: mobileapp2,
+      img1: Edtech1,
+      img2: Edtech2,
       prize_amt: "To be announced",
     },
   ],
@@ -67,8 +78,8 @@ export const tabData = [
       heading: " Open Innovation       ",
       content:
         " Have a spell to solve a problem? Then Open Innovation is for you.        ",
-      img1: crypto,
-      img2: crypto2,
+      img1: open_innovation2,
+      img2: open_innovation1,
       prize_amt: "To be announced",
     },
   

@@ -43,7 +43,9 @@ useEffect(() => {
         </p>
         <h1 className="headk">Applications Opening Soon</h1>
         <Button/>
-
+        <div className=" text-white flex justify-center text-2xl lg:mb-[-45px] ">
+      Hackathon Begins
+      </div>
          
             <Timer/>
        

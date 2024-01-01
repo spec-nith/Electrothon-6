@@ -80,6 +80,19 @@ import dao from "../assets/images/dao.jpg";
 import dao2 from "../assets/images/dao2.jpg";
 import sport from "../assets/images/sport.png";
 
+import blockchain1 from "../assets/images/blockchain1.jpeg";
+import blockchain2 from "../assets/images/blockchain2.jpeg";
+import Edtech1 from "../assets/images/Edtech1.jpeg";
+import Edtech2 from "../assets/images/Edtech2.jpeg";
+import climate1 from "../assets/images/climate1.jpg";
+import climate2 from "../assets/images/climate2.jpg";
+import health1 from "../assets/images/health1.jpg";
+import health2 from "../assets/images/health2.jpg";
+import health3 from "../assets/images/health3.jpg";
+import open_innovation1 from "../assets/images/open_innovation1.jpg";
+import open_innovation2 from "../assets/images/open_innovation2.jpg";
+
+
 // 2nd year team
 import aahad from "../assets/images/aahad.jpg";
 import abhijay from "../assets/images/Abhijay.jpg";
@@ -213,4 +226,15 @@ export {
   sania,
   utkarsh_chauhan,
   utkarsh_maurya,
+  blockchain1,
+  blockchain2,
+  climate1,
+  climate2,
+  health1,
+  health2,
+  health3,
+  open_innovation1,
+  open_innovation2,
+  Edtech1,
+  Edtech2,
 };

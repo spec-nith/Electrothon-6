@@ -42,9 +42,9 @@ const Timer = () => {
 
   return (
     <section id="timer" className="relative overflow-hidden lg:mt-8 mt-16">
-      <div className="container text-white flex justify-center text-xl ">
+      {/* <div className=" text-white flex justify-center text-xl ">
       Hackathon Begins
-      </div>
+      </div> */}
     <div className="container mx-auto">
 
       <div className="flex flex-col items-center w-full text-white">
