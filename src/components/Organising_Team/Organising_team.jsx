@@ -110,38 +110,7 @@ const OrganisingTeam = () => {
           </div>
         </div>
 
-        {/* <div>
-        <motion.div
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
-          className={`${styles.innerWidth} mx-auto flex flex-col`}
-        >
-          <TitleText
-            title={
-              <>
-                <div className="looked text-2xl lg:text-5xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
-                    MEMBERS
-                </div>
-              </>
-            }
-            textStyles="text-center"
-          />
-        </motion.div>
-        </div>
-        <div className='flex justify-center mt-8 px-4 sm:px-8 md:mx-32 lg:mx-24'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4'>
-            {Members.map((data, index) => (
-              <FlippingCard
-                key={index}
-                data={data}
-                isFlipped={index === flippedCardIndex}
-                onCardClick={() => handleCardClick(index)}
-              />
-            ))}
-          </div>
-        </div> */}
+  
       </div>
     </>
   );

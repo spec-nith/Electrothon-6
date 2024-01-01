@@ -1,4 +1,4 @@
-import { chaitnaya, padmini } from "../../assets/images";
+import { chaitnaya, padmini, padminimam } from "../../assets/images";
 import { anirudh } from "../../assets/images";
 import { aman } from "../../assets/images";
 import { adhishraya } from "../../assets/images";
@@ -16,7 +16,7 @@ import { aahad,abhijay,akshansh,ananay,aniket,antriksh,arun,dikshant,hammad,jai,
 export const Lead_Organizers =[
   {
     name: "Bucheti Naga Padmini",
-    img: padmini,
+    img: padminimam,
     post: "President",
     link: "linkedin.com/in/nagapadmini",
   },
@@ -101,8 +101,6 @@ export const organizers = [
     img: pratyaksh,
     link: "linkedin.com/in/pratyaksh14",
   },
-];
-export const Members =[
   {
     name: "Aahad",
     img: aahad,
@@ -259,4 +257,7 @@ export const Members =[
     // post: "Co-Ordinator",
     // link: "linkedin.com/in/",
   },
+];
+export const Members =[
+ 
 ]

@@ -13,16 +13,17 @@ const FlippingCard = ({ data, isFlipped, onCardClick }) => {
     <div className="card-container mb-16">
       <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={handleClick}>
         <div className="front p-4 flex flex-col">
-          <picture className='h-3/4'>
-            <img
-                 className='h-3/4 w-full rounded-full'
-              src={data.img}
-              alt="organizerImg"
-            />
-          </picture>
-          <div className='absolute bottom-5 left-5 text-white'>
+        <picture className='w-full h-full'>
+  <img
+    className="w-full object-cover "
+    style={{height:"84%"}}
+    src={data.img}
+    alt="organizerImg"
+  />
+</picture>
+
+          <div className=' text-white flex w-full' >
             <h2>{data.name}</h2>
-            <p>{data.post}</p>
           </div>
         </div>
         <div className="z-[-5] back p-4 flex flex-col justify-between">
