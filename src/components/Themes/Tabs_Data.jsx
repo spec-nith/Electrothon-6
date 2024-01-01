@@ -20,6 +20,8 @@ import { blockchain1,
   health3,
   Edtech1,
   Edtech2,
+  foodtech1,
+  foodtech2,
   open_innovation1,
   open_innovation2 } from "../../assets/images";
 
@@ -28,8 +30,8 @@ export const tabData = [
     {
       heading: "FoodTech",
       content: "To preserve, to distribute, to cultivate, to grow Many are the problems when it comes to food. Why don't you try your spells to solve the problem",
-      img1: phy_l_demo,
-      img2: phy_demo,
+      img1: foodtech1,
+      img2: foodtech2,
       prize_amt: "To be announced",
     },
   ],
