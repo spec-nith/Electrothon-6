@@ -23,10 +23,7 @@ const ImageGallery = () => {
    img: replitp,
    alt:"REPLIT LOGO"
  },
-//  {
-//   img: verbwire3,
-//   alt:"VERBWIRE LOGO"
-// }
+ 
   ];
  
 
@@ -81,7 +78,7 @@ const ImageGallery = () => {
             </div>
             <div className="image">
       <ul className="image-gallery">
-        {imageUrls3.map((imageUrl, index) => (
+        {imageUrls2.map((imageUrl, index) => (
           <>
           <li className="list" key={index}>
           
