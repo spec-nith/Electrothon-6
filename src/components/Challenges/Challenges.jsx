@@ -36,10 +36,11 @@ const Challenges = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in-out-cubic"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 content-theme">
-        <div className="container text-white flex justify-center text-xl align-middle m-12">
+         <div className="container w-full text-white flex justify-center items-center text-xl md:text-2xl">
         Will Be Announced Soon
       </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 content-theme">
+     
           {/* {challengesData.map((challenge, index) => {
             return (
               <div

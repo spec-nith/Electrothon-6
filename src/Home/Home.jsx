@@ -52,7 +52,7 @@ function Home() {
       ) : (
       <div>
 
-          <div className=""> 
+          <div className="relative"> 
           <BgStatic/>  
           {/* <div className="fixed top-0 right-0 ">
           <a

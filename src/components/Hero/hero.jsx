@@ -53,8 +53,8 @@ useEffect(() => {
        
         <div className="sm:hidden w-full mt-10 flex flex-col justify-center items-center">
         <div style={{width:"70%"}}>
-        <SpellCanvas/>
-        </div>
+ 
+         </div>
         </div>
         
       </div>
