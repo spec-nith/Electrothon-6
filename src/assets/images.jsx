@@ -150,8 +150,7 @@ import orkes2 from "./images/orkes2.svg"
 export {
  
   orkes2,
-  verbwire2,
-  verbwire,
+ 
   orkes,
   devfoliop,
   polygonp,

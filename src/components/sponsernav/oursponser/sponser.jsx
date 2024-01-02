@@ -23,10 +23,7 @@ const ImageGallery = () => {
    img: replitp,
    alt:"REPLIT LOGO"
  },
-//  {
-//   img: verbwire3,
-//   alt:"VERBWIRE LOGO"
-// }
+ 
   ];
  
 
@@ -80,22 +77,7 @@ const ImageGallery = () => {
               Knight Sponsors
             </div>
             <div className="image">
-      {/* <ul className="image-gallery">
-        {imageUrls3.map((imageUrl, index) => (
-          <>
-          <li className="list" key={index}>
-          
-            <img
-              src={imageUrl.img}
-              alt={imageUrl.alt}
-              className="gallery-image"
-            />
-          </li>
-          
-          </>
-          
-        ))}
-      </ul> */}
+    
     </div>
      <div className="flex justify-center text-center text-xl pb-7 text-gray-100">
     Interested in sponsoring? Mail us at: <br/>
