@@ -143,16 +143,15 @@ import replitp from "./images/replitp.png";
 import orkes from "./images/orkes.png"
 import orkes2 from "./images/orkes2.svg"
 // import sport from "../assets/images/sport.png"
-import verbwire from "./images/verbwire.png"
-import verbwire2 from "./images/verbwire2.svg"
-import verbwire3 from "./images/verbwire3.png"
+// import verbwire from "./images/verbwire.png"
+// import verbwire2 from "./images/verbwire2.svg"
+// import verbwire3 from "./images/verbwire3.png"
 
 
 export {
-  verbwire3,
+   
   orkes2,
-  verbwire2,
-  verbwire,
+ 
   orkes,
   devfoliop,
   polygonp,
