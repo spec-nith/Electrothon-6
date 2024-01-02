@@ -136,9 +136,18 @@ import magicbg from "../assets/images/magicbg.jpg"
 import magicbg2 from "../assets/images/magicbg2.jpg"
 import magicbg3 from "../assets/images/magicbg3.jpg"
 
+
+import devfoliop from "./images/devfoliop.png"
+import polygonp from "./images/polygonp.png"
+import replitp from "./images/replitp.png";
+import orkes from "./images/orkes.png"
 // import sport from "../assets/images/sport.png"
 
 export {
+  orkes,
+  devfoliop,
+  polygonp,
+  replitp,
   magicbg,
   magicbg2,
   magicbg3,
