@@ -132,9 +132,16 @@ import sania from "../assets/images/sania.jpg";
 import utkarsh_chauhan from "../assets/images/utkarsh_chauhan.jpg";
 import utkarsh_maurya from "../assets/images/Utkarsh_Maurya.jpg";
 
+import magicbg from "../assets/images/magicbg.jpg"
+import magicbg2 from "../assets/images/magicbg2.jpg"
+import magicbg3 from "../assets/images/magicbg3.jpg"
+
 // import sport from "../assets/images/sport.png"
 
 export {
+  magicbg,
+  magicbg2,
+  magicbg3,
   speclogo,
   people,
   work,

@@ -23,8 +23,9 @@ import Prizes_n from "../components/prizesnav/prizesmain/prize";
 import Sponsers from "../components/sponsernav/main/main";
  
 import Organizers from "../components/Organizers_slider/Organizers";
- 
- 
+
+ import { magicbg,magicbg2 } from "../assets/images";
+import BgStatic from "../components/Background/bgstatic";
 
 function Home() {
 
@@ -50,8 +51,9 @@ function Home() {
          <MagicalLoader/>
       ) : (
       <div>
-          
-          <div className="relative">   
+
+          <div className=""> 
+          <BgStatic/>  
           {/* <div className="fixed top-0 right-0 ">
           <a
         id="mlh-trust-badge"
@@ -72,17 +74,18 @@ function Home() {
             <Hero />
           </div>
           <div
-          className="bg-black bg-cover bg-no-repeat bg-center"
-          // style={{ backgroundImage: `url(${ })` }}
-        >
-      
+  //      className="bg-fixed bg-no-repeat "
+  //      style={{
+  //   backgroundImage: `url(${magicbg})`,
+  //  }}
+ >
+
           <AboutSection />
-          <Carousel />
+      
           <Timeline />
           <Why_sponser />
           <Carousel />
           <Sponsers/>
-          <Carousel />
           <Theme />
           <Prizes_n/>
           <Challenges />
