@@ -21,7 +21,7 @@ const ChartSection = () => {
   }, []);
 
   return (
-    <section className="charts_bar">
+    <section className="charts_bar ">
       <article className="chart_section">
         <div className="chart_title">Electrothone 5.0</div>
         <ul data-baseline="100">
@@ -51,16 +51,7 @@ const ChartSection = () => {
           
         </ul>
       </article>
-
-      {/* <article className="chart_section">
-        <div className="chart_title">Electrothone 2.0</div>
-        <ul data-baseline="100">
-          <li data-value="20" data-label="N&J"><i></i></li>
-          <li data-value="15" data-label="Fraser"><i></i></li>
-          <li data-value="10" data-label="Burgess"><i></i></li>
-          <li data-value="15" data-label="IYC"><i></i></li>
-        </ul>
-      </article> */}
+ 
 
       <div className="chart_key">
         <ul>
