@@ -28,12 +28,7 @@ const ImageGallery = () => {
 //   alt:"VERBWIRE LOGO"
 // }
   ];
-  const imageUrls3 = [
-    // {
-    //   img:  ,
-    //   alt:" "
-    // }
-     ];
+ 
 
   return (
     <>
