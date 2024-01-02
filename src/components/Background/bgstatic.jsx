@@ -1,5 +1,5 @@
 import React from "react";
-import { bg3 } from "../../assets/images";
+import { bg3, magicbg, magicbg2, magicbg3 } from "../../assets/images";
 
 const BgStatic = () => {
   return (
@@ -7,7 +7,7 @@ const BgStatic = () => {
       
       <img
         className="object-cover w-screen h-[105vh]"
-         src={bg3}
+         src={magicbg3}
         alt="hero-bg"
       />
     </picture>

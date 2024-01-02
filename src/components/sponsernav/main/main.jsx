@@ -15,7 +15,7 @@ function Sponsers() {
   return (
     <>
       <div className="relative bg-primary" id="sponsers_n">
-        <div className="bg-black bg-cover bg-no-repeat bg-center">
+        <div className=" ">
           <div className="relative ">
  <Heading/>
             <Sponser />

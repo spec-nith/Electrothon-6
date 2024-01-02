@@ -7,6 +7,8 @@ import CrookCanvas from "../../canvas/Croo_k";
 import SpellCanvas from "../../canvas/Spell";
 import Sidebar from "../Sidebar/Sidebar";
 import LeftSidebar from "../Left_sidebar/LeftSidebar";
+import Wizardtowercanvas from "../../canvas/Wizardtower";
+import SpiritCanvas from "../../canvas/Spirit";
  
  
  
@@ -31,7 +33,7 @@ useEffect(() => {
       <Sidebar/>
         {/* left */}
         <div className="hidden sm:block absolute left-20 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50">
-          <CrookCanvas/>
+           <Wizardtowercanvas/>
         </div>
 
         {/* Content Container */}
@@ -59,7 +61,7 @@ useEffect(() => {
  
         {/* right */}
         <div className="hidden sm:block absolute top-0 right-16 h-full w-1/4">
-          <MagicCanvas />
+        <SpiritCanvas/>
         </div>
       </div>
     </>

@@ -17,7 +17,7 @@ export default function Why_sponser() {
   };
 
   return (
-    <div className="text-white mt-24 min-h-screen sm:mx-12 md:mx-24 lg:mx-32" style={divStyle}>
+    <div className="text-white mt-24 min-h-screen sm:mx-12 md:mx-24 lg:mx-32"  >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
