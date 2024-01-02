@@ -12,7 +12,7 @@ const ChartSection = () => {
         const barData = bar.dataset.value;
 
         
-        const barTotal = Math.round((barData / chartBaseline) * 1000) + '%';
+        const barTotal = Math.round((barData / chartBaseline) * 60) + '%';
         
 
         barShape.style.flex = `0 0 ${barTotal}`;
