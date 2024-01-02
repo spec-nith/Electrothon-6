@@ -40,8 +40,7 @@ export default function Why_sponser() {
       <div className="flex flex-col sm:flex-row justify-center items-center mt-10">
        
          
-        <Graph/>
-
+        
   
         <div className="flex flex-row mt-12 items-center w-1/2 justify-center">
           <img src={why_sponser} alt="why_sponser" />
