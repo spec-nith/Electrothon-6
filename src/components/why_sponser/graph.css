@@ -19,7 +19,7 @@
     section.charts_bar .chart_section {
         display: flex;
         flex-direction: column;
-        margin-bottom: 8rem;
+        margin-bottom: 12rem;
     }
 
     section.charts_bar .chart_section .chart_title {
@@ -134,6 +134,7 @@
     }
 
     section.charts_bar .chart_key {
+        
         grid-column: 1 / -1;
         text-align: center;
     }

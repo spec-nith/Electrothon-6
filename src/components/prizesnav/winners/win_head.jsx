@@ -50,11 +50,9 @@ function Winner() {
 
   return (
     <div className="lel flex items-center justify-center  bg-transparent relative" >
-   <div className="header absolute top-0 text-center" style={{ width: '80%' }}>
+   <div className="header absolute top-0 text-center" >
         <h1 className="heads">OUR PRIZES</h1>
-        <h1 className='define'>
-          OUR CASH PRIZES
-        </h1>
+ 
       </div>
     </div>
   );
