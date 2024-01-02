@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
 import { sport } from '../../../assets/images';
+import { gold,silver,bronze } from '../../../assets/images';
 
-function TopPrize({ position, prizeAmount }) {
+
+function TopPrize({ position, prizeAmount,image }) {
+ 
   return (
+    
     <div className="flex flex-row items-center justify-center gap-2sm:gap-4 md:gap-6 lg:gap-12 w-full my-4 text-white">
-      <span className={`flex items-center justify-center w-[5rem] h-[5rem] md:w-24 md:h-24 text-2xl font-semibold text-white ${position === 1 ? 'bg-gradient-to-r from-[#f4941d] to-[#ffd200]' : (position === 2 ? 'bg-gradient-to-r from-[#757f9a] to-[#d7dde8]' : 'bg-gradient-to-r from-[#232526] to-[#414344]')} rounded-full`}>
-        {position}
-      </span>
+      <div className="flex items-center justify-center w-[5rem] h-[5rem] md:w-24 md:h-24 text-2xl font-semibold text-white rounded-full">
+            <img src= {image === 1 ? gold : (image === 2 ? silver : bronze)} />      
+      </div>
+      
       <div className="flex flex-col items-start w-[14rem] md:w-[12rem] ml-4 text-center md:ml-16 cursor-pointer">
         <span className="text-xl font-bold md:text-2xl ">
           &nbsp;{position === 1 ? 'First' : (position === 2 ? 'Second' : 'Third')} Prize
@@ -108,9 +113,12 @@ function Prizes() {
       ) : null}
       <Winner />
       <div id="left-prize" className=" lols flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0">
-        <TopPrize position={1} prizeAmount={"To be announced Soon"} />
-        <TopPrize position={2} prizeAmount={"To be announced Soon"} />
-        <TopPrize position={3} prizeAmount={"To be announced Soon"} />
+      {/* <div className="flex items-center justify-center w-[5rem] h-[5rem] md:w-24 md:h-24 text-2xl font-semibold text-white rounded-full">
+            <img src= {gold} />      
+      </div> */}
+        <TopPrize position={1} prizeAmount={"To be announced Soon"} image={1} />
+        <TopPrize position={2} prizeAmount={"To be announced Soon"} image={2}  />
+        <TopPrize position={3} prizeAmount={"To be announced Soon"} image={3} />
         
         <div id="left-prize" className=" lols flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0">
           <img src={sport} alt="" />

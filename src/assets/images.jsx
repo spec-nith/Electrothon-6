@@ -96,6 +96,12 @@ import padminimam from "../assets/images/padminimam.jpeg"
  
 import foodtech1 from "../assets/images/foodtech1.jpg";
 import foodtech2 from "../assets/images/foodtech2.jpg";
+
+import gold from "../assets/images/gold.png";
+import silver from "../assets/images/silver.png";
+import bronze from "../assets/images/bronze.png";
+
+
  
 
 // 2nd year team
@@ -245,4 +251,7 @@ export {
   Edtech2,
   foodtech1,
   foodtech2,
+  gold,
+  silver,
+  bronze,
 };
