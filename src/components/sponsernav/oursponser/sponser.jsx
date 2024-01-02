@@ -68,9 +68,13 @@ const ImageGallery = () => {
     <div className='text-white flex justify-center text-4xl pb-5'>
               Knight Sponsors
             </div>
-            <div className="flex justify-center text-white p-7">
+            <div className="flex justify-center text-lg text-white pb-2">
             To Be Announced Soon
     </div>
+    <div className="flex justify-center text-center text-sm pb-7 text-[#6b7280]">
+            Interested in sponsoring mail us at: <br/> spec@nith.ac.in
+    </div>
+    
     </>
   ); 
 };
