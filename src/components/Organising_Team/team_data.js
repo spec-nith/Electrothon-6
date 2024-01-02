@@ -29,12 +29,7 @@ export const Lead_Organizers =[
 ]
 
 export const organizers = [
-  {
-    name: "Tanuj Khanna",
-    post: "Technical Lead",
-    img: tanuj,
-    link: "linkedin.com/in/tanuj-khanna-18a587229",
-  },
+
   {
     name: "Abhishek Nautiyal",
     post: "Treasurer",
@@ -66,12 +61,6 @@ export const organizers = [
     link: "linkedin.com/in/abhishek-raj-870050224",
   },
   {
-    name: "Rishabh Pal",
-    post: "Treasurer",
-    img: rishab,
-    link: "linkedin.com/in/rishabh-pal25",
-  },
-  {
     name: "Chaitanya Kohli",
     post: "Marketing Lead",
     img: chaitnaya,
@@ -100,6 +89,18 @@ export const organizers = [
     post: "Technical Lead",
     img: pratyaksh,
     link: "linkedin.com/in/pratyaksh14",
+  },
+  {
+    name: "Rishabh Pal",
+    post: "Treasurer",
+    img: rishab,
+    link: "linkedin.com/in/rishabh-pal25",
+  },
+  {
+    name: "Tanuj Khanna",
+    post: "Technical Lead",
+    img: tanuj,
+    link: "linkedin.com/in/tanuj-khanna-18a587229",
   },
   {
     name: "Aahad",

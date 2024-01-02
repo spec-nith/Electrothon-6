@@ -10,8 +10,8 @@ function Prizes_n() {
   return (
     <>
       <div className="relative z-0 bg-primary" id="prizes_n">
-        <div className="bg-black bg-cover bg-no-repeat bg-center">
-          <div className="relative z-0">
+        <div className=" ">
+          <div className="relative z-0 ">
             <Headers />
             {/* <Cards /> */}
              
