@@ -29,7 +29,7 @@ export default function Why_sponser() {
           title={
             <>
               <div className="eur text-2xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
-                WHY SPONSOR OUR EUREKA?
+                 WHY SPONSOR OUR MAGIC
               </div>
             </>
           }
