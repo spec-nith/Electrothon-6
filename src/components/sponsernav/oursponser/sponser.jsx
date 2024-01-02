@@ -104,7 +104,7 @@ const ImageGallery = () => {
     </div>
      <div className="flex justify-center text-center text-xl pb-7 text-gray-100">
     Interested in sponsoring? Mail us at: <br/>
-<a href='mailto:spec@nith.ac.in'>spec@nith.ac.in</a>
+{/* <a href='mailto:spec@nith.ac.in'>spec@nith.ac.in</a> */}
 
      </div>
     
