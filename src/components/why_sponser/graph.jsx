@@ -25,9 +25,9 @@ const ChartSection = () => {
       <article className="chart_section">
         <div className="chart_title">Electrothone 5.0</div>
         <ul data-baseline="100">
-          <li data-value="120" data-label="N&J"><i></i></li>
+          <li data-value="1159" data-label="N&J"><i></i></li>
           <li data-value="52" data-label="Fraser"><i></i></li>
-          <li data-value="25" data-label="Burgess"><i></i></li>
+          <li data-value="53" data-label="Burgess"><i></i></li>
          
         </ul>
       </article>
@@ -35,9 +35,9 @@ const ChartSection = () => {
       <article className="chart_section">
         <div className="chart_title">Electrothone 4.0</div>
         <ul data-baseline="100">
-          <li data-value="80" data-label="N&J"><i></i></li>
-          <li data-value="50" data-label="Fraser"><i></i></li>
-          <li data-value="30" data-label="Burgess"><i></i></li>
+          <li data-value="2217" data-label="N&J"><i></i></li>
+          <li data-value="103" data-label="Fraser"><i></i></li>
+          <li data-value="310" data-label="Burgess"><i></i></li>
          
         </ul>
       </article>
@@ -45,9 +45,9 @@ const ChartSection = () => {
       <article className="chart_section">
         <div className="chart_title">Electrothone 3.0</div>
         <ul data-baseline="100">
-          <li data-value="50" data-label="N&J"><i></i></li>
-          <li data-value="40" data-label="Fraser"><i></i></li>
-          <li data-value="25" data-label="Burgess"><i></i></li>
+          <li data-value="1711" data-label="N&J"><i></i></li>
+          <li data-value="66" data-label="Fraser"><i></i></li>
+          <li data-value=" 279" data-label="Burgess"><i></i></li>
           
         </ul>
       </article>
