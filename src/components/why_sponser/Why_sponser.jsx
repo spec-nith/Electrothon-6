@@ -1,4 +1,4 @@
- import React from "react";
+  import React from "react";
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
@@ -29,7 +29,7 @@ export default function Why_sponser() {
           title={
             <>
               <div className="eur text-2xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
-                 WHY SPONSOR OUR MAGIC
+                WHY SPONSOR OUR EUREKA?
               </div>
             </>
           }
@@ -40,7 +40,8 @@ export default function Why_sponser() {
       <div className="flex flex-col sm:flex-row justify-center items-center mt-10">
        
          
-        
+        <Graph/>
+
   
         <div className="flex flex-row mt-12 items-center w-1/2 justify-center">
           <img src={why_sponser} alt="why_sponser" />
