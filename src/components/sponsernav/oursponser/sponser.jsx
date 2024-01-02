@@ -28,12 +28,7 @@ const ImageGallery = () => {
 //   alt:"VERBWIRE LOGO"
 // }
   ];
-  const imageUrls3 = [
-    // {
-    //   img:  ,
-    //   alt:" "
-    // }
-     ];
+ 
 
   return (
     <>
@@ -85,7 +80,7 @@ const ImageGallery = () => {
               Knight Sponsors
             </div>
             <div className="image">
-      <ul className="image-gallery">
+      {/* <ul className="image-gallery">
         {imageUrls3.map((imageUrl, index) => (
           <>
           <li className="list" key={index}>
@@ -100,7 +95,7 @@ const ImageGallery = () => {
           </>
           
         ))}
-      </ul>
+      </ul> */}
     </div>
      <div className="flex justify-center text-center text-xl pb-7 text-gray-100">
     Interested in sponsoring? Mail us at: <br/>
