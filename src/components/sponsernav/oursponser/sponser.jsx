@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { devfoliop, orkes, orkes2, polygonp, replitp, verbwire, verbwire2, verbwire3 } from '../../../assets/images';
+import { devfoliop,orkes2, polygonp, replitp, } from '../../../assets/images';
 
 const ImageGallery = () => {
   const imageUrls = [
@@ -23,10 +23,10 @@ const ImageGallery = () => {
    img: replitp,
    alt:"REPLIT LOGO"
  },
- {
-  img: verbwire3,
-  alt:"VERBWIRE LOGO"
-}
+//  {
+//   img: verbwire3,
+//   alt:"VERBWIRE LOGO"
+// }
   ];
   const imageUrls3 = [
     // {
@@ -104,7 +104,7 @@ const ImageGallery = () => {
     </div>
      <div className="flex justify-center text-center text-xl pb-7 text-gray-100">
     Interested in sponsoring? Mail us at: <br/>
-<a href='mailto:spec@nith.ac.in'>spec@nith.ac.in</a>
+{/* <a href='mailto:spec@nith.ac.in'>spec@nith.ac.in</a> */}
 
      </div>
     
