@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+ import React, { useState, useEffect } from 'react';
 import './style.css';
 import { sport } from '../../../assets/images';
 import { gold,silver,bronze } from '../../../assets/images';
@@ -50,7 +50,7 @@ function Winner() {
 
   return (
     <div className="lel flex items-center justify-center  bg-transparent relative" >
-   <div className="header absolute top-0 text-center" >
+   <div className="header absolute  text-center" >
         <h1 className="heads">OUR PRIZES</h1>
  
       </div>
@@ -77,11 +77,11 @@ function Prizes() {
     <>
       {showModal ? (
         <>
-          <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
+          <div className="fixed inset-0 z-50  flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
             
             <div className="relative w-auto max-w-3xl mx-auto my-6">
               {/** Content */}
-              <div className="relative flex flex-col w-full bg-[#1a1a1d] border-0 rounded-lg shadow-lg outline-none focus:outline-none text-white">
+              <div className="relative flex flex-col w-full bg-[#4a4a61] border-0 rounded-lg shadow-lg outline-none focus:outline-none text-white">
                 {/** Header */}
                 <div className="flex items-start justify-between p-5 border-b border-solid rounded-t border-slate-200">
                   <h3 className="mr-10 text-3xl font-semibold">Coming Soon</h3>
@@ -110,15 +110,13 @@ function Prizes() {
         </>
       ) : null}
       <Winner />
-      <div id="left-prize" className=" lols flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0">
-      {/* <div className="flex items-center justify-center w-[5rem] h-[5rem] md:w-24 md:h-24 text-2xl font-semibold text-white rounded-full">
-            <img src= {gold} />      
-      </div> */}
+      <div id="left-prize" className=" flex flex-col justify-center items-center w-full p-8  mt-16 md:mt-0">
+ 
         <TopPrize position={1} prizeAmount={"To be announced Soon"} image={1} />
         <TopPrize position={2} prizeAmount={"To be announced Soon"} image={2}  />
         <TopPrize position={3} prizeAmount={"To be announced Soon"} image={3} />
         
-        <div id="left-prize" className=" lols flex flex-col  p-8 xl:w-3/5 mt-16 md:mt-0">
+        <div id="left-prize" className="flex flex-col  p-8  md:w-2/5   mt-16 md:mt-0">
           <img src={sport} alt="" />
         </div>
       </div>
