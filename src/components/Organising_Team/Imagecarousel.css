@@ -4,7 +4,14 @@
   padding: 26px;
   margin: 0 10rem;
 }
-
+@media screen and (max-width: 768px) {
+  .product-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    margin: 0 1rem;
+  }
+}
 .product-container {
   padding: 0 10px;
   display: flex;
