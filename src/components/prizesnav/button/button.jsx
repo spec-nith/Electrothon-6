@@ -1,12 +1,12 @@
-import React from 'react';
+ import React from 'react';
 import './style.css';
 const Button = () => {
   return (
     
-      <div className=" txt let button-wiggle button-pulse">
+      <div className=" txt let ">
                 <div 
 	className="apply-button" 
-	data-hackathon-slug="Electrothon-6" 
+	data-hackathon-slug="electrothon-6" 
 	data-button-theme="light"
 	style={{height: "44px", width: "312px"}}
 ></div>
