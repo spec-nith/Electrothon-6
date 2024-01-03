@@ -1,4 +1,4 @@
-.heads
+ .heads
 {
     background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
     background-clip: text;
@@ -13,7 +13,16 @@
     align-items: center;
 
 }
-
+@media screen and (max-width: 768px)
+{
+   
+    .heads
+    {
+        line-height: 20px;
+        font-size: 20px;
+    }
+    
+}
 .define {
     margin-top: 5%;
     text-align: left;
