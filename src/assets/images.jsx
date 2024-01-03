@@ -145,6 +145,11 @@ import replitp from "./images/replitp.png";
 import orkes from "./images/orkes.png"
 import orkes2 from "./images/orkes2.svg"
 
+import taskade from "./images/taskade_logo.svg"
+import wolfram from "./images/wolfram_corporate.png"
+import hoverrobotix from "./images/hoverrobotix.png"
+
+
 import healthcare_final1 from "./images/healthcare_final1.jpg"
 import healthcare_final from "./images/healthcare_final.jpg"
 
@@ -287,4 +292,7 @@ export {
   healthcare_final,
   healthcare_final1,
   open_inno,
+  hoverrobotix,
+  wolfram,
+  taskade,
 };

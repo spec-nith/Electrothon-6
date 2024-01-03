@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { devfoliop,orkes2, polygonp, replitp, } from '../../../assets/images';
+import { devfoliop,orkes2, polygonp, replitp,hoverrobotix,taskade,wolfram } from '../../../assets/images';
 
 const ImageGallery = () => {
   const imageUrls = [
@@ -25,6 +25,21 @@ const ImageGallery = () => {
  },
  
   ];
+  const imageUrls3 = [
+    {
+      img: wolfram,
+      alt:"WOLFRAM LOGO"
+    },
+    {
+      img: taskade,
+      alt:"TASKADE LOGO"
+    },
+    {
+      img: hoverrobotix,
+      alt:"HOVERROBOTIX LOGO"
+    },
+    
+     ];
  
 
   return (
@@ -77,11 +92,27 @@ const ImageGallery = () => {
               Knight Sponsors
             </div>
             <div className="image">
+            <ul className="image-gallery">
+        {imageUrls3.map((imageUrl, index) => (
+          <>
+          <li className="list" key={index}>
+          
+            <img
+              src={imageUrl.img}
+              alt={imageUrl.alt}
+              className="gallery-image"
+            />
+          </li>
+          
+          </>
+          
+        ))}
+      </ul>
     
     </div>
      <div className="flex justify-center text-center text-xl pb-7 text-gray-100">
-    Interested in sponsoring? Mail us at: <br/>
-<a href='mailto:spec@nith.ac.in'>spec@nith.ac.in</a>
+    Interested in sponsoring? Mail us at:<br/>
+<a href='mailto:spec@nith.ac.in'> &nbsp; spec@nith.ac.in</a>
 
      </div>
     
