@@ -1,4 +1,4 @@
- import React from 'react';
+  import React from 'react';
 import './style.css';
 const Button = () => {
   return (
@@ -6,7 +6,7 @@ const Button = () => {
       <div className=" txt let ">
                 <div 
 	className="apply-button" 
-	data-hackathon-slug="electrothon- 6.O" 
+	data-hackathon-slug="electrothon6" 
 	data-button-theme="light"
 	style={{height: "44px", width: "312px"}}
 ></div>
