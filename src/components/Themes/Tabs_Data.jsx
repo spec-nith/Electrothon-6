@@ -23,7 +23,10 @@ import { blockchain1,
   foodtech1,
   foodtech2,
   open_innovation1,
-  open_innovation2 } from "../../assets/images";
+       healthcare_final,
+        healthcare_final1,
+        open_inno,
+  open_innovation2, } from "../../assets/images";
 
 export const tabData = [
   [
@@ -50,8 +53,8 @@ export const tabData = [
       heading: "Healthcare        ",
       content:
         "The medical mages are pivotal for the society, so to help them they seek the power of technology. Could you help them by solving a problem with the power of algorithm?        ",
-      img1: healthcare-final,
-      img2: healthcare-final1,
+      img1: healthcare_final,
+      img2: healthcare_final1,
       prize_amt: "To be announced",
     },
   ],
@@ -80,7 +83,7 @@ export const tabData = [
       heading: " Open Innovation       ",
       content:
         " Have a spell to solve a problem? Then Open Innovation is for you.        ",
-      img1: open-inno,
+      img1: open_inno,
       img2: open_innovation1,
       prize_amt: "To be announced",
     },
