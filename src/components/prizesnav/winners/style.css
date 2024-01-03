@@ -13,16 +13,7 @@
     align-items: center;
 
 }
-@media screen and (max-width: 768px)
-{
-   
-    .heads
-    {
-        line-height: 20px;
-        font-size: 20px;
-    }
-    
-}
+
 .define {
     margin-top: 5%;
     text-align: left;

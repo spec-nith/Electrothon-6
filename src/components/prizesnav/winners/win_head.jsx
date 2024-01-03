@@ -118,7 +118,7 @@ function Prizes() {
         <TopPrize position={2} prizeAmount={"To be announced Soon"} image={2}  />
         <TopPrize position={3} prizeAmount={"To be announced Soon"} image={3} />
         
-        <div id="left-prize" className=" lols flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0">
+        <div id="left-prize" className=" lols flex flex-col  p-8 xl:w-3/5 mt-16 md:mt-0">
           <img src={sport} alt="" />
         </div>
       </div>

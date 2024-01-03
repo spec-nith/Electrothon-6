@@ -1,0 +1,7 @@
+.looked {
+    background: linear-gradient(180deg, #29e1ff 0%, #fff61d 100%);
+    font-family: Inter;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
