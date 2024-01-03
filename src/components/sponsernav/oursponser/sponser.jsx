@@ -17,12 +17,18 @@ const ImageGallery = () => {
       alt:"DEVFOLIO LOGO"
 
     }
+    
   ];
   const imageUrls2 = [
  {
    img: replitp,
    alt:"REPLIT LOGO"
- },
+ }
+ ,
+    {
+      img: verbwire3,
+      alt:"VERBWIRE LOGO"
+    }
  
   ];
   const imageUrls3 = [
@@ -38,11 +44,8 @@ const ImageGallery = () => {
       img: hoverrobotix,
       alt:"HOVERROBOTIX LOGO"
     },
-    {
-      img: verbwire3,
-      alt:"VERBWIRE LOGO"
-    },
     
+ 
     
     
      ];
