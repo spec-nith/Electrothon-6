@@ -39,7 +39,7 @@ useEffect(() => {
         {/* Content Container */}
         <div className=" header absolute top-0 z-10 text-center p-8">
       
-        <h1 className="head2">ELECTROTHON RELEVELED</h1>
+        <h1 className="head2">ELECTROTHON 6.O</h1>
         <p className="rakhu">
         Sorcerers of Cipher
         </p>
