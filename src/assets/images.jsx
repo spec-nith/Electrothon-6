@@ -91,6 +91,8 @@ import health2 from "../assets/images/health2.jpg";
 import health3 from "../assets/images/health3.jpg";
 import open_innovation1 from "../assets/images/open_innovation1.jpg";
 import open_innovation2 from "../assets/images/open_innovation2.jpg";
+import open_inno from "../assets/images/open_inno.jpg";
+
  
 import padminimam from "../assets/images/padminimam.jpeg"
  
@@ -142,6 +144,11 @@ import polygonp from "./images/polygonp.png"
 import replitp from "./images/replitp.png";
 import orkes from "./images/orkes.png"
 import orkes2 from "./images/orkes2.svg"
+
+import healthcare_final1 from "./images/healthcare_final1.jpg"
+import healthcare_final from "./images/healthcare_final.jpg"
+
+
 // import sport from "../assets/images/sport.png"
  
 // import verbwire3 from "./images/verbwire3.png"
@@ -277,4 +284,7 @@ export {
   gold,
   silver,
   bronze,
+  healthcare_final,
+  healthcare_final1,
+  open_inno,
 };
