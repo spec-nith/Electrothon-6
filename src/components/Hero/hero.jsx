@@ -49,7 +49,9 @@ useEffect(() => {
       Hackathon Begins
       </div>
          
-            <Timer/>
+      <div className="mt-24 sm:mt-0">   
+                <Timer/>   
+            </div>
        
         <div className="sm:hidden w-full mt-10 flex flex-col justify-center items-center">
         <div style={{width:"70%"}}>

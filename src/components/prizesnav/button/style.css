@@ -1,12 +1,10 @@
  /* Phones */
 @media screen and (max-width: 425px) {
   body {
-    
     font-size: 7px;
   }
   .let {
     /* margin-top: 1rem!important;  */
- 
     width: 15rem;
     height: 1rem;
   }
@@ -29,23 +27,14 @@
   }
 }
 
- 
-
-
-  
-  .let {
-    position: relative;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 1px;
- 
-    padding: 10px 20px;
-    margin: 40px;
-  
-  }
-  
- 
- 
- 
+.let {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  margin: 40px;
+  margin-left: 1rem;
+}
