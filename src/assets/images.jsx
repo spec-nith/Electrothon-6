@@ -156,7 +156,7 @@ import healthcare_final from "./images/healthcare_final.jpg"
 
 // import sport from "../assets/images/sport.png"
  
-// import verbwire3 from "./images/verbwire3.png"
+import verbwire3 from "./images/verbwire3.png"
 
 
 export {
@@ -295,4 +295,5 @@ export {
   hoverrobotix,
   wolfram,
   taskade,
+  verbwire3
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { devfoliop,orkes2, polygonp, replitp,hoverrobotix,taskade,wolfram } from '../../../assets/images';
+import { devfoliop,orkes2, polygonp, replitp,hoverrobotix,taskade,wolfram,verbwire3 } from '../../../assets/images';
 
 const ImageGallery = () => {
   const imageUrls = [
@@ -38,6 +38,12 @@ const ImageGallery = () => {
       img: hoverrobotix,
       alt:"HOVERROBOTIX LOGO"
     },
+    {
+      img: verbwire3,
+      alt:"VERBWIRE LOGO"
+    },
+    
+    
     
      ];
  
@@ -100,7 +106,7 @@ const ImageGallery = () => {
             <img
               src={imageUrl.img}
               alt={imageUrl.alt}
-              className="gallery-image"
+              className="gallery-image imageurl3"
             />
           </li>
           
