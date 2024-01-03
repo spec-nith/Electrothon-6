@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { exploreWorlds } from "./data";
+import { exploreWorlds, tabData } from "./data";
 import { staggerContainer } from "./motion";
 import { TitleText } from "./CustomTexts";
 import ExploreCard from "./ExploreCard.jsx";
@@ -31,15 +31,15 @@ const Explore = () => {
         <TitleText
           title={
             <>
-              <div className="text-4xl lg:text-7xl font-bold text-[#8471ae] tracking-wider my-4 lg:my-6 font-[Oswald]">
+              <div className="looked text-4xl lg:text-7xl font-bold text-[#8471ae] tracking-wider my-4 lg:my-6 font-[Oswald]">
                 Themes
               </div>
             </>
           }
           textStyles="text-center"
         />
-        <div className="mt-12 lg:mt-16 flex lg:flex-row flex-col min-h-[85vh] md:min-h-[50vh] gap-10 md:gap-8">
-          {exploreWorlds.map((world, index) => (
+        <div className="mt-12 mb-20 sm:mb-8 xl:mx-24 2xl:mx-28 flex lg:flex-row flex-col min-h-[85vh] md:min-h-[50vh] gap-10 md:gap-8">
+          {tabData.map((world, index) => (
             <ExploreCard
               key={world.id}
               {...world}

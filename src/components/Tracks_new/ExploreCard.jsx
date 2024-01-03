@@ -3,8 +3,8 @@ import { fadeIn } from "./motion";
 
 const ExploreCard = ({
   id,
-  imgUrl,
-  title,
+  heading,
+  img1,
   content,
   index,
   active,
@@ -21,13 +21,13 @@ const ExploreCard = ({
     }}
   >
     <img
-      src={imgUrl}
+      src={img1}
       alt="theme"
       className="absolute w-full h-full object-cover rounded-[24px] opacity-60"
     />
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] text-gray-100 absolute z-0 lg:bottom-10 text-center lg:origin-[0,0]">
-        {title}
+        {heading}
       </h3>
     ) : (
       <div className="absolute bottom-0 p-4 md:p-6 3xl:p-10 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px] h-full">
@@ -35,7 +35,7 @@ const ExploreCard = ({
           {content}
         </p>
         <h2 className="mt-4 font-semibold text-lg md:text-2xl text-white absolute bottom-10">
-          {title}
+          {heading}
         </h2>
       </div>
     )}
