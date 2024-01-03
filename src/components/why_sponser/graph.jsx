@@ -52,7 +52,6 @@ const ChartSection = () => {
         </ul>
       </article>
  
-
       <div className="chart_key">
         <ul>
           <li>Total Applications</li>

@@ -133,6 +133,9 @@
         }
     }
 
+    .chart_key{
+        margin-top: -120px;
+    }
     section.charts_bar .chart_key {
         
         grid-column: 1 / -1;
