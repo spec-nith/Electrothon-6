@@ -24,7 +24,7 @@ import { blockchain1,
   foodtech2,
   open_innovation1,
        healthcare_final,
-        healthcare_final1,
+     healthcare_final1,
         open_inno,
   open_innovation2, } from "../../assets/images";
 
