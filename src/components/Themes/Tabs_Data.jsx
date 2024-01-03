@@ -31,7 +31,7 @@ export const tabData = [
       heading: "FoodTech",
       content: "To preserve, to distribute, to cultivate, to grow Many are the problems when it comes to food. Why don't you try your spells to solve the problem",
       img1: foodtech1,
-      img2: foodtech2,
+      img2: foodtech,
       prize_amt: "To be announced",
     },
   ],
@@ -50,8 +50,8 @@ export const tabData = [
       heading: "Healthcare        ",
       content:
         "The medical mages are pivotal for the society, so to help them they seek the power of technology. Could you help them by solving a problem with the power of algorithm?        ",
-      img1: health1,
-      img2: health2,
+      img1: healthcare-final,
+      img2: healthcare-final1,
       prize_amt: "To be announced",
     },
   ],
@@ -80,7 +80,7 @@ export const tabData = [
       heading: " Open Innovation       ",
       content:
         " Have a spell to solve a problem? Then Open Innovation is for you.        ",
-      img1: open_innovation2,
+      img1: open-inno,
       img2: open_innovation1,
       prize_amt: "To be announced",
     },
