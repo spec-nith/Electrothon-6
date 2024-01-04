@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRef } from "react";
 import { Lead_Organizers, Members, organizers } from "./team_data";
 import { motion } from "framer-motion";
@@ -38,6 +38,19 @@ const OrganisingTeam = () => {
       console.log(width);
     }
   };
+
+  // useEffect(() => {
+  //   // Automatically scroll every 3 seconds
+  //   const intervalId = setInterval(() => {
+  //     btnpressnext();
+  //   }, 1000);
+  //   const intervalId2 = setInterval(() => {
+  //     btnpressprev();
+  //   }, 2000);
+
+  //   // Clear interval on component unmount
+  //   return () => clearInterval(intervalId);
+  // }, []); // Run this effect only once on component mount
 
   return (
     <>
@@ -135,9 +148,14 @@ const OrganisingTeam = () => {
         </button>
 
         <div className="product-container" ref={boxRef}>
-          {organizers.map((data, index) => (
-            <Mycard key={index} img={data.img} name={data.name} />
-          ))}
+        {organizers.map((data, index) => (
+              <FlippingCard
+                key={index}
+                data={data}
+                isFlipped={index === flippedCardIndex}
+                onCardClick={() => handleCardClick(index)}
+              />
+            ))}
         </div>
       </div>
     </>
