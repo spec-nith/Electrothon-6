@@ -119,9 +119,9 @@ const ImageGallery = () => {
       </ul>
     
     </div>
-     <div className="flex justify-center sm:mt-20 text-center text-sm mx-4 sm:text-xl pb-7 text-gray-100">
+     <div className="flex justify-center sm:mt-20 text-center text-sm  sm:text-xl pb-7 text-gray-100">
     Interested in sponsoring? Mail us at:<br/>
-<a href='mailto:spec@nith.ac.in' className='text-blue-500'> &nbsp; spec@nith.ac.in</a>
+<a href='mailto:spec@nith.ac.in' className='text-blue-500'> </a>
 
      </div>
     
