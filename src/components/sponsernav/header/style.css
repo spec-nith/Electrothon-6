@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
 .heads
 {
     background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
@@ -5,7 +8,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Nunito Sans', sans-serif !important;
     font-size: 60px;
     font-style: normal;
     font-weight: 800;

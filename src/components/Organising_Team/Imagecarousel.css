@@ -52,3 +52,8 @@
   height: 44px;
   cursor: pointer;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+.looked
+{
+    font-family: 'Nunito Sans', sans-serif !important;
+}

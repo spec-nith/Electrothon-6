@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-
+import "./style.css";
 import { initalQues, moreQues } from "./faq_master";
 
 export default function Faqs() {
@@ -35,10 +35,10 @@ export default function Faqs() {
           <TitleText
             title={
               <>
-                <div className="hidden sm:block looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+                <div className=" looks hidden sm:block looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
                 FREQUENTLY ASKED QUESTION 
                 </div>
-                <div className="sm:hidden looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+                <div className=" looks sm:hidden looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
                  FAQs
                 </div>
               </>

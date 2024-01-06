@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-
+import "./style.css";
 const Challenges = () => {
   return (
     <div className="">
@@ -19,7 +19,7 @@ const Challenges = () => {
         <TitleText
           title={
             <>
-              <div className=" looked text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6 font-[Oswald] mb-16">
+              <div className=" looked text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6  mb-16">
                 Challenges
               </div>
             </>
