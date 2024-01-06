@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
 .looked {
     background: linear-gradient(180deg, #29e1ff 0%, #fff61d 100%);
-    font-family: Inter;
+    font-family: 'Nunito Sans', sans-serif;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

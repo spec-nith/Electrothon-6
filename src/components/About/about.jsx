@@ -27,7 +27,7 @@ const AboutSection = () => {
           }
           textStyles="text-center"
         />
-        <p className=" width-836px about-description text-lg text-white">
+        <p className="  width-836px about-description text-lg text-white">
           Let the your magical harry potter mind come in role. It's an
           inherently unpredictable ride. As we launch the 6th in-person spell of
           Electrothon, we strive for nothing less than the wizard. Run by the

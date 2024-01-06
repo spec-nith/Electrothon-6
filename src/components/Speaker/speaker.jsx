@@ -1,6 +1,6 @@
 import React, { lazy } from "react";
 import styled from "styled-components";
-
+import "./styleee.css";
 import "slick-carousel/slick/slick.css";
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
@@ -32,7 +32,7 @@ const SpeakersNew = () => {
         <TitleText
           title={
             <>
-              <div className="looked text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+              <div className="looked text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 ">
                 Previous Speakers
               </div>
             </>
