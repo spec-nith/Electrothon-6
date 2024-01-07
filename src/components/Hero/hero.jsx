@@ -1,14 +1,16 @@
  import React, { useEffect } from "react";
 import "./hero.css";
 import Timer from "../CountDown/countDown";
-import MagicCanvas from "../../canvas/Magic_stand";
+ 
 import Button from "..//prizesnav/button/button";
-import CrookCanvas from "../../canvas/Croo_k";
-import SpellCanvas from "../../canvas/Spell";
+ 
 import Sidebar from "../Sidebar/Sidebar";
 import LeftSidebar from "../Left_sidebar/LeftSidebar";
-import Wizardtowercanvas from "../../canvas/Wizardtower";
+ 
 import SpiritCanvas from "../../canvas/Spirit";
+ 
+import PotionCanvas from "../../canvas/Potion";
+ 
  
  
  
@@ -33,7 +35,7 @@ useEffect(() => {
       <Sidebar/>
         {/* left */}
         <div className="hidden sm:block absolute left-20 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50">
-           <Wizardtowercanvas/>
+              
         </div>
 
         {/* Content Container */}
@@ -63,7 +65,7 @@ useEffect(() => {
  
         {/* right */}
         <div className="hidden sm:block absolute top-0 right-16 h-full w-1/4">
-        <SpiritCanvas/>
+           
         </div>
       </div>
     </>
