@@ -23,7 +23,7 @@ const ChartSection = () => {
   return (
     <section className="charts_bar ">
       <article className="chart_section">
-        <div className="chart_title">Electrothone 5.0</div>
+        <div className="chart_title">Electrothon 5.0</div>
         <ul data-baseline="100">
           <li data-value="1159" data-label="N&J"><i></i></li>
           <li data-value="52" data-label="Fraser"><i></i></li>
@@ -33,7 +33,7 @@ const ChartSection = () => {
       </article>
 
       <article className="chart_section">
-        <div className="chart_title">Electrothone 4.0</div>
+        <div className="chart_title">Electrothon 4.0</div>
         <ul data-baseline="100">
           <li data-value="2217" data-label="N&J"><i></i></li>
           <li data-value="103" data-label="Fraser"><i></i></li>
@@ -43,7 +43,7 @@ const ChartSection = () => {
       </article>
 
       <article className="chart_section">
-        <div className="chart_title">Electrothone 3.0</div>
+        <div className="chart_title">Electrothon 3.0</div>
         <ul data-baseline="100">
           <li data-value="1711" data-label="N&J"><i></i></li>
           <li data-value="66" data-label="Fraser"><i></i></li>
