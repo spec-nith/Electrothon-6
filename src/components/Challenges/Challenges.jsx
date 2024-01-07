@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-
+import "./style.css";
 const Challenges = () => {
   return (
     <div className="">
