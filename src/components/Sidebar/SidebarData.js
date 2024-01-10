@@ -7,7 +7,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const navItems = [
- 
   {
     name: "Discord",
     link: "https://discord.gg/tTra8Ssuh2",
@@ -20,12 +19,12 @@ const navItems = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/s-p-e-c-nith-40214b197/",
+    link: "https://www.linkedin.com/company/s-p-e-c-nith/",
     icon: faLinkedinIn,
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/electrothon",
+    link: "https://twitter.com/SPEC_NITH?s=08",
     icon: faTwitter,
   },
   {
