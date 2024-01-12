@@ -11,9 +11,36 @@ import { mukesh } from "../../assets/images";
 import { pratyaksh } from "../../assets/images";
 import { rishab } from "../../assets/images";
 import { tanuj } from "../../assets/images";
-import { aahad,abhijay,akshansh,ananay,aniket,antriksh,arun,dikshant,hammad,jai,jayant,khushbu,kunal,lakshya,nikita,nitin,parth,pradhuman,prakriti,priya,priyanshi,priyanshu,rahul,sania,utkarsh_chauhan,utkarsh_maurya } from "../../assets/images";
+import {
+  aahad,
+  abhijay,
+  akshansh,
+  ananay,
+  aniket,
+  antriksh,
+  arun,
+  dikshant,
+  hammad,
+  jai,
+  jayant,
+  khushbu,
+  kunal,
+  lakshya,
+  nikita,
+  nitin,
+  parth,
+  pradhuman,
+  prakritipal,
+  priya,
+  priyanshi,
+  priyanshu,
+  rahul,
+  sania,
+  utkarsh_chauhan,
+  utkarsh_maurya,
+} from "../../assets/images";
 
-export const Lead_Organizers =[
+export const Lead_Organizers = [
   {
     name: "Bucheti Naga Padmini",
     img: padminimam,
@@ -25,11 +52,10 @@ export const Lead_Organizers =[
     img: anirudh,
     post: "Vice President",
     link: "linkedin.com/in/anirudh-attri-0a5107205",
-  }
-]
+  },
+];
 
 export const organizers = [
-
   {
     name: "Abhishek Nautiyal",
     post: "Treasurer",
@@ -212,7 +238,7 @@ export const organizers = [
   },
   {
     name: "Prakriti",
-    img: prakriti,
+    img: prakritipal,
     // post: "Co-Ordinator",
     // link: "linkedin.com/in/",
   },
@@ -259,6 +285,4 @@ export const organizers = [
     // link: "linkedin.com/in/",
   },
 ];
-export const Members =[
- 
-]
+export const Members = [];
