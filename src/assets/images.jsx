@@ -39,7 +39,7 @@ import support16 from "../assets/images/support16.png";
 import whysponser1 from "../assets/images/whysponsor1.png";
 import whysponser2 from "../assets/images/whysponser2.png";
 import whysponser3 from "../assets/images/whysponsor3.png";
- 
+
 import register from "../assets/images/register.svg";
 import people from "../assets/images/people.svg";
 import work from "../assets/images/work.svg";
@@ -58,8 +58,7 @@ import mukesh from "../assets/images/mukeshsinghrajput.jpeg";
 import pratyaksh from "../assets/images/pratyaksh.jpeg";
 import rishab from "../assets/images/rishab.jpeg";
 import tanuj from "../assets/images/Tanuj.jpg";
-import chaitnaya from "../assets/images/chaitanyakohlinew.jpg"
- 
+import chaitnaya from "../assets/images/chaitanyakohlinew.jpg";
 
 import polygon from "../assets/images/polygon.webp.png";
 import replit from "../assets/images/Replit.webp.png";
@@ -93,18 +92,14 @@ import open_innovation1 from "../assets/images/open_innovation1.jpg";
 import open_innovation2 from "../assets/images/open_innovation2.jpg";
 import open_inno from "../assets/images/open_inno.jpg";
 
- 
-import padminimam from "../assets/images/padminimam.jpeg"
- 
+import padminimam from "../assets/images/padminimam.jpeg";
+
 import foodtech1 from "../assets/images/foodtech1.jpg";
 import foodtech2 from "../assets/images/foodtech2.jpg";
 
 import gold from "../assets/images/gold.png";
 import silver from "../assets/images/silver.png";
 import bronze from "../assets/images/bronze.png";
-
-
- 
 
 // 2nd year team
 import aahad from "../assets/images/aahad.jpg";
@@ -125,7 +120,7 @@ import nikita from "../assets/images/Nikita.jpg";
 import nitin from "../assets/images/Nitin.jpg";
 import parth from "../assets/images/Parth.jpg";
 import pradhuman from "../assets/images/pradhuman.jpg";
-import prakriti from "../assets/images/Prakriti.jpg";
+import prakritipal from "../assets/images/prakritipal.png";
 import priya from "../assets/images/Priya.jpg";
 import priyanshi from "../assets/images/Priyanshi.jpg";
 import priyanshu from "../assets/images/Priyanshu.png";
@@ -134,35 +129,29 @@ import sania from "../assets/images/sania.jpg";
 import utkarsh_chauhan from "../assets/images/utkarsh_chauhan.jpg";
 import utkarsh_maurya from "../assets/images/Utkarsh_Maurya.jpg";
 
-import magicbg from "../assets/images/magicbg.jpg"
-import magicbg2 from "../assets/images/magicbg2.jpg"
-import magicbg3 from "../assets/images/magicbg3.jpg"
+import magicbg from "../assets/images/magicbg.jpg";
+import magicbg2 from "../assets/images/magicbg2.jpg";
+import magicbg3 from "../assets/images/magicbg3.jpg";
 
-
-import devfoliop from "./images/devfoliop.png"
-import polygonp from "./images/polygonp.png"
+import devfoliop from "./images/devfoliop.png";
+import polygonp from "./images/polygonp.png";
 import replitp from "./images/replitp.png";
-import orkes from "./images/orkes.png"
-import orkes2 from "./images/orkes2.svg"
+import orkes from "./images/orkes.png";
+import orkes2 from "./images/orkes2.svg";
 
-import taskade from "./images/taskade_logo.svg"
-import wolfram from "./images/wolfram_corporate.png"
-import hoverrobotix from "./images/hoverrobotix.png"
+import taskade from "./images/taskade_logo.svg";
+import wolfram from "./images/wolfram_corporate.png";
+import hoverrobotix from "./images/hoverrobotix.png";
 
-
-import healthcare_final1 from "./images/healthcare_final1.jpg"
-import healthcare_final from "./images/healthcare_final.jpg"
-
+import healthcare_final1 from "./images/healthcare_final1.jpg";
+import healthcare_final from "./images/healthcare_final.jpg";
 
 // import sport from "../assets/images/sport.png"
- 
-import verbwire3 from "./images/verbwire3.png"
 
+import verbwire3 from "./images/verbwire3.png";
 
 export {
- 
   orkes2,
- 
   orkes,
   devfoliop,
   polygonp,
@@ -223,7 +212,7 @@ export {
   abhi,
   padminimam,
   abhishekraj,
- chaitnaya,
+  chaitnaya,
   aryan,
   harshita,
   mukesh,
@@ -265,7 +254,7 @@ export {
   nitin,
   parth,
   pradhuman,
-  prakriti,
+  prakritipal,
   priya,
   priyanshi,
   priyanshu,
@@ -295,5 +284,5 @@ export {
   hoverrobotix,
   wolfram,
   taskade,
-  verbwire3
+  verbwire3,
 };
