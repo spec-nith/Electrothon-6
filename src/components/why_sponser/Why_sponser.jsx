@@ -1,27 +1,13 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-import {
-  why_sponser,
-  why_sponserbg,
-  whysponser1,
-  whysponser2,
-  whysponser3,
-} from "../../assets/images";
-import Design_copmponent from "./opacity";
-import NumberCounter from "./Number_Counter";
+import { why_sponser } from "../../assets/images";
+
 import Graph from "./graph";
 import "./why.css";
 
 export default function Why_sponser() {
-  const divStyle = {
-    backgroundImage: `url(${why_sponserbg})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
-
   return (
     <div className="text-white mt-24 min-h-screen sm:mx-12 md:mx-24 lg:mx-32 mb-8">
       <motion.div

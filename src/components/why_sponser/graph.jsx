@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
 import { PieChart, Pie, Cell, Legend, ResponsiveContainer } from "recharts";
 import "./graph.css";
+import React, { useEffect, useState } from "react";
 
 const ChartSection = () => {
   const dataElectrothon5 = [
@@ -74,7 +74,7 @@ const ChartSection = () => {
                   : windowWidth <= 883
                   ? "50%"
                   : windowWidth <= 900
-                  ? "60"
+                  ? "60%"
                   : windowWidth <= 1300
                   ? "60%"
                   : "75%"
@@ -118,7 +118,7 @@ const ChartSection = () => {
                   : windowWidth <= 883
                   ? "50%"
                   : windowWidth <= 900
-                  ? "60"
+                  ? "60%"
                   : windowWidth <= 1300
                   ? "60%"
                   : "75%"
@@ -187,7 +187,7 @@ const ChartSection = () => {
                   : windowWidth <= 883
                   ? "50%"
                   : windowWidth <= 900
-                  ? "60"
+                  ? "60%"
                   : windowWidth <= 1300
                   ? "60%"
                   : "75%"
