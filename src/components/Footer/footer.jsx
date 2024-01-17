@@ -45,7 +45,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/10kNQPBAjUj5tK4WgSFHE_HLp4cYxCG1z/view?usp=drivesdk"
+                  href="https://drive.google.com/file/u/2/d/1wtCwnQQRZWrYbEgjDSJMi-XJcVHaQGLp/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center pb-2 font-sans text-sm text-gray-400 md:justify-start md:md:text-sm hover:text-gray-300"
