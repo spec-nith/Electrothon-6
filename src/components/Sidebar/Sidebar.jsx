@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
- import navItems from "./SidebarData";
- import "../Left_sidebar/sidebar.css"
+import navItems from "./SidebarData";
+import "../Left_sidebar/sidebar.css";
 
 const SocialMediaLG = (props) => {
   return (
@@ -31,9 +31,13 @@ const Sidebar = () => {
     >
       <nav className="items-center my-auto h-1/2">
         <div className="z-50 flex-col items-center justify-center hidden h-full rounded-full md:flex">
-          {navItems.map((item) => ( // Change socialItems to navItems
-            <SocialMediaLG item={item} key={item.link} />
-          ))}
+          {navItems.map(
+            (
+              item // Change socialItems to navItems
+            ) => (
+              <SocialMediaLG item={item} key={item.link} />
+            )
+          )}
         </div>
       </nav>
     </div>

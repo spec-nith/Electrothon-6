@@ -1,7 +1,7 @@
- import React, { useEffect, useState } from 'react';
-import { l_demo, whysponser2 } from '../../assets/images';
+import React, { useEffect, useState } from "react";
+import { l_demo, whysponser2 } from "../../assets/images";
 
-const NumberCounter = ({ number,data,img }) => {
+const NumberCounter = ({ number, data, img }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const NumberCounter = ({ number,data,img }) => {
 
   return (
     <div className="flex flex-col justify-between sm:mx-auto items-center mt-10 text-white">
-      <img src={img} alt='counter' className="mb-4 mx-auto" />
+      <img src={img} alt="counter" className="mb-4 mx-auto" />
 
       <div className="text-4xl font-bold mb-2 md:ml-36 text-center md:text-left">
         {count}+

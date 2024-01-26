@@ -3,13 +3,13 @@ import { l_demo } from "../../assets/images";
 export const leadOrganizers = [
   {
     name: "Shubham Gupta",
-    img:  l_demo,
+    img: l_demo,
     webp: "organizers/webp/shubham.webp",
     link: "https://www.linkedin.com/in/shubham-gupta-958814190/",
   },
   {
     name: "Ritik Dhiman",
-    img:  l_demo,
+    img: l_demo,
     webp: "organizers/webp/ritik.webp",
     link: "https://www.linkedin.com/in/ritik-dhiman/",
   },
@@ -18,7 +18,7 @@ export const leadOrganizers = [
 export const organizersFinal = [
   {
     name: "Mihir Jain",
-    img:  l_demo,
+    img: l_demo,
     webp: "organizers/webp/mihir.webp",
     link: "https://www.linkedin.com/in/mihirjain0106/",
   },
@@ -68,7 +68,7 @@ export const organizersThird = [
     link: "https://www.linkedin.com/in/harshitajain16",
   },
   {
-    name:  l_demo,
+    name: l_demo,
     img: "organizers/suyash.jpg",
     webp: "organizers/webp/suyash.webp",
     link: "https://in.linkedin.com/in/suyash-barwal-93ba84202",

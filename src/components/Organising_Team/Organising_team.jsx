@@ -148,14 +148,14 @@ const OrganisingTeam = () => {
         </button>
 
         <div className="product-container" ref={boxRef}>
-        {organizers.map((data, index) => (
-              <FlippingCard
-                key={index}
-                data={data}
-                isFlipped={index === flippedCardIndex}
-                onCardClick={() => handleCardClick(index)}
-              />
-            ))}
+          {organizers.map((data, index) => (
+            <FlippingCard
+              key={index}
+              data={data}
+              isFlipped={index === flippedCardIndex}
+              onCardClick={() => handleCardClick(index)}
+            />
+          ))}
         </div>
       </div>
     </>

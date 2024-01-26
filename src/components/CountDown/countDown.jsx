@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./Count.css"
+import "./Count.css";
 
 const Timer = () => {
   const [timerDays, setTimerDays] = useState("--");
@@ -15,7 +15,9 @@ const Timer = () => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance / 1000) % 60);
       if (distance < 0) {
@@ -45,12 +47,10 @@ const Timer = () => {
       {/* <div className=" text-white flex justify-center text-xl ">
       Hackathon Begins
       </div> */}
-    <div className="container mx-auto">
-
-      <div className="flex flex-col items-center w-full text-white">
- 
-        <div className="flex md:items-stretch md:p-10">
-          <div className="flex flex-col items-center counter-cell w-18r md:w-32">
+      <div className="container mx-auto">
+        <div className="flex flex-col items-center w-full text-white">
+          <div className="flex md:items-stretch md:p-10">
+            <div className="flex flex-col items-center counter-cell w-18r md:w-32">
               <span className="md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {timerDays}
               </span>
@@ -62,7 +62,7 @@ const Timer = () => {
               </div>
             </div>
             <div className="divider">:</div>
-  
+
             <div className="counter-cell mb-4 md:mb-0">
               <span className=" md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {("0" + timerHours).slice(-2)}
@@ -75,7 +75,7 @@ const Timer = () => {
               </div>
             </div>
             <div className="divider ">:</div>
-             <div className="counter-cell mb-4 md:mb-0">
+            <div className="counter-cell mb-4 md:mb-0">
               <span className=" md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {("0" + timerMinutes).slice(-2)}
               </span>
@@ -87,7 +87,7 @@ const Timer = () => {
               </div>
             </div>
             <div className="divider ">:</div>
-             <div className="counter-cell">
+            <div className="counter-cell">
               <span className=" md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {("0" + timerSeconds).slice(-2)}
               </span>

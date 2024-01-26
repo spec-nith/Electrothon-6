@@ -30,9 +30,7 @@ const navItems = [
     id: "prizes_n",
     icon: faTrophy,
   },
-  
-  
-  
+
   {
     name: "FAQ",
     id: "faq",
