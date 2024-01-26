@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rock+Salt&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&display=swap");
 .looked {
   background: linear-gradient(180deg, #29e1ff 0%, #fff61d 100%);
-  font-family: 'Nunito Sans', sans-serif !important;
+  font-family: "Nunito Sans", sans-serif !important;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .about-description {
   color: #fff;
-  font-family:Arial, Helvetica, sans-serif;
- 
+  font-family: Arial, Helvetica, sans-serif;
 }
 .yum {
   max-width: 836px;
@@ -24,19 +23,18 @@
   display: flex;
   align-items: center;
 } */
-.cham
-{
-  animation: moveUpDow 2s ease-in-out infinite!important;
+.cham {
+  animation: moveUpDow 2s ease-in-out infinite !important;
 }
 @keyframes moveUpDow {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(20px);  
+    transform: translateY(20px);
   }
 }
-p
-{
-font-family: 'Noto Sans Georgian', sans-serif !important;
+p {
+  font-family: "Noto Sans Georgian", sans-serif !important;
 }

@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import "./about.css";
 import { chamkadar } from "../../assets/images";
 import { motion } from "framer-motion";
@@ -32,10 +32,13 @@ const AboutSection = () => {
           inherently unpredictable ride. As we launch the 6th in-person spell of
           Electrothon, we strive for nothing less than the wizard. Run by the
           student community SPEC under the moonlight of NIT Hamirpur,
-          Electrothon has impacted over 5000 students.<div className="hidden sm:flex"> The budding hackers who
-          joined Electrothon over its previous iterations left no stone unturned
-          to ideate and amalgamate technologies that transfigure visions into
-          reality.</div>
+          Electrothon has impacted over 5000 students.
+          <div className="hidden sm:flex">
+            {" "}
+            The budding hackers who joined Electrothon over its previous
+            iterations left no stone unturned to ideate and amalgamate
+            technologies that transfigure visions into reality.
+          </div>
         </p>
       </motion.div>
 

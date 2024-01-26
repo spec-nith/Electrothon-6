@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 .headesign {
   background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
   background-clip: text;
@@ -22,74 +22,69 @@
   font-family: Inter;
 }
 
-.headk
-{
-    color: #FFF;
-font-family: Inter;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: 35px; 
-letter-spacing: 5px;
-margin-bottom: -1rem;
-
+.headk {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 5px;
+  margin-bottom: -1rem;
 }
-.head2
-{
-    background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: center;
-font-size: 75px;
-font-style: normal;
-font-weight: 800;
-line-height: 75px; /* 100% */
-background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: 'Oswald', sans-serif !important;
-font-size: 75px;
-font-style: normal;
-font-weight: 600;
-line-height: 75px;
+.head2 {
+  background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px; /* 100% */
+  background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 75px;
 }
-@media screen and (max-width: 768px)
-{
-    
-    .headk
-    {
-        line-height: 20px;
-        font-size: 15px;
-    }
-    .head2
-    {
-        font-size: 30px;
-        line-height: 50px; 
-    }
-    .rakhu{
-      font-size:23px !important;
-    }
-    .buter
-    {
-      margin-bottom: -15rem !important;
-    }
-
+@media screen and (max-width: 768px) {
+  .headk {
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .head2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .rakhu {
+    font-size: 23px !important;
+  }
+  .buter {
+    margin-bottom: -15rem !important;
+  }
 }
 
-.rakhu{
-  font-size:3rem;
-  color:white;
-  font-family: 'Playfair Display';
-  animation-name:glow;
-  animation-duration:1s;
-  animation-iteration-count:infinite;
-  animation-direction:alternate;
+.rakhu {
+  font-size: 3rem;
+  color: white;
+  font-family: "Playfair Display";
+  animation-name: glow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   margin-bottom: 2rem;
 }
 
-@keyframes glow{
-  from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
-  to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
+@keyframes glow {
+  from {
+    text-shadow: 0px 0px 5px #fff, 0px 0px 5px #614ad3;
+  }
+  to {
+    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+  }
 }

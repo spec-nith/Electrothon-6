@@ -14,7 +14,7 @@ const Challenges = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col text-white`} 
+        className={`${styles.innerWidth} mx-auto flex flex-col text-white`}
       >
         <TitleText
           title={
@@ -36,11 +36,10 @@ const Challenges = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in-out-cubic"
       >
-         <div className="container w-full text-white flex justify-center items-center text-xl md:text-2xl">
-        Will Be Announced Soon
-      </div>
+        <div className="container w-full text-white flex justify-center items-center text-xl md:text-2xl">
+          Will Be Announced Soon
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 content-theme">
-     
           {/* {challengesData.map((challenge, index) => {
             return (
               <div

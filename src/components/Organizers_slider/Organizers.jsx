@@ -60,7 +60,7 @@ export default function Organiserss() {
           <OrganizerCard data={card} key={index} lead={true} />
         ))}
       </div>
-      
+
       <div className="text-2xl lg:text-4xl font-bold text-[#8471ae] tracking-wider my-16 lg:my-24 font-[Oswald] text-center">
         Organizers
       </div>

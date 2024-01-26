@@ -4,11 +4,8 @@ import navItems from "./Nav_tems";
 import BackTopBtn from "./BacktoTop/GoTop";
 import { speclogo } from "../../assets/images";
 import "./sidebar.css";
- 
-
 
 const LeftSidebar = () => {
-  
   const NavbarLG = (props) => {
     return (
       <Link
@@ -73,7 +70,6 @@ const LeftSidebar = () => {
     );
   };
 
- 
   return (
     <div className="h-full z-50">
       <div className=" h-full fixed flex flex-wrap top-0 left-0 md:ml-12">
@@ -92,7 +88,7 @@ const LeftSidebar = () => {
               />
             </picture>
           </a>
-          <div className="hidden lg:flex flex-col h-full justify-center items-center rounded-full"> 
+          <div className="hidden lg:flex flex-col h-full justify-center items-center rounded-full">
             {navItems.map((item) => (
               <NavbarLG item={item} key={item.id} />
             ))}

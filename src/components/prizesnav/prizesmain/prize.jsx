@@ -1,11 +1,11 @@
 import "./style.css";
- 
+
 import React from "react";
- 
+
 import Headers from "../winners/win_head";
- 
+
 import Cards from "../cards/main";
- 
+
 function Prizes_n() {
   return (
     <>
@@ -14,7 +14,6 @@ function Prizes_n() {
           <div className="relative z-0 ">
             <Headers />
             {/* <Cards /> */}
-             
           </div>
         </div>
       </div>

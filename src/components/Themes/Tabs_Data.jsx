@@ -11,7 +11,8 @@ import { mobileapp1 } from "../../assets/images";
 import { mobileapp2 } from "../../assets/images";
 import { dao } from "../../assets/images";
 import { dao2 } from "../../assets/images";
-import { blockchain1,
+import {
+  blockchain1,
   blockchain2,
   climate1,
   climate2,
@@ -19,21 +20,22 @@ import { blockchain1,
   health2,
   health3,
   Edtech1,
-    
   Edtech2,
   foodtech1,
   foodtech2,
   open_innovation1,
-       healthcare_final,
-     healthcare_final1,
-        open_inno,
-  open_innovation2, } from "../../assets/images";
+  healthcare_final,
+  healthcare_final1,
+  open_inno,
+  open_innovation2,
+} from "../../assets/images";
 
 export const tabData = [
   [
     {
       heading: "FoodTech",
-      content: "To preserve, to distribute, to cultivate, to grow Many are the problems when it comes to food. Why don't you try your spells to solve the problem",
+      content:
+        "To preserve, to distribute, to cultivate, to grow Many are the problems when it comes to food. Why don't you try your spells to solve the problem",
       img1: foodtech1,
       img2: foodtech2,
       prize_amt: "To be announced",
@@ -88,7 +90,7 @@ export const tabData = [
       img2: open_innovation1,
       prize_amt: "To be announced",
     },
-  
-  // Add more sets for additional tabs as needed
-],
-]
+
+    // Add more sets for additional tabs as needed
+  ],
+];

@@ -1,6 +1,11 @@
-import { aditya, devang, gaurav, insha, kundan, rodrigo } from "../../assets/images";
- 
- 
+import {
+  aditya,
+  devang,
+  gaurav,
+  insha,
+  kundan,
+  rodrigo,
+} from "../../assets/images";
 
 const speakers = [
   {

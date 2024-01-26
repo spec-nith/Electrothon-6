@@ -60,7 +60,13 @@ function Main() {
 function Imga({ imglol }) {
   return (
     <span className="imageslol">
-      {<img className="imagesize" src={imglol.url} alt={`Image is displayed}`} />}
+      {
+        <img
+          className="imagesize"
+          src={imglol.url}
+          alt={`Image is displayed}`}
+        />
+      }
     </span>
   );
 }

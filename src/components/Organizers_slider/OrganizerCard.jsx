@@ -5,7 +5,6 @@ const OrganizerCard = ({ data, lead }) => {
     <div className="flex flex-col">
       <div>
         <picture>
-      
           <img
             className={
               "rounded-full md:w-40 md:h-44 object-cover " +

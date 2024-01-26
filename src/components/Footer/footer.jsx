@@ -1,6 +1,6 @@
 import React from "react";
-import './footer.css';
- 
+import "./footer.css";
+
 import { useForm } from "@formspree/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -30,11 +30,7 @@ export default function Footer() {
               className="text-sm text-white md:text-lg md:font-bold hover:text-gray-300 "
             >
               <picture>
-                 <img
-                  className="w-16 md:w-32"
-                  src= {speclogo}
-                  alt="spec_logo"
-                />
+                <img className="w-16 md:w-32" src={speclogo} alt="spec_logo" />
               </picture>
             </a>
           </div>

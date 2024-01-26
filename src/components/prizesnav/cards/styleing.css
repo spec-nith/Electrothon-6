@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 .containers {
-    margin-top: 3%;
+  margin-top: 3%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -56,7 +56,6 @@
   }
 }
 
-
 .containers .card .img-box img {
   position: absolute;
   top: 0;
@@ -85,7 +84,7 @@
 .containers .card .content h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white!important;
+  color: white !important;
 }
 
 .containers .card .content p {
@@ -99,7 +98,7 @@
   padding: 12px 25px;
   text-decoration: none;
   background: var(--clr);
-  color: #36B7FF;
+  color: #36b7ff;
   font-weight: 500;
 }
 
@@ -127,62 +126,58 @@
     font-size: 0.9rem;
   }
 }
- .header1
-{
-    text-align: left;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 60px; 
-    background: linear-gradient(91deg, #36B7FF 5.47%, #E3E800 99.63%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    text-transform: capitalize;
-} 
-.header2
-{
-    text-align: left;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-margin-bottom: 3rem;
-line-height: 60px; 
-text-transform: capitalize;
-background: linear-gradient(91deg, #36B7FF 5.47%, #E3E800 99.63%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-} 
+.header1 {
+  text-align: left;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  background: linear-gradient(91deg, #36b7ff 5.47%, #e3e800 99.63%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+.header2 {
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  line-height: 60px;
+  text-transform: capitalize;
+  background: linear-gradient(91deg, #36b7ff 5.47%, #e3e800 99.63%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media only screen and (max-width: 768px) {
   .header1 {
-      font-size: 24px; 
-      line-height: 48px; 
+    font-size: 24px;
+    line-height: 48px;
   }
   .container .card .content h2 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: white!important;
+    color: white !important;
   }
   .header2 {
-      font-size: 10px; 
-      line-height: 48px; 
+    font-size: 10px;
+    line-height: 48px;
   }
 }
 .nice {
-  height: 7rem; 
+  height: 7rem;
 
   @media (min-width: 767px) {
-    height: 15rem; 
+    height: 15rem;
   }
 }
-.his
-{
+.his {
   margin-bottom: 5rem;
 }
-.imges
-{
+.imges {
   transform: scale(1) !important;
 }
