@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   padding: 26px;
-  margin: 0 10rem;
+  margin: 10rem 20rem;
 }
 @media screen and (max-width: 768px) {
   .product-carousel {
@@ -13,8 +13,10 @@
   }
 }
 .product-container {
-  padding: 0 10px;
+  padding: 0 50px;
+ 
   display: flex;
+  gap: 4px;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }

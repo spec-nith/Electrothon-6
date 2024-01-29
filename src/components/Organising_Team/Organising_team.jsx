@@ -81,6 +81,7 @@ const OrganisingTeam = () => {
           </div>
         </div>
         {/* Organisers Carousel */}
+        <div className="mx-4 sm:mx-8">
         <div className="organizers looked headingyo ">ORGANIZERS</div>
         <div className="carousel-container ml-[8.25rem] mr-10 ">
           {/* <button className="pre-btn" onClick={() => btnpressprev(boxRef1)}>
@@ -113,9 +114,10 @@ const OrganisingTeam = () => {
             ))}
           </div>
         </div>
-
+</div>
         <div className="mt-8"></div>
 
+        <div className="mx-4 sm:mx-8">
         <div className="carousel-container ml-[8.25rem] mr-10 ">
           {/* <button className="pre-btn" onClick={() => btnpressprev(boxRef2)}>
             <p>&lt;</p>
@@ -146,6 +148,7 @@ const OrganisingTeam = () => {
             ))}
           </div>
         </div>
+      </div>
       </div>
     </>
   );
