@@ -28,3 +28,9 @@
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
   }
 }
+
+@media screen and (max-width: 800px) {
+  .carousel-container {
+    margin-left: 0;
+  }
+}

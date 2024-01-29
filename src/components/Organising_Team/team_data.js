@@ -17,7 +17,6 @@ import {
   akshansh,
   ananay,
   aniket,
-  antriksh,
   arun,
   dikshant,
   hammad,
@@ -128,6 +127,8 @@ export const organizers = [
     img: tanuj,
     link: "linkedin.com/in/tanuj-khanna-18a587229",
   },
+];
+export const organizerstwo = [
   {
     name: "Aahad",
     img: aahad,
@@ -158,12 +159,7 @@ export const organizers = [
     // post: "Co-Ordinator",
     // link: "linkedin.com/in/",
   },
-  {
-    name: "Antriksh",
-    img: antriksh,
-    // post: "Co-Ordinator",
-    // link: "linkedin.com/in/",
-  },
+
   {
     name: "Arun",
     img: arun,

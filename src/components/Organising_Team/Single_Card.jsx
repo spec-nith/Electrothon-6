@@ -19,7 +19,7 @@ const FlippingCard = ({ data, isFlipped, onCardClick }) => {
           <picture className="w-full h-full">
             <img
               loading="lazy" //  lazy loading
-              className="w-full object-cover"
+              className="w-full object-cover border rounded-full"
               style={{ height: "84%" }}
               src={data.img}
               alt="organizerImg"
