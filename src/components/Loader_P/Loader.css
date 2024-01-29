@@ -3,7 +3,7 @@ body {
 }
 
 .loader {
-  position: relative;
+  position: absolute;
   height: 200px;
   width: 200px;
   border-radius: 200px;
@@ -11,7 +11,8 @@ body {
   box-shadow: 0em 0em 0.5em #fff, 0 0 2em 0.1em #fff,
     0 0 9em rgba(255, 255, 255, 0.87), inset 0em 0em 0.5em #fff,
     inset 0 0 2em 0.1em #fff, inset 0 0 5em rgba(255, 255, 255, 0.8);
-  top: 100px;
+  top: 30%;
+  bottom: 0%;
   left: calc(50% - 100px);
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
