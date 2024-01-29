@@ -78,7 +78,7 @@ const LeftSidebar = () => {
             href="https://spec.nith.ac.in/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-white fixed hidden lg:block top-10 left-5 md:text-lg md:font-bold hover:text-gray-300 "
+            className="text-sm text-white fixed  lg:block top-10 left-5 md:text-lg md:font-bold hover:text-gray-300 "
           >
             <picture>
               <img
