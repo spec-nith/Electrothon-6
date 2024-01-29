@@ -15,11 +15,11 @@ const FlippingCard = ({ data, isFlipped, onCardClick }) => {
         className={`card ${isFlipped ? "flipped" : ""}`}
         onClick={handleClick}
       >
-        <div className="front p-4 flex flex-col">
+        <div className="front p-4 flex flex-col justify-center items-center">
           <picture className="w-full h-full">
             <img
               loading="lazy" //  lazy loading
-              className=" object-cover rounded-full h-40 w-40   "
+              className=" object-cover rounded-full sm:h-40 sm:w-40 h-24 w-24    "
             
                src={data.img}
               alt="organizerImg"

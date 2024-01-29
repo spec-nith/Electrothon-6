@@ -5,6 +5,7 @@ import { TitleText } from "../Tracks_new/CustomTexts";
 import styles from "../Tracks_new/style";
 import "./Imagecarousel.css";
 import "./Mycard.css";
+import Leadorg from "./Leadorg";
 
 const OrganisingTeam = () => {
   const [flippedCardIndex, setFlippedCardIndex] = useState(null);
@@ -68,10 +69,10 @@ const OrganisingTeam = () => {
         <div className="lead_organizers looked headingyo mt-10">
           LEAD ORGANIZERS
         </div>
-        <div className="flex justify-center mt-8 px-4 sm:px-8 md:mx-32 lg:mx-24">
-          <div className="flex flex-col sm:flex-row sm:gap-8 md:gap-16">
+        <div className="flex   mt-8 px-4 sm:px-8 md:mx-32 lg:mx-24 justify-center items-center">
+          <div className="flex flex-col sm:flex-row sm:gap-8 md:gap-16 justify-center items-center">
             {Lead_Organizers.map((data, index) => (
-              <FlippingCard
+              <Leadorg
                 key={index}
                 data={data}
                 isFlipped={index === flippedCardIndex2}
@@ -81,7 +82,7 @@ const OrganisingTeam = () => {
           </div>
         </div>
         {/* Organisers Carousel */}
-        <div className="mx-4 sm:mx-8">
+ 
         <div className="organizers looked headingyo ">ORGANIZERS</div>
         <div className="carousel-container ml-[8.25rem] mr-10 ">
           {/* <button className="pre-btn" onClick={() => btnpressprev(boxRef1)}>
@@ -114,10 +115,10 @@ const OrganisingTeam = () => {
             ))}
           </div>
         </div>
-</div>
+ 
         <div className="mt-8"></div>
 
-        <div className="mx-4 sm:mx-8">
+       
         <div className="carousel-container ml-[8.25rem] mr-10 ">
           {/* <button className="pre-btn" onClick={() => btnpressprev(boxRef2)}>
             <p>&lt;</p>
@@ -149,7 +150,7 @@ const OrganisingTeam = () => {
           </div>
         </div>
       </div>
-      </div>
+      
     </>
   );
 };
