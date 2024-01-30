@@ -13,6 +13,6 @@ const Navbar = () => {
       </picture>
     </div>
   );
-} updated;
+};
 
 export default Navbar;
