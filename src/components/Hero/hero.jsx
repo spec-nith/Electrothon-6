@@ -6,7 +6,7 @@ import Button from "..//prizesnav/button/button";
 
 import Sidebar from "../Sidebar/Sidebar";
 import LeftSidebar from "../Left_sidebar/LeftSidebar";
-
+import Navbar from "../Navbar/Navbar";
 import SpiritCanvas from "../../canvas/Spirit";
 
 import PotionCanvas from "../../canvas/Potion";
@@ -25,6 +25,7 @@ const Hero = () => {
 
   return (
     <>
+      <Navbar />
       <div className="flex w-full h-full z-[20] items-center justify-center min-h-screen bg-transparent relative">
         <LeftSidebar />
         <Sidebar />
