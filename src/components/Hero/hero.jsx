@@ -25,14 +25,14 @@ const Hero = () => {
 
   return (
     <>
-      <div className="flex w-full h-full z-[20] items-center justify-center min-h-screen bg-transparent relative">
+      <div className="flex w-full  h-full z-[20] items-center justify-center min-h-screen bg-transparent relative">
         <LeftSidebar />
         <Sidebar />
         {/* left */}
-        <div className="hidden sm:block absolute left-20 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50"></div>
+        <div className="hidden  sm:block absolute left-20 top-1/2 transform -translate-y-1/2 w-1/4 h-full object-cover opacity-50"></div>
 
         {/* Content Container */}
-        <div className=" header absolute top-0 z-10 text-center p-8">
+        <div className=" header absolute top-0 z-10 text-center p-8   sm:ml-0">
           <h1 className="head2">ELECTROTHON 6.O</h1>
           <p className="rakhu">Sorcerers of Cipher</p>
 

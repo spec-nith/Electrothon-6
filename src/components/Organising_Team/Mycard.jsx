@@ -15,9 +15,7 @@ const Mycard = ({ img, name }) => {
             alt="organizerImg"
           />
         </picture>
-        <div className="text-white flex w-full justify-center mt-4">
-          <h2>{name}</h2>
-        </div>
+     
       </div>
     </div>
   );

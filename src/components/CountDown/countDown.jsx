@@ -50,15 +50,15 @@ const Timer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center w-full text-white">
           <div className="flex md:items-stretch md:p-10">
-            <div className="flex flex-col items-center counter-cell w-18r md:w-32">
-              <span className="md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
+          <div className="counter-cell mb-4 md:mb-0">
+              <span className=" md:m-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl subhead-theme">
                 {timerDays}
               </span>
               <div
                 className="con w-full text-center p-1.5  md:text-xl rounded-b-lg"
                 style={{ backgroundColor: "#1b141c" }}
               >
-                <span className="text-sm">Days</span>
+                <span className="text-sm">Hours</span>
               </div>
             </div>
             <div className="divider">:</div>

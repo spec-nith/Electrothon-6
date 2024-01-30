@@ -8,25 +8,24 @@ import Footer from "../components/Footer/footer";
 import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
 
-import Prize from "../components/Prizes/Prizes";
+ 
 import Timeline from "../components/Timeline/Timeline";
 import Organising_team from "../components/Organising_Team/Organising_team";
-import Theme from "../components/Themes/Theme";
+ 
 import Carousel from "../components/carousel/carousel";
 import Why_sponser from "../components/why_sponser/Why_sponser";
 import StarsCanvas from "../canvas/Star";
 
-import Support from "../components/Support/support";
+ 
 
 import MagicalLoader from "../components/Loader_P/Loader_P";
 import Prizes_n from "../components/prizesnav/prizesmain/prize";
 import Sponsers from "../components/sponsernav/main/main";
 
-import Organizers from "../components/Organizers_slider/Organizers";
-
-import { magicbg, magicbg2 } from "../assets/images";
+ 
 import BgStatic from "../components/Background/bgstatic";
 import Explore from "../components/Tracks_new/Track";
+import { magicbg3 } from "../assets/images";
 
 function Home() {
   const [Loading, setLoading] = useState(false);
@@ -50,8 +49,10 @@ function Home() {
       {!Loading ? (
         <MagicalLoader />
       ) : (
-        <div>
-          <div className="relative">
+        <div className="">
+          <div className="relative w-full"
+  
+          >
             <BgStatic />
             {/* <div className="fixed top-0 right-0 ">
           <a
@@ -69,12 +70,13 @@ function Home() {
         />
       </a> 
       </div>      */}
+      <div></div>
             <div className="">
               <StarsCanvas />
             </div>
             <Hero />
           </div>
-          <div
+          <div c 
           //      className="bg-fixed bg-no-repeat "
           //      style={{
           //   backgroundImage: `url(${magicbg})`,
