@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
 import navItems from "./Nav_tems";
 import BackTopBtn from "./BacktoTop/GoTop";
-import { speclogo } from "../../assets/images";
+// import { speclogo } from "../../assets/images";
 import "./sidebar.css";
 
 const LeftSidebar = () => {
@@ -80,13 +80,13 @@ const LeftSidebar = () => {
             rel="noopener noreferrer"
             className="text-sm text-white fixed  lg:block top-10 left-5 md:text-lg md:font-bold hover:text-gray-300 "
           >
-            <picture>
+            {/* <picture>
               <img
                 className="w-16 md:w-32 z-5000"
                 src={speclogo}
                 alt="spec_logo"
               />
-            </picture>
+            </picture> */}
           </a>
           <div className="hidden lg:flex flex-col h-full justify-center items-center rounded-full">
             {navItems.map((item) => (
