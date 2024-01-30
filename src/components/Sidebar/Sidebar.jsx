@@ -17,7 +17,7 @@ const SocialMediaLG = (props) => {
           icon={props.item.icon}
           fixedWidth
         />
-        <p className="tooltiptext2">{props.item.name}</p>
+        <p className="tooltiptext2 mr-6">{props.item.name}</p>
       </span>
     </a>
   );
