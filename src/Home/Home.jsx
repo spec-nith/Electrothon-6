@@ -1,10 +1,10 @@
-  
+// Home.js
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Hero from "../components/Hero/hero";
 import AboutSection from "../components/About/about";
 import Faqs from "../components/Faq/faq";
- 
+import Footer from "../components/Footer/footer";
 import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
 
@@ -78,7 +78,7 @@ function Home() {
             <Organising_team />
           
             <Faqs />
-            
+            <Footer />
             </div>
           </div>
         </div>
