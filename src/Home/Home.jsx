@@ -1,4 +1,4 @@
-// Home.js
+  
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Hero from "../components/Hero/hero";
