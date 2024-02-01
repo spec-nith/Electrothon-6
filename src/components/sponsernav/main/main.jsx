@@ -1,5 +1,5 @@
 import "./style.css";
-
+import StarsCanvas from "../../../canvas/Star";
 import React from "react";
 import Cards from "../../prizesnav/cards/main";
 import Hero from "../../prizesnav/Hero2/hero";

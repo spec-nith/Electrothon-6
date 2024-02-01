@@ -5,29 +5,53 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
+  /* margin-left: 10%; */
+}
+.containerlol {
+  background-color: hsla(273, 13%, 14%, 0.746);
+  /* background-color: rgb(131, 131, 131); */
+  width: 80vw;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
 }
 .image-gallery {
   width: 620px;
   margin: 80px;
   list-style: none;
-  float: left;
-  padding: 10px;
+  /* float: left;
+  padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .imageurl3 {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .list {
-  width: 200px;
-  float: left;
-  margin: 0 10px 10px 0;
+  width: 400px;
+  /* float: left; */
+  /* margin: 0 10px 10px 0; */
   -webkit-filter: sepia(0.7);
-  position: relative;
+  /* position: relative; */
   -webkit-transition: 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.list img {
+  height: 77px;
+  width: 20rem;
+}
 .list:hover {
   -webkit-filter: sepia(0);
   z-index: 1;
@@ -52,7 +76,52 @@ body {
   background-color: white;
 }
 
-.list:nth-child(1) img {
+.containerlol {
+  position: relative;
+}
+
+.containerlol::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  z-index: 9;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+.containerlol:hover::before {
+  opacity: 0.8;
+}
+
+@keyframes anime {
+  to {
+    opacity: 0.2;
+  }
+  from {
+    opacity: 1;
+  }
+}
+
+.ek::before,
+.do::before,
+.tin::before {
+  transition: all 3s;
+}
+
+.ek::before {
+  background-color: #182f3b;
+}
+.do::before {
+  background-color: #144b39;
+}
+.tin::before {
+  background-color: #962b75;
+}
+/* .list:nth-child(1) img {
   -webkit-transform: translate(-10px, 20px);
 }
 
@@ -109,14 +178,12 @@ body {
   .list:nth-child(1) img {
     -webkit-transform: translate(-10px, 10px);
   }
-  
+
   .list:nth-child(2) img {
     -webkit-transform: translate(-10px, 50px);
   }
-  
+
   .list:nth-child(3) img {
     -webkit-transform: translate(-10px, 70px);
   }
-  
-  }
-
+} */
