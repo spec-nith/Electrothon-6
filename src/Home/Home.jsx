@@ -76,7 +76,7 @@ function Home() {
             </div>
             <Hero />
           </div>
-          <div c 
+          <div 
           //      className="bg-fixed bg-no-repeat "
           //      style={{
           //   backgroundImage: `url(${magicbg})`,

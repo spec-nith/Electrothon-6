@@ -58,7 +58,7 @@ const Timer = () => {
                 className="con w-full text-center p-1.5  md:text-xl rounded-b-lg"
                 style={{ backgroundColor: "#1b141c" }}
               >
-                <span className="text-sm">Hours</span>
+                <span className="text-sm">Days</span>
               </div>
             </div>
             <div className="divider">:</div>

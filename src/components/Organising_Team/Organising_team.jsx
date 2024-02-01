@@ -32,7 +32,7 @@ const OrganisingTeam = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    arrows: false,
+    arrows: true,
     responsive: [
      
       {
@@ -120,7 +120,7 @@ const OrganisingTeam = () => {
         />
       </motion.div>
  
- <div className="ml-4 ">
+ <div className=" sm:m-12 sm:ml-16 ">
         <Slider {...settings}>
         {organizers.map((data, index) => (
               <div
