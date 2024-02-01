@@ -25,7 +25,7 @@ import Sponsers from "../components/sponsernav/main/main";
  
 import BgStatic from "../components/Background/bgstatic";
 import Explore from "../components/Tracks_new/Track";
-import { magicbg3 } from "../assets/images";
+ 
 
 function Home() {
   const [Loading, setLoading] = useState(false);
@@ -50,58 +50,36 @@ function Home() {
         <MagicalLoader />
       ) : (
         <div className="">
-          <div className="relative w-full"
+          <div className="relative "
   
           >
             <BgStatic />
-            {/* <div className="fixed top-0 right-0 ">
-          <a
-        id="mlh-trust-badge"
-        className="mlh"
-        href="https://mlh.io/apac?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
-          alt="Major League Hacking 2023 Hackathon Season"
-          // style={{width:"30%", height:"50%"}}
-          className="w-[3rem] h-[5rem] md:w-[8rem] mx-5 md:h-[10rem] md:mx-24"
-        />
-      </a> 
-      </div>      */}
-      <div></div>
-            <div className="">
+         
+             <div className="">
               <StarsCanvas />
             </div>
             <Hero />
           </div>
-          <div 
-          //      className="bg-fixed bg-no-repeat "
-          //      style={{
-          //   backgroundImage: `url(${magicbg})`,
-          //  }}
-          >
+          <div>
+          <div>
             <AboutSection />
 
             <Timeline />
             <Why_sponser />
             <Carousel />
             <Sponsers />
-            {/* <div className="hidden 2xl:flex">
-          <Theme />
-          </div> */}
-            <div className=" block">
+          
+            
               <Explore />
-            </div>
+           
             <Prizes_n />
             <Challenges />
             <SpeakersNew />
             <Organising_team />
-            {/* <Organizers /> */}
-            {/* <Support /> */}
+          
             <Faqs />
-            <Footer />
+         
+            </div>
           </div>
         </div>
       )}

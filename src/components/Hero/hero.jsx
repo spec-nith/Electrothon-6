@@ -29,14 +29,14 @@ const Hero = () => {
         <LeftSidebar />
         <Sidebar />
      
-        <div className=" flex flex-col gap-4 absolute top-0 z-10 text-center p-8   sm:ml-0">
+        <div className=" flex flex-col gap-4 absolute top-0 z-10 text-center pt-8   sm:ml-0">
           <h1 className="head3">ELECTROTHON 6.O</h1>
           <p className="rakhu">Sorcerers of Cipher</p>
 
 
           <Button />
          
-          <div className="mt-24 sm:mt-12 ">
+          <div className="mt-24 sm:mt- ">
             <Timer />
           </div>
 
