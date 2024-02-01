@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./hero.css";
 import Timer from "../CountDown/countDown";
 
- 
+import Button from "..//prizesnav/button/button";
 
 import Sidebar from "../Sidebar/Sidebar";
 import LeftSidebar from "../Left_sidebar/LeftSidebar";
@@ -34,7 +34,7 @@ const Hero = () => {
           <p className="rakhu">Sorcerers of Cipher</p>
 
 
-         
+          <Button />
          
           <div className="mt-24 sm:mt- ">
             <Timer />
