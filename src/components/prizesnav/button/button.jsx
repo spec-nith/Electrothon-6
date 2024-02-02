@@ -6,7 +6,8 @@ const Button = () => {
       <div
         className="apply-button w-[13rem] h-12 md:w-[20rem] "
         data-hackathon-slug="electrothon6"
-        data-button-theme="light"   
+        data-button-theme="light"
+         
       ></div>
     </div>
   );
