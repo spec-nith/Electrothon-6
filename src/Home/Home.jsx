@@ -21,10 +21,7 @@ import Support from "../components/Support/support";
 import MagicalLoader from "../components/Loader_P/Loader_P";
 import Prizes_n from "../components/prizesnav/prizesmain/prize";
 import Sponsers from "../components/sponsernav/main/main";
-
-import Organizers from "../components/Organizers_slider/Organizers";
-
-import { magicbg, magicbg2 } from "../assets/images";
+ 
 import BgStatic from "../components/Background/bgstatic";
 import Explore from "../components/Tracks_new/Track";
 import { Event } from "../components/Events/Event";
