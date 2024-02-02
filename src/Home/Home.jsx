@@ -25,6 +25,7 @@ import Sponsers from "../components/sponsernav/main/main";
  
 import BgStatic from "../components/Background/bgstatic";
 import Explore from "../components/Tracks_new/Track";
+import { Event } from "../components/Events/Event";
  
 
 function Home() {
@@ -74,6 +75,7 @@ function Home() {
            
             <Prizes_n />
             <Challenges />
+            <Event/>
             <SpeakersNew />
             <Organising_team />
           

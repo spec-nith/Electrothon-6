@@ -150,7 +150,10 @@ import healthcare_final from "./images/healthcare_final.jpg";
 
 import verbwire3 from "./images/verbwire3.png";
 
+import gg from "./images/gg.jpeg";
+
 export {
+  gg,
   orkes2,
   orkes,
   devfoliop,

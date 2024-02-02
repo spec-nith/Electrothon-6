@@ -46,7 +46,7 @@ export default function Faqs() {
             textStyles="text-center"
           />
         </motion.div>
-        <div className="mt-20 md:mx-10  lg:grid grid-cols-1 gap-x-10">
+        <div className="mt-20 md:mx-10  lg:grid grid-cols-2 gap-x-10">
           <div>
             {initalQues.map((faq, index) => {
               return (
