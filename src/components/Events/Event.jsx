@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "../Tracks_new/style";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
-import "../Challenges/style.css"
+import "../Challenges/style.css";
 import { pastEvents, liveEvents, UpcomingEvents } from "./Data";
 import EventCard from "./Event_card";
 
@@ -15,7 +15,7 @@ const tabs = [
 
 export const Event = () => {
   const [currentTab, setTabState] = useState(1);
- 
+
   return (
     <div className="">
       <motion.div

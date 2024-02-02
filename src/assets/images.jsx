@@ -1,4 +1,4 @@
-import aditya from "../assets/images/aditya.jpg.png";
+ import aditya from "../assets/images/aditya.jpg.png";
 import devang from "../assets/images/Devang.jpeg.png";
 import gaurav from "../assets/images/gaurav.jpg.png";
 import insha from "../assets/images/insha.jpg.png";
@@ -150,7 +150,7 @@ import healthcare_final from "./images/healthcare_final.jpg";
 
 import verbwire3 from "./images/verbwire3.png";
 
-import gg from "./images/gg.jpeg";
+import gg from "./images/gg.jpg";
 
 export {
   gg,
