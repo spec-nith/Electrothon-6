@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./style.css"; // Make sure to import your CSS file
 import {
   devfoliop,
   orkes2,
@@ -10,6 +10,8 @@ import {
   wolfram,
   verbwire3,
 } from "../../../assets/images";
+
+import { starsss } from "../../../assets/images";
 
 const ImageGallery = () => {
   const imageUrls = [
@@ -53,63 +55,61 @@ const ImageGallery = () => {
 
   return (
     <>
-      <div className="container ">
-        <div className="text-white flex justify-center text-4xl ">
+      <div className="containerlols ek chill1">
+        <div className="text-white flex justify-center text-4xl z-[999] fnt cheems ">
           Oracle Sponsors
         </div>
-        <div className="image">
+        <div className="image chill2">
           <ul className="image-gallery">
             {imageUrls.map((imageUrl, index) => (
-              <>
-                <li className="list" key={index}>
-                  <img
-                    src={imageUrl.img}
-                    alt={imageUrl.alt}
-                    className="gallery-image"
-                  />
-                </li>
-              </>
+              <li className="list" key={index}>
+                <img
+                  src={imageUrl.img}
+                  alt={imageUrl.alt}
+                  className="gallery-image z-[999] burn"
+                />
+              </li>
             ))}
           </ul>
         </div>
       </div>
-      <div className="text-white flex justify-center text-4xl p-5">
-        Wizard Sponsors
-      </div>
-      <div className="image">
-        <ul className="image-gallery">
-          {imageUrls2.map((imageUrl, index) => (
-            <>
+      <div className="containerlols do">
+        <div className="text-white flex justify-center text-4xl p-5 fnt z-[999] cheems ">
+          Wizard Sponsors
+        </div>
+        <div className="image  corr">
+          <ul className="image-gallery">
+            {imageUrls2.map((imageUrl, index) => (
               <li className="list" key={index}>
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image"
+                  className="gallery-image z-999"
                 />
               </li>
-            </>
-          ))}
-        </ul>
+            ))}
+          </ul>
+        </div>
       </div>
-      <div className="text-white flex justify-center text-4xl pb-5">
-        Knight Sponsors
-      </div>
-      <div className="image">
-        <ul className="image-gallery">
-          {imageUrls3.map((imageUrl, index) => (
-            <>
+      <div className="containerlols tin ullu">
+        <div className="text-white sm:text-4xl flex justify-center text-4xl fnt pb-5 align-middle z-[999]  cheems">
+          Knight Sponsors
+        </div>
+        <div className="image corr fem">
+          <ul className="image-gallery">
+            {imageUrls3.map((imageUrl, index) => (
               <li className="list" key={index}>
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image imageurl3"
+                  className="gallery-image imageurl3 z-999"
                 />
               </li>
-            </>
-          ))}
-        </ul>
+            ))}
+          </ul>
+        </div>
       </div>
-      <div className="flex justify-center sm:mt-20 text-center  sm:text-xl pb-7 text-gray-100">
+      <div className="flex justify-center sm:mt-20 text-center sm:text-xl pb-7 text-gray-100">
         Interested in sponsoring? Mail at:
         <br />
         <a href="mailto:spec@nith.ac.in" className="text-blue-500">

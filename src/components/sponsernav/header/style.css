@@ -41,3 +41,9 @@
 .lel {
   margin-bottom: 8rem;
 }
+
+@media screen and (max-width: 900px) {
+  .sponhead {
+    margin-bottom: 5rem;
+  }
+}
