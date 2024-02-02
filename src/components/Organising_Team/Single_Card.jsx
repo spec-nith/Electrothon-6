@@ -25,11 +25,11 @@ const FlippingCard = ({ data, isFlipped, onCardClick }) => {
               alt="organizerImg"
             />
           </picture>
-          <div className="text-white flex w-full">
+          <div className="text-white  text-sm font-sans flex w-full">
             <h2>{data.name}</h2>
           </div>
         </div>
-        <div className="z-[-5] back p-4 flex flex-col justify-between">
+        <div className="z-[-5] back p-4 flex flex-col ">
           <picture className="h-3/4">
             <img
               loading="lazy"

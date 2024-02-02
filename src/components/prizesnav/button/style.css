@@ -1,32 +1,5 @@
-/* Phones */
-@media screen and (max-width: 425px) {
-  body {
-    font-size: 7px;
-  }
-  .let {
-    /* margin-top: 1rem!important;  */
-    width: 15rem;
-    height: 1rem;
-  }
-  .txt {
-    font-size: 7px;
-  }
-}
-
-/* Tablets */
-@media screen and (min-width: 426px) and (max-width: 840px) {
-  body {
-    font-size: 7px;
-  }
-  .let {
-    width: 15rem;
-    height: 4.5rem;
-  }
-  .txt {
-    font-size: 10px;
-  }
-}
-
+  
+@media only screen and (min-width: 1024px) {
 .let {
   position: relative;
   color: white;
@@ -38,3 +11,6 @@
   margin: 40px;
   margin-left: 1.6rem;
 }
+}
+
+ 

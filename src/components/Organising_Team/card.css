@@ -7,9 +7,10 @@
   height: 12rem !important;
   transform-style: preserve-3d;
   transition: transform 0.5s;
+  background-color: transparent !important;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
 .card {
   width: 13rem !important;
   height: 18rem !important;

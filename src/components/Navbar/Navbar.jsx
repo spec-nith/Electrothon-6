@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <picture style={{ width: "20%" }}>
         <img
-          className=" flex w-16 md:w-32 md:mr-4 ml-10 mt-6"
+          className=" flex w-16 md:w-32 md:mr-4 absolute left-2 top-2"
           src={speclogo}
           alt="spec_logo"
         />

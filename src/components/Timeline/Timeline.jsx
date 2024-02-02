@@ -1,8 +1,5 @@
 import "../../App.css";
-// import {ReactComponent as RegisterIcon} from "../../assets/images/register.svg";
-// import {ReactComponent as PeopleIcon} from "../../assets/images/people.svg";
-// import {ReactComponent as ResultIcon} from "../../assets/images/result.svg";
-// import {ReactComponent as WorkIcon} from "../../assets/images/work.svg";
+ 
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
@@ -49,7 +46,7 @@ function Timeline() {
           />
         </motion.div>
       </div>
-      {/* <h1 className='title'>Timeline</h1> */}
+  
       <div className="mx-4sm:mx-6 md:mx-12 lg:mx-24">
         <VerticalTimeline>
           {timelineElements.map((element) => {
@@ -57,7 +54,7 @@ function Timeline() {
             let isPeopleIcon = element.icon === "people";
             let isResultIcon = element.icon === "result";
             let isElectrothonIcon = element.icon === "electrothon";
-            // let isWorkIcon = element.icon === "work";
+          
             let showButton =
               element.buttonText !== undefined &&
               element.buttonText !== null &&
@@ -88,13 +85,13 @@ function Timeline() {
                 }
                 icon={
                   isRegisterIcon ? (
-                    <img src={register} />
+                    <img src={register} className="w-full p-1.5  md:p-2.5" />
                   ) : isPeopleIcon ? (
-                    <img src={people} />
+                    <img src={people}  className="w-full p-1.5 md:p-2.5" />
                   ) : isResultIcon ? (
-                    <img src={result} />
+                    <img src={result}  className="w-full p-2.5 md:p-4" />
                   ) : (
-                    <img src={work} />
+                    <img src={work}  className="w-full p-1" />
                   )
                 }
               >

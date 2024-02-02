@@ -1,10 +1,10 @@
 @media screen and (max-width: 640px) {
   #timer .counter-cell span {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   #timer .counter-cell .text-sm {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   #timer .divider {
@@ -12,7 +12,12 @@
   }
 
   #timer .hidden.md\:block {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+
+  #timer .con {
+    margin: 0.1rem;
+    padding: 0.5rem;
   }
 }
 

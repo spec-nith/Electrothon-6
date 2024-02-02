@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+ 
 
 import { useForm } from "@formspree/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,7 +10,7 @@ import {
   faInstagram,
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
-// import { Wrapper, Status } from "@googlemaps/react-wrapper";
+ 
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
@@ -21,7 +21,7 @@ export default function Footer() {
   const BottomFooter = () => {
     return (
       <React.Fragment>
-        <div className="md:flex justify-center gap-5 lg:gap-40 mt-5 font-['Gugi'] ">
+        <div className="   md:flex justify-center gap-5 lg:gap-40 mt-5 font-['Gugi'] ">
           <div className="flex justify-center mb-2 md:visible">
             <a
               href="https://spec.nith.ac.in/"
@@ -225,7 +225,7 @@ export default function Footer() {
 
   return (
     <footer
-      id="contact"
+      id="contact "
       className="flex justify-center px-4 mt-10 -mb-6 text-gray-800 shadow-lg md:mt-20"
     >
       <div className="container flex flex-col justify-center py-6 m-2 text-center">
