@@ -27,6 +27,7 @@ import Organizers from "../components/Organizers_slider/Organizers";
 import { magicbg, magicbg2 } from "../assets/images";
 import BgStatic from "../components/Background/bgstatic";
 import Explore from "../components/Tracks_new/Track";
+import { Event } from "../components/Events/Event";
 
 function Home() {
   const [Loading, setLoading] = useState(false);
@@ -86,6 +87,7 @@ function Home() {
             <Why_sponser />
             <Carousel />
             <Sponsers />
+            <Event />
             {/* <div className="hidden 2xl:flex">
           <Theme />
           </div> */}

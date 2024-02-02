@@ -8,8 +8,7 @@ import Heading from "../header/header";
 import Footer from "../../Footer/footer";
 import Sponser from "../oursponser/sponser";
 
-import Sidebar from "../../Sidebar/Sidebar";
-import LeftSidebar from "../../Left_sidebar/LeftSidebar";
+ 
 
 function Sponsers() {
   return (

@@ -11,7 +11,7 @@ import {
   verbwire3,
 } from "../../../assets/images";
 
-import { starsss } from "../../../assets/images";
+ 
 
 const ImageGallery = () => {
   const imageUrls = [
@@ -55,7 +55,7 @@ const ImageGallery = () => {
 
   return (
     <>
-      <div className="containerlols ek chill1">
+      <div className="containerlolall ek chill1">
         <div className="text-white flex justify-center text-4xl z-[999] fnt cheems ">
           Oracle Sponsors
         </div>
@@ -73,8 +73,8 @@ const ImageGallery = () => {
           </ul>
         </div>
       </div>
-      <div className="containerlols do">
-        <div className="text-white flex justify-center text-4xl p-5 fnt z-[999] cheems ">
+      <div className="containerlolall do">
+        <div className="text-white flex justify-center text-4xl p-2 fnt z-[999] cheems ">
           Wizard Sponsors
         </div>
         <div className="image  corr">
@@ -91,8 +91,8 @@ const ImageGallery = () => {
           </ul>
         </div>
       </div>
-      <div className="containerlols tin ullu">
-        <div className="text-white sm:text-4xl flex justify-center text-4xl fnt pb-5 align-middle z-[999]  cheems">
+      <div className="containerlolall tin ullu">
+        <div className="text-white sm:text-4xl flex justify-center text-3xl   pb-4 align-middle z-[999]   ">
           Knight Sponsors
         </div>
         <div className="image corr fem">
