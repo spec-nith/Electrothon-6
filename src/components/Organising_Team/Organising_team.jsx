@@ -80,7 +80,7 @@ const OrganisingTeam = () => {
           title={
             <>
               <div className="looked text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 ">
-                LEAD ORGANISORS
+                LEAD ORGANISERS
               </div>
             </>
           }
@@ -112,7 +112,7 @@ const OrganisingTeam = () => {
           title={
             <>
               <div className="looked text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 ">
-              ORGANISORS
+              ORGANISERS
               </div>
             </>
           }
