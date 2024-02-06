@@ -8,15 +8,15 @@ import Footer from "../components/Footer/footer";
 import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
 
-import Prize from "../components/Prizes/Prizes";
+ 
 import Timeline from "../components/Timeline/Timeline";
 import Organising_team from "../components/Organising_Team/Organising_team";
-import Theme from "../components/Themes/Theme";
+ 
 import Carousel from "../components/carousel/carousel";
 import Why_sponser from "../components/why_sponser/Why_sponser";
 import StarsCanvas from "../canvas/Star";
 
-import Support from "../components/Support/support";
+ 
 
 import MagicalLoader from "../components/Loader_P/Loader_P";
 import Prizes_n from "../components/prizesnav/prizesmain/prize";
@@ -72,12 +72,7 @@ function Home() {
             </div>
             <Hero />
           </div>
-          <div
-          //      className="bg-fixed bg-no-repeat "
-          //      style={{
-          //   backgroundImage: `url(${magicbg})`,
-          //  }}
-          >
+     
             <AboutSection />
 
             <Timeline />
@@ -85,21 +80,16 @@ function Home() {
             <Carousel />
             <Sponsers />
             <Event />
-            {/* <div className="hidden 2xl:flex">
-          <Theme />
-          </div> */}
-            <div className=" block">
+         
               <Explore />
-            </div>
+            
             <Prizes_n />
             <Challenges />
             <SpeakersNew />
             <Organising_team />
-            {/* <Organizers /> */}
-            {/* <Support /> */}
             <Faqs />
             <Footer />
-          </div>
+          
         </div>
       )}
     </>
