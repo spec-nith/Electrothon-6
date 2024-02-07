@@ -19,7 +19,7 @@ const Challenges = () => {
         <TitleText
           title={
             <>
-              <div className=" looked text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6  mb-16">
+              <div className=" looked text-4xl lg:text-7xl font-bold my-4    lg:mb-20">
                 Challenges
               </div>
             </>
@@ -36,17 +36,15 @@ const Challenges = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in-out-cubic"
       >
-        <div className="container w-full text-white flex justify-center items-center text-xl md:text-2xl">
-          Will Be Announced Soon
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 content-theme">
-          {/* {challengesData.map((challenge, index) => {
+ 
+        <div className="grid grid-cols-1  content-theme">
+          {challengesData.map((challenge, index) => {
             return (
               <div
-                className="flex flex-col md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
+                className="flex md:flex-row flex-col justify-center items-center  md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
                 key={challenge.key}
               >
-                <div className="float-left p-5 lg:w-3/5 h-[140px] flex justify-center ">
+                <div className="float-left p-5 w-3/4 mr-auto h-[140px] flex justify-center items-center ">
                   <picture>
                     
                     <img
@@ -56,18 +54,18 @@ const Challenges = () => {
                     />
                   </picture>
                 </div>
-
+<div className="ml-auto w-3/4">
                 <div className="flex flex-col justify-between h-full space-y-4">
                   <div className="px-3">
                     <ul className={challenge.list}>
                       {challenge.desc.map((element, index) => {
                         return (
-                          <li
+                          <ul
                             className="md:pt-1 md:tracking-tighter"
                             key={index}
                           >
                             {element}
-                          </li>
+                          </ul>
                         );
                       })}
                     </ul>
@@ -82,15 +80,17 @@ const Challenges = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="lg:w-1/3 bloop text-center p-2 mx-auto lg:ml-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black w-3/4">
+                
+                      <div className=" lg:w-1/2  text-center p-2 mx-auto lg:mx-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black ">
                         More Details
                       </div>
                     </a>
                   )}
                 </div>
+                </div>
               </div>
             );
-          })} */}
+          })}
         </div>
       </section>
     </div>

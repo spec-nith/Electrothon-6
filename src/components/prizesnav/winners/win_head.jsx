@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import { prizes2, sport } from '../../../assets/images';
+import { prizes2, prizes3, sport } from '../../../assets/images';
  
 import { motion } from "framer-motion";
 import { TitleText } from "../../../components/Tracks_new/CustomTexts";
@@ -34,7 +34,10 @@ function Prizes() {
       </motion.div>
 
         <div  className="flex flex-col  p-8  md:w-2/5 text-white   mt-16 md:mt-0">
-          <img src={prizes2} alt="" /> 
+          <img src={prizes3} alt="" /> 
+        </div>
+        <div className='text-white font-serif text-md lg:text-xl'>
+          Prizes worth 5K
         </div>
       </div>
     </>

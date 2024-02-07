@@ -70,6 +70,7 @@ function Home() {
               <Explore />
             
             <Prizes_n />
+            <Challenges/>
             <SpeakersNew />
             <Organisors/>
             <Faqs />
