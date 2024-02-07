@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"; 
 import {
   devfoliop,
-  orkes2,
+  orkes,
   polygonp,
   replitp,
   hoverrobotix,
@@ -16,7 +16,7 @@ import {
 const ImageGallery = () => {
   const imageUrls = [
     {
-      img: orkes2,
+      img: orkes,
       alt: "ORKES LOGO",
     },
     {
