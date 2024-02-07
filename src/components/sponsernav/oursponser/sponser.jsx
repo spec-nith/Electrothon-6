@@ -7,7 +7,7 @@ import {
   replitp,
   hoverrobotix,
   taskade,
-  wolfram,
+ 
   verbwire3,
   github,
   gfg,
@@ -46,7 +46,7 @@ const ImageGallery = () => {
   const imageUrls3 = [
     {
       indx: 0,
-      img: wolfram,
+      img: replitp,
       alt: "WOLFRAM LOGO",
     },
     {

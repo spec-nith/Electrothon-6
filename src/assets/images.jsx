@@ -140,7 +140,6 @@ import orkes from "./images/orkes1ppp.png";
 
 
 import taskade from "./images/taskadeppp.png";
-import wolfram from "./images/wolframppp.png";
 import hoverrobotix from "./images/HoverRobotixppp.png";
 
 import healthcare_final1 from "./images/healthcare_final1.jpg";
@@ -296,7 +295,7 @@ export {
   healthcare_final1,
   open_inno,
   hoverrobotix,
-  wolfram,
+ 
   taskade,
   verbwire3,
   github,
