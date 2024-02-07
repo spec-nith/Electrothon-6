@@ -38,7 +38,8 @@ function Timeline() {
           <TitleText
             title={
               <>
-                <div className=" family looked text-6xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-nunito-sans">
+
+                <div className="looked text-6xl lg:text-8xl font-extrabold text-white my-4 lg:my-6 font-nunito-sans">
                   Timeline
                 </div>
               </>

@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Bungee&family=Bungee+Spice&family=Fira+Sans:ital,wght@0,400;0,600;1,400&family=Goblin+One&family=MedievalSharp&family=Orbitron&family=Slabo+27px&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@1,800&display=swap');
 .eur {
   background: linear-gradient(91deg, #fb3131 -11.04%, #e9fd03 100.54%);
   background-clip: text;
   -webkit-background-clip: text;
+  font-family: 'K2D', sans-serif !important;
   -webkit-text-fill-color: transparent;
 }
 @media screen and (min-width: 400px) {

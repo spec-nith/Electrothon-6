@@ -155,7 +155,16 @@ import github from "./images/github.png";
 import gfg from "./images/gfg.png";
 import cake from "./images/cake.png";
 import echo from "./images/echo.png";
+
+import prizes from "./images/prizes.png";
+import prizes2 from "./images/prizes2.png";
+import prizes3 from "./images/prizes3.png";
+import prizesnew from "./images/prizesnew.png";
 export {
+  prizes3,
+  prizes2,
+  prizesnew,
+  prizes,
   gg,
   orkes,
   devfoliop,

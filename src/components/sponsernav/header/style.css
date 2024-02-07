@@ -1,21 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Bungee&family=Fira+Sans:ital,wght@0,400;0,600;1,400&family=Goblin+One&family=MedievalSharp&family=Orbitron&family=Slabo+27px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Bungee&family=Bungee+Spice&family=Fira+Sans:ital,wght@0,400;0,600;1,400&family=Goblin+One&family=MedievalSharp&family=Orbitron&family=Slabo+27px&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Fira+Sans:ital,wght@0,400;0,600;1,400&family=Goblin+One&family=MedievalSharp&family=Orbitron&family=Slabo+27px&display=swap');
 
-.family{
-  font-family: 'Black Ops One', system-ui !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@1,800&display=swap');
+
 .heads {
   background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: "Nunito Sans", sans-serif ;
+
+  font-family: 'K2D', sans-serif !important;
+
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
