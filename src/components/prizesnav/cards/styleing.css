@@ -1,24 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 .containers {
-  margin-top: 3%;
-  position: relative;
-  display: flex;
+ margin-left: 3%;
+ margin-right: 3%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 100px 50px;
-  margin-bottom: 5%;
+ 
 }
+
 .card {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 250px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
   height: 300px;
-  background: rgba(230, 230, 230, 0.09);
-
+ 
   border-radius: 20px;
   transition: 0.5s;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
@@ -31,20 +29,19 @@
 .containers .card .img-box {
   position: absolute;
   top: 20px;
-  width: 300px;
+  width: 100%;
   height: 220px;
-  background: #333;
-  border-radius: 12px;
+ 
+ 
   overflow: hidden;
   transition: 0.5s;
 }
 
 .containers .card:hover .img-box {
-  top: -100px;
+  top: -50px;
   scale: 0.75;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
-  border: 2px solid #3498db;
-  animation: hovers 1s ease-in-out infinite alternate forwards;
+   animation: hovers 1s ease-in-out infinite alternate forwards;
 }
 
 @keyframes hovers {
@@ -62,7 +59,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  
 }
 
 .containers .card .content {
@@ -98,34 +96,25 @@
   padding: 12px 25px;
   text-decoration: none;
   background: var(--clr);
-  color: #36b7ff;
-  font-weight: 500;
+   font-weight: 500;
 }
 
 .containers .card .content a:hover {
   opacity: 0.8;
-  color: #15a8f7;
-}
+ }
 
-@media (max-width: 480px) {
-  .containers .card {
-    width: 230px;
-    border-radius: 15px;
-  }
-
-  .containers .card .img-box {
-    width: 185px;
-    border-radius: 10px;
-  }
-
-  .containers .card .content p {
-    font-size: 0.8rem;
-  }
-
-  .containers .card .content a {
-    font-size: 0.9rem;
+@media (max-width: 767px) {
+  .containers {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .containers {
+    grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+  }
+}
+
 .header1 {
   text-align: left;
   font-family: Inter;
@@ -133,12 +122,12 @@
   font-style: normal;
   font-weight: 800;
   line-height: 60px;
-  background: linear-gradient(91deg, #36b7ff 5.47%, #e3e800 99.63%);
-  background-clip: text;
+   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: capitalize;
 }
+
 .header2 {
   text-align: left;
   font-family: Inter;
@@ -148,11 +137,11 @@
   margin-bottom: 3rem;
   line-height: 60px;
   text-transform: capitalize;
-  background: linear-gradient(91deg, #36b7ff 5.47%, #e3e800 99.63%);
-  background-clip: text;
+   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 @media only screen and (max-width: 768px) {
   .header1 {
     font-size: 24px;
@@ -168,6 +157,7 @@
     line-height: 48px;
   }
 }
+
 .nice {
   height: 7rem;
 
@@ -175,9 +165,13 @@
     height: 15rem;
   }
 }
+
 .his {
   margin-bottom: 5rem;
 }
+
 .imges {
   transform: scale(1) !important;
 }
+
+
