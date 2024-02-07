@@ -1,5 +1,5 @@
  
-import { orkes, polygon, verbwire3 } from "../../assets/images";
+import { orkes2, polygon, verbwire3 } from "../../assets/images";
 import { replit } from "../../assets/images";
 import { solana } from "../../assets/images";
 import { filecoin } from "../../assets/images";
@@ -22,7 +22,7 @@ export const challengesData = [
  "Best project built on Conductor",
  "Craft a spellbinding experience by conjuring your innovative project on the Conductor. Let the magic flow through your code as you compose a solution that dazzles and delights. The most enchanting creation will claim the coveted prize – a testament to the wizardry within your lines of code!"
     ],
-    img: orkes,
+    img: orkes2,
     link: "https://replit.com/",
     prize: ["$ 50"],
     list: "list-decimal px-3",
@@ -49,5 +49,6 @@ export const challengesData = [
     prize: ["$ 250"],
     list: "list-decimal px-3",
     key: "5ire",
-  }
+  },
+ 
 ];
