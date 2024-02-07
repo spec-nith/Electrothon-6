@@ -34,12 +34,7 @@ function Prizes() {
       </motion.div>
 
         <div  className="flex flex-col  p-8  md:w-2/5 text-white   mt-16 md:mt-0">
-          <img src={prizes2} alt="" />
-          <div className='flex flex-row  items-center justify-between mx-12 sm:mx-12  lg:mx-20 xl:mx-24 2xl:mx-28'>
-            <div>20K</div>
-            <div>30K</div>
-            <div>10K</div>
-          </div>     
+          <img src={prizes2} alt="" /> 
         </div>
       </div>
     </>
