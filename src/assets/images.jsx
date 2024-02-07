@@ -133,22 +133,22 @@ import magicbg from "../assets/images/magicbg.jpg";
 import magicbg2 from "../assets/images/magicbg2.jpg";
 import magicbg3 from "../assets/images/magicbg3.jpg";
 
-import devfoliop from "./images/devfoliop.png";
-import polygonp from "./images/polygonp.png";
-import replitp from "./images/replitp.png";
-import orkes from "./images/orkes.png";
-import orkes2 from "./images/orkes2.svg";
+import devfoliop from "./images/Devfolioppp.png";
+import polygonp from "./images/polygonppp.png";
+import replitp from "./images/Replitppp.png";
+import orkes from "./images/orkes1ppp.png";
 
-import taskade from "./images/taskade_logo.svg";
-import wolfram from "./images/wolfram_corporate.png";
-import hoverrobotix from "./images/hoverrobotix.png";
+
+import taskade from "./images/taskadeppp.png";
+import wolfram from "./images/wolframppp.png";
+import hoverrobotix from "./images/HoverRobotixppp.png";
 
 import healthcare_final1 from "./images/healthcare_final1.jpg";
 import healthcare_final from "./images/healthcare_final.jpg";
 
 // import sport from "../assets/images/sport.png"
 
-import verbwire3 from "./images/verbwire3.png";
+import verbwire3 from "./images/verbwireppp.png";
 
 import gg from "./images/gg.jpg";
 import github from "./images/github.png";
@@ -157,7 +157,6 @@ import cake from "./images/cake.png";
 import echo from "./images/echo.png";
 export {
   gg,
-  orkes2,
   orkes,
   devfoliop,
   polygonp,

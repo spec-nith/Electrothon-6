@@ -30,7 +30,7 @@ const Prize = () => {
               <div className="flex justify-center">
                 <img src={prizee} />
               </div>
-              <div className="looked bg-gradient-to-r from-blue-500 to-yellow-500 text-transparent text-4xl lg:text-7xl font-bold text-[#DEECE4] my-3 lg:my-4 font-[Inter] ">
+              <div className="family bg-gradient-to-r from-blue-500 to-yellow-500 text-transparent text-4xl lg:text-7xl font-bold text-[#DEECE4] my-3 lg:my-4  ">
                 PRIZES
               </div>
             </>
@@ -39,7 +39,7 @@ const Prize = () => {
         />
       </motion.div>
       <div className="prizes">
-        <div className="  block grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className=" family  block grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className="second p-4 mx-5">
             <h1
               className=" fip lg:text-5xl

@@ -15,6 +15,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
+import './footer.css'
 import { speclogo } from "../../assets/images";
 
 export default function Footer() {
@@ -179,7 +180,7 @@ export default function Footer() {
                   <TitleText
                     title={
                       <>
-                        <h2 className="looked text-4xl lg:text-7xl font-bold text-[#8471ae] my-4 lg:my-6 font-[Oswald] ">
+                        <h2 className="looked family text-4xl lg:text-7xl font-bold text-[#8471ae] my-4 lg:my-6 font-[Oswald] ">
                           Lets talk about everything!
                         </h2>
                       </>

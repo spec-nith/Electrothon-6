@@ -20,7 +20,7 @@ export default function Why_sponser() {
         <TitleText
           title={
             <>
-              <div className="eur text-2xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
+              <div className=" family eur text-2xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-[Oswald]">
                 WHY SPONSOR OUR MAGIC ?
               </div>
               <p

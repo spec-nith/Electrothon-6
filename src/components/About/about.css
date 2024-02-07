@@ -2,9 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Bungee&family=Fira+Sans:ital,wght@0,400;0,600;1,400&family=Goblin+One&family=MedievalSharp&family=Orbitron&family=Slabo+27px&display=swap');
+
+.font{
+  font-family: 'Black Ops One', system-ui !important;
+}
 .looked {
   background: linear-gradient(180deg, #29e1ff 0%, #fff61d 100%);
-  font-family: "Nunito Sans", sans-serif !important;
+  
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

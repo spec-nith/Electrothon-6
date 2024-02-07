@@ -1,4 +1,5 @@
 import "../../App.css";
+import './Timeline.css'
  
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
@@ -37,7 +38,7 @@ function Timeline() {
           <TitleText
             title={
               <>
-                <div className="looked text-6xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-nunito-sans">
+                <div className=" family looked text-6xl lg:text-7xl font-extrabold text-white my-4 lg:my-6 font-nunito-sans">
                   Timeline
                 </div>
               </>

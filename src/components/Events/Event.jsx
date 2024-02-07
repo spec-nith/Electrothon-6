@@ -28,7 +28,7 @@ export const Event = () => {
         <TitleText
           title={
             <>
-              <div className="looked text-4xl lg:text-7xl font-bold text-[#4a925d] my-2 lg:my-6 font-[Oswald]">
+              <div className="family looked text-4xl lg:text-7xl font-bold text-[#4a925d] my-2 lg:my-6 font-[Oswald]">
                 Events
               </div>
             </>

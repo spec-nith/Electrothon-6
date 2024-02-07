@@ -30,8 +30,8 @@ const Hero = () => {
         <Sidebar />
      
         <div className=" flex flex-col gap-4 absolute top-0 z-10 text-center pt-8   sm:ml-0">
-          <h1 className="head3">ELECTROTHON 6.O</h1>
-          <p className="rakhu">Sorcerers of Cipher</p>
+          <h1 className=" font head3">ELECTROTHON 6.O</h1>
+          <p className=" font rakhu">Sorcerers of Cipher</p>
 
 
           <Button />

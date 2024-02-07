@@ -35,10 +35,10 @@ export default function Faqs() {
           <TitleText
             title={
               <>
-                <div className=" looks hidden sm:block looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+                <div className=" family hidden sm:block looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
                   FREQUENTLY ASKED QUESTION
                 </div>
-                <div className=" looks sm:hidden looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
+                <div className=" family sm:hidden looked text-5xl lg:text-6xl font-bold text-white my-4 lg:my-6 font-[Oswald]">
                   FAQs
                 </div>
               </>

@@ -20,7 +20,7 @@ const AboutSection = () => {
         <TitleText
           title={
             <>
-              <div className="  looked flex justify-start text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 ">
+              <div className="family  looked flex justify-start text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 ">
                 ABOUT US
               </div>
             </>

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"; 
 import {
   devfoliop,
-  orkes2,
+  orkes,
   polygonp,
   replitp,
   hoverrobotix,
@@ -22,7 +22,7 @@ const ImageGallery = () => {
       alt: "GITHUB LOGO",
     },
     {
-      img: orkes2,
+      img: orkes,
       alt: "ORKES LOGO",
     },
     {
@@ -62,10 +62,10 @@ const ImageGallery = () => {
   return (
     <>
       <div className="containerlolall ek chill1">
-        <div className="  text-white xs:px-2 xs:py-0 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-blue-500 to-green-500 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        <div className="  text-white xs:px-10 xs:py-2 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
           Oracle Sponsors
         </div>
-        <div className="  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
           Oracle Sponsors
         </div>
         <div className="image chill2">
@@ -83,13 +83,13 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="containerlolall do">
-        <div className="  text-white md:hidden xs:px-2 xs:py-0 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-blue-500  to-green-500 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk  ">
+        <div className="  text-white md:hidden xs:px-10 xs:py-2 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-blue-900 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk  ">
           Wizard Sponsors
         </div>
-        <div className="  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] lg:mt-[-5rem] fk ">
+        <div className="family  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] lg:mt-[-5rem] fk ">
           Wizard Sponsors
         </div>
-        <div className="image  corr">
+        <div className="image chill2 ">
           <ul className="image-gallery">
             {imageUrls2.map((imageUrl, index) => (
               <li
@@ -107,13 +107,13 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="containerlolall tin ">
-        <div className="  text-white md:hidden  px-8 xs:px-2 xs:py-0 pt-2 pb-2 bg-gradient-to-r from-blue-500 to-green-500 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        <div className="  text-white md:hidden  px-8 xs:px-10 xs:py-2 pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
           Knight Sponsors
         </div>
-        <div className="  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
           Knight Sponsors
         </div>
-        <div className="image corr fem">
+        <div className="image chill2 corr fem">
           <ul className="image-gallery">
             {imageUrls3.map((imageUrl, index) => (
               <li
