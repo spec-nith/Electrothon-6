@@ -9,6 +9,8 @@ import {
   taskade,
   wolfram,
   verbwire3,
+  echo,
+  cake,
 } from "../../../assets/images";
 
  
@@ -38,20 +40,22 @@ const ImageGallery = () => {
       alt: "VERBWIRE LOGO",
     },
   ];
+ 
   const imageUrls3 = [
     {
+      indx: 0,
       img: wolfram,
       alt: "WOLFRAM LOGO",
     },
     {
+      indx: 1,
       img: taskade,
       alt: "TASKADE LOGO",
     },
-    {
-      img: hoverrobotix,
-      alt: "HOVERROBOTIX LOGO",
-    },
-  ];
+    { indx: 2, img: hoverrobotix, alt: "HOVERROBOTIX LOGO" },
+    { indx: 3, img: echo, alt: "ECHO 3D LOGO" },
+    { indx: 4, img: cake, alt: "CAKE LOGO" },
+  ];
 
   return (
     <>
