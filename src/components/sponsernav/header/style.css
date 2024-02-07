@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@1,800&display=swap');
 .heads {
   background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: "Nunito Sans", sans-serif !important;
+  font-family: 'K2D', sans-serif !important;
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
