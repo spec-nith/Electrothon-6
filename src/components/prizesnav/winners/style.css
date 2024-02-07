@@ -1,80 +1,69 @@
- .heads
-{
-    background: linear-gradient(95deg, #29E1FF -12.14%, #FFF61D 91.11%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-family: Inter;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 75px; 
-    align-items: center;
-
+.heads {
+  background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px;
+  align-items: center;
 }
-@media screen and (max-width: 768px)
-{
-   
-    .heads
-    {
-        line-height: 20px;
-        font-size: 20px;
-    }
-    
+@media screen and (max-width: 768px) {
+  .heads {
+    line-height: 20px;
+    font-size: 20px;
+  }
 }
 .define {
-    margin-top: 5%;
-    text-align: left;
-    background: linear-gradient(91deg, #36B7FF 5.47%, #E3E800 99.63%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 60px;
-    text-transform: capitalize;
-    opacity: 0;
-    transform: translateX(-100%);
-    transition: opacity 1s ease-out, transform 1s ease-out;
+  margin-top: 5%;
+  text-align: left;
+  background: linear-gradient(91deg, #36b7ff 5.47%, #e3e800 99.63%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  text-transform: capitalize;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+@media (max-width: 767px) {
+  .define {
+    font-size: 10px;
+    line-height: 40px;
+    margin-bottom: -2%;
   }
-  
-  @media (max-width: 767px) {
-    .define {
-      font-size: 10px; 
-      line-height: 40px; 
-      margin-bottom: -2%;
-    }
-    .lel
-    {
-      margin-bottom: -80%;
-      height: 5rem;
-    }
-    .lols
-    {
-      margin-bottom: 10%;
-    }
-  }
-  
-  
-  .define.animated {
-    opacity: 1; 
-    transform: translateX(0); 
+  .lel {
+    margin-bottom: -80%;
+    height: 5rem;
   }
   .lols {
-    background: #101010;
+    margin-bottom: 10%;
   }
-  
-  @media (min-width: 768px) {
-    .lols {
-      margin-left: 20%;
-      margin-bottom: 2%;
-    }
-    .lel
-    {
-      height: 20rem;
-    }
+}
+
+.define.animated {
+  opacity: 1;
+  transform: translateX(0);
+}
+.lols {
+  background: #101010;
+}
+
+@media (min-width: 768px) {
+  .lols {
+    margin-left: 20%;
+    margin-bottom: 2%;
   }
-  
+  .lel {
+    height: 20rem;
+  }
+}

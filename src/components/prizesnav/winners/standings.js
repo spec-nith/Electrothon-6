@@ -1,20 +1,38 @@
-import React, { useState, useEffect } from 'react';
-import './style.css';
+import React, { useState, useEffect } from "react";
+import "./style.css";
 
 function TopPrize({ position, prizeAmount }) {
   return (
     <div className="prizes flex flex-row items-center w-full my-4 text-white">
-      <span className={`flex items-center justify-center w-[5rem] h-[5rem] md:w-24 md:h-24 text-2xl font-semibold text-white ${position === 1 ? 'bg-gradient-to-r from-[#f4941d] to-[#ffd200]' : (position === 2 ? 'bg-gradient-to-r from-[#757f9a] to-[#d7dde8]' : 'bg-gradient-to-r from-[#232526] to-[#414344]')} rounded-full`}>
+      <span
+        className={`flex items-center justify-center w-[5rem] h-[5rem] md:w-24 md:h-24 text-2xl font-semibold text-white ${
+          position === 1
+            ? "bg-gradient-to-r from-[#f4941d] to-[#ffd200]"
+            : position === 2
+            ? "bg-gradient-to-r from-[#757f9a] to-[#d7dde8]"
+            : "bg-gradient-to-r from-[#232526] to-[#414344]"
+        } rounded-full`}
+      >
         {position}
       </span>
       <div className="flex flex-col items-start w-[9rem] ml-4 text-center md:ml-16 cursor-pointer">
         <span className="text-xl font-bold md:text-2xl ">
-          &nbsp;{position === 13? 'First' : (position === 2 ? 'Second' : 'Third')} Prize
+          &nbsp;
+          {position === 13 ? "First" : position === 2 ? "Second" : "Third"}{" "}
+          Prize
         </span>
       </div>
       <div className="flex flex-row items-center ml-4 text-center md:ml-16 cursor-pointer">
-      //addd image here//  <img src="" alt="Prize Image" className="w-8 h-8" />
-        <span className={`text-xl font-bold my-2 ml-2 ${position === 1 ? 'text-yellow-400' : (position === 2 ? 'text-red-500' : 'text-blue-500')}`}>
+        //addd image here// <img src="" alt="Prize Image" className="w-8 h-8" />
+        <span
+          className={`text-xl font-bold my-2 ml-2 ${
+            position === 1
+              ? "text-yellow-400"
+              : position === 2
+              ? "text-red-500"
+              : "text-blue-500"
+          }`}
+        >
           ₹ {prizeAmount} Cash Prize
         </span>
       </div>
@@ -24,31 +42,32 @@ function TopPrize({ position, prizeAmount }) {
 
 function Winner() {
   useEffect(() => {
-    const defineText = document.querySelector('.define');
+    const defineText = document.querySelector(".define");
 
     const handleScroll = () => {
       const distanceFromTop = defineText.getBoundingClientRect().top;
       const screenHeight = window.innerHeight;
 
       if (distanceFromTop < screenHeight) {
-        defineText.classList.add('animated');
+        defineText.classList.add("animated");
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <div className="lel flex items-center justify-center min-h-screen bg-transparent relative">
-      <div className="header absolute top-0 text-center" style={{ width: '80%' }}>
+      <div
+        className="header absolute top-0 text-center"
+        style={{ width: "80%" }}
+      >
         <h1 className="heads">OUR PRIZES</h1>
-        <h1 className='define'>
-          OUR CASH PRIZES
-        </h1>
+        <h1 className="define">OUR CASH PRIZES</h1>
       </div>
     </div>
   );
@@ -102,8 +121,10 @@ function Prizes() {
         </>
       ) : null}
       <Winner />
-      <div id="left-prize" className="flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0">
-      
+      <div
+        id="left-prize"
+        className="flex flex-col w-full p-8 xl:w-3/5 mt-16 md:mt-0"
+      >
         <TopPrize position={1} prizeAmount={30000} />
         <TopPrize position={2} prizeAmount={20000} />
         <TopPrize position={3} prizeAmount={15000} />
