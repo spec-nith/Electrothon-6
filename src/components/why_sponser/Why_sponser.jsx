@@ -50,7 +50,6 @@ export default function Why_sponser() {
         <Graph />
 
         <div className="chame flex flex-row mt-12 items-center w-full sm:w-1/5 lg:w-1/3 justify-center">
-
           <img src={firehand} alt="why_sponser" />
         </div>
       </div>

@@ -1,0 +1,13 @@
+.section-timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.mobil {
+
+}
+.mobil img {
+    max-width: 100%; 
+}
