@@ -7,7 +7,7 @@ import Faqs from "../components/Faq/faq";
 import Footer from "../components/Footer/footer";
 import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
-
+import DesiTimline from "../components/Desitimeline/desihead";
  
 import Timeline from "../components/Timeline/Timeline";
 import Organising_team from "../components/Organising_Team/Organising_team";
@@ -62,6 +62,7 @@ function Home() {
             <AboutSection />
 
             <Timeline />
+            <DesiTimline/> 
             <Why_sponser />
             <Carousel />
             <Sponsers />
