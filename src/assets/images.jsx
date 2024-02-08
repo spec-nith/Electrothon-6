@@ -22,7 +22,7 @@ import PrizeIcon3 from "../assets/images/PrizeIcon3.png";
 import prizee from "../assets/images/prize.svg";
 import support1 from "../assets/images/support1.png";
 import support2 from "../assets/images/support2.svg";
-
+import firehand from "../assets/images/firehand.png"
 import support4 from "../assets/images/support4.svg";
 import support5 from "../assets/images/support5.svg";
 
@@ -225,6 +225,7 @@ export {
   gauri,
   abhi,
   padminimam,
+  firehand,
   abhishekraj,
   chaitnaya,
   aryan,

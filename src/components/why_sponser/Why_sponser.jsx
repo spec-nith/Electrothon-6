@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import styles from "../Tracks_new/style";
-import { why_sponser } from "../../assets/images";
+import { firehand } from "../../assets/images";
 
 import Graph from "./graph";
 import "./why.css";
@@ -46,11 +46,11 @@ export default function Why_sponser() {
         />
       </motion.div>
 
-      <div className="flex  sm:flex-col-reverse  justify-center items-center mt-10  xs: flex-col-reverse ">
+      <div className="  flex  sm:flex-col-reverse  justify-center items-center mt-10  xs: flex-col-reverse ">
         <Graph />
 
-        <div className="flex flex-row mt-12 items-center w-1/2 justify-center">
-          <img src={why_sponser} alt="why_sponser" />
+        <div className=" chame flex flex-row mt-12 items-center w-1/3 justify-center">
+          <img src={firehand} alt="why_sponser" />
         </div>
       </div>
     </div>

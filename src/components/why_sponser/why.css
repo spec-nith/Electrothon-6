@@ -52,3 +52,15 @@
 .spo > *:nth-child(3):hover {
   color: #d7e544;
 }
+.chame {
+  animation: moveUpDow 2s ease-in-out infinite !important;
+}
+@keyframes moveUpDow {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+}
