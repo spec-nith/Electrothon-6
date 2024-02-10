@@ -96,7 +96,7 @@ const LeftSidebar = () => {
           <BackTopBtn />
         </nav>
       </div>
-      <div className=" lg:hidden w-screen items-center inline-block z-50 overflow-x-hidden">
+      <div className=" lg:hidden z-[999999999] w-screen items-center inline-block  overflow-x-hidden">
         <div className="bg-[#111111] rounded-t-3xl w-full h-16 flex justify-around text-gray-100 fixed bottom-0 z-50 border-t-2 border-green-500">
           {navItems.map((item) => (
             <NavbarSM item={item} key={item.id} />

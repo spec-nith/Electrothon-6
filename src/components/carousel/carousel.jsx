@@ -8,7 +8,7 @@ const Slider = () => {
       <div className="slide-track">
         {items.map((index) => (
           <div className="slide" key={index}>
-            . ELECTROTHON 6.0
+             ELECTROTHON 6.0
           </div>
         ))}
       </div>

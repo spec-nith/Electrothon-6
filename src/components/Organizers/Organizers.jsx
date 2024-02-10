@@ -44,10 +44,11 @@ export default function Organisors() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           dots: true,
           arrows: false,
+          centerPadding: '20px'
         },
       },
     ],
@@ -103,7 +104,7 @@ export default function Organisors() {
           textStyles="text-center"
         />
       </motion.div>
-      <div className="mx-auto max-w-[80vw]  text-white sm:p-4 ">
+      <div className="mx-auto max-w-[90vw]  md:max-w-[80vw]  text-white sm:p-4 ">
         <Slider ref={setSliderRef} {...sliderSettings}>
           {organizersFinal.map((card, index) => (
             <OrganizerCard data={card} key={index} />

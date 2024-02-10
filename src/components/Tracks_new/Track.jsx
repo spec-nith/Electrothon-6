@@ -38,7 +38,7 @@ const Explore = () => {
           }
           textStyles="text-center"
         />
-        <div className="mt-12 mb-20 sm:mb-8 xl:mx-24 2xl:mx-28 flex lg:flex-row flex-col min-h-[85vh] md:min-h-[50vh] gap-10 md:gap-8">
+        <div className="mt-12 mb-20 sm:mb-8 px-24 xl:px-2 xl:mx-24 2xl:mx-28 flex lg:flex-row flex-col min-h-[85vh] md:min-h-[50vh] gap-10 md:gap-8">
           {tabData.map((world, index) => (
             <ExploreCard
               key={world.id}

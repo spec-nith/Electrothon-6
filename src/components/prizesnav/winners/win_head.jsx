@@ -24,7 +24,7 @@ function Prizes() {
         <TitleText
           title={
             <>
-              <div className=" looked text-4xl lg:text-7xl font-bold my-4 tracking-wider lg:my-6  mb-16">
+              <div className=" looked text-4xl lg:text-7xl font-bold tracking-wider lg:my-6 mb-2">
                  PRIZES
               </div>
             </>
@@ -33,11 +33,11 @@ function Prizes() {
         />
       </motion.div>
 
-        <div  className="flex flex-col  p-8  md:w-2/5 text-white   mt-16 md:mt-0">
+        <div  className="flex flex-col p-4 lg:p-6 md:w-2/5 text-white   md:mt-0">
           <img src={prizes3} alt="" /> 
         </div>
-        <div className='text-white font-serif text-md lg:text-xl'>
-          Prizes worth 5K
+        <div className='text-gray-200 font-serif text-md lg:text-xl'>
+         Earn prizes worth 5K
         </div>
       </div>
     </>
