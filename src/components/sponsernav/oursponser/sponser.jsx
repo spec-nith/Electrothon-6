@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css"; 
+import "./style.css";
 import {
   devfoliop,
   orkes,
@@ -9,14 +9,26 @@ import {
   taskade,
   wolfram,
   verbwire3,
-  echo,
+  github,
+  joget,
+  gfg,
   cake,
+  echo,
 } from "../../../assets/images";
 
- 
-
 const ImageGallery = () => {
+  const imageUrls0 = [
+    {
+      indx: 0,
+      img: joget,
+      alt: "REPLIT LOGO",
+    },
+  ];
   const imageUrls = [
+    {
+      img: github,
+      alt: "GITHUB LOGO",
+    },
     {
       img: orkes,
       alt: "ORKES LOGO",
@@ -32,15 +44,13 @@ const ImageGallery = () => {
   ];
   const imageUrls2 = [
     {
+      indx: 0,
       img: replitp,
       alt: "REPLIT LOGO",
     },
-    {
-      img: verbwire3,
-      alt: "VERBWIRE LOGO",
-    },
+    { indx: 1, img: verbwire3, alt: "VERBWIRE LOGO" },
+    { indx: 2, img: gfg, alt: "GEEKSFORGEEKS LOGO" },
   ];
- 
   const imageUrls3 = [
     {
       indx: 0,
@@ -54,13 +64,40 @@ const ImageGallery = () => {
     },
     { indx: 2, img: hoverrobotix, alt: "HOVERROBOTIX LOGO" },
     { indx: 3, img: echo, alt: "ECHO 3D LOGO" },
-    { indx: 4, img: cake, alt: "CAKE LOGO" },
-  ];
+    { indx: 4, img: cake, alt: "CAKE LOGO" },
+  ];
 
   return (
     <>
-      <div className="containerlolall ek chill1">
-        <div className="text-white flex justify-center text-4xl z-[999] fnt cheems ">
+      <div className="containerlolall zero yesss chill1">
+        <div className="  text-white xs:px-10 xs:py-2 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+          Phoenix Sponsors
+        </div>
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+          Phoenix Sponsors
+        </div>
+        <div className="image chill2">
+          <ul className="image-gallery">
+            {imageUrls0.map((imageUrl, index) => (
+              <li
+                className={`list pool ${imageUrl.indx === 0 ? "adjusted" : ""}`}
+                key={index}
+              >
+                <img
+                  src={imageUrl.img}
+                  alt={imageUrl.alt}
+                  className="gallery-image z-[999] burn"
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div className="containerlolall ek yesss chill1">
+        <div className="  text-white xs:px-10 xs:py-2 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+          Oracle Sponsors
+        </div>
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
           Oracle Sponsors
         </div>
         <div className="image chill2">
@@ -77,43 +114,55 @@ const ImageGallery = () => {
           </ul>
         </div>
       </div>
-      <div className="containerlolall do">
-        <div className="text-white flex justify-center text-4xl p-2 fnt z-[999] cheems ">
+      <div className="containerlolall yesss do">
+        <div className="  text-white md:hidden xs:px-10 xs:py-2 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-blue-900 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk  ">
           Wizard Sponsors
         </div>
-        <div className="image  corr">
+        <div className="family  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] lg:mt-[-5rem] fk ">
+          Wizard Sponsors
+        </div>
+        <div className="image chill2 ">
           <ul className="image-gallery">
             {imageUrls2.map((imageUrl, index) => (
-              <li className="list" key={index}>
+              <li
+                className={`list ${imageUrl.indx === 2 ? "adjusted" : ""}`}
+                key={index}
+              >
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image z-999"
+                  className="gallery-image z-[999] burn"
                 />
               </li>
             ))}
           </ul>
         </div>
       </div>
-      <div className="containerlolall tin ullu">
-        <div className="text-white sm:text-4xl flex justify-center text-3xl   pb-4 align-middle z-[999]   ">
+      <div className="containerlolall yesss tin ">
+        <div className="  text-white md:hidden  px-8 xs:px-10 xs:py-2 pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
           Knight Sponsors
         </div>
-        <div className="image corr fem">
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+          Knight Sponsors
+        </div>
+        <div className="image chill2 corr fem">
           <ul className="image-gallery">
             {imageUrls3.map((imageUrl, index) => (
-              <li className="list" key={index}>
+              <li
+                className={`list ${imageUrl.indx === 4 ? "adjusted" : ""}`}
+                key={index}
+              >
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image imageurl3 z-999"
+                  className="gallery-image z-[999] burn"
                 />
               </li>
             ))}
           </ul>
         </div>
       </div>
-      <div className="flex justify-center sm:mt-20 text-center sm:text-xl pb-7 text-gray-100">
+      <div className="flex justify-center  sm:mt-20 text-center sm:text-xl pb-7 text-gray-100">
         Interested in sponsoring? Mail at:
         <br />
         <a href="mailto:spec@nith.ac.in" className="text-blue-500">

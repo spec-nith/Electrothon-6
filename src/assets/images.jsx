@@ -22,7 +22,7 @@ import PrizeIcon3 from "../assets/images/PrizeIcon3.png";
 import prizee from "../assets/images/prize.svg";
 import support1 from "../assets/images/support1.png";
 import support2 from "../assets/images/support2.svg";
-import firehand from "../assets/images/firehand.png"
+import firehand from "../assets/images/firehand.png";
 import support4 from "../assets/images/support4.svg";
 import support5 from "../assets/images/support5.svg";
 
@@ -138,7 +138,6 @@ import polygonp from "./images/polygonppp.png";
 import replitp from "./images/Replitppp.png";
 import orkes from "./images/orkes1ppp.png";
 
-
 import taskade from "./images/taskadeppp.png";
 import wolfram from "./images/Wolframppp.png";
 import hoverrobotix from "./images/HoverRobotixppp.png";
@@ -155,11 +154,12 @@ import github from "./images/github.png";
 import gfg from "./images/gfg.png";
 import cake from "./images/cake.png";
 import echo from "./images/echo.png";
-
+import joget from "./images/joget.png";
 import prizes from "./images/prizes.png";
 import prizes2 from "./images/prizes2.png";
 import prizes3 from "./images/prizes3.png";
 import prizesnew from "./images/prizesnew.png";
+
 export {
   prizes3,
   prizes2,
@@ -304,4 +304,5 @@ export {
   gfg,
   cake,
   echo,
+  joget,
 };

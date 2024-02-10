@@ -5,6 +5,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .containerlolall {
@@ -20,28 +22,25 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 13px;
-  padding-top: 6.4rem;
+  /* padding-top: 6.4rem; */
 }
 .image-gallery {
-  width: 620px;
-  margin: 80px;
+  width: 100%;
+  /* padding-top: 90px; */
+  /* padding-bottom: 80px; */
   list-style: none;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
 }
+.gallery-image {
+  width: 5rem;
+}
 .morr {
   margin-top: -3rem;
 }
-
- 
- 
-
-
- 
-
 
 .list {
   width: 200px;
@@ -58,9 +57,13 @@ body {
   justify-content: center;
 }
 
-.list img {
-  /* height: 77px;
-  width: 20rem; */
+.pool img {
+  width: 100% !important;
+  height: 40% !important;
+}
+
+.yesss {
+  padding-top: 5rem;
 }
 
 .gallery-image {
@@ -77,15 +80,14 @@ body {
 .corr {
   margin-top: -2rem;
 }
- 
+
 .cheems {
   margin-top: -5rem;
 }
 
-
 .list {
   width: 200px;
- 
+
   /* -webkit-filter: sepia(0.7);
  
   -webkit-transition: 0.8s; */
@@ -93,17 +95,15 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  align-items:center ;
-  justify-content:center ;
+  align-items: center;
+  justify-content: center;
 }
 
-.burn {
-  aspect-ratio: 3/2;
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
 .containerlolall {
   position: relative;
+}
+.zero {
+  height: 15rem;
 }
 .ek {
   height: 20rem;
@@ -131,7 +131,6 @@ body {
   border-radius: 13px;
 }
 
-
 /* .containerlols:hover::before {
   opacity: 0;
 } */
@@ -143,12 +142,15 @@ body {
   opacity: 0;
 }
 
-.ek:hover::before,
-.do:hover::before,
-.tin:hover::before {
+.ek::before,
+.do::before,
+.tin::before {
   opacity: 0.7;
 }
 
+.zero::before {
+  background-color: #0096ff;
+}
 .ek::before {
   background-color: #00ffd2;
 }
@@ -156,15 +158,10 @@ body {
   background-color: #d5d508;
 }
 .tin::before {
-  background-color: #ff00ff;
+  background-color: #1134a6;
 }
 
-
-
-
 @media screen and (max-width: 750px) {
-
-
   .containerlolall::before {
     opacity: 0.7;
   }
@@ -193,8 +190,6 @@ body {
     margin-left: 0;
     margin-right: 0;
   }
-
-
 
   .tin {
     height: 20rem;
@@ -248,6 +243,7 @@ body {
   .list img {
     width: 115px;
     height: 48px;
+    z-index: ;
   }
   /* .list {
     display: flex;
@@ -284,6 +280,10 @@ body {
   }
   .containerlolall::before {
     background: none;
+  }
+  .pool img {
+    width: 50% !important;
+    height: 50% !important;
   }
   /* .ek::before {
     background-color: none;
@@ -330,8 +330,8 @@ body {
     width: 135px;
     height: 60px;
   }
-  .containerlolall{
-    width:90vw;
+  .containerlolall {
+    width: 90vw;
   }
   /* .image-gallery {
     display: flex;
@@ -349,47 +349,43 @@ body {
   } */
 }
 
-
-
-
-  /* .ek {
+/* .ek {
     height: 17rem;
   } */
 
-  /* .do {
+/* .do {
     height: 15rem;
   } */
 
-
-  .fem {
-    margin-top: -5rem;
-  }
-  .ullu {
-    padding-top: 2rem;
-  }
-  .chill2 {
-    margin-top: -3rem;
-  }
-  .cheems {
-    /* margin-top: -6rem; */
-    margin-bottom: 3rem;
-  }
-  .down {
-    margin-bottom: 2rem;
-  }
-  .list img {
-    width: 115px;
-    height: 48px;
-  }
-  .ek {
-    height: 20rem;
-  }
-  .do {
-    height: 20rem;
-  }
-  .tin {
-    height: 20rem;
-  }
+.fem {
+  margin-top: -5rem;
+}
+.ullu {
+  padding-top: 2rem;
+}
+.chill2 {
+  margin-top: -3rem;
+}
+.cheems {
+  /* margin-top: -6rem; */
+  margin-bottom: 3rem;
+}
+.down {
+  margin-bottom: 2rem;
+}
+.list img {
+  width: 115px;
+  height: 48px;
+}
+.ek {
+  height: 20rem;
+}
+.do {
+  height: 20rem;
+}
+.tin {
+  height: 20rem;
+}
 
 @media screen and (max-width: 600px) {
   .list img {
@@ -412,6 +408,10 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+  .pool img {
+    width: 70% !important;
+    height: 50% !important;
+  }
   .fnt {
     font-size: 1.7rem;
   }
@@ -432,6 +432,18 @@ body {
 @media screen and (max-width: 450px) {
   .fnt {
     font-size: 1.5rem;
+  }
+  .zero {
+    height: 10rem;
+  }
+  .ek {
+    height: 18rem;
+  }
+  .do {
+    height: 18rem;
+  }
+  .tin {
+    height: 18rem;
   }
 }
 
@@ -511,4 +523,3 @@ body {
     width: 620px !important;
   }
 }
-
