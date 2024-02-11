@@ -70,7 +70,7 @@ const ImageGallery = () => {
   return (
     <>
       <div className="containerlolall zero yesss chill1">
-        <div className="  text-white xs:px-10 xs:py-2 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-700 to to-orange-500 flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk w-f ">
           Phoenix Sponsors
         </div>
         <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
@@ -86,7 +86,7 @@ const ImageGallery = () => {
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image z-[999] burn"
+                  className="gallery-image z-[9] burn"
                 />
               </li>
             ))}
@@ -94,7 +94,7 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="containerlolall ek yesss chill1">
-        <div className="  text-white xs:px-10 xs:py-2 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-red-500 to-blue-600  flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk ">
           Oracle Sponsors
         </div>
         <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
@@ -107,7 +107,7 @@ const ImageGallery = () => {
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image z-[999] burn"
+                  className="gallery-image z-[9] burn"
                 />
               </li>
             ))}
@@ -115,7 +115,7 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="containerlolall yesss do">
-        <div className="  text-white md:hidden xs:px-10 xs:py-2 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-blue-900 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk  ">
+        <div className="  text-white md:hidden xs:px-10 xs:py-0 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r  from-blue-600 to-yellow-600 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk w-full">
           Wizard Sponsors
         </div>
         <div className="family  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] lg:mt-[-5rem] fk ">
@@ -131,7 +131,7 @@ const ImageGallery = () => {
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image z-[999] burn"
+                  className="gallery-image z-[9] burn"
                 />
               </li>
             ))}
@@ -139,7 +139,7 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="containerlolall yesss tin ">
-        <div className="  text-white md:hidden  px-8 xs:px-10 xs:py-2 pt-2 pb-2 bg-gradient-to-r from-violet-800 to-blue-300 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        <div className="  text-white md:hidden  px-8 xs:px-10 xs:py-0 pt-2 pb-2 bg-gradient-to-r from-blue-800 to-pink-500 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] w-full fk ">
           Knight Sponsors
         </div>
         <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
@@ -149,13 +149,15 @@ const ImageGallery = () => {
           <ul className="image-gallery">
             {imageUrls3.map((imageUrl, index) => (
               <li
-                className={`list ${imageUrl.indx === 4 ? "adjusted" : ""}`}
+                className={`list ${imageUrl.indx === 4 ? "adjusted" : ""} ${
+                  imageUrl.indx === 3 ? "ssize" : ""
+                }`}
                 key={index}
               >
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image z-[999] burn"
+                  className="gallery-image z-[9] burn"
                 />
               </li>
             ))}

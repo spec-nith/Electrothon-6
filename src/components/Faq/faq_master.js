@@ -73,6 +73,21 @@ const moreQues = [
     content:
       "Well, radio chat is not efficient enough. You can contact us on our social media, and here's our email for more efficiency: spec@nith.ac.in.",
   },
+  {
+    title: "Cost of participation in Hackathon?",
+    content:
+      "Zero.Zip.Zilch.Nada.Nothing.Our wonderful sponsors have made registration absolutely free, turning it into a truly enchanting experience.",
+  },
+  {
+    title: "What do i get from the event?",
+    content:
+      "    The winners will be awarded with enchanting monetary prizes. The short-listed students will be given recognition and a chance to show off their skills. Winners of the finest hacks created using the pather firms' APIs and SDKs will receive special prizes.",
+  },
+  {
+    title: "How does Electrothon promote diversity ?",
+    content:
+      " The Electrothon team believes that diversity is not just about women, it's about all of us. The Electrothon’s magical voyage supports competitors from different regions, religions, the specially-abled, beginners, people of colour, and everybody who dreams to embark on a spellbound journey.",
+  },
 ];
 
 export { initalQues, moreQues };
