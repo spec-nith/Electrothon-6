@@ -39,7 +39,9 @@ function Home() {
           <Prize />
           <Timeline />
           <Why_sponser />
+
           <Theme />
+
           <Organising_team />
           <Carousel />
 
