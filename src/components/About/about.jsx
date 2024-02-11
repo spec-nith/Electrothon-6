@@ -8,7 +8,7 @@ import styles from "../Tracks_new/style";
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col sm:flex-row  sm:items-start sm:mt-48 items-center min-h-[32rem] mx-4 lg:mx-36">
+    <div className="flex flex-col sm:flex-row  sm:items-start sm:mt-48 items-center min-h-[25rem] mx-4 lg:mx-36">
       {/* Content  */}
       <motion.div
         variants={staggerContainer}

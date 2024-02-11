@@ -24,7 +24,7 @@ function Timeline() {
   return (
     <div>
       <div
-        className="flex justify-center text-4xl lg:text-7xl font-bold text-white  my-4 lg:my-6 font-[Oswald] "
+        className="flex justify-center items-center text-4xl lg:text-7xl font-bold text-white  my-4 lg:my-6 font-[Oswald] "
         id="schedule"
       >
         <motion.div
@@ -47,7 +47,7 @@ function Timeline() {
         </motion.div>
       </div>
   
-      <div className="mx-4sm:mx-6 md:mx-12 lg:mx-24">
+      <div className="mx-4 sm:mx-6 md:mx-12 lg:mx-24">
         <VerticalTimeline>
           {timelineElements.map((element) => {
             let isRegisterIcon = element.icon === "register";
@@ -85,13 +85,13 @@ function Timeline() {
                 }
                 icon={
                   isRegisterIcon ? (
-                    <img src={register} className="w-full p-1.5  md:p-2.5" />
+                    <img src={register} className="w-full p-1 pt-2   xl:px-3 xl:pt-3.5" />
                   ) : isPeopleIcon ? (
-                    <img src={people}  className="w-full p-1.5 md:p-2.5" />
+                    <img src={people}  className="w-full p-1.5 py-2   xl:px-2 xl:pt-3.5" />
                   ) : isResultIcon ? (
-                    <img src={result}  className="w-full p-2.5 md:p-4" />
+                    <img src={result}  className="w-full px-2.5 pt-1.5 lg:px-3 lg:pt-2 xl:px-4 xl:pt-3" />
                   ) : (
-                    <img src={work}  className="w-full p-1" />
+                    <img src={work}  className="w-full px-1 pt-1.5" />
                   )
                 }
               >
@@ -103,7 +103,7 @@ function Timeline() {
 
                 {showButton && (
                   <a
-                    className={`button ${
+                    className={`button flex justify-center items-center ${
                       isRegisterIcon
                         ? "registerButton"
                         : isPeopleIcon
