@@ -22,11 +22,10 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 13px;
- 
 }
 .image-gallery {
   width: 100%;
- 
+
   list-style: none;
 
   display: flex;
@@ -43,7 +42,7 @@ body {
 
 .list {
   width: 200px;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,10 +60,12 @@ body {
   padding-top: 5rem;
 }
 
- 
-
 .corr {
   margin-top: -2rem;
+}
+.ssize img {
+  width: 100px !important;
+  height: 36px !important;
 }
 
 .cheems {
@@ -116,7 +117,6 @@ body {
   transition: opacity 2.5s ease;
   border-radius: 13px;
 }
- 
 
 .ek::before,
 .do::before,
@@ -149,12 +149,12 @@ body {
     opacity: 0.7;
   }
 
- 
-
   .containerlolall:hover::before {
     opacity: 0;
   }
-
+  .containerlolall {
+    width: 100vw;
+  }
   .ek:hover::before,
   .do:hover::before,
   .tin:hover::before {
@@ -191,8 +191,6 @@ body {
     grid-template-columns: repeat(1fr, 40vw);
   }
 
-   
-
   .fem {
     margin-top: -5rem;
   }
@@ -228,7 +226,11 @@ body {
     height: 20rem;
   }
 }
+
 @media screen and (max-width: 1025px) {
+  .containerlolall {
+    width: 80vw;
+  }
   .cheems {
     z-index: 1;
   }
@@ -254,13 +256,12 @@ body {
     width: 50% !important;
     height: 50% !important;
   }
-  
+
   .ek:hover::before,
   .do:hover::before,
   .tin:hover::before {
     opacity: 1;
   }
- 
 
   .image-gallery {
     display: grid;
@@ -290,16 +291,14 @@ body {
   .containerlolall {
     width: 90vw;
   }
- 
 }
 @media screen and (max-width: 800px) {
   .list img {
     width: 125px;
     height: 55px;
   }
- 
 }
- 
+
 .fem {
   margin-top: -5rem;
 }
@@ -310,7 +309,6 @@ body {
   margin-top: -3rem;
 }
 .cheems {
- 
   margin-bottom: 3rem;
 }
 .down {
@@ -335,7 +333,7 @@ body {
     width: 100px;
     height: 42px;
   }
- 
+
   .ek {
     height: 18rem;
   }
@@ -348,6 +346,10 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+  .ssize img {
+    width: 91px !important;
+    height: 26px !important;
+  }
   .pool img {
     width: 70% !important;
     height: 50% !important;
@@ -392,7 +394,7 @@ body {
     font-size: 1.1rem;
   }
 }
- 
+
 @media only screen and (min-width: 550px) and (max-width: 807px) {
   .image-gallery {
     width: 620px !important;
