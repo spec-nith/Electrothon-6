@@ -23,7 +23,7 @@ export const challengesData = [
  "Craft a spellbinding experience by conjuring your innovative project on the Conductor. Let the magic flow through your code as you compose a solution that dazzles and delights. The most enchanting creation will claim the coveted prize – a testament to the wizardry within your lines of code!"
     ],
     img: orkes,
-    link: "https://replit.com/",
+    link: "https://orkes.io/",
     prize: ["$ 50"],
     list: "list-decimal px-3",
     key: "orkes",
@@ -45,7 +45,7 @@ export const challengesData = [
     ],
     img: verbwire3,
  
-    link: "",
+    link: "https://www.verbwire.com/",
     prize: ["$ 250"],
     list: "list-decimal px-3",
     key: "5ire",

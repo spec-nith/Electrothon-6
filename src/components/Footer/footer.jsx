@@ -225,7 +225,7 @@ export default function Footer() {
 
   return (
     <footer
-      id="contact "
+      id="contact"
       className="flex justify-center px-4 mt-10 -mb-6 text-gray-800 shadow-lg md:mt-20"
     >
       <div className="container flex flex-col justify-center py-6 m-2 text-center">
