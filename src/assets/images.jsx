@@ -160,6 +160,7 @@ import prizes2 from "./images/prizes2.png";
 import prizes3 from "./images/prizes3.png";
 import prizesnew from "./images/prizesnew.png";
 import risein from "./images/risein.jpg";
+import risein2 from "./images/risein2.jpg";
 
 export {
   prizes3,
@@ -307,4 +308,5 @@ export {
   echo,
   joget,
   risein,
+  risein2
 };
