@@ -159,6 +159,7 @@ import prizes from "./images/prizes.png";
 import prizes2 from "./images/prizes2.png";
 import prizes3 from "./images/prizes3.png";
 import prizesnew from "./images/prizesnew.png";
+import risein from "./images/risein.jpg";
 
 export {
   prizes3,
@@ -305,4 +306,5 @@ export {
   cake,
   echo,
   joget,
+  risein,
 };

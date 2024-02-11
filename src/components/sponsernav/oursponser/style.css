@@ -40,6 +40,10 @@ body {
   margin-top: -3rem;
 }
 
+.risein {
+  width: 60% !important;
+  height: 50% !important;
+}
 .list {
   width: 200px;
 
@@ -245,6 +249,10 @@ body {
   }
 }
 @media screen and (max-width: 775px) {
+  .risein {
+    width: 35% !important;
+    height: 20% !important;
+  }
   .containerlolall {
     margin-bottom: 0;
     background: none;

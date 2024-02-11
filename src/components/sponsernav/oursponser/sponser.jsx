@@ -14,6 +14,7 @@ import {
   gfg,
   cake,
   echo,
+  risein,
 } from "../../../assets/images";
 
 const ImageGallery = () => {
@@ -65,6 +66,13 @@ const ImageGallery = () => {
     { indx: 2, img: hoverrobotix, alt: "HOVERROBOTIX LOGO" },
     { indx: 3, img: echo, alt: "ECHO 3D LOGO" },
     { indx: 4, img: cake, alt: "CAKE LOGO" },
+  ];
+  const imageUrls4 = [
+    {
+      indx: 0,
+      img: risein,
+      alt: "RISEIN LOGO",
+    },
   ];
 
   return (
@@ -171,6 +179,31 @@ const ImageGallery = () => {
           {" "}
           spec@nith.ac.in
         </a>
+      </div>
+
+      <div className="containerlolall ek yesss chill1 mt-12">
+        <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-red-500 to-blue-600  flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk ">
+          Education Partner
+        </div>
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+          Education Partner
+        </div>
+        <div className="image chill2">
+          <ul className="image-gallery">
+            {imageUrls4.map((imageUrl, index) => (
+              <li
+                className={`list ${imageUrl.indx === 0 ? "adjusted" : ""}`}
+                key={index}
+              >
+                <img
+                  src={imageUrl.img}
+                  alt={imageUrl.alt}
+                  className="risein z-[9] burn"
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </>
   );
