@@ -16,6 +16,7 @@ import {
   echo,
   risein,
   risein2,
+  blue,
 } from "../../../assets/images";
 
 const ImageGallery = () => {
@@ -67,6 +68,7 @@ const ImageGallery = () => {
     { indx: 2, img: hoverrobotix, alt: "HOVERROBOTIX LOGO" },
     { indx: 3, img: echo, alt: "ECHO 3D LOGO" },
     { indx: 4, img: cake, alt: "CAKE LOGO" },
+    { indx: 5, img: blue, alt: "BLUE LOGO"}
   ];
   const imageUrls4 = [
     {
