@@ -53,6 +53,7 @@ const ImageGallery = () => {
     },
     { indx: 1, img: verbwire3, alt: "VERBWIRE LOGO" },
     { indx: 2, img: gfg, alt: "GEEKSFORGEEKS LOGO" },
+    { indx: 3, img: blue, alt: "BLUE LOGO"}
   ];
   const imageUrls3 = [
     {
@@ -68,7 +69,7 @@ const ImageGallery = () => {
     { indx: 2, img: hoverrobotix, alt: "HOVERROBOTIX LOGO" },
     { indx: 3, img: echo, alt: "ECHO 3D LOGO" },
     { indx: 4, img: cake, alt: "CAKE LOGO" },
-    { indx: 5, img: blue, alt: "BLUE LOGO"}
+    
   ];
   const imageUrls4 = [
     {
