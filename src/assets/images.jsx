@@ -25,7 +25,7 @@ import support2 from "../assets/images/support2.svg";
 import firehand from "../assets/images/firehand.png";
 import support4 from "../assets/images/support4.svg";
 import support5 from "../assets/images/support5.svg";
-
+import blue from "../assets/images/blue.png";
 import support7 from "../assets/images/support7.svg";
 import support8 from "../assets/images/support8.svg";
 import support9 from "../assets/images/support9.svg";
@@ -254,6 +254,7 @@ export {
   gaming,
   sport,
   arun,
+  blue,
   dikshant,
   aahad,
   abhijay,
