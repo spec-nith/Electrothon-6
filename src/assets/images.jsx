@@ -161,8 +161,10 @@ import prizes3 from "./images/prizes3.png";
 import prizesnew from "./images/prizesnew.png";
 import risein from "./images/risein.jpg";
 import risein2 from "./images/risein2.jpg";
+import capx from "./images/capx.jpg";
 
 export {
+  capx,
   prizes3,
   prizes2,
   prizesnew,

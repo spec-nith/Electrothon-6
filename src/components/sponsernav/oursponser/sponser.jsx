@@ -17,6 +17,7 @@ import {
   blue,
   risein,
   risein2,
+  capx,
 } from "../../../assets/images";
 
 const ImageGallery = () => {
@@ -75,6 +76,14 @@ const ImageGallery = () => {
       indx: 0,
       img: risein2,
       alt: "RISEIN LOGO",
+    },
+  ];
+
+  const imageUrls5 = [
+    {
+      indx: 0,
+      img: capx,
+      alt: "capx LOGO",
     },
   ];
 
@@ -200,6 +209,31 @@ const ImageGallery = () => {
           </ul>
         </div>
       </div>
+      <div className="containerlolall zero yesss chill1">
+        <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-700 to to-orange-500 flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk w-f ">
+        Community Partner
+        </div>
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        Community Partner
+        </div>
+        <div className="image chill2">
+          <ul className="image-gallery">
+            {imageUrls5.map((imageUrl, index) => (
+              <li
+                className={`list pool ${imageUrl.indx === 0 ? "adjusted" : ""}`}
+                key={index}
+              >
+                <img
+                  src={imageUrl.img}
+                  alt={imageUrl.alt}
+                  className="gallery-image z-[9] burn"
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+     
       <div className="flex justify-center  sm:mt-20 text-center sm:text-xl pb-7 text-gray-100">
         Interested in sponsoring? Mail at:
         <br />
