@@ -14,6 +14,7 @@ import {
   gfg,
   cake,
   echo,
+  blue,
   risein,
   risein2,
 } from "../../../assets/images";
@@ -52,6 +53,7 @@ const ImageGallery = () => {
     },
     { indx: 1, img: verbwire3, alt: "VERBWIRE LOGO" },
     { indx: 2, img: gfg, alt: "GEEKSFORGEEKS LOGO" },
+    { indx: 3, img: blue, alt: "BLUE LOGO" },
   ];
   const imageUrls3 = [
     {
@@ -173,14 +175,6 @@ const ImageGallery = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center  sm:mt-20 text-center sm:text-xl pb-7 text-gray-100">
-        Interested in sponsoring? Mail at:
-        <br />
-        <a href="mailto:spec@nith.ac.in" className="text-blue-500">
-          {" "}
-          spec@nith.ac.in
-        </a>
-      </div>
 
       <div className="containerlolall ek yesss chill1 mt-12">
         <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8   bg-gradient-to-r from-red-500 to-blue-600  flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk ">
@@ -205,6 +199,14 @@ const ImageGallery = () => {
             ))}
           </ul>
         </div>
+      </div>
+      <div className="flex justify-center  sm:mt-20 text-center sm:text-xl pb-7 text-gray-100">
+        Interested in sponsoring? Mail at:
+        <br />
+        <a href="mailto:spec@nith.ac.in" className="text-blue-500">
+          {" "}
+          spec@nith.ac.in
+        </a>
       </div>
     </>
   );
