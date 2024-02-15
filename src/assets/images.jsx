@@ -162,8 +162,14 @@ import prizesnew from "./images/prizesnew.png";
 import risein from "./images/risein.jpg";
 import risein2 from "./images/risein2.jpg";
 import capx from "./images/capx.jpg";
+import runshow1 from "./images/runshow1.png";
+import girls from "./images/girls.png";
+import firsthack from "./images/firsthack.png";
 
 export {
+  firsthack,
+  girls,
+  runshow1,
   capx,
   prizes3,
   prizes2,

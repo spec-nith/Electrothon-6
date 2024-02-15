@@ -26,6 +26,7 @@ import BgStatic from "../components/Background/bgstatic";
 import Explore from "../components/Tracks_new/Track";
 import { Event } from "../components/Events/Event";
 import Organisors from "../components/Organizers/Organizers";
+import Runshow from "../components/Runshow/Runshow";
 
 function Home() {
   const [Loading, setLoading] = useState(false);
@@ -63,6 +64,7 @@ function Home() {
 
             <Timeline />
             {/* <DesiTimline/>  */}
+            {/* <Runshow/> */}
             <Why_sponser />
             <Carousel />
             <Sponsers />

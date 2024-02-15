@@ -1,5 +1,5 @@
 import React from "react";
-import { challengesData } from "./challengesData";
+import { challengesData, challengesData2 } from "./challengesData";
 
 import { motion } from "framer-motion";
 import { TitleText } from "../Tracks_new/CustomTexts";
@@ -86,6 +86,47 @@ const Challenges = () => {
                       </div>
                     </a>
                   )}
+                </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="grid grid-cols-1  content-theme">
+          {challengesData2.map((challenge, index) => {
+            return (
+              <div
+                className="flex md:flex-row flex-col justify-center items-center  md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
+                key={challenge.key}
+              >
+                <div className=" w-3/4 p-5 mr-auto flex justify-center items-center ">
+                  <picture>
+                    
+                    <img
+                      src={challenge.img}
+                      className="h-[12rem] sm:h-[17rem] object-contain"
+                      alt={challenge.key + "-challenge"}
+                    />
+                  </picture>
+                </div>
+<div className="ml-auto w-3/4">
+                <div className="flex flex-col justify-between h-full space-y-4">
+                  <div className="px-3">
+                    <ul className={challenge.list}>
+                      {challenge.desc.map((element, index) => {
+                        return (
+                          <ul
+                            className="md:pt-1 md:tracking-tighter"
+                            key={index}
+                          >
+                            {element}
+                          </ul>
+                        );
+                      })}
+                    </ul>
+                  </div>
+
+      
                 </div>
                 </div>
               </div>

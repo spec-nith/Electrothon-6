@@ -1,5 +1,5 @@
  
-import { orkes, polygon, verbwire3 } from "../../assets/images";
+import { firsthack, girls, joget, orkes, polygon, verbwire3 } from "../../assets/images";
 import { replit } from "../../assets/images";
 import { solana } from "../../assets/images";
 import { filecoin } from "../../assets/images";
@@ -8,7 +8,8 @@ import { fire } from "../../assets/images";
 export const challengesData = [
   {
     desc: [
- "Best hack built on Ethereum: $150"
+ " 1) $150 for the best hack built on Ethereum",
+ "2) $200 for the best hack built on Ethereum + Polygon"
     ],
     img: polygon,
     webp: "sponsors/fullmoon/webp/polygon.webp",
@@ -19,8 +20,7 @@ export const challengesData = [
   },
   {
     desc: [
- "Best project built on Conductor",
- "Craft a spellbinding experience by conjuring your innovative project on the Conductor. Let the magic flow through your code as you compose a solution that dazzles and delights. The most enchanting creation will claim the coveted prize – a testament to the wizardry within your lines of code!"
+ "The best 3 projects built on the conductor will be rewarded with exciting prizes"
     ],
     img: orkes,
     link: "https://orkes.io/",
@@ -30,7 +30,7 @@ export const challengesData = [
   },
   {
     desc: [
-      "Winning Project deployed on Replit: $50",
+      "1) $50 to the winning project of the hackathon (must be deployed on Replit)",
     ],
     img: replit,
     link: "https://nsb.dev/replit-bounty",
@@ -40,8 +40,8 @@ export const challengesData = [
   },
   {
     desc: [
- "Most Innovative Use Of Verbwire API - Up to $5,000 in Premium API Credits, across up to 20 teams {$45 credit per team member} ",
- "In addition to the above prizes we'd be willing to offer a one-month free Verbwire Starter Subscription to all participants of your event."
+ "1. Prize for Most Innovative Use of the Verbwire API: Up to $5,000 in Premium API Credits, distributed among a maximum of 20 teams ($45 credit per team member). ",
+ "2. Additionally, all event participants qualify for a complimentary one-month Verbwire Starter Subscription."
     ],
     img: verbwire3,
  
@@ -50,5 +50,39 @@ export const challengesData = [
     list: "list-decimal px-3",
     key: "5ire",
   },
- 
+  {
+    desc: [
+ "1) $125 for the best project built on Joget",
+ "2) $75 for the second best project built on Joget"
+    ],
+    img: joget,
+    prize: ["$ 250"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+
+  
 ];
+
+export const challengesData2 = [
+{
+  desc: [
+    "All-Girls Team:",
+"Specific, Special and Splendid prizes for the best performing All-Girls Team in the hackathon"
+  ],
+  img: girls,
+  prize: ["$ 250"],
+  list: "list-decimal px-3",
+  key: "",
+},
+{
+  desc: [
+"First Time Hacking?",
+"A premier prize for freshmen and novices, with a stand-out project!"
+  ],
+  img: firsthack,
+  prize: ["$ 250"],
+  list: "list-decimal px-3",
+  key: "",
+},
+]
