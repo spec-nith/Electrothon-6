@@ -18,6 +18,7 @@ import {
   risein,
   risein2,
   capx,
+  mlhw,
 } from "../../../assets/images";
 
 const ImageGallery = () => {
@@ -87,8 +88,40 @@ const ImageGallery = () => {
     },
   ];
 
+  const imageUrls6 = [
+    {
+      indx: 0,
+      img: mlhw,
+      alt: "mlh LOGO",
+    },
+  ];
+
   return (
     <>
+      <div className="containerlolall ek yesss chill1 mt-12">
+        <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8   bg-gradient-to-r from-red-500 to-blue-600  flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk ">
+          Event Partner
+        </div>
+        <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
+        Event Partner
+        </div>
+        <div className="image chill2">
+          <ul className="image-gallery">
+            {imageUrls6.map((imageUrl, index) => (
+              <li
+                className={`list ${imageUrl.indx === 0 ? "adjusted" : ""}`}
+                key={index}
+              >
+                <img
+                  src={imageUrl.img}
+                  alt={imageUrl.alt}
+                  className="risein z-[9] burn"
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
       <div className="containerlolall zero yesss chill1">
         <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-700 to to-orange-500 flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk w-f ">
           Phoenix Sponsors

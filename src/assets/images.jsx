@@ -165,8 +165,12 @@ import capx from "./images/capx.jpg";
 import runshow1 from "./images/runshow1.png";
 import girls from "./images/girls.png";
 import firsthack from "./images/firsthack.png";
+import mlh from "./images/mlh.png";
+import mlhw from "./images/mlhw.png";
 
 export {
+  mlhw,
+  mlh,
   firsthack,
   girls,
   runshow1,
