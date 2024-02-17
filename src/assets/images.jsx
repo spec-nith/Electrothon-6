@@ -169,6 +169,7 @@ import flowwhite from "./images/flowwhite.svg";
 import mongodb from "./images/mongodb.svg";
 import tiny from "./images/tiny.svg";
 import godaddy from "./images/godaddy.svg";
+import dapplocker from "./images/dapplocker.png";
 
 export {
   firsthack,
@@ -326,4 +327,5 @@ export {
   mongodb,
   godaddy,
   tiny,
+  dapplocker,
 };

@@ -22,6 +22,7 @@ import {
   godaddy,
   tiny,
   mongodb,
+  dapplocker,
 } from "../../../assets/images";
 
 const ImageGallery = () => {
@@ -59,24 +60,13 @@ const ImageGallery = () => {
     { indx: 1, img: verbwire3, alt: "VERBWIRE LOGO" },
     { indx: 2, img: gfg, alt: "GEEKSFORGEEKS LOGO" },
 
-    {
-      img: flowwhite,
-      alt: "DEVFOLIO LOGO",
-    },
-    { indx: 3, img: blue, alt: "BLUE LOGO" },
-    {
-      img: godaddy,
-      alt: "DEVFOLIO LOGO",
-    },
+    { indx: 3, img: flowwhite, alt: "DEVFOLIO LOGO" },
+    { indx: 4, img: blue, alt: "BLUE LOGO" },
+    { indx: 5, img: godaddy, alt: "DEVFOLIO LOGO" },
 
-    {
-      img: mongodb,
-      alt: "DEVFOLIO LOGO",
-    },
-    {
-      img: tiny,
-      alt: "DEVFOLIO LOGO",
-    },
+    { indx: 6, img: mongodb, alt: "DEVFOLIO LOGO" },
+    { indx: 7, img: tiny, alt: "DEVFOLIO LOGO" },
+    { indx: 8, img: dapplocker, alt: "DEVFOLIO LOGO" },
   ];
   const imageUrls3 = [
     {
@@ -164,9 +154,14 @@ const ImageGallery = () => {
           Wizard Sponsors
         </div>
         <div className="image chill2 ">
-          <ul className="image-gallery wiz">
+          <ul className="image-gallery wiz ">
             {imageUrls2.map((imageUrl, index) => (
-              <li className={`list wizrd`} key={index}>
+              <li
+                className={`list wizrd  ${
+                  imageUrl.indx === 8 ? "adjusted" : ""
+                }`}
+                key={index}
+              >
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
