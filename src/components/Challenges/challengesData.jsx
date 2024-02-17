@@ -105,24 +105,26 @@ export const challengesData = [
 ];
 
 export const challengesData2 = [
-  {
-    desc: [
-      "All-Girls Team:",
-      "Specific, Special and Splendid prizes worth ₹5000 for the best performing All-Girls Team in the hackathon",
-    ],
-    img: girls,
-    prize: ["$ 250"],
-    list: "list-decimal px-3",
-    key: "",
-  },
-  {
-    desc: [
-      "First Time Hacking?",
-      "A premier prize worth ₹5000 for freshmen and novices, with a stand-out project!",
-    ],
-    img: firsthack,
-    prize: ["$ 250"],
-    list: "list-decimal px-3",
-    key: "",
-  },
-];
+ 
+{
+  desc: [
+    "All-Girls Team:",
+"Specific, Special and Splendid prizes for the best performing All-Girls Team in the hackathon"
+  ],
+  img: girls,
+  prize: ["$ 250"],
+  list: "list-decimal px-3",
+  key: "",
+},
+{
+  desc: [
+"First Time Hacking?",
+"A premier prize worth for freshmen and novices, with a stand-out project!"
+  ],
+  img: firsthack,
+  prize: ["$ 250"],
+  list: "list-decimal px-3",
+  key: "",
+},
+]
+ 
