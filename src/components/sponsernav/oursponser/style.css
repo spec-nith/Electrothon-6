@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  mix-blend-mode:color-dodge;
+  mix-blend-mode: color-dodge;
   width: 100%;
   height: 100%;
 }
@@ -30,12 +30,20 @@ body {
   list-style: none;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
 }
+.image-gallery.wiz {
+  display: grid;
+  grid-template-columns: repeat(4, 15vw);
+}
 .gallery-image {
   width: 5rem;
+}
+.list.wizrd {
+  width: 100%;
 }
 .morr {
   margin-top: -3rem;
@@ -101,7 +109,7 @@ body {
   height: 15rem;
 }
 .do {
-  height: 17rem;
+  height: 24rem;
 }
 .tin {
   height: 15rem;
@@ -191,10 +199,10 @@ body {
   .list {
     width: 100%;
   }
-  .image-gallery {
+  /* .image-gallery {
     display: grid;
     grid-template-columns: repeat(1fr, 40vw);
-  }
+  } */
 
   .fem {
     margin-top: -5rem;
@@ -215,7 +223,6 @@ body {
   .list img {
     width: 115px;
     height: 48px;
-    z-index: ;
   }
   /* .list {
     display: flex;
@@ -224,9 +231,7 @@ body {
   .ek {
     height: 20rem;
   }
-  .do {
-    height: 20rem;
-  }
+
   .tin {
     height: 20rem;
   }
@@ -278,15 +283,19 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .image-gallery.wiz {
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    align-items: center;
+    justify-content: center;
+  }
   .adjusted {
     grid-column: span 2;
   }
   .ek {
     height: 24rem;
   }
-  .do {
-    height: 17rem;
-  }
+
   .list {
     width: 100%;
   }
@@ -330,9 +339,7 @@ body {
 .ek {
   height: 15rem;
 }
-.do {
-  height: 20rem;
-}
+
 .tin {
   height: 20rem;
 }
@@ -347,7 +354,7 @@ body {
     height: 18rem;
   }
   .do {
-    height: 18rem;
+    height: 24rem;
   }
   .tin {
     height: 18rem;
@@ -374,6 +381,10 @@ body {
     display: grid;
     grid-template-columns: repeat(1fr, 25vw);
   }
+  .image-gallery.wiz {
+    display: grid;
+    grid-template-columns: repeat(1fr, 25vw);
+  }
 }
 @media screen and (max-width: 505px) {
   .fnt {
@@ -388,10 +399,10 @@ body {
     height: 10rem;
   }
   .ek {
-    height: 12rem;
+    height: 14rem;
   }
   .do {
-    height: 18rem;
+    height: 24rem;
   }
   .tin {
     height: 18rem;

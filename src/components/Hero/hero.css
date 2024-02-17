@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rubik+Doodle+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=K2D:wght@1,800&display=swap");
 .headesign {
   background: linear-gradient(95deg, #29e1ff -12.14%, #fff61d 91.11%);
   background-clip: text;
@@ -23,6 +23,38 @@
 .same {
   font-family: Inter;
 }
+/* .begins {
+  font-size: 2.5rem;
+  color: white;
+  font-family: Inter;
+  animation-name: glow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin-bottom: -4rem;
+
+} */
+/* @media screen and (max-width: 1025px) {
+  .begins {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: -6rem;
+  }
+}
+@media screen and (max-width: 775px) {
+  .begins {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .begins {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: -9rem;
+  }
+} */
 
 .headk {
   color: #fff;
@@ -50,7 +82,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'K2D', sans-serif !important;
+  font-family: "K2D", sans-serif !important;
   font-size: 90px;
   font-style: normal;
   font-weight: 800;
@@ -83,7 +115,7 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
   margin-bottom: 2rem;
-  font-family: 'Bigelow Rules', serif !important;
+  font-family: "Bigelow Rules", serif !important;
 }
 
 @keyframes glow {
