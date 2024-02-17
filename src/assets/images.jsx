@@ -165,8 +165,16 @@ import capx from "./images/capx.jpg";
 import runshow1 from "./images/runshow1.png";
 import girls from "./images/girls.png";
 import firsthack from "./images/firsthack.png";
+ 
+import flowwhite from "./images/flowwhite.svg";
+import mongodb from "./images/mongodb.svg";
+import tiny from "./images/tiny.svg";
+import godaddy from "./images/godaddy.svg";
+import dapplocker from "./images/dapplocker.png";
+ 
 import mlh from "./images/mlh.png";
 import mlhw from "./images/mlhw.png";
+ 
 
 export {
   mlhw,
@@ -321,5 +329,10 @@ export {
   echo,
   joget,
   risein,
-  risein2
+  risein2,
+  flowwhite,
+  mongodb,
+  godaddy,
+  tiny,
+  dapplocker,
 };

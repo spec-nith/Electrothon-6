@@ -36,17 +36,15 @@ const Challenges = () => {
         data-aos-duration="500"
         data-aos-easing="ease-in-out-cubic"
       >
- 
         <div className="grid grid-cols-1  content-theme">
           {challengesData.map((challenge, index) => {
             return (
               <div
-                className="flex md:flex-row flex-col justify-center items-center  md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
+                className="flex md:flex-row flex-col justify-center items-center  md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white"
                 key={challenge.key}
               >
                 <div className="float-left p-5 w-3/4 mr-auto h-[140px] flex justify-center items-center ">
                   <picture>
-                    
                     <img
                       src={challenge.img}
                       className="w-full h-full object-contain"
@@ -54,39 +52,38 @@ const Challenges = () => {
                     />
                   </picture>
                 </div>
-<div className="ml-auto w-3/4">
-                <div className="flex flex-col justify-between h-full space-y-4">
-                  <div className="px-3">
-                    <ul className={challenge.list}>
-                      {challenge.desc.map((element, index) => {
-                        return (
-                          <ul
-                            className="md:pt-1 md:tracking-tighter"
-                            key={index}
-                          >
-                            {element}
-                          </ul>
-                        );
-                      })}
-                    </ul>
-                  </div>
+                <div className="ml-auto w-3/4">
+                  <div className="flex flex-col justify-between h-full space-y-4">
+                    <div className="px-3">
+                      <ul className={challenge.list}>
+                        {challenge.desc.map((element, index) => {
+                          return (
+                            <ul
+                              className="md:pt-1 md:tracking-tighter"
+                              key={index}
+                            >
+                              {element}
+                            </ul>
+                          );
+                        })}
+                      </ul>
+                    </div>
 
-                  {challenge.noButton ? (
-                    ""
-                  ) : (
-                    <a
-                      className=""
-                      href={challenge.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                
-                      <div className=" lg:w-1/2  text-center p-2 mx-auto lg:mx-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black ">
-                        More Details
-                      </div>
-                    </a>
-                  )}
-                </div>
+                    {challenge.noButton ? (
+                      ""
+                    ) : (
+                      <a
+                        className=""
+                        href={challenge.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <div className=" lg:w-1/2  text-center p-2 mx-auto lg:mx-6 text-base border-2 border-gray-200 rounded-md cursor-pointer hover:bg-gray-200 hover:border-gray-200 hover:text-black ">
+                          More Details
+                        </div>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             );
@@ -96,12 +93,11 @@ const Challenges = () => {
           {challengesData2.map((challenge, index) => {
             return (
               <div
-                className="flex md:flex-row flex-col justify-center items-center  md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white" 
+                className="flex md:flex-row flex-col justify-center items-center  md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white"
                 key={challenge.key}
               >
                 <div className=" w-3/4 p-5 mr-auto flex justify-center items-center ">
                   <picture>
-                    
                     <img
                       src={challenge.img}
                       className="h-[12rem] sm:h-[17rem] object-contain"
@@ -109,25 +105,23 @@ const Challenges = () => {
                     />
                   </picture>
                 </div>
-<div className="ml-auto w-3/4">
-                <div className="flex flex-col justify-between h-full space-y-4">
-                  <div className="px-3">
-                    <ul className={challenge.list}>
-                      {challenge.desc.map((element, index) => {
-                        return (
-                          <ul
-                            className="md:pt-1 md:tracking-tighter"
-                            key={index}
-                          >
-                            {element}
-                          </ul>
-                        );
-                      })}
-                    </ul>
+                <div className="ml-auto w-3/4">
+                  <div className="flex flex-col justify-between h-full space-y-4">
+                    <div className="px-3">
+                      <ul className={challenge.list}>
+                        {challenge.desc.map((element, index) => {
+                          return (
+                            <ul
+                              className="md:pt-1 md:tracking-tighter"
+                              key={index}
+                            >
+                              {element}
+                            </ul>
+                          );
+                        })}
+                      </ul>
+                    </div>
                   </div>
-
-      
-                </div>
                 </div>
               </div>
             );

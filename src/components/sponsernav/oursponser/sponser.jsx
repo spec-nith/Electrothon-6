@@ -18,7 +18,15 @@ import {
   risein,
   risein2,
   capx,
+ 
+  flowwhite,
+  godaddy,
+  tiny,
+  mongodb,
+  dapplocker,
+ 
   mlhw,
+ 
 } from "../../../assets/images";
 
 const ImageGallery = () => {
@@ -55,7 +63,14 @@ const ImageGallery = () => {
     },
     { indx: 1, img: verbwire3, alt: "VERBWIRE LOGO" },
     { indx: 2, img: gfg, alt: "GEEKSFORGEEKS LOGO" },
-    { indx: 3, img: blue, alt: "BLUE LOGO" },
+
+    { indx: 3, img: flowwhite, alt: "DEVFOLIO LOGO" },
+    { indx: 4, img: blue, alt: "BLUE LOGO" },
+    { indx: 5, img: godaddy, alt: "DEVFOLIO LOGO" },
+
+    { indx: 6, img: mongodb, alt: "DEVFOLIO LOGO" },
+    { indx: 7, img: tiny, alt: "DEVFOLIO LOGO" },
+    { indx: 8, img: dapplocker, alt: "DEVFOLIO LOGO" },
   ];
   const imageUrls3 = [
     {
@@ -175,10 +190,12 @@ const ImageGallery = () => {
           Wizard Sponsors
         </div>
         <div className="image chill2 ">
-          <ul className="image-gallery">
+          <ul className="image-gallery wiz ">
             {imageUrls2.map((imageUrl, index) => (
               <li
-                className={`list ${imageUrl.indx === 2 ? "adjusted" : ""}`}
+                className={`list wizrd  ${
+                  imageUrl.indx === 8 ? "adjusted" : ""
+                }`}
                 key={index}
               >
                 <img
@@ -218,7 +235,7 @@ const ImageGallery = () => {
         </div>
       </div>
 
-      <div className="containerlolall ek yesss chill1 mt-12">
+      <div className="containerlolall ek yesss chill1 mt-12 xs:mt-0">
         <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8   bg-gradient-to-r from-red-500 to-blue-600  flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk ">
           Education Partner
         </div>
@@ -244,10 +261,10 @@ const ImageGallery = () => {
       </div>
       <div className="containerlolall zero yesss chill1">
         <div className="  text-white xs:px-10 xs:py-0 md:hidden pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-violet-700 to to-orange-500 flex justify-center text-4xl z-[999] fnt cheems w-full md:mt-[-3rem] fk w-f ">
-        Community Partner
+          Community Partner
         </div>
         <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
-        Community Partner
+          Community Partner
         </div>
         <div className="image chill2">
           <ul className="image-gallery">
@@ -266,7 +283,7 @@ const ImageGallery = () => {
           </ul>
         </div>
       </div>
-     
+
       <div className="flex justify-center  sm:mt-20 text-center sm:text-xl pb-7 text-gray-100">
         Interested in sponsoring? Mail at:
         <br />

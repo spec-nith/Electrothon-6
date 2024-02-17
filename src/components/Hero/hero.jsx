@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+ import React, { useEffect } from "react";
 import "./hero.css";
 import Timer from "../CountDown/countDown";
 
