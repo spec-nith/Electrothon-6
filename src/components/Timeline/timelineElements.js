@@ -9,23 +9,15 @@ let timelineElements = [
   },
   {
     id: 2,
-    title: "PROPOSAL SUBMISSION",
-    description: "Submit your idea proposal as per the guidelines.",
+    title: "PARTICIPATION SHORTLIST",
+    description: "Acceptance emails will be sent during this time.",
    
-    date: "26 FEB 2024",
+    date: "15 FEB-26 FEB 2024 ",
     icon: "people",
   },
+  
   {
     id: 3,
-    title: "PROPOSAL SHORTLISTING",
-    description:
-      "The final participant who's proposal has been shotlisted will be notified.",
-    
-    date: "29 FEB 2024",
-    icon: "result",
-  },
-  {
-    id: 4,
 
     title: "ELECTROTHON MAIN EVENT",
     description:
