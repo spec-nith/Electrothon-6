@@ -1,24 +1,24 @@
- # React + Vite + Tailwind + Framer-Motion + Three.js
+# React + Vite + Tailwind + Framer-Motion + Three.js
 
 ## Project Setup
 
 1. Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 2. Run the development server:
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
-    **Note:** If you want to specify a host, you can use:
+   **Note:** If you want to specify a host, you can use:
 
-    ```bash
-    npm run host
-    ```
+   ```bash
+   npm run host
+   ```
 
 ## Technologies Used
 
