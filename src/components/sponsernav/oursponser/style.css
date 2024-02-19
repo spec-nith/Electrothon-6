@@ -284,8 +284,8 @@ body {
     justify-content: center;
   }
   .image-gallery.wiz {
-    display: grid;
-    grid-template-columns: repeat(2, 30vw);
+    display: grid !important;
+    grid-template-columns: repeat(2, 30vw) !important;
     align-items: center;
     justify-content: center;
   }
