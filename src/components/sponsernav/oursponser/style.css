@@ -290,7 +290,7 @@ body {
     justify-content: center;
   }
   .adjusted {
-    grid-column: span 2 !important;
+    grid-column: span 4 !important;
   }
   .ek {
     height: 24rem;

@@ -201,7 +201,7 @@ const ImageGallery = () => {
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
-                  className="gallery-image z-[9] burn"
+                  className="gallery-image z-[9] burn object-contain"
                 />
               </li>
             ))}
