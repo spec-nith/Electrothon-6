@@ -180,7 +180,7 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="containerlolall yesss do">
-        <div className="  text-white md:hidden xs:px-10 xs:py-0 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-red-500 to-blue-600flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk w-full">
+        <div className="  text-white md:hidden xs:px-10 xs:py-0 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-red-500 to-blue-600 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk w-full">
           Wizard Sponsors
         </div>
         <div className="family  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] lg:mt-[-5rem] fk ">
