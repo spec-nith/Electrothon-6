@@ -10,6 +10,7 @@ import {
   tiny,
   flowwhite,
   blue,
+  replitp,
 } from "../../assets/images";
 import { replit } from "../../assets/images";
 import { solana } from "../../assets/images";
@@ -43,7 +44,7 @@ export const challengesData = [
     desc: [
       "1) $50 to the winning project of the hackathon (must be deployed on Replit)",
     ],
-    img: replit,
+    img: replitp,
     link: "https://nsb.dev/replit-bounty",
     prize: ["$ 250"],
     list: "list-decimal px-3",

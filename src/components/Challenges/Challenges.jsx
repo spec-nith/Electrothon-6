@@ -43,7 +43,7 @@ const Challenges = () => {
                 className="flex md:flex-row flex-col justify-center items-center  md:m-4 mb-6 rounded-xl shadow-2xl p-4 text-white"
                 key={challenge.key}
               >
-                <div className="float-left p-5 w-3/4 mr-auto h-[140px] flex justify-center items-center ">
+                <div className="float-left p-5  w-3/4 mr-auto h-[140px] flex justify-center items-center ">
                   <picture>
                     <img
                       src={challenge.img}
