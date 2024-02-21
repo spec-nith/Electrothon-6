@@ -9,6 +9,7 @@ import {
   godaddy,
   tiny,
   flowwhite,
+  blue,
 } from "../../assets/images";
 import { replit } from "../../assets/images";
 import { solana } from "../../assets/images";
@@ -99,6 +100,15 @@ export const challengesData = [
     img: tiny,
     link: "https://hack.mlh.io/prizes",
     prize: ["$ 250"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+  {
+    desc: [" 1) Prize pool worth $500 for projects built on Top of Tezos Blockchain.",
+  "2) Prizes worth $300 for Top Three performers and $200 for the rest."],
+    img: blue,
+    link: "https://tezos.com/",
+    prize: ["$ 500"],
     list: "list-decimal px-3",
     key: "",
   },

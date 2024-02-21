@@ -135,8 +135,8 @@ import magicbg3 from "../assets/images/magicbg3.jpg";
 
 import devfoliop from "./images/Devfolioppp.png";
 import polygonp from "./images/polygonppp.png";
-import replitp from "./images/Replitppp.png";
-import orkes from "./images/orkes1ppp.png";
+import replitp from "./images/Replitli.png";
+ import orkes from "./images/orkes1ppp.png";
 
 import taskade from "./images/taskadeppp.png";
 import wolfram from "./images/Wolframppp.png";
