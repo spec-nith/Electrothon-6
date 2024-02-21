@@ -18,15 +18,12 @@ import {
   risein,
   risein2,
   capx,
- 
   flowwhite,
   godaddy,
   tiny,
   mongodb,
   dapplocker,
- 
   mlhw,
- 
 } from "../../../assets/images";
 
 const ImageGallery = () => {
@@ -66,11 +63,11 @@ const ImageGallery = () => {
 
     { indx: 3, img: flowwhite, alt: "DEVFOLIO LOGO" },
     { indx: 4, img: blue, alt: "BLUE LOGO" },
-    { indx: 5, img: godaddy, alt: "DEVFOLIO LOGO" },
+    { indx: 5, img: godaddy, alt: "GODADDY LOGO" },
 
-    { indx: 6, img: mongodb, alt: "DEVFOLIO LOGO" },
-    { indx: 7, img: tiny, alt: "DEVFOLIO LOGO" },
-    { indx: 8, img: dapplocker, alt: "DEVFOLIO LOGO" },
+    { indx: 6, img: mongodb, alt: "MONGODB LOGO" },
+    { indx: 7, img: tiny, alt: "TINYMCE LOGO" },
+    { indx: 8, img: dapplocker, alt: "DAPPLOCKER LOGO" },
   ];
   const imageUrls3 = [
     {
@@ -118,7 +115,7 @@ const ImageGallery = () => {
           Event Partner
         </div>
         <div className=" family text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] fk ">
-        Event Partner
+          Event Partner
         </div>
         <div className="image chill2">
           <ul className="image-gallery">
@@ -183,7 +180,7 @@ const ImageGallery = () => {
         </div>
       </div>
       <div className="containerlolall yesss do">
-        <div className="  text-white md:hidden xs:px-10 xs:py-0 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r  from-blue-600 to-yellow-600 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk w-full">
+        <div className="  text-white md:hidden xs:px-10 xs:py-0 pl-8 pr-8  pt-2 pb-2 bg-gradient-to-r from-red-500 to-blue-600 flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-5rem]  fk w-full">
           Wizard Sponsors
         </div>
         <div className="family  text-white hidden md:flex justify-center text-4xl z-[999] fnt cheems  md:mt-[-3rem] lg:mt-[-5rem] fk ">
@@ -192,12 +189,7 @@ const ImageGallery = () => {
         <div className="image chill2 ">
           <ul className="image-gallery wiz ">
             {imageUrls2.map((imageUrl, index) => (
-              <li
-                className={`list wizrd  ${
-                  imageUrl.indx === 8 ? "adjusted" : ""
-                }`}
-                key={index}
-              >
+              <li className={`list wizrd  `} key={index}>
                 <img
                   src={imageUrl.img}
                   alt={imageUrl.alt}
