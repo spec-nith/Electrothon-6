@@ -4,7 +4,7 @@ let timelineElements = [
     title: "REGISTRATION BEGINS",
     description:
       "Registration opens up for students to register with their respective teams and project ideas for Electrothon.",
-    date: "3 JAN - 25 FEB 2024",
+    date: "3 JAN - 29 FEB 2024",
     icon: "register",
   },
   {
