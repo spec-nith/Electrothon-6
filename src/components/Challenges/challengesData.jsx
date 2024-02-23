@@ -20,6 +20,17 @@ import { fire } from "../../assets/images";
 export const challengesData = [
   {
     desc: [
+      "1) $125 for the best project built on Joget",
+      "2) $75 for the second best project built on Joget",
+    ],
+    img: joget,
+    prize: ["$ 250"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+  {
+
+    desc: [
       " 1) $150 for the best hack built on Ethereum",
       "2) $200 for the best hack built on Ethereum + Polygon",
     ],
@@ -62,34 +73,26 @@ export const challengesData = [
     list: "list-decimal px-3",
     key: "5ire",
   },
+
   {
-    desc: [
-      "1) $125 for the best project built on Joget",
-      "2) $75 for the second best project built on Joget",
-    ],
-    img: joget,
-    prize: ["$ 250"],
-    list: "list-decimal px-3",
-    key: "",
-  },
-  {
-    desc: [" 1) Best Use of Atlas by MongoDB"],
+    desc: [" 1) Best Use of Atlas by MongoDB: M5GO Starter Kit"],
     img: mongodb,
-    link: "https://hack.mlh.io/prizes",
+    link: "https://www.mongodb.com/",
     prize: ["$ 250"],
     list: "list-decimal px-3",
     key: "",
   },
   {
-    desc: [" 1) Best Domain Name by GoDaddy Registry"],
+    desc: [" 1) Best Domain Name by GoDaddy Registry:" 
+    ,"-Hack from Home kit","-All hackers domain name"],
     img: godaddy,
-    link: "https://hack.mlh.io/prizes",
+    link: "https://www.godaddy.com/",
     prize: ["$ 250"],
     list: "list-decimal px-3",
     key: "",
   },
   {
-    desc: [" 1) Best Use of Flow"],
+    desc: [" 1) Best Use of Flow $200 in Flow credit"],
     img: flowwhite,
     link: "https://hack.mlh.io/prizes",
     prize: ["$ 250"],
@@ -97,7 +100,7 @@ export const challengesData = [
     key: "",
   },
   {
-    desc: [" 1) Best Use of TinyMCE"],
+    desc: ["Best Use of TinyMCE: 3D Printing Pen will be awarded"],
     img: tiny,
     link: "https://hack.mlh.io/prizes",
     prize: ["$ 250"],

@@ -47,7 +47,8 @@ const Challenges = () => {
                   <picture>
                     <img
                       src={challenge.img}
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-cover"
+                      
                       alt={challenge.key + "-challenge"}
                     />
                   </picture>
