@@ -140,6 +140,7 @@ import replitp from "./images/replitli.png";
 
 import taskade from "./images/taskadeppp.png";
 import wolfram from "./images/Wolframppp.png";
+import stellar from "./images/stellarnew.png";
 import hoverrobotix from "./images/HoverRobotixppp.png";
 
 import healthcare_final1 from "./images/healthcare_final1.jpg";
@@ -162,7 +163,9 @@ import prizesnew from "./images/prizesnew.png";
 import risein from "./images/risein.jpg";
 import risein2 from "./images/risein2.jpg";
 import capx from "./images/capx.jpg";
-import runshow1 from "./images/runshow1.png";
+import runshow1 from "./images/run1.png";
+import runshow2 from "./images/run2.png";
+import runshow3 from "./images/run3.png";
 import girls from "./images/girls.png";
 import firsthack from "./images/firsthack.png";
  
@@ -174,9 +177,26 @@ import dapplocker from "./images/dapplocker.png";
  
 import mlh from "./images/mlh.png";
 import mlhw from "./images/mlhw.png";
+import eduhub from "./images/eduhub.jpg";
+import fixtix from "./images/fixtix.jpg";
+import architect from "./images/architect.jpg";
+import orkes_speaker from "./images/orkes_speaker.jpg";
+
+import rightarrow from "./images/right.png";
+import leftarrow from "./images/left.png";
+ 
  
 
 export {
+  rightarrow,
+  leftarrow,
+  runshow2,
+  runshow3,
+  fixtix,
+  architect,
+  orkes_speaker,
+  eduhub,
+  stellar,
   mlhw,
   mlh,
   firsthack,

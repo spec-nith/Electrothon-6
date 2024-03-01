@@ -23,7 +23,7 @@ const ChartSection = () => {
   const legendPayload = [
     { value: "Total Applications", type: "disc", color: "#009548" },
     { value: "Total Projects", type: "disc", color: "#32CD32" },
-    { value: "Total Participants", type: "disc", color: "#9ACD32 " },
+    { value: "Total Teams", type: "disc", color: "#9ACD32 " },
   ];
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

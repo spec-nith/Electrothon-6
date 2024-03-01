@@ -11,6 +11,7 @@ import {
   flowwhite,
   blue,
   replitp,
+  stellar,
 } from "../../assets/images";
 import { replit } from "../../assets/images";
 import { solana } from "../../assets/images";
@@ -112,6 +113,15 @@ export const challengesData = [
   "2) Prizes worth $300 for Top Three performers and $200 for the rest."],
     img: blue,
     link: "https://tezos.com/",
+    prize: ["$ 500"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+  {
+    desc: ["Every project built on stellar chain will earn $50 dollars",
+   ],
+    img: stellar,
+    link: "https://stellar.org/",
     prize: ["$ 500"],
     list: "list-decimal px-3",
     key: "",
