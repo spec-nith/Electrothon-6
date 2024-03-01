@@ -25,7 +25,7 @@ const Leadorg = ({ data, isFlipped, onCardClick }) => {
               alt="organizerImg"
             />
           </picture>
-          <div className="text-white flex w-full">
+          <div className="text-white flex w-full justify-center items-center">
             <h2>{data.name}</h2>
           </div>
         </div>
