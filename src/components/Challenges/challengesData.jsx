@@ -12,7 +12,10 @@ import {
   blue,
   replitp,
   stellar,
+  videocard,
+  videocarddoc,
 } from "../../assets/images";
+
 import { replit } from "../../assets/images";
 import { solana } from "../../assets/images";
 import { filecoin } from "../../assets/images";
@@ -30,7 +33,6 @@ export const challengesData = [
     key: "",
   },
   {
-
     desc: [
       " 1) $150 for the best hack built on Ethereum",
       "2) $200 for the best hack built on Ethereum + Polygon",
@@ -84,8 +86,11 @@ export const challengesData = [
     key: "",
   },
   {
-    desc: [" 1) Best Domain Name by GoDaddy Registry:" 
-    ,"-Hack from Home kit","-All hackers domain name"],
+    desc: [
+      " 1) Best Domain Name by GoDaddy Registry:",
+      "-Hack from Home kit",
+      "-All hackers domain name",
+    ],
     img: godaddy,
     link: "https://www.godaddy.com/",
     prize: ["$ 250"],
@@ -109,8 +114,10 @@ export const challengesData = [
     key: "",
   },
   {
-    desc: [" 1) Prize pool worth $500 for projects built on Top of Tezos Blockchain.",
-  "2) Prizes worth $300 for Top Three performers and $200 for the rest."],
+    desc: [
+      " 1) Prize pool worth $500 for projects built on Top of Tezos Blockchain.",
+      "2) Prizes worth $300 for Top Three performers and $200 for the rest.",
+    ],
     img: blue,
     link: "https://tezos.com/",
     prize: ["$ 500"],
@@ -118,10 +125,17 @@ export const challengesData = [
     key: "",
   },
   {
-    desc: ["Every project built on stellar chain will earn $50 dollars",
-   ],
+    desc: ["Every project built on stellar chain will earn $50 dollars"],
     img: stellar,
     link: "https://stellar.org/",
+    prize: ["$ 500"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+  {
+    desc: ["Cash prize upto ₹5k, Access to vidboard.ai "],
+    img: videocard,
+    link: "https://jmp.sh/s/lWOq1Z4ejTnDjttsf6OJ",
     prize: ["$ 500"],
     list: "list-decimal px-3",
     key: "",
@@ -129,26 +143,24 @@ export const challengesData = [
 ];
 
 export const challengesData2 = [
- 
-{
-  desc: [
-    "All-Girls Team:",
-"Specific, Special and Splendid prizes for the best performing All-Girls Team in the hackathon"
-  ],
-  img: girls,
-  prize: ["$ 250"],
-  list: "list-decimal px-3",
-  key: "",
-},
-{
-  desc: [
-"First Time Hacking?",
-"A premier prize worth for freshmen and novices, with a stand-out project!"
-  ],
-  img: firsthack,
-  prize: ["$ 250"],
-  list: "list-decimal px-3",
-  key: "",
-},
-]
- 
+  {
+    desc: [
+      "All-Girls Team:",
+      "Specific, Special and Splendid prizes for the best performing All-Girls Team in the hackathon",
+    ],
+    img: girls,
+    prize: ["$ 250"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+  {
+    desc: [
+      "First Time Hacking?",
+      "A premier prize worth for freshmen and novices, with a stand-out project!",
+    ],
+    img: firsthack,
+    prize: ["$ 250"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+];

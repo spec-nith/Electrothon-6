@@ -136,7 +136,7 @@ import magicbg3 from "../assets/images/magicbg3.jpg";
 import devfoliop from "./images/Devfolioppp.png";
 import polygonp from "./images/polygonppp.png";
 import replitp from "./images/replitli.png";
- import orkes from "./images/orkes1ppp.png";
+import orkes from "./images/orkes1ppp.png";
 
 import taskade from "./images/taskadeppp.png";
 import wolfram from "./images/Wolframppp.png";
@@ -168,24 +168,25 @@ import runshow2 from "./images/run2.png";
 import runshow3 from "./images/run3.png";
 import girls from "./images/girls.png";
 import firsthack from "./images/firsthack.png";
- 
+
 import flowwhite from "./images/flowwhite.svg";
 import mongodb from "./images/mongodb.svg";
 import tiny from "./images/tiny.svg";
 import godaddy from "./images/godaddy.svg";
 import dapplocker from "./images/dapplocker.png";
- 
+import videocard from "./images/videocard.png";
+import videocarddoc from "./images/videocarddoc.pdf";
+
 import mlh from "./images/mlh.png";
 import mlhw from "./images/mlhw.png";
 import eduhub from "./images/eduhub.jpg";
 import fixtix from "./images/fixtix.jpg";
 import architect from "./images/architect.jpg";
+import tusharB from "./images/tusharB.png";
 import orkes_speaker from "./images/orkes_speaker.jpg";
 
 import rightarrow from "./images/right.png";
 import leftarrow from "./images/left.png";
- 
- 
 
 export {
   rightarrow,
@@ -355,4 +356,7 @@ export {
   godaddy,
   tiny,
   dapplocker,
+  videocard,
+  videocarddoc,
+  tusharB,
 };

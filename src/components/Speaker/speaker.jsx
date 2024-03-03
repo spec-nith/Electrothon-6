@@ -33,7 +33,7 @@ const SpeakersNew = () => {
           title={
             <>
               <div className="looked text-4xl lg:text-7xl font-bold text-white my-4 lg:my-6 ">
-                Our Speakers
+                Our Judges and Mentor
               </div>
             </>
           }
