@@ -48,7 +48,6 @@ const Challenges = () => {
                     <img
                       src={challenge.img}
                       className="w-full h-full object-cover"
-                      
                       alt={challenge.key + "-challenge"}
                     />
                   </picture>
@@ -60,7 +59,7 @@ const Challenges = () => {
                         {challenge.desc.map((element, index) => {
                           return (
                             <ul
-                              className="md:pt-1 md:tracking-tighter"
+                              className="md:pt-1 md:tracking-tighter text-[20px] "
                               key={index}
                             >
                               {element}
@@ -108,7 +107,7 @@ const Challenges = () => {
                 </div>
                 <div className="ml-auto w-3/4">
                   <div className="flex flex-col justify-between h-full space-y-4">
-                    <div className="px-3">
+                    <div className="px-3 text-[20px]">
                       <ul className={challenge.list}>
                         {challenge.desc.map((element, index) => {
                           return (
