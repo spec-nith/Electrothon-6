@@ -13,7 +13,6 @@ import {
   replitp,
   stellar,
   videocard,
-  videocarddoc,
 } from "../../assets/images";
 
 import { replit } from "../../assets/images";

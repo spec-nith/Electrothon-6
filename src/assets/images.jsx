@@ -175,7 +175,6 @@ import tiny from "./images/tiny.svg";
 import godaddy from "./images/godaddy.svg";
 import dapplocker from "./images/dapplocker.png";
 import videocard from "./images/videocard.png";
-import videocarddoc from "./images/videocarddoc.pdf";
 
 import mlh from "./images/mlh.png";
 import mlhw from "./images/mlhw.png";
@@ -357,6 +356,5 @@ export {
   tiny,
   dapplocker,
   videocard,
-  videocarddoc,
   tusharB,
 };
