@@ -187,7 +187,10 @@ import orkes_speaker from "./images/orkes_speaker.jpg";
 import rightarrow from "./images/right.png";
 import leftarrow from "./images/left.png";
 
+import video from "./Final2.mp4";
+
 export {
+  video,
   rightarrow,
   leftarrow,
   runshow2,
