@@ -37,7 +37,7 @@ function Prizes() {
           <img src={prizes3} alt="" /> 
         </div>
         <div className='text-gray-200 font-serif text-md lg:text-xl'>
-         Earn prizes worth 5K
+         Includes prizes worth 5K
         </div>
       </div>
     </>
