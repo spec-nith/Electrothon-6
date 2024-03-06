@@ -59,7 +59,7 @@ export default function Footer() {
                   Code of Conduct
                 </a>{" "}
                 <a
-                  href="https://same-uranium-0e7.notion.site/Hacker-s-Guide-to-ELECTROTHON-5-0-94659968f7d648fda39772bb09660766"
+                  href="https://giant-stork-bb9.notion.site/Hacker-s-Guide-to-ELECTROTHON-6-0-d19403d5cf67409fb57aec27e4769174?pvs=4"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center pb-2 font-sans text-sm text-gray-400 md:justify-start md:md:text-sm hover:text-gray-300"
