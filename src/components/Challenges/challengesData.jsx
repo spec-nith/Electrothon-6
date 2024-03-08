@@ -13,6 +13,7 @@ import {
   replitp,
   stellar,
   videocard,
+  taipy,
 } from "../../assets/images";
 
 import { replit } from "../../assets/images";
@@ -93,6 +94,17 @@ export const challengesData = [
     img: godaddy,
     link: "https://www.godaddy.com/",
     prize: ["$ 250"],
+    list: "list-decimal px-3",
+    key: "",
+  },
+  {
+    desc: [
+      " 1) Best Use of  by taipy Platform:",
+      "-Winning prize:Wireless Headphones",
+    ],
+    img: taipy,
+    link: "https://hackp.ac/taipy-gettingstarted",
+    prize: ["Wireless Headphones"],
     list: "list-decimal px-3",
     key: "",
   },

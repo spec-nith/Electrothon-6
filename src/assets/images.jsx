@@ -96,7 +96,7 @@ import padminimam from "../assets/images/padminimam.jpeg";
 
 import foodtech1 from "../assets/images/foodtech1.jpg";
 import foodtech2 from "../assets/images/foodtech2.jpg";
-
+import taipy from "../assets/images/taipyb.jpg";
 import gold from "../assets/images/gold.png";
 import silver from "../assets/images/silver.png";
 import bronze from "../assets/images/bronze.png";
@@ -190,6 +190,7 @@ import leftarrow from "./images/left.png";
 import video from "./Final2.mp4";
 
 export {
+  taipy,
   video,
   rightarrow,
   leftarrow,
