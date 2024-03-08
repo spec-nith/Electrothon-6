@@ -47,7 +47,11 @@ const Challenges = () => {
                   <picture>
                     <img
                       src={challenge.img}
-                      className="w-full h-full object-cover"
+                      className={`object-cover ${
+                        index === 7
+                          ? "w-1/2 h-1/2 lg:w-full lg:h-full"
+                          : "w-full h-full"
+                      }`}
                       alt={challenge.key + "-challenge"}
                     />
                   </picture>
