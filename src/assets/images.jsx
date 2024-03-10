@@ -165,7 +165,7 @@ import risein2 from "./images/risein2.jpg";
 import capx from "./images/capx.jpg";
 import runshow1 from "./images/rr1.png";
 import runshow2 from "./images/rn2.png";
-import runshow3 from "./images/run___n3.png";
+import runshow3 from "./images/day_3.png";
 import girls from "./images/girls.png";
 import firsthack from "./images/firsthack.png";
 
