@@ -24,18 +24,19 @@ const ChartSection = () => {
     { value: 66, label: "Fraser" },
     { value: 279, label: "Burgess" },
   ];
-  const customColors = ["#007D33", "#7FFF00", "#32CD32",  "#009548"];
+  const customColors = ["#009548", "#9ACD32", "#32CD32"];
+  const customColorsElectrothon6 = ["#FED8B1", "#6F4E37", "#A67B5B", "#ECB176"];
 
   const legendPayload = [
     { value: "Total Applications", type: "disc", color: "#009548" },
     { value: "Total Projects", type: "disc", color: "#32CD32" },
-    { value: "Total Teams", type: "disc", color: "#007D33" },
+    { value: "Total Teams", type: "disc", color: "#9ACD32 " },
   ];
   const legendPayloadElectrothon6 = [
-    { value: "Total Applications", type: "disc", color: "#009548" },
-    { value: "Total Hardware Projects", type: "disc", color: "#7FFF00" },
-    { value: "Total Software Projects", type: "disc", color: "#32CD32" },
-    { value: "Total Teams", type: "disc", color: "#007D33" },
+    { value: "Total Applications", type: "disc", color: "#FED8B1" },
+    { value: "Total Hardware Projects", type: "disc", color: "#6F4E37" },
+    { value: "Total Software Projects", type: "disc", color: "#A67B5B" },
+    { value: "Total Teams", type: "disc", color: "#ECB176" },
   ];
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -66,16 +67,16 @@ const ChartSection = () => {
   };
 
   return (
-    <div className="chart-container justify-center items-center flex flex-col space-y-16">
-      <div className="chart-section">
-        <div className="tit flex items-center">
-          <div className="chart-title">ELECTROTHON 6.0</div>
-          <div className="online">offline</div>
+    <div className="chart-container justify-center items-center flex flex-col space-y-40">
+      <div className="items-center flex flex-row justify-around w-full ">
+        <div className="tit flex items-center w-full">
+          <div className="chart-title text-[48px]">ELECTROTHON 6.0</div>
+          <div className="online text-[30px]">Offline</div>
         </div>
 
-        <ResponsiveContainer width="100%" height={calculateHeight()}>
-          <PieChart>
-            <Pie
+        <ResponsiveContainer className="shadow-2xl text-[19px] font-bold flex flex-col justify-center items-center" width="100%" height={calculateHeight()}>
+          <PieChart >
+            <Pie className="text-[20px] outline-none group hover:scale-105 transition-transform duration-300"
               dataKey="value"
               data={dataElectrothon6}
               cx="50%"
@@ -96,16 +97,22 @@ const ChartSection = () => {
               {dataElectrothon6.map((entry, index) => (
                 <Cell
                   key={`cell-${index}`}
-                  fill={customColors[index % customColors.length]}
+                  fill={customColorsElectrothon6[index % customColorsElectrothon6.length]}
                 />
               ))}
             </Pie>
+
             {/* {windowWidth <= 650 && ( */}
-              <Legend
-                payload={legendPayloadElectrothon6}
-                align="center"
-                verticalAlign="bottom"
-              />
+            <Legend
+              payload={legendPayloadElectrothon6}
+              align="center"
+              verticalAlign="bottom"
+              className=""
+            >
+              {legendPayloadElectrothon6.map((entry,index) => (
+                <div></div>
+              ))}
+            </Legend>
             {/* )} */}
           </PieChart>
         </ResponsiveContainer>
@@ -115,7 +122,7 @@ const ChartSection = () => {
         <div className="chart-section">
           <div className="tit">
             <div className="chart-title">ELECTROTHON 5.0</div>
-            <div className="online">offline</div>
+            <div className="online">Offline</div>
           </div>
 
           <ResponsiveContainer width="100%" height={calculateHeight()}>
@@ -159,7 +166,7 @@ const ChartSection = () => {
         <div className="chart-section">
           <div className="tit">
             <div className="chart-title">ELECTROTHON 4.0</div>
-            <div className="online">online</div>
+            <div className="online">Online</div>
           </div>
 
           <ResponsiveContainer width="100%" height={calculateHeight()}>
@@ -228,7 +235,7 @@ const ChartSection = () => {
         <div className="chart-section">
           <div className="tit">
             <div className="chart-title">ELECTROTHON 3.0</div>
-            <div className="online">online</div>
+            <div className="online">Online</div>
           </div>
 
           <ResponsiveContainer width="100%" height={calculateHeight()}>
