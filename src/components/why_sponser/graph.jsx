@@ -67,16 +67,16 @@ const ChartSection = () => {
   };
 
   return (
-    <div className="chart-container justify-center items-center flex flex-col space-y-40">
-      <div className="items-center flex flex-row justify-around w-full ">
+    <div className="chart-container justify-center items-center flex flex-col sm:space-y-40 space-y-20">
+      <div className="items-center flex sm:flex-row flex-col space-y-6 justify-around w-full">
         <div className="tit flex items-center w-full">
-          <div className="chart-title text-[48px]">ELECTROTHON 6.0</div>
-          <div className="online text-[30px]">Offline</div>
+          <div className="font-bold text-center text-[30px] lg:text-[48px]">ELECTROTHON 6.0</div>
+          <div className="online text-[20px] lg:text-[30px]">Offline</div>
         </div>
 
-        <ResponsiveContainer className="shadow-2xl text-[19px] font-bold flex flex-col justify-center items-center" width="100%" height={calculateHeight()}>
+        <ResponsiveContainer className="shadow-2xl sm:text-[19px] sm:font-bold flex flex-col justify-center items-center" width="100%" height={calculateHeight()}>
           <PieChart >
-            <Pie className="text-[20px] outline-none group hover:scale-105 transition-transform duration-300"
+            <Pie className="sm:text-[20px] outline-none group hover:scale-105 transition-transform duration-300"
               dataKey="value"
               data={dataElectrothon6}
               cx="50%"
