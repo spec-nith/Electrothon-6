@@ -18,7 +18,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 export const Event = () => {
- 
   const sidebar = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -53,79 +52,87 @@ export const Event = () => {
       >
         <TitleText
           title={
-            <>
-              <div className="looked text-4xl lg:text-7xl font-bold text-[#4a925d] my-2 lg:my-6 font-[Oswald]">
-                Events
-              </div>
-            </>
+            <div className="looked text-4xl lg:text-7xl font-bold text-[#4a925d] my-2 lg:my-6 font-[Oswald]">
+              Events
+            </div>
           }
           textStyles="text-center"
         />
       </motion.div>
 
       <div className="bg-[#1a1a1d] rounded-xl bg-opacity-50 pt-10 pb-4 mx-auto max-w-[1200px] md:mx-auto">
-        <Carousel responsive={sidebar}>
-          <div className="p-4"> {}
+        <Carousel
+          responsive={sidebar}
+          autoPlay={true}
+          autoPlaySpeed={5000} // 5 seconds for better visibility
+          infinite={true}
+          transitionDuration={300} // Smooth transition
+          keyBoardControl={true}
+          swipeable={true}
+          draggable={true}
+        >
+          {/* Event Images with border and border-radius */}
+          <div className="p-4">
             <img
               src={eventimage1}
               alt="Event 1"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage2}
               alt="Event 2"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage3}
               alt="Event 3"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage5}
               alt="Event 5"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage6}
               alt="Event 6"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage7}
               alt="Event 7"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage8}
               alt="Event 8"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage9}
               alt="Event 9"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
-          <div className="p-4"> {}
+          <div className="p-4">
             <img
               src={eventimage10}
               alt="Event 10"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
             />
           </div>
         </Carousel>
