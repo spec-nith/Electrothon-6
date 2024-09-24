@@ -51,42 +51,45 @@ function Home() {
         <MagicalLoader />
       ) : (
         <div>
-        
           <div className="relative">
             <BgStatic />
             <div className="">
-            
               <StarsCanvas />
             </div>
             <div className="w-1/2 fixed z-[999]">
-            <a id="mlh-trust-badge" className="fixed  top-0 right-0 xl:flex xl:justify-center xl:items-center  min-w-60px max-w-100px z-[99999999999]"
-            href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white" target="_blank">
-            <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg" alt="Major League Hacking 2024 Hackathon Season"  className="w-1/6 h-1/3 xl:h-full flex ml-auto mr-1 lg:mr-20 xl:mr-24 xl:w-1/4"/>
-            </a>
-            </div> 
+              <a
+                id="mlh-trust-badge"
+                className="fixed  top-0 right-0 xl:flex xl:justify-center xl:items-center  min-w-60px max-w-100px z-[99999999999]"
+                href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
+                target="_blank"
+              >
+                <img
+                  src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
+                  alt="Major League Hacking 2024 Hackathon Season"
+                  className="w-1/6 h-1/3 xl:h-full flex ml-auto mr-1 lg:mr-20 xl:mr-24 xl:w-1/4"
+                />
+              </a>
+            </div>
 
             <Hero />
           </div>
-     
-            <AboutSection />
 
-            <Timeline />
-            {/* <DesiTimline/>  */}
-            <Runshow/>
-            <Why_sponser />
-            <Carousel />
-            <Sponsers />
-            <Event />
-         
-              <Explore />
-            
-            <Prizes_n />
-            <Challenges/>
-            <SpeakersNew />
-            <Organisors/>
-            <Faqs />
-            <Footer />
-          
+          <AboutSection />
+          {}
+          <Event />
+
+          <Timeline />
+          <Runshow />
+          <Why_sponser />
+          <Carousel />
+          <Sponsers />
+          <Explore />
+          <Prizes_n />
+          <Challenges />
+          <SpeakersNew />
+          <Organisors />
+          <Faqs />
+          <Footer />
         </div>
       )}
     </>
