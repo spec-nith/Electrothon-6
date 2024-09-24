@@ -71,7 +71,7 @@ const ChartSection = () => {
       <div className="items-center flex sm:flex-row flex-col space-y-6 justify-around w-full">
         <div className="tit flex items-center w-full">
           <div className="font-bold text-center text-[30px] lg:text-[48px]">ELECTROTHON 6.0</div>
-          <div className="online text-[20px] lg:text-[30px]">Offline</div>
+          <div className="online text-[20px] lg:text-[30px]">Offline </div>
         </div>
 
         <ResponsiveContainer className="shadow-2xl sm:text-[19px] sm:font-bold flex flex-col justify-center items-center" width="100%" height={calculateHeight()}>
