@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "../Tracks_new/style";
 import { TitleText } from "../Tracks_new/CustomTexts";
 import { staggerContainer } from "../Tracks_new/motion";
 import "../Challenges/style.css";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 import eventimage1 from "../../assets/images/eventimage1.jpg";
 import eventimage2 from "../../assets/images/eventimage2.jpg";
@@ -18,6 +20,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 export const Event = () => {
+  const [loading, setLoading] = useState(true);
+
   const sidebar = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -39,6 +43,11 @@ export const Event = () => {
       items: 1,
       slidesToSlide: 1,
     },
+  };
+
+  // Function to handle image load
+  const handleImageLoad = () => {
+    setLoading(false);
   };
 
   return (
@@ -64,77 +73,32 @@ export const Event = () => {
         <Carousel
           responsive={sidebar}
           autoPlay={true}
-          autoPlaySpeed={5000} // 5 seconds for better visibility
+          autoPlaySpeed={5000}
           infinite={true}
-          transitionDuration={300} // Smooth transition
+          transitionDuration={300}
           keyBoardControl={true}
           swipeable={true}
           draggable={true}
         >
-          {/* Event Images with border and border-radius */}
-          <div className="p-4">
-            <img
-              src={eventimage1}
-              alt="Event 1"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage2}
-              alt="Event 2"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage3}
-              alt="Event 3"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage5}
-              alt="Event 5"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage6}
-              alt="Event 6"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage7}
-              alt="Event 7"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage8}
-              alt="Event 8"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage9}
-              alt="Event 9"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
-          <div className="p-4">
-            <img
-              src={eventimage10}
-              alt="Event 10"
-              className="w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg"
-            />
-          </div>
+          {/* Mapping images for cleaner code */}
+          {[eventimage1, eventimage2, eventimage3, eventimage5, eventimage6, eventimage7, eventimage8, eventimage9, eventimage10].map(
+            (image, index) => (
+              <div className="p-4" key={index}>
+                {loading && (
+                  <Skeleton
+                    height={300}
+                    style={{ borderRadius: "8px" }}
+                  />
+                )}
+                <img
+                  src={image}
+                  alt={`Event ${index + 1}`}
+                  className={`w-full h-[300px] object-cover border-2 border-[#4a925d] rounded-lg ${loading ? "hidden" : "block"}`}
+                  onLoad={handleImageLoad}
+                />
+              </div>
+            )
+          )}
         </Carousel>
       </div>
     </div>
