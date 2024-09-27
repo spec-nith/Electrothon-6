@@ -4,10 +4,10 @@ import React, { useEffect, useState } from "react";
 
 const ChartSection = () => {
   const dataElectrothon6 = [
-    { value: 1500, label: "N&J" },
-    { value: 63, label: "Fraser" },
-    { value: 20, label: "Burgess" },
-    { value: 85, label: "Burgess" },
+    { value: 1365, label: "N&J" },
+    { value: 14, label: "Fraser" },
+    { value: 47, label: "Burgess" },
+    { value: 81, label: "Burgess" },
   ];
   const dataElectrothon5 = [
     { value: 1159, label: "N&J" },
@@ -67,16 +67,16 @@ const ChartSection = () => {
   };
 
   return (
-    <div className="chart-container justify-center items-center flex flex-col sm:space-y-40 space-y-20">
+    <div className="chart-container justify-center items-center flex flex-col sm:space-y-40 space-y-6">
       <div className="items-center flex sm:flex-row flex-col space-y-6 justify-around w-full">
         <div className="tit flex items-center w-full">
           <div className="font-bold text-center text-[30px] lg:text-[48px]">ELECTROTHON 6.0</div>
           <div className="online text-[20px] lg:text-[30px]">Offline </div>
         </div>
 
-        <ResponsiveContainer className="shadow-2xl sm:text-[19px] sm:font-bold flex flex-col justify-center items-center" width="100%" height={calculateHeight()}>
-          <PieChart >
-            <Pie className="sm:text-[20px] outline-none group hover:scale-105 transition-transform duration-300"
+        <ResponsiveContainer className="sm:text-[19px] sm:font-bold flex flex-col justify-center items-center" width="100%" height={calculateHeight()}>
+          <PieChart>
+            <Pie className="sm:text-[20px] outline-none mb-5 group sm:hover:scale-105 transition-transform duration-300"
               dataKey="value"
               data={dataElectrothon6}
               cx="50%"
