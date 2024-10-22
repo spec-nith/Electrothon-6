@@ -1,0 +1,141 @@
+.winners-section {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.winners-layout {
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: flex-start;
+    /* Align items at the top */
+    gap: 40px;
+    /* Increased gap between the boxes */
+}
+
+/* Winner card shared styles for equal sizing */
+.winner-card {
+    background-color: transparent;
+    /* Make background transparent */
+    border: 2px solid #ccc;
+    /* Same border for all cards */
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    /* Reduced width for smaller boxes */
+    min-height: 250px;
+    /* Reduced height for smaller boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* Center align content */
+    text-align: center;
+    color: white;
+    /* Change text color to white */
+    position: relative;
+    /* Allow absolute positioning of the trophy */
+}
+
+.winner-card:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+
+.winner-first {
+    border: 2px solid #FFD700;
+
+}
+
+
+.winner-second {
+    border: 2px solid #C0C0C0;
+
+}
+
+
+.winner-third {
+    border: 2px solid #CD7F32;
+
+}
+
+.winner-title {
+    font-weight: 700;
+    color: #d6b919;
+
+    font-size: 1.4rem;
+
+    margin-bottom: 10px;
+
+}
+
+.second-title {
+    font-weight: 700;
+    color: #C0C0C0;
+    font-size: 1.4rem;
+
+    margin-bottom: 10px;
+}
+
+.third-title {
+    font-weight: 700;
+    color: #CD7F32;
+    font-size: 1.4rem;
+
+    margin-bottom: 10px;
+}
+
+
+.project-logo {
+    width: 80px;
+
+    height: 80px;
+    /* Reduced size for logos */
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Ensures the image fits well within the circle */
+    margin-bottom: 15px;
+    /* Adds spacing below the logo */
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #11b86c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust trophy image positioning */
+.trophy-image {
+    width: 120px;
+    /* Reduced size */
+    height: auto;
+    /* Maintain aspect ratio */
+    position: absolute;
+    /* Position it within the card */
+    top: -35px;
+    /* Move it up further to create overlap */
+    right: -30px;
+    /* Adjust right position to cross the border */
+    z-index: 1;
+    /* Ensure it is on top of other elements */
+}
+
+/* Align the middle card a bit above the other two */
+.winners-layout .winner-card:nth-child(2) {
+    margin-top: -20px;
+
+}

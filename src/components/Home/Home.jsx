@@ -8,6 +8,7 @@ import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
 import Prizes from "../components/Prizes/Prizes";
 import Prize from "../components/Prizes/Prizes";
+import Winners from "../components/Winners/winners";
 
 import Timeline from "../components/Timeline/Timeline";
 
@@ -20,6 +21,7 @@ import StarsCanvas from "../canvas/Star";
 import Navbar from "../components/Navbar/Navbar";
 
 import Disclaimer from "../components/Footer/Disclaimer";
+
 
 function Home() {
   return (
@@ -37,6 +39,7 @@ function Home() {
 
           <AboutSection />
           <Prize />
+
           <Timeline />
           <Why_sponser />
 

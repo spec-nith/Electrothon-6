@@ -1,32 +1,36 @@
- // Home.js
+// Home.js
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Hero from "../components/Hero/hero";
 import AboutSection from "../components/About/about";
 import Faqs from "../components/Faq/faq";
 import Footer from "../components/Footer/footer";
+
 import Challenges from "../components/Challenges/Challenges";
 import SpeakersNew from "../components/Speaker/speaker";
- 
- 
+
+
 import Timeline from "../components/Timeline/Timeline";
 import Organising_team from "../components/Organising_Team/Organising_team";
- 
+
 import Carousel from "../components/carousel/carousel";
 import Why_sponser from "../components/why_sponser/Why_sponser";
 import StarsCanvas from "../canvas/Star";
 
- 
+
 
 import MagicalLoader from "../components/Loader_P/Loader_P";
-import Prizes_n from "../components/prizesnav/prizesmain/prize";
+
+//import Prizes_n from "../components/prizesnav/prizesmain/prize";
+import Winners from "../components/Winners/winners";
 import Sponsers from "../components/sponsernav/main/main";
- 
+
 import BgStatic from "../components/Background/bgstatic";
 import Explore from "../components/Tracks_new/Track";
 import { Event } from "../components/Events/Event";
 import Organisors from "../components/Organizers/Organizers";
 import Runshow from "../components/Runshow/Runshow";
+//
 
 function Home() {
   const [Loading, setLoading] = useState(false);
@@ -75,7 +79,7 @@ function Home() {
           </div>
 
           <AboutSection />
-          {}
+          { }
           <Event />
 
           <Timeline />
@@ -84,7 +88,9 @@ function Home() {
           <Carousel />
           <Sponsers />
           <Explore />
-          <Prizes_n />
+
+          <Winners />
+
           <Challenges />
           <SpeakersNew />
           <Organisors />
