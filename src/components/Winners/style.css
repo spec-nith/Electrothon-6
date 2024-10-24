@@ -7,42 +7,41 @@
 .winners-layout {
     display: flex;
     justify-content: center;
-    /* Center items horizontally */
+
     align-items: flex-start;
-    /* Align items at the top */
+
     gap: 40px;
-    /* Increased gap between the boxes */
 }
 
-/* Winner card shared styles for equal sizing */
+
 .winner-card {
     background-color: transparent;
-    /* Make background transparent */
+
     border: 2px solid #ccc;
-    /* Same border for all cards */
+
     border-radius: 10px;
     padding: 20px;
     width: 25%;
-    /* Reduced width for smaller boxes */
+
     min-height: 250px;
-    /* Reduced height for smaller boxes */
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* Center align content */
+
     text-align: center;
     color: white;
-    /* Change text color to white */
+
     position: relative;
-    /* Allow absolute positioning of the trophy */
+
 }
 
 .winner-card:hover {
     transform: scale(1.05);
-    /* Scale effect on hover */
+
 }
 
 
@@ -94,13 +93,13 @@
     width: 80px;
 
     height: 80px;
-    /* Reduced size for logos */
+
     border-radius: 50%;
-    /* Makes the image circular */
+
     object-fit: cover;
-    /* Ensures the image fits well within the circle */
+
     margin-bottom: 15px;
-    /* Adds spacing below the logo */
+
 }
 
 .project-link {
@@ -118,23 +117,23 @@
     background-color: #0056b3;
 }
 
-/* Adjust trophy image positioning */
+
 .trophy-image {
     width: 120px;
-    /* Reduced size */
+
     height: auto;
-    /* Maintain aspect ratio */
+
     position: absolute;
-    /* Position it within the card */
+
     top: -35px;
-    /* Move it up further to create overlap */
+
     right: -30px;
-    /* Adjust right position to cross the border */
+
     z-index: 1;
-    /* Ensure it is on top of other elements */
+
 }
 
-/* Align the middle card a bit above the other two */
+
 .winners-layout .winner-card:nth-child(2) {
     margin-top: -20px;
 

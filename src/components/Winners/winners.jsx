@@ -11,7 +11,7 @@ import echobeachlogo from '../../assets/images/EchoBeach.webp';
 import winner from '../../assets/images/frist.png';
 import runnerup from '../../assets/images/second.png';
 import third from '../../assets/images/third.png';
-// Sample data for winners
+
 const winners = [
     {
         id: 1,
@@ -66,7 +66,7 @@ const WinnersSection = () => {
             </motion.div>
 
             <div className="winners-layout">
-                {/* 2nd Place on the left */}
+
                 <div className="winner-card winner-second">
                     <h3 className='second-title'>SECOND PRIZE</h3> {/* Heading for 1st Runner Up */}
                     <img src={runnerup} alt="Trophy" className="trophy-image" />
@@ -80,7 +80,7 @@ const WinnersSection = () => {
                     </a>
                 </div>
 
-                {/* 1st Place in the center */}
+
                 <div className="winner-card winner-first">
                     <h3 className='winner-title'>FIRST PRIZE</h3> {/* Heading for Winners */}
                     <img src={winner} alt="Trophy" className="trophy-image" />
@@ -94,7 +94,7 @@ const WinnersSection = () => {
                     </a>
                 </div>
 
-                {/* 3rd Place on the right */}
+
                 <div className="winner-card winner-third">
                     <h3 className='third-title'>THIRD PRIZE</h3> {/* Heading for 2nd Runner Up */}
                     <img src={third} alt="Trophy" className="trophy-image" />
